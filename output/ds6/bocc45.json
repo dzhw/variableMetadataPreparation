@@ -1,0 +1,133 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Arbeiten Sie in einem Betrieb, der Teil eines größeren Unternehmens ist?"
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 61,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.24,
+        "absoluteFrequency": 312,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu, da selbstständig"
+        },
+        "validRelativeFrequency": 5.19,
+        "relativeFrequency": 1.36,
+        "absoluteFrequency": 22,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "ja"
+        },
+        "validRelativeFrequency": 48.11,
+        "relativeFrequency": 12.58,
+        "absoluteFrequency": 204,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "validRelativeFrequency": 46.7,
+        "relativeFrequency": 12.21,
+        "absoluteFrequency": 198,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 26.14,
+    "totalValidAbsoluteFrequency": 424,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if (bocc39==1 | bocc18_v1==1) & bocc252==2"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1023,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Unternehmenszugehörigkeit Betrieb"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

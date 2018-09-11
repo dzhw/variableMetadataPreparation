@@ -1,0 +1,133 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie häufig pendeln Sie in der Regel zwischen Ihrem Hauptwohnsitz und Ihrem zusätzlichen Wohnsitz?"
+      },
+      "questionNumber": "8.11",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "1",
+      "highWhisker": 3,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "3",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 44.39,
+        "absoluteFrequency": 720,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Once per week",
+          "de": "einmal pro Woche"
+        },
+        "validRelativeFrequency": 60.61,
+        "relativeFrequency": 2.47,
+        "absoluteFrequency": 40,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Several times per week",
+          "de": "mehrmals pro Woche"
+        },
+        "validRelativeFrequency": 7.58,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Less than one per week",
+          "de": "weniger als einmal pro Woche"
+        },
+        "validRelativeFrequency": 31.82,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 4.07,
+    "totalValidAbsoluteFrequency": 66,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 & bdem21==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1326,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "frequency of commuting",
+    "de": "Häufigkeit Pendeln"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

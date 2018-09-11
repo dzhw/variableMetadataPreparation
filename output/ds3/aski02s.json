@@ -1,0 +1,135 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig  sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Studienabschluss  über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nbei Studienabschluss vorhanden\r\nAndere Kulturen kennen und verstehen"
+      },
+      "questionNumber": "1.17",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "4",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.03,
+        "absoluteFrequency": 33,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 20.52,
+        "relativeFrequency": 20.1,
+        "absoluteFrequency": 326,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 25.74,
+        "relativeFrequency": 25.22,
+        "absoluteFrequency": 409,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 24.17,
+        "relativeFrequency": 23.67,
+        "absoluteFrequency": 384,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 17.31,
+        "relativeFrequency": 16.95,
+        "absoluteFrequency": 275,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "To a minor degree",
+          "de": "in geringem Maße"
+        },
+        "validRelativeFrequency": 12.27,
+        "relativeFrequency": 12.02,
+        "absoluteFrequency": 195,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 97.97,
+    "totalValidAbsoluteFrequency": 1589,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 284,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "present: intercultural competencies",
+    "de": "vorhanden: interkulturelle Kenntnisse"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

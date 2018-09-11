@@ -1,0 +1,114 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche der folgenden Tätigkeiten üben Sie derzeit aus? \r\nIch bin zurzeit…\r\nauf der Suche nach einer (neuen) Erwerbstätigkeit"
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 92.84,
+        "relativeFrequency": 45.56,
+        "absoluteFrequency": 739,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 7.16,
+        "relativeFrequency": 3.51,
+        "absoluteFrequency": 57,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 49.08,
+    "totalValidAbsoluteFrequency": 796,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 686,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "z. Zt. Tätigkeit: Stellensuche"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

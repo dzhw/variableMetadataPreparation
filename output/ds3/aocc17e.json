@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie das Praktikum/die Praktika  insgesamt hinsichtlich folgender Merkmale?\r\nAkzeptanz bei Kolleg/inn/en"
+      },
+      "questionNumber": "4.16",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "1",
+      "highWhisker": 3.5,
+      "lowWhisker": 1,
+      "thirdQuartile": "2",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 29,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 76.76,
+        "absoluteFrequency": 1245,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 57.76,
+        "relativeFrequency": 12.39,
+        "absoluteFrequency": 201,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 30.46,
+        "relativeFrequency": 6.54,
+        "absoluteFrequency": 106,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 8.33,
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 29,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 2.59,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very poor",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 0.86,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 21.45,
+    "totalValidAbsoluteFrequency": 348,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc11,1,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 433,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "internship evaluation: acceptance of colleagues",
+    "de": "Beurteilung Praktikum: Akzeptanz bei Kolleg(inn)en"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

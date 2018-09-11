@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\r\nFachliche Defizite ausgleichen"
+      },
+      "questionNumber": "2.6",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "3",
+      "highWhisker": 5,
+      "lowWhisker": 1.5,
+      "thirdQuartile": "4",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 34.28,
+        "absoluteFrequency": 556,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 4.27,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 18.38,
+        "relativeFrequency": 2.65,
+        "absoluteFrequency": 43,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 28.21,
+        "relativeFrequency": 4.07,
+        "absoluteFrequency": 66,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 24.79,
+        "relativeFrequency": 3.58,
+        "absoluteFrequency": 58,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 24.36,
+        "relativeFrequency": 3.51,
+        "absoluteFrequency": 57,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 14.43,
+    "totalValidAbsoluteFrequency": 234,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bfec09,1,2,3,4,7,9)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-fec03e",
+  "surveyNumbers": [4],
+  "indexInDataSet": 801,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "motivation for PhD: balance out subject knowledge deficits",
+    "de": "Motiv Promotion: fachliche Defizite ausgleichen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

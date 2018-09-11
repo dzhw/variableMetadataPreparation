@@ -1,0 +1,123 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wer waren die Veranstalter oder Anbieter dieser beruflichen Weiterbildungen?\r\nHersteller oder Lieferant"
+      },
+      "questionNumber": "6.5",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 24.6,
+        "absoluteFrequency": 399,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 82.52,
+        "relativeFrequency": 19.79,
+        "absoluteFrequency": 321,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 17.48,
+        "relativeFrequency": 4.19,
+        "absoluteFrequency": 68,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 23.98,
+    "totalValidAbsoluteFrequency": 389,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfvt02==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1228,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Anbieter (WB außerhalb HS): Hersteller/Lieferant"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder  abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein!\r\nEnde\r\n(Monat/Jahr)\r\n/20"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "2007",
+      "highWhisker": 2008.5,
+      "lowWhisker": 2004.5,
+      "thirdQuartile": "2007",
+      "firstQuartile": "2006",
+      "standardDeviation": 0.8189,
+      "median": "2007",
+      "kurtosis": 11.2069,
+      "skewness": 0.0819,
+      "maximum": "2012",
+      "minimum": "2001",
+      "meanValue": 2006.7201
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 36.62,
+        "absoluteFrequency": 594,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 14.92,
+        "absoluteFrequency": 242,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2001"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2002"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2004"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.69,
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 29,
+        "value": "2005"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 30.66,
+        "relativeFrequency": 14.86,
+        "absoluteFrequency": 241,
+        "value": "2006"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 55.98,
+        "relativeFrequency": 27.13,
+        "absoluteFrequency": 440,
+        "value": "2007"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.89,
+        "relativeFrequency": 3.82,
+        "absoluteFrequency": 62,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.76,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.25,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.25,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "2011"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2012"
+      }
+    ],
+    "totalValidRelativeFrequency": 48.46,
+    "totalValidAbsoluteFrequency": 786,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if afec01==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 314,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st further academic qualification: end (year)",
+    "de": "1. weitere akademische Qualifikation: Ende (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

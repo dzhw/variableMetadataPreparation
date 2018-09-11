@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie das Praktikum/die Praktika  insgesamt hinsichtlich folgender Merkmale?\r\nHöhe der Praktikumsvergütung"
+      },
+      "questionNumber": "4.16",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "4",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 29,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 76.76,
+        "absoluteFrequency": 1245,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nicht gegeben"
+        },
+        "relativeFrequency": 7.83,
+        "absoluteFrequency": 127,
+        "code": -949
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 19.91,
+        "relativeFrequency": 2.71,
+        "absoluteFrequency": 44,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 26.24,
+        "relativeFrequency": 3.58,
+        "absoluteFrequency": 58,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 22.62,
+        "relativeFrequency": 3.08,
+        "absoluteFrequency": 50,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 14.03,
+        "relativeFrequency": 1.91,
+        "absoluteFrequency": 31,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 17.19,
+        "relativeFrequency": 2.34,
+        "absoluteFrequency": 38,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 13.63,
+    "totalValidAbsoluteFrequency": 221,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc11,1,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 431,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Beurteilung Praktikum: Höhe der Vergütung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

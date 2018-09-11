@@ -1,0 +1,133 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\r\nAngestrebter oder erreichter Abschluss"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 39.95,
+        "absoluteFrequency": 648,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 8.63,
+        "absoluteFrequency": 140,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Specialist",
+          "de": "Master"
+        },
+        "validRelativeFrequency": 55.56,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Bachelor",
+          "de": "Bachelor"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Certificate",
+          "de": "Zertifikat"
+        },
+        "validRelativeFrequency": 33.33,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.55,
+    "totalValidAbsoluteFrequency": 9,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfec15==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1166,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "Since the category 4 was assigned twice in the questionnaire (for graduate diploma/master’s (\"Magister\") or for state examination) it was checked using the other responses in the questionnaire exactly which type of degree was involved. If the degree was unambiguously identified as a graduate diploma or master’s, the category 4 was retained. For unambiguous completed state examination qualifications, the code 7 was assigned. Doubtful cases received the code 8.",
+    "de": "Da die Kategorie 4 im Fragebogen zwei Mal vergeben wurde (für Diplom/Magister bzw. für Staatsexamen) wurde anhand der anderen Angaben im Fragebogen geprüft, um welche Art des Abschlusses es sich genau handelte. Wurde der Abschluss eindeutig als Diplom- oder Magisterabschluss identifiziert, wurde die Kategorie 4 beibehalten. Für eindeutige Staatsexamen-Abschlüsse wurde der Code 7 vergeben. Zweifelsfälle bekamen den Code 8"
+  },
+  "label": {
+    "en": "3rd further education at university: type of degree",
+    "de": "3. Weiterbildung an HS: Abschlussart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

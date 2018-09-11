@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind Sie mit Ihrer derzeitigen  (bzw. zuletzt ausgeübten) Beschäftigung?\r\nArbeitsbedingungen"
+      },
+      "questionNumber": "5.13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.69,
+        "absoluteFrequency": 222,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 26.51,
+        "relativeFrequency": 10.85,
+        "absoluteFrequency": 176,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 40.81,
+        "relativeFrequency": 16.71,
+        "absoluteFrequency": 271,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 20.93,
+        "relativeFrequency": 8.57,
+        "absoluteFrequency": 139,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 9.94,
+        "relativeFrequency": 4.07,
+        "absoluteFrequency": 66,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "gar nicht"
+        },
+        "validRelativeFrequency": 1.81,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 40.94,
+    "totalValidAbsoluteFrequency": 664,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ33d",
+  "surveyNumbers": [3],
+  "indexInDataSet": 618,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "contentment with occupation: work conditions",
+    "de": "Zufriedenheit Beschäftigung: Arbeitsbedingungen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

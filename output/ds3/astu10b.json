@@ -1,0 +1,135 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Rolle spielten für Sie Arbeitsmarktgesichtspunkte  bei ...\r\nIhrer Studiengestaltung?"
+      },
+      "questionNumber": "1.10",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "4",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Of great significance",
+          "de": "sehr große Rolle"
+        },
+        "validRelativeFrequency": 10.83,
+        "relativeFrequency": 10.67,
+        "absoluteFrequency": 173,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 29.99,
+        "relativeFrequency": 29.53,
+        "absoluteFrequency": 479,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 29.05,
+        "relativeFrequency": 28.61,
+        "absoluteFrequency": 464,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 17.6,
+        "relativeFrequency": 17.32,
+        "absoluteFrequency": 281,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Of no significance",
+          "de": "gar keine Rolle"
+        },
+        "validRelativeFrequency": 12.52,
+        "relativeFrequency": 12.33,
+        "absoluteFrequency": 200,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.46,
+    "totalValidAbsoluteFrequency": 1597,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 191,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "role of labour market: in structure of studies",
+    "de": "Rolle Arbeitsmarkt: bei Studiengestaltung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit (Spalte A)? In welchem Maße verfügen Sie heute über diese Kennt nisse und Fähigkeiten (Spalte B)?\r\nIch verfüge heute darüber …\r\nWissen über die Auswirkungen meiner Arbeit auf Natur und Gesellschaft"
+      },
+      "questionNumber": "1.8",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "3",
+      "highWhisker": 4.5,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 11.01,
+        "relativeFrequency": 5.3,
+        "absoluteFrequency": 86,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 34.96,
+        "relativeFrequency": 16.83,
+        "absoluteFrequency": 273,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 36.62,
+        "relativeFrequency": 17.63,
+        "absoluteFrequency": 286,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 14.21,
+        "relativeFrequency": 6.84,
+        "absoluteFrequency": 111,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "in geringem Maße"
+        },
+        "validRelativeFrequency": 3.2,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 48.15,
+    "totalValidAbsoluteFrequency": 781,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 762,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "vorhanden: Auswirkung Natur und Gesellschaft"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

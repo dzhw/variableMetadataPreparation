@@ -1,0 +1,163 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nZeitraum (Monat/Jahr)\r\nbis:\r\n/20"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2007",
+      "highWhisker": 2011,
+      "lowWhisker": 2006,
+      "thirdQuartile": "2009",
+      "firstQuartile": "2007",
+      "standardDeviation": 1.3063,
+      "median": "2007",
+      "kurtosis": 2.1941,
+      "skewness": 0.4517,
+      "maximum": "2011",
+      "minimum": "2006",
+      "meanValue": 2007.686
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.21,
+        "absoluteFrequency": 198,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 19.97,
+        "relativeFrequency": 7.21,
+        "absoluteFrequency": 117,
+        "value": "2006"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 31.91,
+        "relativeFrequency": 11.53,
+        "absoluteFrequency": 187,
+        "value": "2007"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 20.99,
+        "relativeFrequency": 7.58,
+        "absoluteFrequency": 123,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14.51,
+        "relativeFrequency": 5.24,
+        "absoluteFrequency": 85,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 11.95,
+        "relativeFrequency": 4.32,
+        "absoluteFrequency": 70,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "2011"
+      }
+    ],
+    "totalValidRelativeFrequency": 36.13,
+    "totalValidAbsoluteFrequency": 586,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ221d",
+  "surveyNumbers": [4],
+  "indexInDataSet": 853,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "1. Tätigkeit: Ende (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

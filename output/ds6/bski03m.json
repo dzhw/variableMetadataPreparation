@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit (Spalte A)? In welchem Maße verfügen Sie heute über diese Kennt nisse und Fähigkeiten (Spalte B)?\r\nIch verfüge heute darüber …\r\nFührungsqualitäten"
+      },
+      "questionNumber": "1.8",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "3",
+      "highWhisker": 4.5,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 4.48,
+        "relativeFrequency": 2.16,
+        "absoluteFrequency": 35,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 32.48,
+        "relativeFrequency": 15.66,
+        "absoluteFrequency": 254,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 44.76,
+        "relativeFrequency": 21.58,
+        "absoluteFrequency": 350,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 14.07,
+        "relativeFrequency": 6.78,
+        "absoluteFrequency": 110,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "in geringem Maße"
+        },
+        "validRelativeFrequency": 4.22,
+        "relativeFrequency": 2.03,
+        "absoluteFrequency": 33,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 48.21,
+    "totalValidAbsoluteFrequency": 782,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 750,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "vorhanden: Führungsqualitäten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

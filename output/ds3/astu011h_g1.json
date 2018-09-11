@@ -1,0 +1,165 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nAngestrebte Abschlussart (z. B. Diplom-FH, Bachelor, Lehramt/Gymnasium)"
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 79.96,
+        "absoluteFrequency": 1297,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Diploma Uni",
+          "de": "Diplom Uni"
+        },
+        "validRelativeFrequency": 0.92,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Master's degree",
+          "de": "Magister"
+        },
+        "validRelativeFrequency": 12.92,
+        "relativeFrequency": 2.59,
+        "absoluteFrequency": 42,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bachelor FH (Technical college)",
+          "de": "Bachelor FH"
+        },
+        "validRelativeFrequency": 1.54,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Bachelor Uni ",
+          "de": "Bachelor Uni"
+        },
+        "validRelativeFrequency": 80.62,
+        "relativeFrequency": 16.15,
+        "absoluteFrequency": 262,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Teaching profession primary/lower secondary school",
+          "de": "Lehramt Grund-/Hauptschule"
+        },
+        "validRelativeFrequency": 0.92,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Teaching profession grammar school",
+          "de": "Lehramt Gymnasium"
+        },
+        "validRelativeFrequency": 2.46,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": "Abschluss außerhalb BRD"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "Pro-forma studies",
+          "de": "Pro-Forma-Studium"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "22"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.04,
+    "totalValidAbsoluteFrequency": 325,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open responses on the type of degree in coded form. The project’s own code list was used (cf. cl-dzhw-2).",
+      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 13,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st course of study: degree aimed for (1st minor)",
+    "de": "1. Studium: angestrebter Abschluss (1. Nebenfach)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

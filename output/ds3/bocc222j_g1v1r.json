@@ -1,0 +1,84 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nArbeitsort\r\nBundesland bzw. Land (bei Ausland)"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": null,
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "anonymized",
+          "de": "anonymisiert"
+        },
+        "relativeFrequency": 100,
+        "absoluteFrequency": 1622,
+        "code": -967
+      }
+    ],
+    "validResponses": null,
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 0,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open responses on federal state resp. country (for abroad) where the employment is located in coded form. For the coding of the federal states the Federal Statistical Office of Germany key of federal states (cf. cl-destatis-bundesland-1990) according to the Official Municipality Code (AGS) (with supplements, if not assignable) was used. The countries (for abroad) were coded using the project’s own code list (cf. cl-dzhw-1).",
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Bundesland bzw. Land (bei Ausland) der Tätigkeit in codierter Form. Zur Codierung der Bundesländer wurde der Destatis-Schlüssel der Bundesländer (vgl. cl-destatis-bundesland-1990) gemäß des Amtlichen Gemeindeschlüssels (AGS) (mit Ergänzungen, wenn nicht zuordenbar) verwendet. Die Länder (bei Ausland) wurden nach einer projekteigenen Codierliste codiert (vgl. cl-dzhw-1)."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bocc222j_v1",
+  "panelIdentifier": "gra2005-ds3-occ222j_g1",
+  "surveyNumbers": [4],
+  "indexInDataSet": 874,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "2nd job: location of work (federal state/country) (anonymized)",
+    "de": "2. Tätigkeit: Arbeitsort (Bundesland/Land) (anonymisiert)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

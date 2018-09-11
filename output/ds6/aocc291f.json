@@ -1,0 +1,114 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche zusätzlichen Gehaltsbestandteile bekommen  Sie?\r\nTrifft für mich nicht zu, daich vollständig auftrags- bzw. erfolgsabhängig arbeite\r\nerste Stelle"
+      },
+      "questionNumber": "5.9",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 17.39,
+        "absoluteFrequency": 282,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 90.73,
+        "relativeFrequency": 33.79,
+        "absoluteFrequency": 548,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 9.27,
+        "relativeFrequency": 3.45,
+        "absoluteFrequency": 56,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 37.24,
+    "totalValidAbsoluteFrequency": 604,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 599,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "1. Stelle: trifft nicht zu"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

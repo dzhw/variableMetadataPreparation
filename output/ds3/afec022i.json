@@ -1,0 +1,184 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder  abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein!\r\nArt/Abschluss"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 69.48,
+        "absoluteFrequency": 1127,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 14.92,
+        "absoluteFrequency": 242,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Doctorate",
+          "de": "Promotion"
+        },
+        "validRelativeFrequency": 55.34,
+        "relativeFrequency": 8.63,
+        "absoluteFrequency": 140,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Specialist Uni",
+          "de": "Master Uni"
+        },
+        "validRelativeFrequency": 25.3,
+        "relativeFrequency": 3.95,
+        "absoluteFrequency": 64,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Specialist FH (Technical college)",
+          "de": "Master FH"
+        },
+        "validRelativeFrequency": 3.95,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bachelor Uni",
+          "de": "Bachelor Uni"
+        },
+        "validRelativeFrequency": 0.79,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "MBA",
+          "de": "MBA"
+        },
+        "validRelativeFrequency": 4.74,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Diploma/MA Uni",
+          "de": "Diplom/Magister Uni"
+        },
+        "validRelativeFrequency": 5.93,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Diploma FH (Technical college)",
+          "de": "Diplom FH"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Certificate",
+          "de": "Zertifikat"
+        },
+        "validRelativeFrequency": 1.98,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "No certification pursued",
+          "de": "kein Abschluss angestrebt"
+        },
+        "validRelativeFrequency": 1.58,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "13"
+      }
+    ],
+    "totalValidRelativeFrequency": 15.6,
+    "totalValidAbsoluteFrequency": 253,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if afec01==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 332,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "2nd further academic qualification: type of degree",
+    "de": "2. weitere akademische Qualifikation: Abschlussart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

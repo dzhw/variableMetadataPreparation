@@ -1,0 +1,135 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Worin sehen Sie rückblickend den Wert Ihres  Studiums?\r\nIn der Möglichkeit, mich persönlich weiterzuentwickeln"
+      },
+      "questionNumber": "1.19",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "1",
+      "highWhisker": 3.5,
+      "lowWhisker": 1,
+      "thirdQuartile": "2",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 18,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Of great value",
+          "de": "sehr großen Wert"
+        },
+        "validRelativeFrequency": 40.71,
+        "relativeFrequency": 40.26,
+        "absoluteFrequency": 653,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 40.59,
+        "relativeFrequency": 40.14,
+        "absoluteFrequency": 651,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.84,
+        "relativeFrequency": 13.69,
+        "absoluteFrequency": 222,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 3.93,
+        "relativeFrequency": 3.88,
+        "absoluteFrequency": 63,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Of very little value",
+          "de": "sehr geringen Wert"
+        },
+        "validRelativeFrequency": 0.94,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.89,
+    "totalValidAbsoluteFrequency": 1604,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 306,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "value of degree: personal development",
+    "de": "Wert Studium: persönliche Entwicklung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

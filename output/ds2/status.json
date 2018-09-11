@@ -1,0 +1,253 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit dem Studienabschluss ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit Anfang 2006 ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "1.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "14",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.67,
+        "absoluteFrequency": 913,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "unemployed",
+          "de": "Arbeitslos"
+        },
+        "validRelativeFrequency": 14.04,
+        "relativeFrequency": 13.66,
+        "absoluteFrequency": 4664,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "vocational training",
+          "de": "Berufsausbildung"
+        },
+        "validRelativeFrequency": 0.39,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 128,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "parental leave",
+          "de": "Elternzeit"
+        },
+        "validRelativeFrequency": 4.61,
+        "relativeFrequency": 4.48,
+        "absoluteFrequency": 1531,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "homekeeper",
+          "de": "Haus-/Familienarbeit"
+        },
+        "validRelativeFrequency": 1.47,
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 489,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "further education",
+          "de": "Fortbildung"
+        },
+        "validRelativeFrequency": 2.52,
+        "relativeFrequency": 2.45,
+        "absoluteFrequency": 836,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "junior professorship/habilitation",
+          "de": "Juniorprof./Habil."
+        },
+        "validRelativeFrequency": 0.1,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 33,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "temporary work",
+          "de": "Jobben"
+        },
+        "validRelativeFrequency": 8.53,
+        "relativeFrequency": 8.3,
+        "absoluteFrequency": 2833,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 5.61,
+        "relativeFrequency": 5.46,
+        "absoluteFrequency": 1864,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "PhD",
+          "de": "Promotion"
+        },
+        "validRelativeFrequency": 6.04,
+        "relativeFrequency": 5.88,
+        "absoluteFrequency": 2008,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "preparatory civil service",
+          "de": "Referendariat"
+        },
+        "validRelativeFrequency": 4.71,
+        "relativeFrequency": 4.59,
+        "absoluteFrequency": 1566,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 5.78,
+        "relativeFrequency": 5.63,
+        "absoluteFrequency": 1922,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "self-employment",
+          "de": "selbständige Erwerbsarbeit"
+        },
+        "validRelativeFrequency": 4.26,
+        "relativeFrequency": 4.15,
+        "absoluteFrequency": 1416,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "course of study",
+          "de": "Studium"
+        },
+        "validRelativeFrequency": 5.1,
+        "relativeFrequency": 4.96,
+        "absoluteFrequency": 1694,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "employed occupation",
+          "de": "unselbständige Erwerbsarbeit"
+        },
+        "validRelativeFrequency": 31.12,
+        "relativeFrequency": 30.29,
+        "absoluteFrequency": 10339,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "traineeship",
+          "de": "Volontariat"
+        },
+        "validRelativeFrequency": 0.38,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 126,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "service contract",
+          "de": "Werkvertrag/Honorararbeit"
+        },
+        "validRelativeFrequency": 5.35,
+        "relativeFrequency": 5.2,
+        "absoluteFrequency": 1776,
+        "value": "16"
+      }
+    ],
+    "totalValidRelativeFrequency": 97.33,
+    "totalValidAbsoluteFrequency": 33225,
+    "totalAbsoluteFrequency": 34138
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1, 2],
+  "indexInDataSet": 2,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "Occupation Episode",
+    "de": "Tätigkeit Episode"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

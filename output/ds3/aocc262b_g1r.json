@@ -1,0 +1,84 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher der folgenden Betriebsgrößen ist Ihr  Betrieb/Ihre Dienststelle zuzuordnen?\r\nheutige Stelle"
+      },
+      "questionNumber": "5.6",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": null,
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "anonymized",
+          "de": "anonymisiert"
+        },
+        "relativeFrequency": 100,
+        "absoluteFrequency": 1622,
+        "code": -967
+      }
+    ],
+    "validResponses": null,
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 0,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open additional responses on the characteristics 8 “other, please specify” of the Variable aocc262a (company size of last job position) in coded form. Using the open responses (or based on lists already made from the answers of previous cohorts) a code list was created.\r\nNote: Generally the open answers were assigned to the given categories on company size. They were only coded separately if instead of company size the company form was stated.",
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc262a (Betriebsgröße der letzten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\r\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ262b_g1",
+  "surveyNumbers": [3],
+  "indexInDataSet": 587,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "last job: company form (anonymized)",
+    "de": "letzte Stelle: Betriebsform (anonymisiert)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

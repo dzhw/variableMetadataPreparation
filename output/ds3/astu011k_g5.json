@@ -1,0 +1,105 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "Former Federal States",
+          "de": "alte Bundesländer"
+        },
+        "validRelativeFrequency": 71.64,
+        "relativeFrequency": 71.64,
+        "absoluteFrequency": 1162,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New Federal States (incl. Berlin)",
+          "de": "neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 27.81,
+        "relativeFrequency": 27.81,
+        "absoluteFrequency": 451,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 1622,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "gen astu011k_g5=.\r\nreplace astu011k_g5=1 if inrange(astu011k_g4r,1,10)\r\nreplace astu011k_g5=2 if inrange(astu011k_g4r,11,16)\r\nreplace astu011k_g5=3 if astu011k_g4r==21\r\nreplace astu011k_g5=4 if astu011k_g4r==22",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of the variable on federal state of the university. For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-astu011k",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 22,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st course of study: location of university (new or old federal states)",
+    "de": "1. Studium : Hochschulort (neue bzw. alte Bundesländer)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

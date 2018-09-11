@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie  seit Ihrem Studienabschluss ausgeübt haben.\r\nArt des Arbeitsverhältnisses"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 54.13,
+        "absoluteFrequency": 878,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "unbefristet"
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "befristet (Zeitvertrag)"
+        },
+        "validRelativeFrequency": 37.5,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ausbildungsverhältnis"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Honorar-/Werkvertrag"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "7"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.49,
+    "totalValidAbsoluteFrequency": 8,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ224f",
+  "surveyNumbers": [3],
+  "indexInDataSet": 491,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "4. Tätigkeit: Art des Arbeitsverhältnisses"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

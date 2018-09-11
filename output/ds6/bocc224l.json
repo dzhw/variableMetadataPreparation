@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nFirma/Betrieb"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 38.29,
+        "absoluteFrequency": 621,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Selbstständigkeit"
+        },
+        "validRelativeFrequency": 17.79,
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 29,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Betrieb A"
+        },
+        "validRelativeFrequency": 14.11,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 23,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Betrieb B"
+        },
+        "validRelativeFrequency": 23.93,
+        "relativeFrequency": 2.4,
+        "absoluteFrequency": 39,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Betrieb C"
+        },
+        "validRelativeFrequency": 30.67,
+        "relativeFrequency": 3.08,
+        "absoluteFrequency": 50,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Betrieb D"
+        },
+        "validRelativeFrequency": 13.5,
+        "relativeFrequency": 1.36,
+        "absoluteFrequency": 22,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 10.05,
+    "totalValidAbsoluteFrequency": 163,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 909,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "Self-employment was always coded in the same way, independently of how many times it appears in the occupation tableau.",
+    "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht."
+  },
+  "label": {
+    "en": null,
+    "de": "4. Tätigkeit: Betrieb"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

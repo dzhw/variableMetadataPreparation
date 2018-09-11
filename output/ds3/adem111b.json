@@ -1,0 +1,254 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann wurden Ihre Kinder geboren?\r\n1.Kind\r\nJahr"
+      },
+      "questionNumber": "6.13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 2.9652,
+      "mode": "2005",
+      "highWhisker": 2006,
+      "lowWhisker": 1993.125,
+      "thirdQuartile": "2005",
+      "firstQuartile": "2000.25",
+      "standardDeviation": 5.5988,
+      "median": "2004",
+      "kurtosis": 6.0855,
+      "skewness": -1.8496,
+      "maximum": "2006",
+      "minimum": "1981",
+      "meanValue": 2001.4
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.6,
+        "absoluteFrequency": 26,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 95.31,
+        "absoluteFrequency": 1546,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1981"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1986"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1989"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1990"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1993"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1994"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1997"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1998"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1999"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2000"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "2001"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "2002"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "2003"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "2004"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 24,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "2005"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "2006"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.08,
+    "totalValidAbsoluteFrequency": 50,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if adem10==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-dem111b",
+  "surveyNumbers": [3],
+  "indexInDataSet": 661,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "If the surveyed persons stated that they have more than three children, the dates of birth of the eldest and youngest child were retained. Answers on the middle children were deleted and replaced by the responses on the youngest and eldest child.",
+    "de": "Haben die Befragten mehr als drei Kinder angegeben, wurden die Geburtsdaten des ältesten und des jüngsten Kindes beibehalten. Angaben zu den mittleren Kindern wurden gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt."
+  },
+  "label": {
+    "en": "1st child: date of birth (year)",
+    "de": "1. Kind: Geburt (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

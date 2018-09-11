@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie sagen, dass Sie entsprechend  Ihrer Hochschulqualifikation beschäftigt sind?\r\nHinsichtlich der beruflichen Position\r\nerste Stelle"
+      },
+      "questionNumber": "5.10",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "5",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "5",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 14.43,
+        "absoluteFrequency": 234,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, definitely",
+          "de": "ja, auf jeden Fall"
+        },
+        "validRelativeFrequency": 18.25,
+        "relativeFrequency": 7.34,
+        "absoluteFrequency": 119,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 23.31,
+        "relativeFrequency": 9.37,
+        "absoluteFrequency": 152,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 18.87,
+        "relativeFrequency": 7.58,
+        "absoluteFrequency": 123,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 13.34,
+        "relativeFrequency": 5.36,
+        "absoluteFrequency": 87,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "No, definitely not",
+          "de": "nein, auf keinen Fall"
+        },
+        "validRelativeFrequency": 26.23,
+        "relativeFrequency": 10.54,
+        "absoluteFrequency": 171,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 40.2,
+    "totalValidAbsoluteFrequency": 652,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 606,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st job: job adequate",
+    "de": "1. Stelle: Position adäquat"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie im Rahmen Ihres abgeschlossenen  Studiums Auslandserfahrungen gemacht?\r\nDauer in Monaten"
+      },
+      "questionNumber": "1.6",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "1",
+      "highWhisker": 6,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": 1.8098,
+      "median": "2",
+      "kurtosis": 2.9612,
+      "skewness": 1.0913,
+      "maximum": "7",
+      "minimum": "1",
+      "meanValue": 2.4286
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 96.73,
+        "absoluteFrequency": 1569,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 47.62,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 20,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 9.52,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "7"
+      }
+    ],
+    "totalValidRelativeFrequency": 2.59,
+    "totalValidAbsoluteFrequency": 42,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 177,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "other stays abroad: duration (months)",
+    "de": "sonstige Auslandsaufenthalte: Dauer (Monate)"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

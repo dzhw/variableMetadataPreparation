@@ -1,0 +1,1273 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie Ihre genaue Berufsbezeichnung,\r\nIhren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer derzeitigen bzw. – falls Sie zurzeit nicht erwerbstätig sind – letzten Tätigkeit an."
+      },
+      "questionNumber": "5.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "997",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 9.31,
+        "absoluteFrequency": 151,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "code": -966
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Landwirte/Landwirtinnen, Pflanzenschützer/Pflanzenschützerinnen"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Landarbeitskräfte"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Tier-, Pferde-, Fischwirte und -wirtinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Land-, Tierwirtschaftsberater und -beraterinnen, Agraringenieur/Agraringenieurinnen, Agrartechniker/Agrartechnikerinnen"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "32"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Gärtner/Gärtnerinnen, Gartenarbeiter/Gartenarbeiterinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "51"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ingenieure/Ingenieurinnen, Techniker/Technikerinnen in Gartenbau und Landespflege"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "52"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Chemiebetriebswerker/Chemiebetriebswerkerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "141"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Druckvorlagenhersteller/Druckvorlagenherstellerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "172"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Schweißer/Schweißerinnen, Brennschneider/Brennschneiderinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "241"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Installations- und Montageberufe, a.n.g."
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "269"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Molkereifachleute"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "431"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Waren-, Fertigungsprüfer und -prüferinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "521"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Warenaufmacher/Warenaufmacherinnen, Versandfertigmacher/Versandfertigmacherinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "522"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Hilfsarbeiter/Hilfsarbeiterinnen ohne nähere Tätigkeitsangabe"
+        },
+        "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "531"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ingenieure/Ingenieurinnen ohne nähere Fachrichtungsangabe"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "600"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ingenieure/Ingenieurinnen des Maschinen-, Apparate- und Fahrzeugbaues"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "601"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Elektroingenieure/Elektroingenieurinnen"
+        },
+        "validRelativeFrequency": 1.78,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "value": "602"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bauingenieure/Bauingenieurinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "603"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bergbau-, Hütten-, Gießereiingenieure und -ingenieurinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "605"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Wirtschafts-, REFA-Ingenieure und -Ingenieurinnen"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "607"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige Ingenieure/Ingenieurinnen"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "608"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Chemiker/Chemikerinnen, Chemie-, Verfahrensingenieure und -ingenieurinnen"
+        },
+        "validRelativeFrequency": 1.23,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "611"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Physiker/Physikerinnen, Physikingenieure/Physikingenieurinnen, Mathematiker/Mathematikerinnen"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "612"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Techniker/Technikerinnen ohne nähere Fachrichtungsangabe"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "620"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Vermessungstechniker/Vermessungstechnikerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "624"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Übrige Fertigungstechniker/Fertigungstechnikerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "627"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Techniker/Technikerinnen für Betriebswissenschaft und Arbeitsstudien (REFA) und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "628"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Biologisch-technische Sonderfachkräfte"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "631"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Chemielaboranten/Chemielaborantinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "633"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verkäufer/Verkäuferinnen ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 1.64,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "660"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige Fachverkäufer/Fachverkäuferinnen"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "662"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Groß- und Außenhandelskaufleute"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "671"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Einzelhandelskaufleute ohne Fachbereichsangabe, ambulante Händler/Händlerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "672"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Buch-, Musikalienhändler und -händlerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "674"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verkaufs-, Filialleiter und -leiterinnen im Handel"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "676"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Einkäufer/Einkäuferinnen, Einkaufsleiter/Einkaufsleiterinnen"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "677"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verkaufs-, Vertriebssachbearbeiter und -sachbearbeiterinnen"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "678"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verlagskaufleute"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "683"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Handelsvertreter/Handelsvertreterinnen, Vertriebsbeauftragte"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "687"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Andere Vertreter/Vertreterinnen, Handlungsreisende"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "689"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bankfachleute"
+        },
+        "validRelativeFrequency": 2.05,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "value": "691"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bausparkassenfachleute"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "692"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Versicherungsfachleute (nicht gesetzliche Sozialversicherung)"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "695"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verkehrsfachleute (Personen-, Fremdenverkehr)"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "702"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Werbefachleute"
+        },
+        "validRelativeFrequency": 2.19,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "703"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Handelsmakler/Handelsmaklerinnen, Immobilienkaufleute"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "704"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Vermittler/Vermittlerinnen, a.n.g., Vermieter/Vermieterinnen, Versteigerer/Versteigerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "705"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufskraftfahrer/Berufskraftfahrerinnen, Kutscher/Kutscherinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "714"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Luftverkehrsberufe"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "726"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Dienstleistungsfachkräfte im Postbetrieb"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "732"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe im Funk- und Fernsprechverkehr"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "735"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Lager-, Transportarbeiter und -arbeiterinnen"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "744"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Unternehmer/Unternehmerinnen, Geschäftsführer/Geschäftsführerinnen, a.n.g."
+        },
+        "validRelativeFrequency": 2.46,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 18,
+        "value": "750"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Geschäftsbereichsleiter/Geschäftsbereichsleiterinnen, Direktionsassistenten/Direktionsassistentinnen, a.n.g."
+        },
+        "validRelativeFrequency": 3.69,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 27,
+        "value": "751"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Wirtschaftsprüfer/Wirtschaftsprüferinnen, Steuerberater/Steuerberaterinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "753"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Fachgehilfen/Fachgehilfinnen in steuer- und wirtschaftsberatenden Berufen, Steuerfachleute, a.n.g."
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "754"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Marketing-, Absatzfachleute"
+        },
+        "validRelativeFrequency": 1.91,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "755"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Organisatoren/Organisatorinnen, Controller/Controllerinnen und verwandte Berufe, a.n.g."
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "756"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Unternehmensberater/Unternehmensberaterinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "757"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verwaltungsfachleute (höherer Dienst), a.n.g."
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "764"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verwaltungsfachleute (gehobener Dienst), a.n.g."
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "765"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Finanz-, Rechnungswesenfachleute, Kalkulatoren/Kalkulatorinnen"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "771"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Buchhalter/Buchhalterinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "772"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Kassenfachleute"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "773"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Datenverarbeitungsfachleute, Informatiker/Informatikerinnen ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 1.64,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "774"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Softwareentwickler/Softwareentwicklerinnen"
+        },
+        "validRelativeFrequency": 8.33,
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 61,
+        "value": "775"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "DV-Organisatoren/Organisatorinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "776"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "DV-Beratungs- und Vertriebsfachleute"
+        },
+        "validRelativeFrequency": 3.14,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 23,
+        "value": "777"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Rechenzentrums- und DV-Benutzerservice-Fachleute"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "778"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige Datenverarbeitungsfachleute, Informatiker/Informatikerinnen"
+        },
+        "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "779"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bürofachkräfte, Kaufmännische Angestellte ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 2.6,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "780"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Schreibkräfte, Textverarbeitungsfachleute"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "782"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Datentypisten/Datentypistinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "783"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bürohilfskräfte"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "784"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Industriekaufleute, Technische Kaufleute, Betriebswirte/Betriebswirtinnen (ohne Diplom), a.n.g."
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "785"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verwaltungsfachleute (mittlerer Dienst), a.n.g."
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "787"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Büro- und kaufmännische Sachbearbeiter/Sachbearbeiterinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "788"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sekretäre/Sekretärinnen"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "789"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Pförtner/Pförtnerinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "793"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Hausmeister/Hausmeisterinnen, Hauswarte/Hauswartinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "796"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufsfeuerwehr-, Brandschutzfachleute"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "802"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Publizisten/Publizistinnen"
+        },
+        "validRelativeFrequency": 3.14,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 23,
+        "value": "821"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Dolmetscher/Dolmetscherinnen, Übersetzer/Übersetzerinnen"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "822"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bibliothekare/Bibliothekarinnen, Archivare/Archivarinnen, Museumsfachleute"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "823"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bildende Künstler/Künstlerinnen (freie Kunst)"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "833"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bildende Künstler/Künstlerinnen (angewandte Kunst)"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "834"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Künstlerische und zugeordnete Berufe der Bühnen-, Bild- und Tontechnik"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "835"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Artisten/Artistinnen, Berufssportler/Berufssportlerinnen, künstlerische Hilfsberufe"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "838"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Krankenschwestern/-pfleger, Hebammen/Entbindungspfleger"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "853"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Helfer/Helferinnen in der Krankenpflege"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "854"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sprechstundenhelfer/Sprechstundenhelferinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "856"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Medizinisch-technische Assistenten/Assistentinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "857"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Pharmazeutisch-technische Assistenten/Assistentinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "858"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sozialarbeiter/Sozialarbeiterinnen, Sozialpädagogen/Sozialpädagoginnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "861"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Erzieher/Erzieherinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "863"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Heilerziehungspfleger/Heilerziehungspflegerinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "866"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Arbeits-, Berufsberater und -beraterinnen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "868"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige soziale Berufe"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "869"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Lehrer/Lehrerinnen ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "870"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Hochschullehrer/Hochschullehrerinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 2.73,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 20,
+        "value": "871"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Grund-, Haupt-, Real-, Sonderschullehrer und -lehrerinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "873"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sportlehrer/Sportlehrerinnen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "876"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige Lehrer/Lehrerinnen"
+        },
+        "validRelativeFrequency": 2.87,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "value": "879"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Wissenschaftler/Wissenschaftlerinnen ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "880"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Wirtschaftswissenschaftler/Wirtschaftswissenschaftlerinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "881"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Geisteswissenschaftler/Geisteswissenschaftlerinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "882"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Naturwissenschaftler/Naturwissenschaftlerinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "883"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sozialwissenschaftler/Sozialwissenschaftlerinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "884"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Erziehungswissenschaftler/Erziehungswissenschaftlerinnen, a.n.g."
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "885"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Statistiker/Statistikerinnen, Marktforscher/Marktforscherinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "887"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Restaurantfachleute, Stewards/Stewardessen"
+        },
+        "validRelativeFrequency": 1.23,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "912"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Hotel-, Gaststättenkaufleute, a.n.g."
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "914"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige Berufe in der Gästebetreuung"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "915"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Mithelfende Familienangehörige außerhalb der Landwirtschaft, a.n.g."
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "971"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Praktikanten/Praktikantinnen, Volontäre/Volontärinnen mit (noch) nicht feststehendem Beruf"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "982"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Beratungs-, Planungsfachleute ohne nähere Tätigkeitsangabe"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "996"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstige Arbeitskräfte ohne nähere Tätigkeitsangabe"
+        },
+        "validRelativeFrequency": 18.85,
+        "relativeFrequency": 8.51,
+        "absoluteFrequency": 138,
+        "value": "997"
+      }
+    ],
+    "totalValidRelativeFrequency": 45.13,
+    "totalValidAbsoluteFrequency": 732,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "gen aocc19_g2d = aocc19_g1o\r\nreplace aocc19_g2d = floor(aocc19_g2d/10) if aocc19_g2d>0",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of variable aocc19_g1o (Kldb 4 digits). For aggregation the Federal Statistical Office of Germany key list for the \"Classification of Professions (KldB)\" from 1992 was used (cf. cl-destatis-kldb-1992). For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-4-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992). Zu Einzelheiten vgl. die Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-aocc19",
+  "panelIdentifier": "gra2005-ds3-occ19_g2",
+  "surveyNumbers": [3],
+  "indexInDataSet": 440,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Beruf: KldB 1992 (3-stellig)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

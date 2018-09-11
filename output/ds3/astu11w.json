@@ -1,0 +1,135 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die folgenden Aspekte  Ihres abgeschlossenen Studiums?\r\nGgf. Laborausstattung, Laborplätze"
+      },
+      "questionNumber": "1.13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 4.5,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 30.58,
+        "absoluteFrequency": 496,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 21.14,
+        "relativeFrequency": 14.67,
+        "absoluteFrequency": 238,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 37.03,
+        "relativeFrequency": 25.71,
+        "absoluteFrequency": 417,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 28.86,
+        "relativeFrequency": 20.04,
+        "absoluteFrequency": 325,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 8.17,
+        "relativeFrequency": 5.67,
+        "absoluteFrequency": 92,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very poor",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 4.8,
+        "relativeFrequency": 3.33,
+        "absoluteFrequency": 54,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 69.42,
+    "totalValidAbsoluteFrequency": 1126,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 219,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "course of study: laboratory equipment",
+    "de": "Studium: Laborausstattung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

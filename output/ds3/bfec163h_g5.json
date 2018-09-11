@@ -1,0 +1,133 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 39.95,
+        "absoluteFrequency": 648,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 8.63,
+        "absoluteFrequency": 140,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Former Federal States",
+          "de": "alte Bundesländer"
+        },
+        "validRelativeFrequency": 77.78,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New Federal States (incl. Berlin)",
+          "de": "neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.55,
+    "totalValidAbsoluteFrequency": 9,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfec15==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "gen bfec163h_g5=.\r\nreplace bfec163h_g5=1 if inrange(bfec163h_g4r,1,10)\r\nreplace bfec163h_g5=2 if inrange(bfec163h_g4r,11,16)\r\nreplace bfec163h_g5=3 if bfec163h_g4r==21\r\nreplace bfec163h_g5=4 if bfec163h_g4r==22",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of the variable on federal state of the university. For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bfec163h",
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1165,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "3rd further education at university: location of uni (new or old fed. states)",
+    "de": "3. Weiterbildung an HS : Hochschulort (neue bzw. alte Bundesländer)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

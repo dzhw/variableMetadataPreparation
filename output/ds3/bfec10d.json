@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie Ihre Promotion begonnen und beendet?\r\nEnde:\r\nJahr"
+      },
+      "questionNumber": "2.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "2010",
+      "highWhisker": 2011,
+      "lowWhisker": 2007.5,
+      "thirdQuartile": "2010",
+      "firstQuartile": "2009",
+      "standardDeviation": 0.952,
+      "median": "2010",
+      "kurtosis": 3.6074,
+      "skewness": -1.0113,
+      "maximum": "2011",
+      "minimum": "2007",
+      "meanValue": 2009.4528
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 11.59,
+        "absoluteFrequency": 188,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 34.28,
+        "absoluteFrequency": 556,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.66,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "2007"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 9.43,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 24.53,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 54.72,
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 29,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.66,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "2011"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.27,
+    "totalValidAbsoluteFrequency": 53,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bfec09,1,2,3,4,7,9)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 767,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "PhD: end (year)",
+    "de": "Promotion: Ende (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

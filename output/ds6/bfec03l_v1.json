@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\r\nDen Status als Student/in aufrecht erhalten"
+      },
+      "questionNumber": "2.6",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "5",
+      "highWhisker": 5,
+      "lowWhisker": 2.5,
+      "thirdQuartile": "5",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 34.28,
+        "absoluteFrequency": 556,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 1.71,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 7.26,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 17,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 11.97,
+        "relativeFrequency": 1.73,
+        "absoluteFrequency": 28,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 21.37,
+        "relativeFrequency": 3.08,
+        "absoluteFrequency": 50,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 57.69,
+        "relativeFrequency": 8.32,
+        "absoluteFrequency": 135,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 14.43,
+    "totalValidAbsoluteFrequency": 234,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bfec09,1,2,3,4,7,9)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-fec03l",
+  "surveyNumbers": [4],
+  "indexInDataSet": 807,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Motiv Promotion: Studierendenstatus"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

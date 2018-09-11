@@ -1,0 +1,265 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "30",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 96.18,
+        "absoluteFrequency": 1560,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Linguistics and cultural sciences, generally",
+          "de": "Sprach- und Kulturwissenschaften allgemein"
+        },
+        "validRelativeFrequency": 16.13,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "History",
+          "de": "Geschichte"
+        },
+        "validRelativeFrequency": 4.84,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Library science, documentation, publishing",
+          "de": "Bibliothekswissenschaft, Dokumentation, Publizistik"
+        },
+        "validRelativeFrequency": 4.84,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "General and comparative literature studies and linguistics",
+          "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
+        },
+        "validRelativeFrequency": 3.23,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "German studies (German, Germanic languages without Anglistics)",
+          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
+        },
+        "validRelativeFrequency": 6.45,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Non-European linguistics and cultural studies",
+          "de": "Außereuropäische Sprach- und Kulturwissenschaften"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Psychology",
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Educational sciences",
+          "de": "Erziehungswissenschaften"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Business and social studies, generally",
+          "de": "Wirtschafts- und Gesellschaftslehre allgemein"
+        },
+        "validRelativeFrequency": 4.84,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "Social sciences",
+          "de": "Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 8.06,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "Economic sciences",
+          "de": "Wirtschaftswissenschaften"
+        },
+        "validRelativeFrequency": 22.58,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": "Computer science",
+          "de": "Informatik"
+        },
+        "validRelativeFrequency": 8.06,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": "Human medicine",
+          "de": "Humanmedizin"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "49"
+      },
+      {
+        "label": {
+          "en": "Agricultural sciences, food and beverage technology",
+          "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "58"
+      },
+      {
+        "label": {
+          "en": "Mechanical engineering, process engineering",
+          "de": "Maschinenbau, Verfahrenstechnik"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "63"
+      },
+      {
+        "label": {
+          "en": "Electrical engineering",
+          "de": "Elektrotechnik"
+        },
+        "validRelativeFrequency": 4.84,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "64"
+      },
+      {
+        "label": {
+          "en": "Spatial planning",
+          "de": "Raumplanung"
+        },
+        "validRelativeFrequency": 3.23,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "67"
+      },
+      {
+        "label": {
+          "en": "Civil engineering",
+          "de": "Bauingenieurwesen"
+        },
+        "validRelativeFrequency": 3.23,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "68"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.82,
+    "totalValidAbsoluteFrequency": 62,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generated by aggregation from the coded subject responses for the purposes of anonymisation. For aggregation the assignment of the Federal Statistical Office of Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) (cf. cl-destatis-studienfach-2005) was used. \r\nFor assignment of the older, not therein contained subject codes 47 (\"nursing training\" --> STB: \"social services\") and 112 (\"social psychology\" --> STB \"psychology\") the key list 2003/2004 (code 47) or the key list 1997/1998 (code 112) was used.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet.\r\nFür die Zuordnung der darin nicht enthaltenen älteren Fächercodes 47 (\"Krankenpflege-Ausbildung\" --> STB: \"Sozialwesen\") und 112 (\"Sozialpsychologie\" --> STB \"Psychologie\") wurde das Schlüsselverzeichnis 2003/2004 (Code 47) bzw. das Schlüsselverzeichnis 1997/1998 (Code 112) herangezogen."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-astu014e",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 70,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "4th course of study: area of study (major)",
+    "de": "4. Studium: Studienbereich (Hauptfach)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

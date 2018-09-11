@@ -1,0 +1,501 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen."
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "DE21 Oberbayern",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 3.14,
+        "absoluteFrequency": 51,
+        "code": -966
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "unplausibler Wert"
+        },
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "code": -968
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.67,
+        "absoluteFrequency": 92,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.97,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "DE11 Stuttgart"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.66,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 17,
+        "value": "DE12 Karlsruhe"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.03,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "value": "DE13 Freiburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.78,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "DE14 Tübingen"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 9.55,
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 61,
+        "value": "DE21 Oberbayern"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "DE22 Niederbayern"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "DE23 Oberpfalz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "DE24 Oberfranken"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.41,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "DE25 Mittelfranken"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "DE26 Unterfranken"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "DE27 Schwaben"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8.45,
+        "relativeFrequency": 3.33,
+        "absoluteFrequency": 54,
+        "value": "DE30 Berlin"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.66,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 17,
+        "value": "DE40 Brandenburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.41,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "DE50 Bremen"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.29,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "value": "DE60 Hamburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.26,
+        "relativeFrequency": 2.47,
+        "absoluteFrequency": 40,
+        "value": "DE71 Darmstadt"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.78,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "DE72 Gießen"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "DE73 Kassel"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.5,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "DE80 Mecklenburg-Vorpommern"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.03,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "value": "DE91 Braunschweig"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.88,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "DE92 Hannover"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.78,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "DE93 Lüneburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.56,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "DE94 Weser-Ems"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.98,
+        "relativeFrequency": 3.14,
+        "absoluteFrequency": 51,
+        "value": "DEA1 Düsseldorf"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.63,
+        "relativeFrequency": 2.22,
+        "absoluteFrequency": 36,
+        "value": "DEA2 Köln"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.35,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "value": "DEA3 Münster"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.73,
+        "relativeFrequency": 2.65,
+        "absoluteFrequency": 43,
+        "value": "DEA4 Detmold"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.36,
+        "relativeFrequency": 2.9,
+        "absoluteFrequency": 47,
+        "value": "DEA5 Arnsberg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "DEB1 Koblenz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "DEB2 Trier"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "DEB3 Rheinhessen-Pfalz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.78,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "DEC0 Saarland"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.13,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 20,
+        "value": "DED2 Dresden"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.72,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "value": "DED4 Chemnitz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.41,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "DED5 Leipzig"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.78,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "DEE0 Sachsen-Anhalt"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.13,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 20,
+        "value": "DEF0 Schleswig-Holstein"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.76,
+        "relativeFrequency": 1.48,
+        "absoluteFrequency": 24,
+        "value": "DEG0 Thüringen"
+      }
+    ],
+    "totalValidRelativeFrequency": 39.4,
+    "totalValidAbsoluteFrequency": 639,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation from the employment location (gathered as 3 digit postcode). For aggregation the NUTS classification of the Statistical Office of the European Union (Eurostat) from 2010 was used (cf. cl-eurostat-nuts-2010). The assignment of the 3 digit postcodes to the NUTS-2-Regions was made using a self-generated list (cf. cl-dzhw-5). If the 3 digit postcode could not be unambiguously assigned to a NUTS-2-Region, the Missing Value \"-966 non-determinable\" was assigned.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus dem Tätigkeitsort (erfasst als dreistellige Postleitzahl) generiert. Zur Aggregation wurde die NUTS-Klassifikation des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 verwendet (vgl. cl-eurostat-nuts-2010). Die Zuordnung der dreistelligen Postleitzahlen zu den NUTS-2-Regionen erfolgte anhand einer selbst erstellten Liste (vgl. cl-dzhw-5). Sofern die dreistellige Postleitzahl nicht eindeutig einer NUTS-2-Region zugeordnet werden konnte, wurde der Missingwert \"-966 nicht bestimmbar\" vergeben."
+    }
+  },
+  "storageType": "character",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bocc221k_v1",
+  "panelIdentifier": "gra2005-ds3-occ221k_g1",
+  "surveyNumbers": [4],
+  "indexInDataSet": 863,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "1. Tätigkeit: Arbeitsort (NUTS-2)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "string",
+    "de": "string"
+  }
+}

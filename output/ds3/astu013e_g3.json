@@ -1,0 +1,155 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 80.58,
+        "absoluteFrequency": 1307,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Language and cultural sciences",
+          "de": "Sprach- und Kulturwissenschaften"
+        },
+        "validRelativeFrequency": 28.89,
+        "relativeFrequency": 5.61,
+        "absoluteFrequency": 91,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Legal, economic and social sciences",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 26.03,
+        "relativeFrequency": 5.06,
+        "absoluteFrequency": 82,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Mathematics, natural sciences",
+          "de": "Mathematik, Naturwissenschaften"
+        },
+        "validRelativeFrequency": 27.94,
+        "relativeFrequency": 5.43,
+        "absoluteFrequency": 88,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Medicine, health care sciences",
+          "de": "Humanmedizin, Gesundheitswissenschaften"
+        },
+        "validRelativeFrequency": 0.32,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Agricultural forestry and nutritional sciences  ",
+          "de": "Agrar-, Forst- und Ernährungswissenschaften"
+        },
+        "validRelativeFrequency": 7.62,
+        "relativeFrequency": 1.48,
+        "absoluteFrequency": 24,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Engineering sciences",
+          "de": "Ingenieurwissenschaften"
+        },
+        "validRelativeFrequency": 8.57,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 27,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Art, aesthetics",
+          "de": "Kunst, Kunstwissenschaft"
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 19.42,
+    "totalValidAbsoluteFrequency": 315,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of the areas of study. For aggregation the assignment of the Federal Statistical Office of Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) (cf. cl-destatis-studienfach-2005) was used.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-astu013e",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 50,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "3rd course of study: subject group (major)",
+    "de": "3. Studium: Fächergruppe (Hauptfach)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

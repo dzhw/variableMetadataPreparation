@@ -1,0 +1,135 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die folgenden Aspekte  Ihres abgeschlossenen Studiums?\r\nEinübung in beruflich-professionelles Handeln"
+      },
+      "questionNumber": "1.13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "3",
+      "highWhisker": 5,
+      "lowWhisker": 1.5,
+      "thirdQuartile": "4",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 5.49,
+        "absoluteFrequency": 89,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 17.61,
+        "relativeFrequency": 17.39,
+        "absoluteFrequency": 282,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 33.1,
+        "relativeFrequency": 32.68,
+        "absoluteFrequency": 530,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 31.86,
+        "relativeFrequency": 31.44,
+        "absoluteFrequency": 510,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very poor",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 11.87,
+        "relativeFrequency": 11.71,
+        "absoluteFrequency": 190,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.71,
+    "totalValidAbsoluteFrequency": 1601,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 210,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "course of study: practice of professional behaviour",
+    "de": "Studium: Einübung professionelles Handeln"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

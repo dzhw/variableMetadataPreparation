@@ -1,0 +1,163 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit dem Studienabschluss ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit Anfang 2006 ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "1.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2006",
+      "highWhisker": 2011,
+      "lowWhisker": 2004,
+      "thirdQuartile": "2010",
+      "firstQuartile": "2005",
+      "standardDeviation": 2.2092,
+      "median": "2006",
+      "kurtosis": 1.7777,
+      "skewness": 0.5589,
+      "maximum": "2011",
+      "minimum": "2004",
+      "meanValue": 2007.2514
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.36,
+        "relativeFrequency": 1.36,
+        "absoluteFrequency": 464,
+        "value": "2004"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 24.71,
+        "relativeFrequency": 24.71,
+        "absoluteFrequency": 8437,
+        "value": "2005"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 29.55,
+        "relativeFrequency": 29.55,
+        "absoluteFrequency": 10089,
+        "value": "2006"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.77,
+        "relativeFrequency": 6.77,
+        "absoluteFrequency": 2312,
+        "value": "2007"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.04,
+        "relativeFrequency": 6.04,
+        "absoluteFrequency": 2062,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.62,
+        "relativeFrequency": 5.62,
+        "absoluteFrequency": 1919,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 12.83,
+        "relativeFrequency": 12.83,
+        "absoluteFrequency": 4381,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 13.11,
+        "relativeFrequency": 13.11,
+        "absoluteFrequency": 4474,
+        "value": "2011"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 34138,
+    "totalAbsoluteFrequency": 34138
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "double",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1, 2],
+  "indexInDataSet": 6,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Endzeitpunkt Episode (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

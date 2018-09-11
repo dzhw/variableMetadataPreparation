@@ -1,0 +1,113 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie Ihren aktuellen Hauptwohnsitz und ggf. vorherige Hauptwohnsitze seit dem Zeitpunkt Ihres ersten Studienabschlusses 2004/05 in das folgende Tableau ein."
+      },
+      "questionNumber": "8.12",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 23.43,
+        "absoluteFrequency": 380,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "implausible value",
+          "de": "unplausibler Wert"
+        },
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "code": -968
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Germany",
+          "de": "Deutschland"
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 25.34,
+        "absoluteFrequency": 411,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 25.34,
+    "totalValidAbsoluteFrequency": 411,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode bdem232c_o (10/999 = 1), gen (bdem232c_g2)",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation from the residential location. For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus dem Ort des Wohnsitzes generiert. Zu Einzelheiten vgl. Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bdem232c",
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1338,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st previous main residence: Germany",
+    "de": "1. vorheriger Hauptwohnsitz: Deutschland"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

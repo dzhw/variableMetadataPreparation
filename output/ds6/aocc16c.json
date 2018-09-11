@@ -1,0 +1,144 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte beurteilen Sie die folgenden Aussagen  zu Ihrem Praktikum/Ihren Praktika nach dem  Studium.\r\nDas Praktikum hat/die Praktika haben mir die Tür in meinen Wunschberuf geöffnet"
+      },
+      "questionNumber": "4.15",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "3",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "4",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.71,
+        "absoluteFrequency": 44,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 76.76,
+        "absoluteFrequency": 1245,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "trifft genau zu"
+        },
+        "validRelativeFrequency": 12.01,
+        "relativeFrequency": 2.47,
+        "absoluteFrequency": 40,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 4.56,
+        "absoluteFrequency": 74,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 28.23,
+        "relativeFrequency": 5.8,
+        "absoluteFrequency": 94,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 23.72,
+        "relativeFrequency": 4.87,
+        "absoluteFrequency": 79,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 13.81,
+        "relativeFrequency": 2.84,
+        "absoluteFrequency": 46,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.53,
+    "totalValidAbsoluteFrequency": 333,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc11,1,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 427,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Praktikum: Wunschberuf gefunden"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

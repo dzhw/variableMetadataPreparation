@@ -1,0 +1,174 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie Ihren aktuellen Hauptwohnsitz und ggf. vorherige Hauptwohnsitze seit dem Zeitpunkt Ihres ersten Studienabschlusses 2004/05 in das folgende Tableau ein.\r\nZeitpunkt des Einzugs bzw. Umzugs\r\nGgf. vorherige Hauptwohnsitze\r\nJahr"
+      },
+      "questionNumber": "8.12",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2005",
+      "highWhisker": 2007,
+      "lowWhisker": 2001.25,
+      "thirdQuartile": "2005",
+      "firstQuartile": "2003.5",
+      "standardDeviation": 5.9599,
+      "median": "2005",
+      "kurtosis": 9.4477,
+      "skewness": -2.7819,
+      "maximum": "2007",
+      "minimum": "1982",
+      "meanValue": 2002.7083
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 47.66,
+        "absoluteFrequency": 773,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1982"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1986"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2001"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "2002"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "2004"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 45.83,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "value": "2005"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8.33,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "2006"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2007"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.48,
+    "totalValidAbsoluteFrequency": 24,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1356,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "4. vorheriger Hauptwohnsitz: Einzug (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

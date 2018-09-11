@@ -1,0 +1,265 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 96.86,
+        "absoluteFrequency": 1571,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Philosophie"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Geschichte"
+        },
+        "validRelativeFrequency": 13.73,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bibliothekswissenschaft, Dokumentation, Publizistik"
+        },
+        "validRelativeFrequency": 11.76,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Anglistik, Amerikanistik"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Romanistik"
+        },
+        "validRelativeFrequency": 9.8,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Erziehungswissenschaften"
+        },
+        "validRelativeFrequency": 9.8,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonderpädagogik"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Wirtschafts- und Gesellschaftslehre allgemein"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Politikwissenschaften"
+        },
+        "validRelativeFrequency": 9.8,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 9.8,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Rechtswissenschaft"
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Wirtschaftswissenschaften"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Mathematik"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "37"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Informatik"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Kunst, Kunstwissenschaft allgemein"
+        },
+        "validRelativeFrequency": 5.88,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "74"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.14,
+    "totalValidAbsoluteFrequency": 51,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generated by aggregation from the coded subject responses for the purposes of anonymisation. For aggregation the assignment of the Federal Statistical Office of Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) (cf. cl-destatis-studienfach-2005) was used. \r\nFor assignment of the older, not therein contained subject codes 47 (\"nursing training\" --> STB: \"social services\") and 112 (\"social psychology\" --> STB \"psychology\") the key list 2003/2004 (code 47) or the key list 1997/1998 (code 112) was used.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet.\r\nFür die Zuordnung der darin nicht enthaltenen älteren Fächercodes 47 (\"Krankenpflege-Ausbildung\" --> STB: \"Sozialwesen\") und 112 (\"Sozialpsychologie\" --> STB \"Psychologie\") wurde das Schlüsselverzeichnis 2003/2004 (Code 47) bzw. das Schlüsselverzeichnis 1997/1998 (Code 112) herangezogen."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-astu013g",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 53,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "3. Studium: Studienbereich (1. Nebenfach)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

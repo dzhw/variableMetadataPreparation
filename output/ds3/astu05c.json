@@ -1,0 +1,164 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie Ihr abgeschlossenes Studium zwischendurch einmal unterbrochen?\r\nJa, ohne Abmeldung für\r\nSemester"
+      },
+      "questionNumber": "1.5",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "0",
+      "highWhisker": 2.5,
+      "lowWhisker": 0,
+      "thirdQuartile": "1",
+      "firstQuartile": "0",
+      "standardDeviation": null,
+      "median": "0",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "9",
+      "minimum": "0",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 88.9,
+        "absoluteFrequency": 1442,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "0 semester",
+          "de": "0 Semester"
+        },
+        "validRelativeFrequency": 72,
+        "relativeFrequency": 7.77,
+        "absoluteFrequency": 126,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "1 semester",
+          "de": "1 Semester"
+        },
+        "validRelativeFrequency": 15.43,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 27,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 semesters",
+          "de": "2 Semester"
+        },
+        "validRelativeFrequency": 9.14,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 semesters",
+          "de": "3 Semester"
+        },
+        "validRelativeFrequency": 1.71,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "5 semesters",
+          "de": "5 Semester"
+        },
+        "validRelativeFrequency": 0.57,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "6 semesters",
+          "de": "6 Semester"
+        },
+        "validRelativeFrequency": 0.57,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "9 or more semesters",
+          "de": "9 oder mehr Semester"
+        },
+        "validRelativeFrequency": 0.57,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 10.79,
+    "totalValidAbsoluteFrequency": 175,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 165,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "interruption of studies: interruption without notice",
+    "de": "Unterbrechung Studium: Unterbrechung ohne Abmeldung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

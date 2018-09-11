@@ -1,0 +1,253 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit dem Studienabschluss ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit Anfang 2006 ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "1.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "13",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.45,
+        "absoluteFrequency": 134,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Arbeitslos"
+        },
+        "validRelativeFrequency": 6.86,
+        "relativeFrequency": 6.69,
+        "absoluteFrequency": 366,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufsausbildung"
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.46,
+        "absoluteFrequency": 25,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Elternzeit"
+        },
+        "validRelativeFrequency": 1.82,
+        "relativeFrequency": 1.77,
+        "absoluteFrequency": 97,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Haus-/Familienarbeit"
+        },
+        "validRelativeFrequency": 0.66,
+        "relativeFrequency": 0.64,
+        "absoluteFrequency": 35,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Fortbildung"
+        },
+        "validRelativeFrequency": 1.24,
+        "relativeFrequency": 1.21,
+        "absoluteFrequency": 66,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Juniorprof./Habil."
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 2,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Jobben"
+        },
+        "validRelativeFrequency": 12.74,
+        "relativeFrequency": 12.42,
+        "absoluteFrequency": 680,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 10.84,
+        "absoluteFrequency": 593,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Promotion"
+        },
+        "validRelativeFrequency": 4.81,
+        "relativeFrequency": 4.7,
+        "absoluteFrequency": 257,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Referendariat"
+        },
+        "validRelativeFrequency": 1.07,
+        "relativeFrequency": 1.04,
+        "absoluteFrequency": 57,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 5.04,
+        "relativeFrequency": 4.92,
+        "absoluteFrequency": 269,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "selbständige Erwerbsarbeit"
+        },
+        "validRelativeFrequency": 3.13,
+        "relativeFrequency": 3.05,
+        "absoluteFrequency": 167,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Studium"
+        },
+        "validRelativeFrequency": 24.87,
+        "relativeFrequency": 24.26,
+        "absoluteFrequency": 1328,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "unselbständige Erwerbsarbeit"
+        },
+        "validRelativeFrequency": 21.15,
+        "relativeFrequency": 20.63,
+        "absoluteFrequency": 1129,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Volontariat"
+        },
+        "validRelativeFrequency": 0.64,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 34,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Werkvertrag/Honorararbeit"
+        },
+        "validRelativeFrequency": 4.38,
+        "relativeFrequency": 4.28,
+        "absoluteFrequency": 234,
+        "value": "16"
+      }
+    ],
+    "totalValidRelativeFrequency": 97.55,
+    "totalValidAbsoluteFrequency": 5339,
+    "totalAbsoluteFrequency": 5473
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3, 4],
+  "indexInDataSet": 2,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Tätigkeit Episode"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie  seit Ihrem Studienabschluss ausgeübt haben.\r\nArbeitszeit\r\nStunden pro Woche"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 13.3434,
+      "mode": "multimodal",
+      "highWhisker": 20,
+      "lowWhisker": 2,
+      "thirdQuartile": "15.5",
+      "firstQuartile": "6.5",
+      "standardDeviation": 12.7279,
+      "median": "11",
+      "kurtosis": 1,
+      "skewness": 0,
+      "maximum": "20",
+      "minimum": "2",
+      "meanValue": 11
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 54.19,
+        "absoluteFrequency": 879,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.12,
+    "totalValidAbsoluteFrequency": 2,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ224h",
+  "surveyNumbers": [3],
+  "indexInDataSet": 493,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "4. Tätigkeit: Stunden pro Woche"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

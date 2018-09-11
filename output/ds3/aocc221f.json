@@ -1,0 +1,164 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie  seit Ihrem Studienabschluss ausgeübt haben.\r\nArt des Arbeitsverhältnisses"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 8.38,
+        "absoluteFrequency": 136,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Unlimited",
+          "de": "unbefristet"
+        },
+        "validRelativeFrequency": 29.6,
+        "relativeFrequency": 13.69,
+        "absoluteFrequency": 222,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Limited (fixed-term contract)",
+          "de": "befristet (Zeitvertrag)"
+        },
+        "validRelativeFrequency": 39.73,
+        "relativeFrequency": 18.37,
+        "absoluteFrequency": 298,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Limited (via ABM)",
+          "de": "befristet (über ABM)"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Apprenticeship contract",
+          "de": "Ausbildungsverhältnis"
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Fee/works contract",
+          "de": "Honorar-/Werkvertrag"
+        },
+        "validRelativeFrequency": 11.6,
+        "relativeFrequency": 5.36,
+        "absoluteFrequency": 87,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Self-employed/freelance",
+          "de": "selbständig/freiberuflich"
+        },
+        "validRelativeFrequency": 8.53,
+        "relativeFrequency": 3.95,
+        "absoluteFrequency": 64,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 8,
+        "relativeFrequency": 3.7,
+        "absoluteFrequency": 60,
+        "value": "7"
+      }
+    ],
+    "totalValidRelativeFrequency": 46.24,
+    "totalValidAbsoluteFrequency": 750,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ221f",
+  "surveyNumbers": [3],
+  "indexInDataSet": 449,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st occupation: type of employment",
+    "de": "1. Tätigkeit: Art des Arbeitsverhältnisses"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

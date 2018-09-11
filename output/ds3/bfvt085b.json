@@ -1,0 +1,132 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\r\nLängerfristige Weiterbildungen mit einem zeitlichen Aufwand von über 100 Stunden (z. B. Facharztausbildung, psych.-therap. Zusatzausbildung)\r\nAnzahl (ggf. circa):"
+      },
+      "questionNumber": "6.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "1",
+      "highWhisker": 1,
+      "lowWhisker": 1,
+      "thirdQuartile": "1",
+      "firstQuartile": "1",
+      "standardDeviation": 0.2579,
+      "median": "1",
+      "kurtosis": 12.5741,
+      "skewness": 3.4021,
+      "maximum": "2",
+      "minimum": "1",
+      "meanValue": 1.069
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 18,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 24.6,
+        "absoluteFrequency": 399,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 21.64,
+        "absoluteFrequency": 351,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 93.1,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 27,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.9,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.79,
+    "totalValidAbsoluteFrequency": 29,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfvt02==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1264,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "scope (further education outside university): longer term over 100 hours (no.)",
+    "de": "Umfang (WB außerhalb HS): längerfristig über 100 Std. (Anzahl)"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

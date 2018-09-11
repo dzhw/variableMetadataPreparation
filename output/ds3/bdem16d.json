@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\r\nIch sehe keine gute Lösung für mich, Kind und Beruf miteinander zu vereinbaren"
+      },
+      "questionNumber": "8.4",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "5",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "5",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 32,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 8.82,
+        "absoluteFrequency": 143,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Of great significance",
+          "de": "sehr große Rolle"
+        },
+        "validRelativeFrequency": 13.5,
+        "relativeFrequency": 5.18,
+        "absoluteFrequency": 84,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 16.56,
+        "relativeFrequency": 6.35,
+        "absoluteFrequency": 103,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 17.85,
+        "relativeFrequency": 6.84,
+        "absoluteFrequency": 111,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 18.33,
+        "relativeFrequency": 7.03,
+        "absoluteFrequency": 114,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Of no significance",
+          "de": "gar keine Rolle"
+        },
+        "validRelativeFrequency": 33.76,
+        "relativeFrequency": 12.95,
+        "absoluteFrequency": 210,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 38.35,
+    "totalValidAbsoluteFrequency": 622,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bdem10==2"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1291,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "reason no children: compatibility child and career",
+    "de": "Grund keine Kinder: Vereinbarkeit Kind und Beruf"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

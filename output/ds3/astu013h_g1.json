@@ -1,0 +1,155 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nAngestrebte Abschlussart (z. B. Diplom-FH, Bachelor, Lehramt/Gymnasium)"
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 96.86,
+        "absoluteFrequency": 1571,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Master's degree",
+          "de": "Magister"
+        },
+        "validRelativeFrequency": 5.88,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bachelor Uni ",
+          "de": "Bachelor Uni"
+        },
+        "validRelativeFrequency": 41.18,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Specialist Uni",
+          "de": "Master Uni"
+        },
+        "validRelativeFrequency": 33.33,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 17,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Teaching profession primary/lower secondary school",
+          "de": "Lehramt Grund-/Hauptschule"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Teaching profession secondary modern school",
+          "de": "Lehramt Realschule"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Teaching profession grammar school",
+          "de": "Lehramt Gymnasium"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": "Abschluss außerhalb BRD"
+        },
+        "validRelativeFrequency": 13.73,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.14,
+    "totalValidAbsoluteFrequency": 51,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open responses on the type of degree in coded form. The project’s own code list was used (cf. cl-dzhw-2).",
+      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 55,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "3rd course of study: degree aimed for (1st minor)",
+    "de": "3. Studium: angestrebter Abschluss (1. Nebenfach)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

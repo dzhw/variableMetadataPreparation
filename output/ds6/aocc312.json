@@ -1,0 +1,134 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Arbeiten Sie in einer Position, in der …\r\nheutige Stelle"
+      },
+      "questionNumber": "5.11",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 14.24,
+        "absoluteFrequency": 231,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 45.38,
+        "absoluteFrequency": 736,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "zwingend erforderlich"
+        },
+        "validRelativeFrequency": 9.62,
+        "relativeFrequency": 3.88,
+        "absoluteFrequency": 63,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "die Regel"
+        },
+        "validRelativeFrequency": 40.76,
+        "relativeFrequency": 16.46,
+        "absoluteFrequency": 267,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nicht die Regel, aber von Vorteil"
+        },
+        "validRelativeFrequency": 26.26,
+        "relativeFrequency": 10.6,
+        "absoluteFrequency": 172,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Bedeutung"
+        },
+        "validRelativeFrequency": 23.36,
+        "relativeFrequency": 9.43,
+        "absoluteFrequency": 153,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 40.38,
+    "totalValidAbsoluteFrequency": 655,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ312",
+  "surveyNumbers": [3],
+  "indexInDataSet": 613,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "letzte Stelle: Relevanz Hochschulabschluss für Position"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit dem Studienabschluss ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um die Wege beim Übergang aus dem Studium in das Berufsleben und in andere Lebensbereiche besser verstehen zu können, bitten wir Sie, Ihre seit Anfang 2006 ausgeübten Tätigkeiten in den folgenden Kalender einzutragen."
+      },
+      "questionNumber": "1.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 2.9652,
+      "mode": "10",
+      "highWhisker": 12,
+      "lowWhisker": 1,
+      "thirdQuartile": "10",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "8",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "12",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "validRelativeFrequency": 6.85,
+        "relativeFrequency": 6.85,
+        "absoluteFrequency": 375,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "validRelativeFrequency": 5.99,
+        "relativeFrequency": 5.99,
+        "absoluteFrequency": 328,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 7.55,
+        "relativeFrequency": 7.55,
+        "absoluteFrequency": 413,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April",
+          "de": "April"
+        },
+        "validRelativeFrequency": 9.28,
+        "relativeFrequency": 9.28,
+        "absoluteFrequency": 508,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "validRelativeFrequency": 5.23,
+        "relativeFrequency": 5.23,
+        "absoluteFrequency": 286,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 4.48,
+        "relativeFrequency": 4.48,
+        "absoluteFrequency": 245,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "validRelativeFrequency": 6.29,
+        "relativeFrequency": 6.29,
+        "absoluteFrequency": 344,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 9.85,
+        "relativeFrequency": 9.85,
+        "absoluteFrequency": 539,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 11.44,
+        "relativeFrequency": 11.44,
+        "absoluteFrequency": 626,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "validRelativeFrequency": 23.02,
+        "relativeFrequency": 23.02,
+        "absoluteFrequency": 1260,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "November",
+          "de": "November "
+        },
+        "validRelativeFrequency": 6.92,
+        "relativeFrequency": 6.92,
+        "absoluteFrequency": 379,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 3.11,
+        "relativeFrequency": 3.11,
+        "absoluteFrequency": 170,
+        "value": "12"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 5473,
+    "totalAbsoluteFrequency": 5473
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "double",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3, 4],
+  "indexInDataSet": 3,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "Start Episode (month)",
+    "de": "Startzeitpunkt Episode (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

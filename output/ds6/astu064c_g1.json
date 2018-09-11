@@ -1,0 +1,343 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie im Rahmen Ihres abgeschlossenen  Studiums Auslandserfahrungen gemacht?\r\nLand"
+      },
+      "questionNumber": "1.6",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 96.73,
+        "absoluteFrequency": 1569,
+        "code": -988
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "code": -966
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Frankreich"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Spanien"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Belgien"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Dänemark"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "29"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Polen"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Tschechische Republik"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "36"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ungarn"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ukraine"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "45"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Schweiz"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "51"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "sonstiges Europa"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "52"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "USA"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "55"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Kanada"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "56"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Brasilien"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "58"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Naher Osten, Arabien"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "67"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "ehem. GUS-Staaten"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "68"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "China, Volksrepublik"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "69"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Japan"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "71"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Indien"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "74"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Malaysia"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "75"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Mittleren und Fernosten (sonstige Länder)"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "77"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Australien"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "80"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Südafrika"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "89"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "sonstiges Afrika"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "90"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ausland ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "99"
+      }
+    ],
+    "totalValidRelativeFrequency": 2.59,
+    "totalValidAbsoluteFrequency": 42,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open country responses in coded form. The project’s own code list was used (cf. cl-dzhw-1).",
+      "de": "Diese Variable enthält die offen erfassten Länderangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-1)."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 178,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "sonstige Auslandsaufenthalte: Land"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

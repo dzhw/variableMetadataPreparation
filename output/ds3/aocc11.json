@@ -1,0 +1,115 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach dem ersten Studienabschluss  ein Praktikum/Praktika absolviert?"
+      },
+      "questionNumber": "4.10",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 13.91,
+        "relativeFrequency": 13.87,
+        "absoluteFrequency": 225,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 76.95,
+        "relativeFrequency": 76.76,
+        "absoluteFrequency": 1245,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Internship was during postgraduate studies",
+          "de": "Praktikum war im Folgestudium"
+        },
+        "validRelativeFrequency": 9.15,
+        "relativeFrequency": 9.12,
+        "absoluteFrequency": 148,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 99.75,
+    "totalValidAbsoluteFrequency": 1618,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 411,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "This variable also contains the category 3 “internship was during postgraduate studies” in addition to the categories \"yes\" and \"no\" planned for the questionnaire. Insofar as graduates have begun a further course of study and complete the internship in the context of these studies (this is above all the case with Bachelor graduates doing a Master’s), then the \"yes\" response was marked and the new category 3 was assigned instead.",
+    "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien \"ja\" und \"nein\" zusätzlich auch die Kategorie 3 \"Praktikum war im Folgestudium\".\r\nSofern Absolventen nach dem Studium ein weiteres Studium aufgenommen haben und im Rahmen dieses Studiums das Praktikum absolvierten (dies ist vor allem bei Bachelorabsolventen im Masterstudium der Fall), dann wurde die Angabe „ja“ gestrichen und stattdessen die neue Kategorie 3 vergeben."
+  },
+  "label": {
+    "en": "internship after degree",
+    "de": "Praktikum nach Studium"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

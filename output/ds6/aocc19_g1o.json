@@ -1,0 +1,84 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie Ihre genaue Berufsbezeichnung,  Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte  Ihrer derzeitigen bzw. – falls Sie  zurzeit nicht erwerbstätig sind – letzten Tätigkeit an.\r\nGenaue Berufsbezeichnung"
+      },
+      "questionNumber": "5.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": null,
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "anonymisiert"
+        },
+        "relativeFrequency": 100,
+        "absoluteFrequency": 1622,
+        "code": -967
+      }
+    ],
+    "validResponses": null,
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 0,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if aocc18==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the open responses gathered on career in coded form. As code list the Federal Statistical Office of Germany key list for the \"German Classification of Occupations (KldB)\" from 1992 (cf. cl-destatis-kldb-1992) was used and the responses were coded using four digits.",
+      "de": "Diese Variable enthält die offen erfassten Berufsangaben in codierter Form. Als Codierliste wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992) und die Angaben vierstellig codiert."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-aocc19",
+  "panelIdentifier": "gra2005-ds3-occ19_g1",
+  "surveyNumbers": [3],
+  "indexInDataSet": 439,
+  "accessWays": ["onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Beruf: KldB 1992 (4-stellig) (anonymisiert)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

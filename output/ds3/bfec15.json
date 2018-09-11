@@ -1,0 +1,124 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach Ihrem ersten Studienabschluss aus dem Jahr 2004/05 an Bildungsangeboten von Hochschulen teilgenommen, die zu einem akademischen Abschluss führen (z.B. Master, Diplom), oder sich an anderen hochschulischen Qualifizierungsangeboten mit einer Mindestdauer von einem Semester beteiligt (z. B. Zertifikatskurse, Module)?"
+      },
+      "questionNumber": "5.1",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 82.41,
+        "relativeFrequency": 40.44,
+        "absoluteFrequency": 656,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "No, but planned",
+          "de": "nein, aber geplant"
+        },
+        "validRelativeFrequency": 2.39,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "No, not planned",
+          "de": "nein, nicht geplant"
+        },
+        "validRelativeFrequency": 15.2,
+        "relativeFrequency": 7.46,
+        "absoluteFrequency": 121,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 49.08,
+    "totalValidAbsoluteFrequency": 796,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1115,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "This variable also contains the category 4 \"no, no further information\" in addition to the categories planned for the questionnaire.  \r\nThis was assigned (and replaces the original response of the surveyed person) if in Question 5.2 an individual spell of study was falsely entered and had to be deleted (e.g. PhD which has already been surveyed).",
+    "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien zusätzlich auch die Kategorie 4 \"nein, o.n.A\".\r\nDiese wurde vergeben (und ersetzt die Originalangabe des Befragten), wenn in Frage 5.2 fälschlicherweise eine einzelne Studienepisode, die gestrichen werden musste (z.B. Promotion, die bereits vorher schon abgefragt wurde), eingetragen wurde."
+  },
+  "label": {
+    "en": "participation in further education at university",
+    "de": "Teilnahme Fort-/Weiterbildung an HS"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

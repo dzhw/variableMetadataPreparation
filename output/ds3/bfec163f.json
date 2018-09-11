@@ -1,0 +1,133 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\r\nStand"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 39.95,
+        "absoluteFrequency": 648,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 8.63,
+        "absoluteFrequency": 140,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Started",
+          "de": "begonnen"
+        },
+        "validRelativeFrequency": 33.33,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Already completed",
+          "de": "bereits abgeschlossen"
+        },
+        "validRelativeFrequency": 55.56,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Terminated",
+          "de": "abgebrochen"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.55,
+    "totalValidAbsoluteFrequency": 9,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfec15==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1157,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "In individual cases psychological-therapeutic additional trainings (PTZ) were reported. Thus the planned answer categories were supplemented by the categories 5 \"started PTZ\", 6 \"already completed PTZ\" and 7 \"terminated PTZ\", which were only assigned for PTZ participants.\r\nIf \"no certification persued\" was stated for type of degree, the additional code 0 \"no certification persued\" was assigned.",
+    "de": "In Einzelfällen wurden psychologisch-therapeutische Zusatzausbildungen (PTZ) angegeben. Deshalb wurden die vorgesehenen Antwortkategorien erweitert um die Kategorien 5 \"begonnen PTZ\", 6 \"bereits abgeschlossen PTZ\" und 7 \"abgebrochen PTZ\", die entsprechend nur für PTZ-ler vergeben wurden. \r\nSofern bei der Abschlussart \"kein Abschluss angestrebt\" angegeben wurde, so wurde hier zudem der Code 0 \"kein Abschluss angestrebt\" vergeben."
+  },
+  "label": {
+    "en": "3rd further education at university: status",
+    "de": "3. Weiterbildung an HS: Stand"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

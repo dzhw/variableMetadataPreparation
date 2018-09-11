@@ -1,0 +1,203 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?"
+      },
+      "questionNumber": "4.10",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.65,
+        "absoluteFrequency": 43,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "500 and more employees",
+          "de": "500 und mehr Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 44.67,
+        "relativeFrequency": 20.41,
+        "absoluteFrequency": 331,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "250 to 499 employees",
+          "de": "250 bis 499 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 7.15,
+        "relativeFrequency": 3.27,
+        "absoluteFrequency": 53,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "100 to 249 employees",
+          "de": "100 bis 249 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 10.53,
+        "relativeFrequency": 4.81,
+        "absoluteFrequency": 78,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "50 to 99 employees",
+          "de": "50 bis 99 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 8.77,
+        "relativeFrequency": 4.01,
+        "absoluteFrequency": 65,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "20 to 49 employees",
+          "de": "20 bis 49 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 8.91,
+        "relativeFrequency": 4.07,
+        "absoluteFrequency": 66,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "10 to 19 employees",
+          "de": "10 bis 19 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 8.23,
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 61,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "5 to 9 employees",
+          "de": "5 bis 9 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 5.26,
+        "relativeFrequency": 2.4,
+        "absoluteFrequency": 39,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Less than 5 employees",
+          "de": "unter 5 Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 2.56,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Freelance, no employees",
+          "de": "Freischaffend, ohne Mitarbeiter/innen"
+        },
+        "validRelativeFrequency": 3.37,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 0.54,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "10"
+      }
+    ],
+    "totalValidRelativeFrequency": 45.68,
+    "totalValidAbsoluteFrequency": 741,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ262a",
+  "surveyNumbers": [4],
+  "indexInDataSet": 1028,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "size of company",
+    "de": "Betriebsgröße"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

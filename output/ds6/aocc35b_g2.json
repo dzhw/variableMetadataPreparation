@@ -1,0 +1,504 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie vor Studienbeginn eine berufliche Ausbildung abgeschlossen?"
+      },
+      "questionNumber": "6.6",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "78",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 76.45,
+        "absoluteFrequency": 1240,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "landwirtsch. Berufe"
+        },
+        "validRelativeFrequency": 4.37,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "tierwirtsch. Berufe"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Gartenbauberufe"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Jagd-/Forstberufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Steinbearbeiter/innen"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe i. Glasherstellung/-bearbeitung"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Chemieberufe"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe i. Hütten- und Halbzeugindustrie"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Maschinenbau- u. -wartungsberufe"
+        },
+        "validRelativeFrequency": 2.46,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Fahr-/Flugzeugbau- und wartungsberufe"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Werkzeug- und Formenbauberufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "29"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Feinwerktechnische u. verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Elektroberufe"
+        },
+        "validRelativeFrequency": 7.38,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 27,
+        "value": "31"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe i. Back-/Konditor-/Süßwarenherstellung"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "39"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Köchinnen/Köche"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "41"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Tiefbauberufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "46"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ausbauberufe"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "48"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe i. Holz- und Kunststoffverarbeitung"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Maler/innen, Lackierer/innen u. verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "51"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Techniker/innen a.n.g"
+        },
+        "validRelativeFrequency": 2.73,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "62"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "technische Sonderfachkräfte"
+        },
+        "validRelativeFrequency": 6.83,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "63"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "techn. Zeichner/innen u. verwandte Berufe"
+        },
+        "validRelativeFrequency": 2.19,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "64"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Industrie-/Werk-/Ausbildungsmeister/innen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "65"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Groß- u. Einzelhandelskaufleute, Ein- u. Verkaufsfachleute"
+        },
+        "validRelativeFrequency": 4.1,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "value": "67"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Warenkaufleute, a.n.g., Vertreter/innen"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "68"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bank-/Bausparkassen-/Versicherungsfachleute"
+        },
+        "validRelativeFrequency": 13.11,
+        "relativeFrequency": 2.96,
+        "absoluteFrequency": 48,
+        "value": "69"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "andere Dienstleistungskaufleute u. zugehörige Berufe"
+        },
+        "validRelativeFrequency": 5.19,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "70"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe d. Nachrichtenverkehrs"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "73"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe i. Unternehmensleitung, -beratung, -prüfung"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "75"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Rechnungskaufleute, Informatiker/innen"
+        },
+        "validRelativeFrequency": 6.56,
+        "relativeFrequency": 1.48,
+        "absoluteFrequency": 24,
+        "value": "77"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Büroberufe, kaufmänn. Angestellte, a.n.g."
+        },
+        "validRelativeFrequency": 21.04,
+        "relativeFrequency": 4.75,
+        "absoluteFrequency": 77,
+        "value": "78"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sicherheitsberufe, a.n.g."
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "80"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "publizist., Übersetzungs-, Bibliotheks- und verwandte Berufe"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "82"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "künstlerische u. zugeordnete Berufe"
+        },
+        "validRelativeFrequency": 2.19,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "83"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Ärztinnen/Ärzte, Apotheker/innen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "84"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "übrige Gesundheitsberufe"
+        },
+        "validRelativeFrequency": 7.1,
+        "relativeFrequency": 1.6,
+        "absoluteFrequency": 26,
+        "value": "85"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "soziale Berufe"
+        },
+        "validRelativeFrequency": 0.82,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "86"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Lehrer/innen"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "87"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe i. Körperpflege"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "90"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Hotel- u. Gaststättenberufe"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "91"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Arbeitskräfte mit (noch) nicht bestimmten Beruf"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "98"
+      }
+    ],
+    "totalValidRelativeFrequency": 22.56,
+    "totalValidAbsoluteFrequency": 366,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "gen aocc35b_g2 = aocc35b_g1d\r\nreplace aocc35b_g2 = floor(aocc35b_g2/10) if aocc35b_g2>0",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of variable aocc35b_g1d (Kldb 3 digits). For aggregation the Federal Statistical Office of Germany  key list for the \"Classification of Professions (KldB)\" from 1992 was used (cf. cl-destatis-kldb-1992). For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-3-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992). Zu Einzelheiten vgl. die Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-aocc35b",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 651,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Ausbildungsberuf: KldB 1992 (2-stellig)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

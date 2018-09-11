@@ -1,0 +1,104 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann wurden Ihre Kinder geboren?\r\n3.Kind\r\nJahr"
+      },
+      "questionNumber": "6.13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "1994",
+      "highWhisker": 1994,
+      "lowWhisker": 1994,
+      "thirdQuartile": "1994",
+      "firstQuartile": "1994",
+      "standardDeviation": null,
+      "median": "1994",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "1994",
+      "minimum": "1994",
+      "meanValue": 1994
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.62,
+        "absoluteFrequency": 75,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 95.31,
+        "absoluteFrequency": 1546,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1994"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.06,
+    "totalValidAbsoluteFrequency": 1,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if adem10==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-dem113b",
+  "surveyNumbers": [3],
+  "indexInDataSet": 665,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "If the surveyed persons stated that they have more than three children, the dates of birth of the eldest and youngest child were retained. Answers on the middle children were deleted and replaced by the responses on the youngest and eldest child.",
+    "de": "Haben die Befragten mehr als drei Kinder angegeben, wurden die Geburtsdaten des ältesten und des jüngsten Kindes beibehalten. Angaben zu den mittleren Kindern wurden gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt."
+  },
+  "label": {
+    "en": null,
+    "de": "3. Kind: Geburt (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

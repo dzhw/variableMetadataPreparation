@@ -1,0 +1,115 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Bundesland bzw. in welchem Land und in welchem Ort haben Sie Ihre Studienberechtigung erworben?"
+      },
+      "questionNumber": "6.5",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Former Federal States",
+          "de": "alte Bundesländer"
+        },
+        "validRelativeFrequency": 70.83,
+        "relativeFrequency": 70.35,
+        "absoluteFrequency": 1141,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New Federal States (incl. Berlin)",
+          "de": "neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 26.44,
+        "relativeFrequency": 26.26,
+        "absoluteFrequency": 426,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 2.73,
+        "relativeFrequency": 2.71,
+        "absoluteFrequency": 44,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 99.32,
+    "totalValidAbsoluteFrequency": 1611,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode adem05a_g2d (1/10 = 1) (11/16 = 2) (19 = 3) (20 = 4), gen(adem05a_g3)",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of the location where the higher education entrance qualification was gained. For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Ort der Studienberechtigung generiert. Zu Einzelheiten vgl. Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-adem05a",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 646,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: location (new/old f. state or abroad)",
+    "de": "Studienberechtigung: Ort  (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

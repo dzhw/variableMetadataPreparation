@@ -1,0 +1,153 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie das Praktikum/die Praktika  insgesamt hinsichtlich folgender Merkmale?\r\nEinhaltung des Praktikumsplans durch den Arbeitgeber"
+      },
+      "questionNumber": "4.16",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.85,
+        "absoluteFrequency": 30,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 76.76,
+        "absoluteFrequency": 1245,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nicht gegeben"
+        },
+        "relativeFrequency": 11.04,
+        "absoluteFrequency": 179,
+        "code": -949
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 26.79,
+        "relativeFrequency": 2.77,
+        "absoluteFrequency": 45,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 41.67,
+        "relativeFrequency": 4.32,
+        "absoluteFrequency": 70,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 22.02,
+        "relativeFrequency": 2.28,
+        "absoluteFrequency": 37,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 5.36,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 10.36,
+    "totalValidAbsoluteFrequency": 168,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc11,1,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 430,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Beurteilung Praktikum: Einhaltung des Praktikumsplans"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

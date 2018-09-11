@@ -1,0 +1,155 @@
+Package: assertthat
+Version: 0.2.0
+Imports: tools
+Suggests: testthat
+License: GPL-3
+
+Package: backports
+Version: 1.1.2
+Depends: R (>= 3.0.0)
+Imports: utils
+License: GPL-2
+Archs: i386, x64
+
+Package: cli
+Version: 1.0.0
+Depends: R (>= 2.10)
+Imports: assertthat, crayon, methods
+Suggests: covr, mockery, testthat, withr
+License: MIT + file LICENSE
+
+Package: crayon
+Version: 1.3.4
+Imports: grDevices, methods, utils
+Suggests: mockery, rstudioapi, testthat, withr
+License: MIT + file LICENSE
+
+Package: digest
+Version: 0.6.16
+Depends: R (>= 3.1.0)
+Suggests: knitr, rmarkdown
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: getopt
+Version: 1.20.2
+Imports: stats
+Suggests: testthat
+License: GPL (>= 2)
+
+Package: glue
+Version: 1.3.0
+Depends: R (>= 3.1)
+Imports: methods
+Suggests: testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,
+        RSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,
+        ggplot2, dplyr, withr
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: here
+Version: 0.1
+Imports: rprojroot (>= 1.2)
+License: GPL-3
+
+Package: jsonlite
+Version: 1.5
+Depends: methods
+Suggests: httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: magrittr
+Version: 1.5
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+
+Package: optparse
+Version: 1.6.0
+Depends: R (>= 2.9.0)
+Imports: methods, getopt (>= 1.20.2)
+Suggests: knitr (>= 1.15.19), stringr, testthat
+License: GPL (>= 2)
+
+Package: packrat
+Version: 0.4.9-3
+Depends: R (>= 3.0.0)
+Imports: tools, utils
+Suggests: testthat (>= 0.7), devtools, httr, knitr, rmarkdown
+Enhances: BiocInstaller
+License: GPL-2
+
+Package: praise
+Version: 1.0.0
+Suggests: testthat
+License: MIT + file LICENSE
+
+Package: R6
+Version: 2.2.2
+Depends: R (>= 3.0)
+Suggests: knitr, microbenchmark, pryr, testthat, ggplot2, scales
+License: MIT + file LICENSE
+
+Package: Rcpp
+Version: 0.12.18
+Depends: R (>= 3.0.0)
+Imports: methods, utils
+Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten
+        (>= 0.1.2)
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: readstata13
+Version: 0.9.2
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-2 | file LICENSE
+Archs: i386, x64
+
+Package: rlang
+Version: 0.2.2
+Depends: R (>= 3.1.0)
+Suggests: crayon, knitr, methods, pillar, rmarkdown (>= 0.2.65),
+        testthat, covr
+License: GPL-3
+Archs: i386, x64
+
+Package: rprojroot
+Version: 1.3-2
+Depends: R (>= 3.0.0)
+Imports: backports
+Suggests: testthat, mockr, knitr, withr, rmarkdown
+License: GPL-3
+
+Package: stringi
+Version: 1.1.7
+Depends: R (>= 2.14)
+Imports: tools, utils, stats
+License: file LICENSE
+License_is_FOSS: yes
+Archs: i386, x64
+
+Package: stringr
+Version: 1.3.1
+Depends: R (>= 3.1)
+Imports: glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)
+Suggests: covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat
+License: GPL-2 | file LICENSE
+
+Package: testthat
+Version: 2.0.0
+Depends: R (>= 3.1)
+Imports: cli, crayon, digest, magrittr, methods, praise, R6 (>= 2.2.0),
+        rlang, withr (>= 2.0.0)
+Suggests: covr, devtools, knitr, rmarkdown, xml2
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: withr
+Version: 2.1.2
+Depends: R (>= 3.0.2)
+Imports: stats, graphics, grDevices
+Suggests: testthat, covr, lattice, DBI, RSQLite, methods, knitr,
+        rmarkdown
+License: GPL (>= 2)

@@ -1,0 +1,165 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "6",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, completed",
+          "de": "ja,abgeschlossen"
+        },
+        "validRelativeFrequency": 5.02,
+        "relativeFrequency": 2.47,
+        "absoluteFrequency": 40,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, but not yet finished",
+          "de": "ja, aber noch nicht beendet"
+        },
+        "validRelativeFrequency": 22.58,
+        "relativeFrequency": 11.1,
+        "absoluteFrequency": 180,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Yes, but terminated",
+          "de": "ja, aber abgebrochen"
+        },
+        "validRelativeFrequency": 1.76,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Yes, currently interrupted",
+          "de": "ja, zurzeit unterbrochen"
+        },
+        "validRelativeFrequency": 0.25,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "No, but planned",
+          "de": "nein, aber geplant"
+        },
+        "validRelativeFrequency": 6.02,
+        "relativeFrequency": 2.96,
+        "absoluteFrequency": 48,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "No, not planned",
+          "de": "nein, nicht geplant"
+        },
+        "validRelativeFrequency": 63.36,
+        "relativeFrequency": 31.13,
+        "absoluteFrequency": 505,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Yes, completed; previously interrupted for a prolonged amount of time",
+          "de": "ja abgeschlossen, zuvor länger unterbrochen"
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "No, no further information",
+          "de": "nein, ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 0.38,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "8"
+      }
+    ],
+    "totalValidRelativeFrequency": 49.14,
+    "totalValidAbsoluteFrequency": 797,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 763,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "This variable also contains in addition to the six categories planned for the questionnaire the categories 7 \"yes, completed, previously interrupted\", 8 \"no, no further information\" and 9 \"yes, completed, second doctorate\". These categories were assigned based on the other responses of the surveyed persons.",
+    "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen sechs Kategorien zusätzlich auch die Kategorien 7 \"ja abgeschlossen, zuvor länger unterbrochen\", 8 \"nein, ohne nähere Angabe\" und 9 \"ja abgeschlossen, Zweitpromotion\". Diese Kategorien wurden basierend auf den anderen Angaben der Befragten im Fragebogen gebildet."
+  },
+  "label": {
+    "en": "PhD: status",
+    "de": "Promotion: Status"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

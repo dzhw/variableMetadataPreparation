@@ -1,0 +1,175 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen höchsten beruflichen Abschluss  haben Ihre Eltern?\r\nMutter"
+      },
+      "questionNumber": "6.15",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "6",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 27,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Promotion"
+        },
+        "validRelativeFrequency": 2.07,
+        "relativeFrequency": 2.03,
+        "absoluteFrequency": 33,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 26.65,
+        "relativeFrequency": 26.2,
+        "absoluteFrequency": 425,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Fachhoch-, Ingenieurschule, Handelsakademie"
+        },
+        "validRelativeFrequency": 6.71,
+        "relativeFrequency": 6.6,
+        "absoluteFrequency": 107,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Fachschule (nur DDR)"
+        },
+        "validRelativeFrequency": 4.2,
+        "relativeFrequency": 4.13,
+        "absoluteFrequency": 67,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Meister-/Technikerschule, Berufs-/Fachakademie"
+        },
+        "validRelativeFrequency": 5.58,
+        "relativeFrequency": 5.49,
+        "absoluteFrequency": 89,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "beruflich-betriebliche Ausbildung"
+        },
+        "validRelativeFrequency": 36.18,
+        "relativeFrequency": 35.57,
+        "absoluteFrequency": 577,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "beruflich-schulische Ausbildung"
+        },
+        "validRelativeFrequency": 11.22,
+        "relativeFrequency": 11.04,
+        "absoluteFrequency": 179,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keinen beruflichen Abschluss"
+        },
+        "validRelativeFrequency": 5.14,
+        "relativeFrequency": 5.06,
+        "absoluteFrequency": 82,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "beruflicher Abschluss unbekannt"
+        },
+        "validRelativeFrequency": 2.26,
+        "relativeFrequency": 2.22,
+        "absoluteFrequency": 36,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.34,
+    "totalValidAbsoluteFrequency": 1595,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 669,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Mutter: höchster beruflicher Abschluss"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche berufliche Stellung nehmen Ihre  Eltern ein?\r\nMutter"
+      },
+      "questionNumber": "6.16",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.28,
+        "absoluteFrequency": 37,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Selbständige/r"
+        },
+        "validRelativeFrequency": 11.74,
+        "relativeFrequency": 11.47,
+        "absoluteFrequency": 186,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Angestellte/r"
+        },
+        "validRelativeFrequency": 60.38,
+        "relativeFrequency": 59,
+        "absoluteFrequency": 957,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Beamter/Beamtin"
+        },
+        "validRelativeFrequency": 15.52,
+        "relativeFrequency": 15.17,
+        "absoluteFrequency": 246,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Arbeiter/in"
+        },
+        "validRelativeFrequency": 6.44,
+        "relativeFrequency": 6.29,
+        "absoluteFrequency": 102,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nie erwerbstätig gewesen"
+        },
+        "validRelativeFrequency": 2.84,
+        "relativeFrequency": 2.77,
+        "absoluteFrequency": 45,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "berufliche Stellung unbekannt"
+        },
+        "validRelativeFrequency": 3.09,
+        "relativeFrequency": 3.02,
+        "absoluteFrequency": 49,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 97.72,
+    "totalValidAbsoluteFrequency": 1585,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 671,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Mutter: berufliche Stellung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

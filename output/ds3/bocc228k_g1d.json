@@ -1,0 +1,133 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen."
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "DE11 Stuttgart",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 48.09,
+        "absoluteFrequency": 780,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "DE11 Stuttgart"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "DE30 Berlin"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "DE92 Hannover"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.25,
+    "totalValidAbsoluteFrequency": 4,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation from the employment location (gathered as 3 digit postcode). For aggregation the NUTS classification of the Statistical Office of the European Union (Eurostat) from 2010 was used (cf. cl-eurostat-nuts-2010). The assignment of the 3 digit postcodes to the NUTS-2-Regions was made using a self-generated list (cf. cl-dzhw-5). If the 3 digit postcode could not be unambiguously assigned to a NUTS-2-Region, the Missing Value \"-966 non-determinable\" was assigned.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus dem Tätigkeitsort (erfasst als dreistellige Postleitzahl) generiert. Zur Aggregation wurde die NUTS-Klassifikation des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 verwendet (vgl. cl-eurostat-nuts-2010). Die Zuordnung der dreistelligen Postleitzahlen zu den NUTS-2-Regionen erfolgte anhand einer selbst erstellten Liste (vgl. cl-dzhw-5). Sofern die dreistellige Postleitzahl nicht eindeutig einer NUTS-2-Region zugeordnet werden konnte, wurde der Missingwert \"-966 nicht bestimmbar\" vergeben."
+    }
+  },
+  "storageType": "character",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bocc228k",
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 968,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "8th job: location of work (NUTS-2)",
+    "de": "8. Tätigkeit: Arbeitsort (NUTS-2)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "string",
+    "de": "string"
+  }
+}

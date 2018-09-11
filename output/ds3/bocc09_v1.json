@@ -1,0 +1,124 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihre derzeitige Tätigkeit bzw. Situation bezeichnen?"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 3,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "3",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Short-term",
+          "de": "kurzfristig"
+        },
+        "validRelativeFrequency": 20.94,
+        "relativeFrequency": 10.17,
+        "absoluteFrequency": 165,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Medium-term",
+          "de": "mittelfristig"
+        },
+        "validRelativeFrequency": 47.59,
+        "relativeFrequency": 23.12,
+        "absoluteFrequency": 375,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Long-term",
+          "de": "langfristig"
+        },
+        "validRelativeFrequency": 31.47,
+        "relativeFrequency": 15.29,
+        "absoluteFrequency": 248,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 48.58,
+    "totalValidAbsoluteFrequency": 788,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ09",
+  "surveyNumbers": [4],
+  "indexInDataSet": 692,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "title of current situation",
+    "de": "Bezeichnung derzeitige Situation"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

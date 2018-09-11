@@ -1,0 +1,125 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie vor, sich beruflich selbständig zu  machen oder freiberuflich tätig zu sein?"
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 6.41,
+        "absoluteFrequency": 104,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, am already",
+          "de": "ja, bin es schon"
+        },
+        "validRelativeFrequency": 4.68,
+        "relativeFrequency": 4.38,
+        "absoluteFrequency": 71,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, seriously thinking about it",
+          "de": "ja, erwäge es ernsthaft"
+        },
+        "validRelativeFrequency": 12.38,
+        "relativeFrequency": 11.59,
+        "absoluteFrequency": 188,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "no, a lot speaks against it right now",
+          "de": "nein, zurzeit spricht einiges dagegen"
+        },
+        "validRelativeFrequency": 44.33,
+        "relativeFrequency": 41.49,
+        "absoluteFrequency": 673,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, out of the question",
+          "de": "nein, kommt nicht in Frage"
+        },
+        "validRelativeFrequency": 38.6,
+        "relativeFrequency": 36.13,
+        "absoluteFrequency": 586,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 93.59,
+    "totalValidAbsoluteFrequency": 1518,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ07",
+  "surveyNumbers": [3],
+  "indexInDataSet": 406,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "planned self-employment",
+    "de": "geplante Selbständigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

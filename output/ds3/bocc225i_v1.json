@@ -1,0 +1,213 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nBerufliche Stellung"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 43.28,
+        "absoluteFrequency": 702,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Management employee",
+          "de": "leitende Angestellte"
+        },
+        "validRelativeFrequency": 2.44,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Scientifically-qualified employee, middle management  ",
+          "de": "wissenschaftlich qualifizierte Angestellte mit mittlerer Leitung"
+        },
+        "validRelativeFrequency": 8.54,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Scientifically-qualified employee, not management  ",
+          "de": "wissenschaftlich qualifizierte Angestellte ohne Leitung"
+        },
+        "validRelativeFrequency": 28.05,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 23,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Qualified employee",
+          "de": "qualifizierte Angestellte"
+        },
+        "validRelativeFrequency": 14.63,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Executive employee",
+          "de": "ausführende Angestellte"
+        },
+        "validRelativeFrequency": 4.88,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Trainee, acknowledgement trainee etc.",
+          "de": "Referendar/in, Anerkennungspraktikant/in etc."
+        },
+        "validRelativeFrequency": 1.22,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Self-employed, freelance",
+          "de": "Selbständige in freien Berufen"
+        },
+        "validRelativeFrequency": 9.76,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Self-employed, entrepreneurs",
+          "de": "Selbständige Unternehmer/innen"
+        },
+        "validRelativeFrequency": 3.66,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Self-employed with fee/works contract",
+          "de": "Selbständige mit Honorar-/Werkvertrag"
+        },
+        "validRelativeFrequency": 15.85,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Official in upper ranks of civil service",
+          "de": "Beamte im höheren Dienst"
+        },
+        "validRelativeFrequency": 2.44,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Unskilled/trained employee",
+          "de": "un-/angelernte Arbeiter/innen"
+        },
+        "validRelativeFrequency": 8.54,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "14"
+      }
+    ],
+    "totalValidRelativeFrequency": 5.06,
+    "totalValidAbsoluteFrequency": 82,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-occ225i",
+  "surveyNumbers": [4],
+  "indexInDataSet": 918,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "5th job: job position",
+    "de": "5. Tätigkeit: berufliche Stellung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

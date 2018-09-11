@@ -1,0 +1,115 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie …"
+      },
+      "questionNumber": "6.10",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 23,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "No partner",
+          "de": "ohne Partner/in"
+        },
+        "validRelativeFrequency": 41.96,
+        "relativeFrequency": 41.37,
+        "absoluteFrequency": 671,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Permanent relationship",
+          "de": "feste Partnerschaft"
+        },
+        "validRelativeFrequency": 53.66,
+        "relativeFrequency": 52.9,
+        "absoluteFrequency": 858,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Married",
+          "de": "verheiratet"
+        },
+        "validRelativeFrequency": 4.38,
+        "relativeFrequency": 4.32,
+        "absoluteFrequency": 70,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.58,
+    "totalValidAbsoluteFrequency": 1599,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-dem08",
+  "surveyNumbers": [3],
+  "indexInDataSet": 657,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "family status",
+    "de": "Familienstand"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

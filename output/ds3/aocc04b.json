@@ -1,0 +1,244 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bei wie vielen Firmen/Institutionen haben Sie  sich beworben? Wie oft wurden Sie zu Einstellungsgesprächen  eingeladen und wie viele Stellenangebote  haben Sie erhalten?\r\nZahl der Einstellungsgespräche"
+      },
+      "questionNumber": "4.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "1",
+      "highWhisker": 6,
+      "lowWhisker": 0,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": 2.6184,
+      "median": "2",
+      "kurtosis": 10.5175,
+      "skewness": 2.2716,
+      "maximum": "20",
+      "minimum": "0",
+      "meanValue": 2.5586
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 63.63,
+        "absoluteFrequency": 1032,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14.77,
+        "relativeFrequency": 5.36,
+        "absoluteFrequency": 87,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 27.5,
+        "relativeFrequency": 9.99,
+        "absoluteFrequency": 162,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 20.88,
+        "relativeFrequency": 7.58,
+        "absoluteFrequency": 123,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 13.07,
+        "relativeFrequency": 4.75,
+        "absoluteFrequency": 77,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.98,
+        "relativeFrequency": 2.9,
+        "absoluteFrequency": 47,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.94,
+        "relativeFrequency": 2.16,
+        "absoluteFrequency": 35,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.72,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.7,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.53,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.85,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 36.31,
+    "totalValidAbsoluteFrequency": 589,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 369,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "number of interviews",
+    "de": "Anzahl Einstellungsgespräche"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

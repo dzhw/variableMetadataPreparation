@@ -1,0 +1,333 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Tragen Sie hier bitte die für Sie wichtigsten Themen bzw. Fachgebiete dieser Veranstaltungen ein."
+      },
+      "questionNumber": "6.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "18",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.95,
+        "absoluteFrequency": 210,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 24.6,
+        "absoluteFrequency": 399,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Engineering topics",
+          "de": "ingenieurwissenschaftliche Themen"
+        },
+        "validRelativeFrequency": 1.06,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Natural sciences topics",
+          "de": "naturwissenschaftliche Themen"
+        },
+        "validRelativeFrequency": 0.53,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Mathematical fields/statistics",
+          "de": "mathematische Gebiete/Statistik"
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Social sciences topics",
+          "de": "sozialwissenschaftliche Themen"
+        },
+        "validRelativeFrequency": 2.66,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Pedagogical/psychological topics",
+          "de": "pädagogische/psychologische Themen"
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Medical specialist fields",
+          "de": "medizinische Spezialgebiete"
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "IT special knowledge",
+          "de": "informationstechnisches Spezialwissen"
+        },
+        "validRelativeFrequency": 4.26,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 8,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Management knowledge",
+          "de": "Managementwissen"
+        },
+        "validRelativeFrequency": 8.51,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Economic skills",
+          "de": "Wirtschaftskenntnisse"
+        },
+        "validRelativeFrequency": 5.32,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "National law",
+          "de": "nationales Recht"
+        },
+        "validRelativeFrequency": 2.66,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "International law",
+          "de": "internationales Recht"
+        },
+        "validRelativeFrequency": 1.6,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Administration, organisation",
+          "de": "Verwaltung, Organistaion"
+        },
+        "validRelativeFrequency": 5.32,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Sales training",
+          "de": "Vertriebsschulungen"
+        },
+        "validRelativeFrequency": 2.66,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "EDP applications",
+          "de": "EDV-Anwendungen"
+        },
+        "validRelativeFrequency": 11.17,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Foreign languages",
+          "de": "Fremdsprachen"
+        },
+        "validRelativeFrequency": 9.57,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 18,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Employee management/Personnel development",
+          "de": "Mitarbeiterführung/Personalentwicklung"
+        },
+        "validRelativeFrequency": 5.85,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "Communication/interaction training",
+          "de": "Kommunikations-/Interaktionstraining"
+        },
+        "validRelativeFrequency": 18.62,
+        "relativeFrequency": 2.16,
+        "absoluteFrequency": 35,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "International relations, cultural knowledge, regional studies",
+          "de": "internationale Beziehungen, Kulturkenntnisse, Landeskunde"
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "Ecological topics",
+          "de": "ökologische Themen"
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "Occupational ethics topics",
+          "de": "berufsethische Themen"
+        },
+        "validRelativeFrequency": 1.06,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "Business start-up",
+          "de": "Existenzgründung"
+        },
+        "validRelativeFrequency": 1.06,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": "Occupational health care, work safety",
+          "de": "betriebliches Gesundheitswesen, Arbeitssicherheit"
+        },
+        "validRelativeFrequency": 4.79,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "Other topics",
+          "de": "Sonstige Themen"
+        },
+        "validRelativeFrequency": 2.66,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "24"
+      }
+    ],
+    "totalValidRelativeFrequency": 11.59,
+    "totalValidAbsoluteFrequency": 188,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfvt02==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1213,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "further education outside uni: content 3",
+    "de": "Weiterbildung außerhalb HS: Inhalt 3"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

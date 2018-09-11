@@ -1,0 +1,135 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen  Werdegangs aus heutiger Sicht verhalten?\r\nGleich nach dem Abitur bzw. der Fachhochschulreife berufstätig werden"
+      },
+      "questionNumber": "5.14",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "5",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "5",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 18.31,
+        "absoluteFrequency": 297,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 5.66,
+        "relativeFrequency": 4.62,
+        "absoluteFrequency": 75,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "validRelativeFrequency": 5.96,
+        "relativeFrequency": 4.87,
+        "absoluteFrequency": 79,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "validRelativeFrequency": 14.72,
+        "relativeFrequency": 12.02,
+        "absoluteFrequency": 195,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "validRelativeFrequency": 23.55,
+        "relativeFrequency": 19.24,
+        "absoluteFrequency": 312,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 50.11,
+        "relativeFrequency": 40.94,
+        "absoluteFrequency": 664,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 81.69,
+    "totalValidAbsoluteFrequency": 1325,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 629,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Retrospektive: direkte Berufstätigkeit nach Schulabschluss"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse und Examina haben Sie erlangt?\r\nName und Ort (ggf. Standort) der Hochschule\r\n2. Abschluss"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open university responses in coded form. As code list for German universities the Federal Statistical Office of Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) was used (cf. cl-destatis-hochschule-2005). To the list were added special codes for German universities which were only contained in older key lists, or responses which could not be assigned. Moreover special codes for foreign universities were introduced.",
+      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) herangezogen (vgl. cl-destatis-hochschule-2005). Ergänzt wurde diese Liste zum einen um Sondercodes für deutsche Hochschulen, die nur in älteren Schlüsselverzeichnissen enthalten waren, sowie Angaben, die nicht zuordenbar waren. Zum anderen wurden Sondercodes für ausländische Hochschulen aufgenommen."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-astu022g",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 136,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "2nd degree: university (anonymized)",
+    "de": "2. Abschluss: Hochschule (anonymisiert)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

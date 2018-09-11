@@ -1,0 +1,295 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann erwarben Sie Ihre Studienberechtigung?\r\nim Jahre"
+      },
+      "questionNumber": "6.3",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2001",
+      "highWhisker": 2003,
+      "lowWhisker": 1996,
+      "thirdQuartile": "2001",
+      "firstQuartile": "1999",
+      "standardDeviation": 2.2827,
+      "median": "2001",
+      "kurtosis": 18.1412,
+      "skewness": -2.8323,
+      "maximum": "2003",
+      "minimum": "1978",
+      "meanValue": 1999.9888
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 17,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1978"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1979"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1985"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1986"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1987"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1988"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "1989"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.25,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "1990"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "1991"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "1992"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "1993"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "1994"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.18,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "1995"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.62,
+        "relativeFrequency": 2.59,
+        "absoluteFrequency": 42,
+        "value": "1996"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 4.13,
+        "absoluteFrequency": 67,
+        "value": "1997"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.41,
+        "relativeFrequency": 7.34,
+        "absoluteFrequency": 119,
+        "value": "1998"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 10.4,
+        "relativeFrequency": 10.3,
+        "absoluteFrequency": 167,
+        "value": "1999"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 19.69,
+        "relativeFrequency": 19.48,
+        "absoluteFrequency": 316,
+        "value": "2000"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 27.79,
+        "relativeFrequency": 27.5,
+        "absoluteFrequency": 446,
+        "value": "2001"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 23.74,
+        "relativeFrequency": 23.49,
+        "absoluteFrequency": 381,
+        "value": "2002"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "2003"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.95,
+    "totalValidAbsoluteFrequency": 1605,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 642,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: year of qualification",
+    "de": "Studienberechtigung: Jahr des Erwerbs"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

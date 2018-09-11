@@ -1,0 +1,132 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 8.63,
+        "absoluteFrequency": 140,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 61,
+        "code": -966
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "University",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 84.85,
+        "relativeFrequency": 31.07,
+        "absoluteFrequency": 504,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Polytechnic",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 15.15,
+        "relativeFrequency": 5.55,
+        "absoluteFrequency": 90,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 36.62,
+    "totalValidAbsoluteFrequency": 594,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bfec15==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of the university variable. For aggregation the Federal Statistical Office in Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) (cf. cl-destatis-hochschule-2005) was used. Thereafter the universities in Germany are differentiated into 6 types:\r\n1) universities\r\n2) colleges of education\r\n3) theological colleges/seminaries\r\n4) art colleges\r\n5) universities of applied sciences (not incl. technical universities of administration)\r\n6) technical universities of administration\r\n\r\nThese types were aggregated again to the categories \"university\" and \"university of applied sciences\". The variable generated possesses the characteristics 1 \"university\" if dealing with a university, college of education, theological college/seminary or art college. It possesses the characteristics 2 \"university of applied sciences\" if dealing with a university of applied sciences or technical university of administration. \r\n\r\nFor universities whose type could not be defined (this applies to universities abroad and other German universities), the Missing Value -966 \"non-determinable\" was assigned.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Zur Aggregation wurde zunächst die Zuordnung zu einer Hochschulart aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-hochschule-2005) verwendet. Danach werden die Hochschulen in Deutschland in 6 Typen differenziert:\r\n1) Universitäten\r\n2) Pädagogische Hochschulen\r\n3) Theologische/Kirchliche Hochschulen\r\n4) Kunsthochschulen\r\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\r\n6) Verwaltungsfachhochschulen\r\n\r\nDiese Typen wurden nochmals aggregiert zu den beiden Kategorien \"Universität\" und \"Fachhochschule\". Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\r\n\r\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bfec161h",
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1126,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "1st further education at university: type of university",
+    "de": "1. Weiterbildung an HS: Hochschulart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

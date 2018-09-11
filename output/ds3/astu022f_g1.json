@@ -1,0 +1,145 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse und Examina haben Sie erlangt?\r\nAbschlussart\r\n2. Abschluss"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "20",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 96.55,
+        "absoluteFrequency": 1566,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Diploma FH (Technical college)",
+          "de": "Diplom FH"
+        },
+        "validRelativeFrequency": 16.07,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Diploma Uni",
+          "de": "Diplom Uni"
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Specialist FH (Technical college)",
+          "de": "Master FH"
+        },
+        "validRelativeFrequency": 1.79,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Specialist Uni",
+          "de": "Master Uni"
+        },
+        "validRelativeFrequency": 19.64,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": "Abschluss außerhalb BRD"
+        },
+        "validRelativeFrequency": 35.71,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 20,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "Leaving certificate, certificate",
+          "de": "Abschlusszeugnis, Zertifikat"
+        },
+        "validRelativeFrequency": 1.79,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "24"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.45,
+    "totalValidAbsoluteFrequency": 56,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the gathered open responses on the type of degree in coded form. The project’s own code list was used (cf. cl-dzhw-2).",
+      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 135,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "2nd degree: type of degree ",
+    "de": "2. Abschluss: Abschlussart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

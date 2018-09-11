@@ -1,0 +1,382 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie Ihre genaue Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit."
+      },
+      "questionNumber": "4.12",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "84",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.91,
+        "absoluteFrequency": 31,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "code": -966
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Angehörige der regulären Streitkräfte"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Land-, Tier- und Forstwirtschaftsberufe"
+        },
+        "validRelativeFrequency": 3.33,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Gartenbauberufe und Floristik"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Papier- und Druckberufe, technische Mediengestaltung"
+        },
+        "validRelativeFrequency": 0.8,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Maschinen- und Fahrzeugtechnikberufe"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Mechatronik-, Energie- und Elektroberufe"
+        },
+        "validRelativeFrequency": 1.6,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Technische Forschungs-, Entwicklungs-, Konstruktions- und Produktionssteuerungsberufe"
+        },
+        "validRelativeFrequency": 4.79,
+        "relativeFrequency": 2.22,
+        "absoluteFrequency": 36,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Bauplanungs-, Architektur- und Vermessungsberufe"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "31"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Hoch- und Tiefbauberufe"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "32"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Mathematik-, Biologie-, Chemie- und Physikberufe"
+        },
+        "validRelativeFrequency": 5.19,
+        "relativeFrequency": 2.4,
+        "absoluteFrequency": 39,
+        "value": "41"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Geologie-, Geografie- und Umweltschutzberufe"
+        },
+        "validRelativeFrequency": 0.8,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "42"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Informatik-, Informations- und Kommunikationstechnologieberufe"
+        },
+        "validRelativeFrequency": 14.25,
+        "relativeFrequency": 6.6,
+        "absoluteFrequency": 107,
+        "value": "43"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verkehrs- und Logistikberufe (außer Fahrzeugführung)"
+        },
+        "validRelativeFrequency": 1.2,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "51"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Schutz-, Sicherheits- und Überwachungsberufe"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "53"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Einkaufs-, Vertriebs- und Handelsberufe"
+        },
+        "validRelativeFrequency": 3.06,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 23,
+        "value": "61"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Verkaufsberufe"
+        },
+        "validRelativeFrequency": 1.2,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "62"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Tourismus-, Hotel- und Gaststättenberufe"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "63"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe in Unternehmensführung und -organisation"
+        },
+        "validRelativeFrequency": 11.05,
+        "relativeFrequency": 5.12,
+        "absoluteFrequency": 83,
+        "value": "71"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe in Finanzdienstleistungen, Rechnungswesen und Steuerberatung"
+        },
+        "validRelativeFrequency": 5.06,
+        "relativeFrequency": 2.34,
+        "absoluteFrequency": 38,
+        "value": "72"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Berufe in Recht und Verwaltung"
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "73"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Medizinische Gesundheitsberufe"
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "81"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Nichtmedizinische Gesundheits-, Körperpflege- und Wellnessberufe, Medizintechnik"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "82"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Erziehung, soziale und hauswirtschaftliche Berufe, Theologie"
+        },
+        "validRelativeFrequency": 1.6,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 12,
+        "value": "83"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Lehrende und ausbildende Berufe"
+        },
+        "validRelativeFrequency": 25.83,
+        "relativeFrequency": 11.96,
+        "absoluteFrequency": 194,
+        "value": "84"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Sprach-, literatur-, geistes-, gesellschafts- und wirtschaftswissenschaftliche Berufe"
+        },
+        "validRelativeFrequency": 5.06,
+        "relativeFrequency": 2.34,
+        "absoluteFrequency": 38,
+        "value": "91"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Werbung, Marketing, kaufmännische und redaktionelle Medienberufe"
+        },
+        "validRelativeFrequency": 10.12,
+        "relativeFrequency": 4.69,
+        "absoluteFrequency": 76,
+        "value": "92"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "Darstellende und unterhaltende Berufe"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 5,
+        "value": "94"
+      }
+    ],
+    "totalValidRelativeFrequency": 46.3,
+    "totalValidAbsoluteFrequency": 751,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "gen bocc19_g3v1 = bocc19_g1v1o\r\nreplace bocc19_g3v1 = floor(bocc19_g3v1/1000) if bocc19_g3v1>0\r\nreplace bocc19_g3v1=-966 if bocc19_g1v1o==99994",
+    "description": {
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of variable bocc19_g1v1o (Kldb 5 digits). For aggregation the Federal Statistical Office of Germany key list for the \"Classification of Professions (KldB)\" from 2010 was used (cf. cl-destatis-kldb-2010). For details cf. the generation rule.",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-5-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 2010 herangezogen (vgl. cl-destatis-kldb-2010). Zu Einzelheiten vgl. die Generierungsregel."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2005-ds3-bocc19_v1",
+  "panelIdentifier": "gra2005-ds3-occ19_g3",
+  "surveyNumbers": [4],
+  "indexInDataSet": 1033,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": "Beruf: KldB 2010 (2-stellig)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

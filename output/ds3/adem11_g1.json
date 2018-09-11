@@ -1,0 +1,124 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann wurden Ihre Kinder geboren?"
+      },
+      "questionNumber": "6.13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "1",
+      "highWhisker": 1,
+      "lowWhisker": 1,
+      "thirdQuartile": "1",
+      "firstQuartile": "1",
+      "standardDeviation": 0.4647,
+      "median": "1",
+      "kurtosis": 6.014,
+      "skewness": 1.9489,
+      "maximum": "3",
+      "minimum": "1",
+      "meanValue": 1.22
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.6,
+        "absoluteFrequency": 26,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 95.31,
+        "absoluteFrequency": 1546,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 80,
+        "relativeFrequency": 2.47,
+        "absoluteFrequency": 40,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 18,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.08,
+    "totalValidAbsoluteFrequency": 50,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if adem10==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable was generally constructed from the stated dates of birth of the children. The number of children does not however always correspond to the stated sum of children (dates of birth), because with more than three stated children the responses on the middle children were deleted and replaced by the responses on the youngest and eldest child.",
+      "de": "Diese Variable wurde in der Regel anhand der angegebenen Geburtsdaten der Kinder gebildet. Die Anzahl der Kinder entspricht jedoch nicht immer der Summe der angegebenen Kinder (Geburtsdaten), weil bei mehr als drei angegebenen Kindern Angaben zu den mittleren Kindern gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt wurden."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2005-ds3-dem11_g1",
+  "surveyNumbers": [3],
+  "indexInDataSet": 666,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "number of children",
+    "de": "Anzahl der Kinder"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

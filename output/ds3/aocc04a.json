@@ -1,0 +1,554 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bei wie vielen Firmen/Institutionen haben Sie  sich beworben? Wie oft wurden Sie zu Einstellungsgesprächen  eingeladen und wie viele Stellenangebote  haben Sie erhalten?\r\nZahl der Bewerbungen"
+      },
+      "questionNumber": "4.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 10.3782,
+      "mode": "1",
+      "highWhisker": 47,
+      "lowWhisker": 0,
+      "thirdQuartile": "20",
+      "firstQuartile": "2",
+      "standardDeviation": 23.6775,
+      "median": "8",
+      "kurtosis": 12.2885,
+      "skewness": 2.7638,
+      "maximum": "170",
+      "minimum": "0",
+      "meanValue": 16.3158
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 63.63,
+        "absoluteFrequency": 1032,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.57,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 21,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 17.32,
+        "relativeFrequency": 6.29,
+        "absoluteFrequency": 102,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.45,
+        "relativeFrequency": 2.34,
+        "absoluteFrequency": 38,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.47,
+        "relativeFrequency": 2.71,
+        "absoluteFrequency": 44,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.41,
+        "relativeFrequency": 1.6,
+        "absoluteFrequency": 26,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.62,
+        "relativeFrequency": 2.4,
+        "absoluteFrequency": 39,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.53,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.72,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 16,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.64,
+        "relativeFrequency": 2.77,
+        "absoluteFrequency": 45,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.4,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 20,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.51,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.26,
+        "relativeFrequency": 1.91,
+        "absoluteFrequency": 31,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.45,
+        "relativeFrequency": 2.34,
+        "absoluteFrequency": 38,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.51,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.34,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.38,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.34,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.24,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.51,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.21,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "value": "40"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.34,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 2,
+        "value": "42"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.23,
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "53"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "54"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "55"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.53,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 9,
+        "value": "60"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.19,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 7,
+        "value": "70"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "80"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "81"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "85"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "95"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "100"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "102"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.51,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 3,
+        "value": "120"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "126"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "140"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "150"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 1,
+        "value": "170"
+      }
+    ],
+    "totalValidRelativeFrequency": 36.31,
+    "totalValidAbsoluteFrequency": 589,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 368,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "number of applications",
+    "de": "Anzahl Bewerbungen"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

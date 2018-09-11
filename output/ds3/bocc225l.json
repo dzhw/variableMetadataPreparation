@@ -1,0 +1,163 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nFirma/Betrieb"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 43.34,
+        "absoluteFrequency": 703,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 13,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Self-employment",
+          "de": "Selbstständigkeit"
+        },
+        "validRelativeFrequency": 30.86,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Company A",
+          "de": "Betrieb A"
+        },
+        "validRelativeFrequency": 12.35,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 10,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Company B",
+          "de": "Betrieb B"
+        },
+        "validRelativeFrequency": 18.52,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 15,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Company C",
+          "de": "Betrieb C"
+        },
+        "validRelativeFrequency": 17.28,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 14,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Company D",
+          "de": "Betrieb D"
+        },
+        "validRelativeFrequency": 13.58,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 11,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Company E",
+          "de": "Betrieb E"
+        },
+        "validRelativeFrequency": 7.41,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 4.99,
+    "totalValidAbsoluteFrequency": 81,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if bocc39==1 | bocc18_v1==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 924,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "Self-employment was always coded in the same way, independently of how many times it appears in the occupation tableau.",
+    "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht."
+  },
+  "label": {
+    "en": "5th job: company",
+    "de": "5. Tätigkeit: Betrieb"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

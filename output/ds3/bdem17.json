@@ -1,0 +1,154 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Möchten Sie in zukunft Kinder haben bzw. ein weiteres Kind/weitere Kinder haben?"
+      },
+      "questionNumber": "8.6",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.17,
+        "absoluteFrequency": 19,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, soon",
+          "de": "ja, in nächster Zeit"
+        },
+        "validRelativeFrequency": 30.08,
+        "relativeFrequency": 14.43,
+        "absoluteFrequency": 234,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, some time in the future",
+          "de": "ja, später einmal"
+        },
+        "validRelativeFrequency": 43.06,
+        "relativeFrequency": 20.65,
+        "absoluteFrequency": 335,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Yes, but there are reasons against it",
+          "de": "ja, aber Gründe, die dagegen sprechen"
+        },
+        "validRelativeFrequency": 4.5,
+        "relativeFrequency": 2.16,
+        "absoluteFrequency": 35,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "I can't say at the moment",
+          "de": "kann ich zurzeit nicht sagen"
+        },
+        "validRelativeFrequency": 15.94,
+        "relativeFrequency": 7.64,
+        "absoluteFrequency": 124,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 5.66,
+        "relativeFrequency": 2.71,
+        "absoluteFrequency": 44,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Pending birth",
+          "de": "Geburt steht bevor"
+        },
+        "validRelativeFrequency": 0.77,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 6,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 47.97,
+    "totalValidAbsoluteFrequency": 778,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1312,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "This variable also contains the category 6 \"pending birth\" in addition to the categories planned for the questionnaire. This was assigned if it could be inferred from the remaining data that the surveyed person was expecting a child. The response was replaced.",
+    "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien  zusätzlich auch die Kategorie 6 \"Geburt steht bevor\". Diese wurde vergeben, wenn sich aus den restlichen Angaben entnehmen lässt, dass die/der Befragte ein Kind erwartet. Die Angabe der/des Befragten wurde ersetzt."
+  },
+  "label": {
+    "en": "desire to have children",
+    "de": "Kinderwunsch"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}

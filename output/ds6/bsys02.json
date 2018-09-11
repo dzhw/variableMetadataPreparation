@@ -1,0 +1,105 @@
+{
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 4,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 50.86,
+        "absoluteFrequency": 825,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": "Post"
+        },
+        "validRelativeFrequency": 96.85,
+        "relativeFrequency": 47.35,
+        "absoluteFrequency": 768,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": "E-Mail"
+        },
+        "validRelativeFrequency": 3.15,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 25,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 48.89,
+    "totalValidAbsoluteFrequency": 793,
+    "totalAbsoluteFrequency": 1622
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1367,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": "Since a (small) number of questionnaires were sent to the surveyed persons by email or made available by download, these completed questionnaires were marked.",
+    "de": "Da einige (wenige) Fragebögen den Befragten per E-Mail zugesandt bzw. per Downloadmöglichkeit zur Verfügung gestellt wurden, wurden diese beantworteten Fragebögen gekennzeichnet."
+  },
+  "label": {
+    "en": null,
+    "de": "Fragebogenart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  }
+}
