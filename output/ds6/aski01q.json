@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 3.02,
         "absoluteFrequency": 49,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 54.16,
         "relativeFrequency": 52.53,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 36.3,
         "relativeFrequency": 35.2,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 8.2,
         "relativeFrequency": 7.95,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 1.34,
         "relativeFrequency": 1.29,
@@ -98,7 +98,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -111,8 +111,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "wichtig für Beruf: Wissensanwendung"
+    "en": "important for career: application of knowledge",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

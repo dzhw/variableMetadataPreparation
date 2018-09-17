@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 4.75,
         "absoluteFrequency": 77,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 23.37,
         "absoluteFrequency": 379,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "in hohem Maße"
+          "en": "To a high degree",
+          "de": null
         },
         "validRelativeFrequency": 4.11,
         "relativeFrequency": 0.86,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 2.64,
         "relativeFrequency": 0.55,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 2.93,
         "relativeFrequency": 0.62,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 3.52,
         "relativeFrequency": 0.74,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "überhaupt nicht"
+          "en": "Not at all",
+          "de": null
         },
         "validRelativeFrequency": 86.8,
         "relativeFrequency": 18.25,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Wechsel Arbeitsplatz: Selbständigkeit"
+    "en": "change of workplace: self-employment",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

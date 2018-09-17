@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.12,
         "absoluteFrequency": 2,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "alte Bundesländer"
+          "en": "Former Federal States",
+          "de": null
         },
         "validRelativeFrequency": 67.94,
         "relativeFrequency": 27.44,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "neue Bundesländer (inkl. Berlin)"
+          "en": "New Federal States (incl. Berlin)",
+          "de": null
         },
         "validRelativeFrequency": 23.21,
         "relativeFrequency": 9.37,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Deutschland ohne nähere Angabe"
+          "en": "Germany no further details",
+          "de": null
         },
         "validRelativeFrequency": 1.83,
         "relativeFrequency": 0.74,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausland"
+          "en": "Abroad",
+          "de": null
         },
         "validRelativeFrequency": 7.02,
         "relativeFrequency": 2.84,
@@ -116,7 +116,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bfec161h",
@@ -129,8 +129,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Weiterbildung an HS : Hochschulort (neue bzw. alte Bundesländer)"
+    "en": "1st further education at university: location of university (new/old f. state)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

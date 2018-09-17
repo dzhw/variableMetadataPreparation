@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.42,
         "absoluteFrequency": 23,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Selbständige/r"
+          "en": "Self-employed",
+          "de": null
         },
         "validRelativeFrequency": 22.39,
         "relativeFrequency": 22.07,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Angestellte/r"
+          "en": "Employee  ",
+          "de": null
         },
         "validRelativeFrequency": 46.4,
         "relativeFrequency": 45.75,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Beamter/Beamtin"
+          "en": "Official",
+          "de": null
         },
         "validRelativeFrequency": 17.2,
         "relativeFrequency": 16.95,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Arbeiter/in"
+          "en": "Worker  ",
+          "de": null
         },
         "validRelativeFrequency": 11.44,
         "relativeFrequency": 11.28,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nie erwerbstätig gewesen"
+          "en": "Has never been employed",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.31,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "berufliche Stellung unbekannt"
+          "en": "Occupational position unknown",
+          "de": null
         },
         "validRelativeFrequency": 2.25,
         "relativeFrequency": 2.22,
@@ -118,7 +118,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -131,8 +131,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Vater: berufliche Stellung"
+    "en": "father: job position",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

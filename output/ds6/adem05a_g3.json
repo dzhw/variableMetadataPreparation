@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.68,
         "absoluteFrequency": 11,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "alte Bundesländer"
+          "en": "Former Federal States",
+          "de": null
         },
         "validRelativeFrequency": 70.83,
         "relativeFrequency": 70.35,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "neue Bundesländer (inkl. Berlin)"
+          "en": "New Federal States (incl. Berlin)",
+          "de": null
         },
         "validRelativeFrequency": 26.44,
         "relativeFrequency": 26.26,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausland"
+          "en": "Abroad",
+          "de": null
         },
         "validRelativeFrequency": 2.73,
         "relativeFrequency": 2.71,
@@ -88,7 +88,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Ort der Studienberechtigung generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-adem05a",
@@ -101,8 +101,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Studienberechtigung: Ort  (neue, alte Bundesländer bzw. Ausland)"
+    "en": "higher education entrance qualification: location (new/old f. state or abroad)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

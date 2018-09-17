@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 15.84,
         "absoluteFrequency": 257,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 86.45,
         "relativeFrequency": 72.75,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 13.55,
         "relativeFrequency": 11.41,
@@ -78,7 +78,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -91,8 +91,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Job: fachnah selbständig"
+    "en": "job: corresponds to subject (self-employed)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

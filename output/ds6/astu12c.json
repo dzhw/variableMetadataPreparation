@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.11,
         "absoluteFrequency": 18,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "(fast) alle"
+          "en": "(Almost) all",
+          "de": null
         },
         "validRelativeFrequency": 3.12,
         "relativeFrequency": 3.08,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "die meisten"
+          "en": "Most",
+          "de": null
         },
         "validRelativeFrequency": 8.92,
         "relativeFrequency": 8.82,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "manche"
+          "en": "Some",
+          "de": null
         },
         "validRelativeFrequency": 27.18,
         "relativeFrequency": 26.88,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "wenige"
+          "en": "Few",
+          "de": null
         },
         "validRelativeFrequency": 40.96,
         "relativeFrequency": 40.51,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine"
+          "en": "None",
+          "de": null
         },
         "validRelativeFrequency": 19.83,
         "relativeFrequency": 19.61,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Lehrveranstaltungen: verschiedene Fachvertreter(innen)"
+    "en": "course: variety of academic specialists",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

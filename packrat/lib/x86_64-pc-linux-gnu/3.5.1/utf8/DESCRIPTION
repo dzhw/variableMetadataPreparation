@@ -22,7 +22,7 @@ Author: Patrick O. Perry [aut, cph, cre], Unicode, Inc. [cph, dtc]
 Maintainer: Patrick O. Perry <patperry@gmail.com>
 Repository: CRAN
 Date/Publication: 2018-05-24 17:09:15 UTC
-Built: R 3.5.1; x86_64-pc-linux-gnu; 2018-08-27 14:07:19 UTC; unix
+Built: R 3.5.1; x86_64-pc-linux-gnu; 2018-09-17 14:13:33 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: f3f97ce59092abc8ed3fd098a59e236c

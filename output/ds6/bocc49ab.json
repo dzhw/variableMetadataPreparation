@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.34,
         "absoluteFrequency": 38,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "trifft sehr stark zu"
+          "en": "Is definitely the case",
+          "de": null
         },
         "validRelativeFrequency": 34.18,
         "relativeFrequency": 15.72,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 17.29,
         "relativeFrequency": 7.95,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 13.67,
         "relativeFrequency": 6.29,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 16.22,
         "relativeFrequency": 7.46,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft gar nicht zu"
+          "en": "Is definitely not the case",
+          "de": null
         },
         "validRelativeFrequency": 18.63,
         "relativeFrequency": 8.57,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Arbeitsform: häufig Fremdsprachen"
+    "en": "form of work: frequent use of foreign languages",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.12,
         "absoluteFrequency": 2,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -55,8 +55,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nicht bestimmbar"
+          "en": "not determinable",
+          "de": null
         },
         "relativeFrequency": 3.76,
         "absoluteFrequency": 61,
@@ -66,8 +66,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Universität"
+          "en": "University",
+          "de": null
         },
         "validRelativeFrequency": 84.85,
         "relativeFrequency": 31.07,
@@ -76,8 +76,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fachhochschule"
+          "en": "Polytechnic",
+          "de": null
         },
         "validRelativeFrequency": 15.15,
         "relativeFrequency": 5.55,
@@ -105,7 +105,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Zur Aggregation wurde zunächst die Zuordnung zu einer Hochschulart aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-hochschule-2005) verwendet. Danach werden die Hochschulen in Deutschland in 6 Typen differenziert:\r\n1) Universitäten\r\n2) Pädagogische Hochschulen\r\n3) Theologische/Kirchliche Hochschulen\r\n4) Kunsthochschulen\r\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\r\n6) Verwaltungsfachhochschulen\r\n\r\nDiese Typen wurden nochmals aggregiert zu den beiden Kategorien \"Universität\" und \"Fachhochschule\". Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\r\n\r\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bfec161h",
@@ -118,8 +118,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Weiterbildung an HS: Hochschulart"
+    "en": "1st further education at university: type of university",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

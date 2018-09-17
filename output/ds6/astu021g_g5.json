@@ -29,8 +29,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "alte Bundesländer"
+          "en": "Former Federal States",
+          "de": null
         },
         "validRelativeFrequency": 71.7,
         "relativeFrequency": 71.7,
@@ -39,8 +39,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "neue Bundesländer (inkl. Berlin)"
+          "en": "New Federal States (incl. Berlin)",
+          "de": null
         },
         "validRelativeFrequency": 28.3,
         "relativeFrequency": 28.3,
@@ -68,7 +68,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu021g",
@@ -81,8 +81,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Abschluss: Hochschulort (neue bzw. alte Bundesländer)"
+    "en": "1st degree: location of university (new or old federal states)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

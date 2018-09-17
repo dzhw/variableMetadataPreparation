@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.06,
         "absoluteFrequency": 1,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja, gesamte Studiendauer"
+          "en": "Yes, total duration of studies",
+          "de": null
         },
         "validRelativeFrequency": 36.27,
         "relativeFrequency": 36.25,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, während Teilen"
+          "en": "Yes, during parts",
+          "de": null
         },
         "validRelativeFrequency": 25.72,
         "relativeFrequency": 25.71,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, nur gelegentlich"
+          "en": "Yes, only occasionally",
+          "de": null
         },
         "validRelativeFrequency": 22.15,
         "relativeFrequency": 22.13,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 15.85,
         "relativeFrequency": 15.84,
@@ -98,7 +98,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -111,8 +111,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Erwerbstätigkeit während Studium"
+    "en": "employment during studies",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

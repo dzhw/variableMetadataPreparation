@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 14.06,
         "absoluteFrequency": 228,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 47.84,
         "absoluteFrequency": 776,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 81.72,
         "relativeFrequency": 31.13,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 18.28,
         "relativeFrequency": 6.97,
@@ -87,7 +87,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -100,8 +100,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Schwierigkeiten Stellensuche: fehlende Kenntnisse"
+    "en": "difficulties job search: knowledge deficit",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

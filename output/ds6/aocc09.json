@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 11.65,
         "absoluteFrequency": 189,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "kurzfristig"
+          "en": "Short-term",
+          "de": null
         },
         "validRelativeFrequency": 34.33,
         "relativeFrequency": 30.33,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "mittelfristig"
+          "en": "Medium-term",
+          "de": null
         },
         "validRelativeFrequency": 46.27,
         "relativeFrequency": 40.88,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "langfristig"
+          "en": "Long-term",
+          "de": null
         },
         "validRelativeFrequency": 19.4,
         "relativeFrequency": 17.14,
@@ -88,7 +88,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -101,8 +101,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Bezeichnung derzeitige Situation"
+    "en": "designation of current situation",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

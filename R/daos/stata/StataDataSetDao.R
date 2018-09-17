@@ -1,14 +1,12 @@
-suppressPackageStartupMessages(suppressWarnings(library(readstata13)))
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import_package(package = "readstata13", attach = TRUE)
 
-script_basename <- here::here("R")
-source(paste0(script_basename, "/domain/I18nString.R"))
-source(paste0(script_basename, "/daos/stata/utils/calculate_valid_responses.R"))
-source(paste0(script_basename, "/daos/stata/utils/calculate_missings.R"))
-source(paste0(script_basename, "/daos/stata/utils/calculate_statistics.R"))
-source(paste0(script_basename, "/daos/stata/utils/calculate_frequencies.R"))
+modules::import("/R/domain/I18nString", attach = TRUE)
+modules::import("/R/daos/stata/utils/calculate_valid_responses", attach = TRUE)
+modules::import("/R/daos/stata/utils/calculate_missings", attach = TRUE)
+modules::import("/R/daos/stata/utils/calculate_statistics", attach = TRUE)
+modules::import("/R/daos/stata/utils/calculate_frequencies", attach = TRUE)
 
-StataDataSetDao <- R6Class("StataDataSetDao", #nolint
+StataDataSetDao <- R6Class("StataDataSetDao", # nolint
   private = list(
     original_data_set = NULL,
     variable_names = NULL,
@@ -23,7 +21,8 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
       private$languages <- get.lang(ds, print = FALSE)
       # languages in some stata data sets are not correctly specified
       lang_try_en <- try(get.label.name(ds, colnames(ds[1]), "en"),
-        silent = TRUE)
+        silent = TRUE
+      )
       if (class(lang_try_en) == "try-error") {
         private$languages[["languages"]] <- "de"
       } else {
@@ -38,7 +37,7 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
       private$variable_labels <- list()
       if ("de" %in% private$languages[["languages"]]) {
         varlabel_de <- varlabel(ds, lang = "de")
-        if (!is.null(varlabel_de) ){
+        if (!is.null(varlabel_de)) {
           private$variable_labels[["de"]] <- varlabel_de
         } else {
           private$variable_labels[["de"]] <- NULL
@@ -49,11 +48,11 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
       if ("en" %in% private$languages[["languages"]]) {
         private$variable_labels[["en"]] <- varlabel(ds, lang = "en")
         varlabel_en <- varlabel(ds, lang = "en")
-        if (!is.null(varlabel_en) ){
+        if (!is.null(varlabel_en)) {
           private$variable_labels[["en"]] <- varlabel_en
         } else {
           private$variable_labels[["en"]] <- NULL
-          }
+        }
       } else {
         private$variable_labels[["en"]] <- NULL
       }
@@ -63,12 +62,14 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
       private$value_label_container <- list()
       if (private$languages[["default"]] == "de" &&
         "en" %in% private$languages[["languages"]]) {
-        private$value_label_container[["de"]] <- setNames(names(attr(ds, "val.labels")),
-          attr(ds, "names"))
+        private$value_label_container[["de"]] <- setNames(
+          names(attr(ds, "val.labels")),
+          attr(ds, "names")
+        )
         private$value_label_container[["en"]] <- get.label.name(ds, NULL, "en")
       }
       else if (private$languages[["default"]] == "de"
-        && !("en" %in% private$languages[["languages"]])) {
+      && !("en" %in% private$languages[["languages"]])) {
         private$value_label_container[["de"]] <- setNames(names(attr(ds, "val.labels")), attr(ds, "names"))
         private$value_label_container[["en"]] <- NULL
       }
@@ -88,7 +89,7 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
       }
       out <- unname(apply(temp, MARGIN = 2, any))
       return(out)
-    },    is_valid_variable_name = function(variable_name) {
+    }, is_valid_variable_name = function(variable_name) {
       if (variable_name %in% private$variable_names) {
         return(TRUE)
       } else {
@@ -111,13 +112,14 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
       private$missing_conditions[["numeric"]] = missing_conditions_numeric
       cat(paste0("Read stata file \"", data_set_location, "\n"))
       private$original_data_set <- readstata13::read.dta13(data_set_location,
-        convert.factors = FALSE)
+        convert.factors = FALSE
+      )
       private$variable_names <- colnames(private$original_data_set)
       private$extract_languages(private$original_data_set)
       private$extract_variable_labels(private$original_data_set)
       private$extract_value_label_container(private$original_data_set)
       private$label_table <- attr(private$original_data_set, "label.table")
-      private$variables_no_distribution = variables_no_distribution
+      private$variables_no_distribution <- variables_no_distribution
     },
     get_storage_type = function(variable_name) {
       if (private$is_valid_variable_name(variable_name)) {
@@ -126,7 +128,7 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
     },
     get_data_type = function(variable_name) {
       if (private$is_valid_variable_name(variable_name)) {
-        data_type = I18nString$new()
+        data_type <- I18nString$new()
         data_type$set_de(ifelse(typeof(
           private$original_data_set[[variable_name]]) == "character", "string", "numerisch"))
         data_type$set_en(ifelse(typeof(
@@ -136,7 +138,7 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
     },
     get_variable_label = function(variable_name) {
       if (private$is_valid_variable_name(variable_name)) {
-        variable_label = I18nString$new()
+        variable_label <- I18nString$new()
         variable_label$set_de(private$variable_labels[["de"]][[variable_name]])
         variable_label$set_en(private$variable_labels[["en"]][[variable_name]])
         return(variable_label)
@@ -150,15 +152,16 @@ StataDataSetDao <- R6Class("StataDataSetDao", #nolint
           original_values <- private$original_data_set[[variable_name]]
           de <- ""
           en <- ""
-          if ("de" %in% private$languages[["languages"]] ){
-            de = private$label_table[[private$value_label_container$de[variable_name]]]
+          if ("de" %in% private$languages[["languages"]]) {
+            de <- private$label_table[[private$value_label_container$de[variable_name]]]
           }
-          if ("en" %in% private$languages[["languages"]] ){
-            en = private$label_table[[private$value_label_container$en[variable_name]]]
+          if ("en" %in% private$languages[["languages"]]) {
+            en <- private$label_table[[private$value_label_container$en[variable_name]]]
           }
           value_labels <- list(
             de = de,
-            en = en)
+            en = en
+          )
           valid_values <- original_values[!(
             private$evaluate_missing_conditions(original_values, private$missing_conditions[[data_type_en]])
           )]

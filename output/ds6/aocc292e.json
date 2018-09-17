@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 16.52,
         "absoluteFrequency": 268,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 45.63,
         "relativeFrequency": 17.39,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 54.37,
         "relativeFrequency": 20.72,
@@ -87,7 +87,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -100,8 +100,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "letzte Stelle: keine zusätzlichen Gehaltsbestandteile"
+    "en": "last job found: no additional salary elements",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

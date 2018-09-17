@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.91,
         "absoluteFrequency": 31,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -55,8 +55,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nicht bestimmbar"
+          "en": "not determinable",
+          "de": null
         },
         "relativeFrequency": 0.25,
         "absoluteFrequency": 4,
@@ -66,8 +66,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Angehörige der regulären Streitkräfte in sonstigen Rängen"
+          "en": "Member of the regular armed forces in other ranks",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -76,8 +76,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Landwirtschaft"
+          "en": "Agriculture",
+          "de": null
         },
         "validRelativeFrequency": 3.2,
         "relativeFrequency": 1.48,
@@ -86,8 +86,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Tierwirtschaft"
+          "en": "Livestock farming",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -96,8 +96,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gartenbau"
+          "en": "Horticulture",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -106,8 +106,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Technische Mediengestaltung"
+          "en": "Technical media design",
+          "de": null
         },
         "validRelativeFrequency": 0.8,
         "relativeFrequency": 0.37,
@@ -116,8 +116,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinenbau- und Betriebstechnik"
+          "en": "Mechanical and industrial engineering",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -126,8 +126,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Energietechnik"
+          "en": "Energy technology",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -136,8 +136,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elektrotechnik"
+          "en": "Electrical engineering",
+          "de": null
         },
         "validRelativeFrequency": 1.34,
         "relativeFrequency": 0.62,
@@ -146,8 +146,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Technische Forschung und Entwicklung"
+          "en": "Technical research and development",
+          "de": null
         },
         "validRelativeFrequency": 3.34,
         "relativeFrequency": 1.54,
@@ -156,8 +156,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Technisches Zeichnen, Konstruktion und Modellbau"
+          "en": "Technical drawing, construction and modelling technology",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -166,8 +166,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Technische Produktionsplanung und -steuerung"
+          "en": "Technical production planning and management",
+          "de": null
         },
         "validRelativeFrequency": 1.34,
         "relativeFrequency": 0.62,
@@ -176,8 +176,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bauplanung und -überwachung, Architektur"
+          "en": "Construction planning and supervision, architecture",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -186,8 +186,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Vermessung und Kartografie"
+          "en": "Surveying and cartography",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -196,8 +196,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hochbau"
+          "en": "Structural engineering",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -206,8 +206,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mathematik und Statistik"
+          "en": "Mathematics and statistics",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -216,8 +216,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Biologie"
+          "en": "Biology",
+          "de": null
         },
         "validRelativeFrequency": 4.01,
         "relativeFrequency": 1.85,
@@ -226,8 +226,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Chemie"
+          "en": "Chemistry",
+          "de": null
         },
         "validRelativeFrequency": 0.93,
         "relativeFrequency": 0.43,
@@ -236,8 +236,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Physik"
+          "en": "Physics",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -246,8 +246,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Umweltschutztechnik"
+          "en": "Environmental protection technology",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -256,8 +256,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Umweltmanagement und -beratung"
+          "en": "Environmental management and consultancy",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -266,8 +266,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Informatik"
+          "en": "Computer science",
+          "de": null
         },
         "validRelativeFrequency": 2.67,
         "relativeFrequency": 1.23,
@@ -276,8 +276,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "IT-Systemanalyse, IT-Anwendungsberatung und IT-Vertrieb"
+          "en": "IT systems engineering, IT application consultancy and IT sales",
+          "de": null
         },
         "validRelativeFrequency": 2.8,
         "relativeFrequency": 1.29,
@@ -286,8 +286,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "IT-Netzwerktechnik, IT-Koordination, IT-Administration und IT-Organisation"
+          "en": "IT network technology, IT coordination, IT administration and IT organisation",
+          "de": null
         },
         "validRelativeFrequency": 1.74,
         "relativeFrequency": 0.8,
@@ -296,8 +296,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Softwareentwicklung und Programmierung"
+          "en": "Software development and programming",
+          "de": null
         },
         "validRelativeFrequency": 7.08,
         "relativeFrequency": 3.27,
@@ -306,8 +306,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lagerwirtschaft, Post und Zustellung, Güterumschlag"
+          "en": "Warehousing, post and shipment, goods distribution",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -316,8 +316,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Überwachung und Steuerung des Verkehrsbetriebs"
+          "en": "Transport supervision and management ",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -326,8 +326,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kaufleute - Verkehr und Logistik"
+          "en": "Salespersons - transport and logistics ",
+          "de": null
         },
         "validRelativeFrequency": 0.93,
         "relativeFrequency": 0.43,
@@ -336,8 +336,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Objekt-, Personen-, Brandschutz, Arbeitssicherheit"
+          "en": "Fire protection (objects, persons), occupational safety",
+          "de": null
         },
         "validRelativeFrequency": 0.53,
         "relativeFrequency": 0.25,
@@ -346,8 +346,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Polizeivollzugs- und Kriminaldienst, Gerichts- und Justizvollzug"
+          "en": "Police and criminal law enforcement, judicial law enforcement",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -356,8 +356,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Einkauf und Vertrieb"
+          "en": "Purchasing and sales",
+          "de": null
         },
         "validRelativeFrequency": 3.07,
         "relativeFrequency": 1.42,
@@ -366,8 +366,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verkauf (ohne Produktspezialisierung)"
+          "en": "Sales (excl. product specialisation)",
+          "de": null
         },
         "validRelativeFrequency": 0.8,
         "relativeFrequency": 0.37,
@@ -376,8 +376,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verkauf von Bekleidung, Elektronik, Kraftfahrzeugen und Hartwaren"
+          "en": "Sale of clothing, electrical goods, automobiles and hardware",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -386,8 +386,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verkauf von drogerie- und apothekenüblichen Waren, Sanitäts- und Medizinbedarf"
+          "en": "Sale of pharmacist's goods, sanitary and medical supplies",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -396,8 +396,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Tourismus und Sport"
+          "en": "Tourism and sport",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -406,8 +406,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gastronomie"
+          "en": "Gastronomy",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -416,8 +416,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Veranstaltungsservice und -management"
+          "en": "Events service and management",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -426,8 +426,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geschäftsführung und Vorstand"
+          "en": "Business management and board of directors",
+          "de": null
         },
         "validRelativeFrequency": 1.07,
         "relativeFrequency": 0.49,
@@ -436,8 +436,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Unternehmensorganisation und -strategie"
+          "en": "Business organisation and strategy",
+          "de": null
         },
         "validRelativeFrequency": 3.74,
         "relativeFrequency": 1.73,
@@ -446,8 +446,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Büro und Sekretariat"
+          "en": "Office and secretariat",
+          "de": null
         },
         "validRelativeFrequency": 3.34,
         "relativeFrequency": 1.54,
@@ -456,8 +456,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Personalwesen und -dienstleistung"
+          "en": "Human resources and personnel services",
+          "de": null
         },
         "validRelativeFrequency": 2.94,
         "relativeFrequency": 1.36,
@@ -466,8 +466,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Versicherungs- und Finanzdienstleistungen"
+          "en": "Insurance and financial services",
+          "de": null
         },
         "validRelativeFrequency": 2.14,
         "relativeFrequency": 0.99,
@@ -476,8 +476,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechnungswesen, Controlling und Revision"
+          "en": "Accountancy, controlling and auditing",
+          "de": null
         },
         "validRelativeFrequency": 2.67,
         "relativeFrequency": 1.23,
@@ -486,8 +486,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Steuerberatung"
+          "en": "Tax consultancy",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -496,8 +496,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verwaltung"
+          "en": "Administration",
+          "de": null
         },
         "validRelativeFrequency": 0.53,
         "relativeFrequency": 0.25,
@@ -506,8 +506,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Medien-, Dokumentations- und Informationsdienste"
+          "en": "Media, documentation and information services",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -516,8 +516,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Medizinisches Laboratorium"
+          "en": "Medical laboratory",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -526,8 +526,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Nicht ärztliche Therapie und Heilkunde"
+          "en": "Non-medical therapy and medicine",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -536,8 +536,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Pharmazie"
+          "en": "Pharmacy",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -546,8 +546,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Medizin-, Orthopädie- und Rehatechnik"
+          "en": "Medical, orthopaedic and rehabilitation technology",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -556,8 +556,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Erziehung, Sozialarbeit, Heilerziehungspflege"
+          "en": "Education, social work and health education",
+          "de": null
         },
         "validRelativeFrequency": 1.47,
         "relativeFrequency": 0.68,
@@ -566,8 +566,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hauswirtschaft und Verbraucherberatung"
+          "en": "Housekeeping and consumer advice",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -576,8 +576,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehrtätigkeit an allgemeinbildenden Schulen"
+          "en": "Teacher in general education",
+          "de": null
         },
         "validRelativeFrequency": 5.87,
         "relativeFrequency": 2.71,
@@ -586,8 +586,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehrtätigkeit für berufsbildende Fächer, betriebliche Ausbildung und Betriebspädagogik"
+          "en": "Teacher of vocational subjects, management training and management education",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -596,8 +596,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehr- und Forschungstätigkeit an Hochschulen"
+          "en": "Teaching and research in higher education ",
+          "de": null
         },
         "validRelativeFrequency": 17.36,
         "relativeFrequency": 8.01,
@@ -606,8 +606,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehrtätigkeit an außerschulischen Bildungseinrichtungen"
+          "en": "Teacher at extracurricular educational institutions",
+          "de": null
         },
         "validRelativeFrequency": 1.47,
         "relativeFrequency": 0.68,
@@ -616,8 +616,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fahr- und Sportunterricht an außerschulischen Bildungseinrichtungen"
+          "en": "Driving and sport lessons at extracurricular education institutions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -626,8 +626,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sprach- und Literaturwissenschaften"
+          "en": "Linguistics and literary studies",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -636,8 +636,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geisteswissenschaften"
+          "en": "Arts",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -646,8 +646,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gesellschaftswissenschaften"
+          "en": "Social sciences",
+          "de": null
         },
         "validRelativeFrequency": 3.34,
         "relativeFrequency": 1.54,
@@ -656,8 +656,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Wirtschaftswissenschaften"
+          "en": "Business and economics",
+          "de": null
         },
         "validRelativeFrequency": 0.93,
         "relativeFrequency": 0.43,
@@ -666,8 +666,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Werbung und Marketing"
+          "en": "Advertising and marketing",
+          "de": null
         },
         "validRelativeFrequency": 4.27,
         "relativeFrequency": 1.97,
@@ -676,8 +676,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Öffentlichkeitsarbeit"
+          "en": "Public relations",
+          "de": null
         },
         "validRelativeFrequency": 2.54,
         "relativeFrequency": 1.17,
@@ -686,8 +686,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verlags- und Medienwirtschaft"
+          "en": "Publishing and media",
+          "de": null
         },
         "validRelativeFrequency": 0.53,
         "relativeFrequency": 0.25,
@@ -696,8 +696,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Redaktion und Journalismus"
+          "en": "Editorial work and journalism",
+          "de": null
         },
         "validRelativeFrequency": 2.8,
         "relativeFrequency": 1.29,
@@ -706,8 +706,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Theater-, Film- und Fernsehproduktion"
+          "en": "Theatre, film and TV production",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -716,8 +716,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Museumstechnik und -management"
+          "en": "Museum technology and management ",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -745,7 +745,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-5-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 2010 herangezogen (vgl. cl-destatis-kldb-2010). Zu Einzelheiten vgl. die Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc19_v1",
@@ -758,8 +758,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Beruf: KldB 2010 (3-stellig)"
+    "en": "job: German Classification of Occupation 2010 (3 digits)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

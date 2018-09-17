@@ -1,10 +1,7 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import("/R/daos/excel/BaseExcelDao", attach = TRUE)
+modules::import("/R/domain/RelatedQuestion", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/daos/excel/BaseExcelDao.R"))
-source(paste0(script_basename, "/domain/RelatedQuestion.R"))
-
-RelatedQuestionExcelDao <- R6Class("RelatedQuestionExcelDao", #nolint
+RelatedQuestionExcelDao <- R6Class("RelatedQuestionExcelDao", # nolint
   inherit = BaseExcelDao,
   private = list(
     related_questions_map = NULL
@@ -20,9 +17,11 @@ RelatedQuestionExcelDao <- R6Class("RelatedQuestionExcelDao", #nolint
         related_question$set_question_number(as.character(excel_sheet$questionNumber[i]))
         related_question$set_instrument_number(as.numeric(excel_sheet$instrumentNumber[i]))
         related_question$get_related_question_strings()$set_de(
-          excel_sheet$relatedQuestionStrings.de[i])
+          excel_sheet$relatedQuestionStrings.de[i]
+        )
         related_question$get_related_question_strings()$set_en(
-          excel_sheet$relatedQuestionStrings.en[i])
+          excel_sheet$relatedQuestionStrings.en[i]
+        )
         private$related_questions_map[[name]] <-
           c(private$related_questions_map[[name]], related_question)
       }

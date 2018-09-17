@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 96.18,
         "absoluteFrequency": 1560,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Sommersemester"
+          "en": "Summer semester",
+          "de": null
         },
         "validRelativeFrequency": 37.1,
         "relativeFrequency": 1.42,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Wintersemester"
+          "en": "Winter semester",
+          "de": null
         },
         "validRelativeFrequency": 62.9,
         "relativeFrequency": 2.4,
@@ -78,7 +78,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -91,8 +91,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. Studium: Beginn (Semester)"
+    "en": "4th course of study: start (semester)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

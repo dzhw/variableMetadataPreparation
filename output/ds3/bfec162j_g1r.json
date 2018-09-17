@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 6 \"sonstiger Abschluss\" der Variable bfec162i (Abschlussart), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

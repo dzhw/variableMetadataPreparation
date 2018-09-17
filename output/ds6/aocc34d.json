@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 14.86,
         "absoluteFrequency": 241,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "auf jeden Fall"
+          "en": "Definitely",
+          "de": null
         },
         "validRelativeFrequency": 77.34,
         "relativeFrequency": 65.84,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 14.63,
         "relativeFrequency": 12.45,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 4.71,
         "relativeFrequency": 4.01,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 2.46,
         "relativeFrequency": 2.1,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "auf keinen Fall"
+          "en": "Definitely not",
+          "de": null
         },
         "validRelativeFrequency": 0.87,
         "relativeFrequency": 0.74,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Retrospektive: wieder studieren"
+    "en": "in retrospect: study again",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

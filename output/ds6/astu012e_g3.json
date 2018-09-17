@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 31.5,
         "absoluteFrequency": 511,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Sprach- und Kulturwissenschaften"
+          "en": "Language and cultural sciences",
+          "de": null
         },
         "validRelativeFrequency": 23.13,
         "relativeFrequency": 15.84,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sport"
+          "en": "Sports",
+          "de": null
         },
         "validRelativeFrequency": 0.54,
         "relativeFrequency": 0.37,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+          "en": "Legal, economic and social sciences",
+          "de": null
         },
         "validRelativeFrequency": 21.6,
         "relativeFrequency": 14.8,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mathematik, Naturwissenschaften"
+          "en": "Mathematics, natural sciences",
+          "de": null
         },
         "validRelativeFrequency": 35.46,
         "relativeFrequency": 24.29,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Humanmedizin, Gesundheitswissenschaften"
+          "en": "Medicine, health care sciences",
+          "de": null
         },
         "validRelativeFrequency": 0.45,
         "relativeFrequency": 0.31,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Veterinärmedizin"
+          "en": "Veterinary medicine",
+          "de": null
         },
         "validRelativeFrequency": 0.09,
         "relativeFrequency": 0.06,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Agrar-, Forst- und Ernährungswissenschaften"
+          "en": "Agricultural forestry and nutritional sciences  ",
+          "de": null
         },
         "validRelativeFrequency": 7.38,
         "relativeFrequency": 5.06,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ingenieurwissenschaften"
+          "en": "Engineering sciences",
+          "de": null
         },
         "validRelativeFrequency": 10.89,
         "relativeFrequency": 7.46,
@@ -119,8 +119,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kunst, Kunstwissenschaft"
+          "en": "Art, aesthetics",
+          "de": null
         },
         "validRelativeFrequency": 0.45,
         "relativeFrequency": 0.31,
@@ -148,7 +148,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu012e",
@@ -161,8 +161,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Studium: Fächergruppe (Hauptfach)"
+    "en": "2nd course of study: subject group (major)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja"
+          "en": "Yes",
+          "de": null
         },
         "validRelativeFrequency": 87.08,
         "relativeFrequency": 42.79,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 12.92,
         "relativeFrequency": 6.35,
@@ -78,7 +78,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -91,8 +91,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "aktuell erwerbstätig"
+    "en": "currently in employment",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

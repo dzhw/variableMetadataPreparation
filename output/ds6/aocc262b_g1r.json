@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "anonymisiert"
+          "en": "anonymized",
+          "de": null
         },
         "relativeFrequency": 100,
         "absoluteFrequency": 1622,
@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc262a (Betriebsgröße der letzten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\r\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -70,8 +70,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "letzte Stelle: Betriebsform (anonymisiert)"
+    "en": "last job: company form (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

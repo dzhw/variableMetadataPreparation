@@ -3,14 +3,14 @@ suppressPackageStartupMessages(suppressWarnings(library(here)))
 script_basename <- here("R")
 source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
 
-Statistics <- R6Class("Statistics", #nolint
+Statistics <- R6Class("Statistics", # nolint
   inherit = JSONSerializableDomainObject,
   public = list(
     get_mean_value = function() {
       return(private$meanValue)
     },
     set_mean_value = function(mean_value) {
-      private$meanValue <- unbox(mean_value) #nolint
+      private$meanValue <- unbox(mean_value) # nolint
     },
     get_minimum = function() {
       return(private$minimum)
@@ -46,31 +46,31 @@ Statistics <- R6Class("Statistics", #nolint
       return(private$standardDeviation)
     },
     set_standard_deviation = function(standard_deviation) {
-      private$standardDeviation <- unbox(standard_deviation) #nolint
+      private$standardDeviation <- unbox(standard_deviation) # nolint
     },
     get_first_quartile = function() {
       return(private$firstQuartile)
     },
     set_first_quartile = function(first_quartile) {
-      private$firstQuartile <- unbox(first_quartile) #nolint
+      private$firstQuartile <- unbox(first_quartile) # nolint
     },
     get_third_quartile = function() {
       return(private$thirdQuartile)
     },
     set_third_quartile = function(third_quartile) {
-      private$thirdQuartile <- unbox(third_quartile) #nolint
+      private$thirdQuartile <- unbox(third_quartile) # nolint
     },
     get_low_whisker = function() {
       return(private$lowWhisker)
     },
     set_low_whisker = function(low_whisker) {
-      private$lowWhisker <- unbox(low_whisker) #nolint
+      private$lowWhisker <- unbox(low_whisker) # nolint
     },
     get_high_whisker = function() {
       return(private$highWhisker)
     },
     set_high_whisker = function(high_whisker) {
-      private$highWhisker <- unbox(high_whisker) #nolint
+      private$highWhisker <- unbox(high_whisker) # nolint
     },
     get_mode = function() {
       return(private$mode)
@@ -82,7 +82,7 @@ Statistics <- R6Class("Statistics", #nolint
       return(private$meanDeviation)
     },
     set_mean_deviation = function(mean_deviation) {
-      private$meanDeviation <- unbox(mean_deviation) #nolint
+      private$meanDeviation <- unbox(mean_deviation) # nolint
     }
   ),
   private = list(

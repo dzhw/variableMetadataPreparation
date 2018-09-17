@@ -37,8 +37,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Januar"
+          "en": "January",
+          "de": null
         },
         "validRelativeFrequency": 6.85,
         "relativeFrequency": 6.85,
@@ -47,8 +47,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Februar"
+          "en": "February",
+          "de": null
         },
         "validRelativeFrequency": 5.99,
         "relativeFrequency": 5.99,
@@ -57,8 +57,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "März"
+          "en": "March",
+          "de": null
         },
         "validRelativeFrequency": 7.55,
         "relativeFrequency": 7.55,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "April"
+          "en": "April",
+          "de": null
         },
         "validRelativeFrequency": 9.28,
         "relativeFrequency": 9.28,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mai"
+          "en": "May",
+          "de": null
         },
         "validRelativeFrequency": 5.23,
         "relativeFrequency": 5.23,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juni"
+          "en": "June",
+          "de": null
         },
         "validRelativeFrequency": 4.48,
         "relativeFrequency": 4.48,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juli"
+          "en": "July",
+          "de": null
         },
         "validRelativeFrequency": 6.29,
         "relativeFrequency": 6.29,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "August"
+          "en": "August",
+          "de": null
         },
         "validRelativeFrequency": 9.85,
         "relativeFrequency": 9.85,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "September"
+          "en": "September",
+          "de": null
         },
         "validRelativeFrequency": 11.44,
         "relativeFrequency": 11.44,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Oktober"
+          "en": "October",
+          "de": null
         },
         "validRelativeFrequency": 23.02,
         "relativeFrequency": 23.02,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "November "
+          "en": "November",
+          "de": null
         },
         "validRelativeFrequency": 6.92,
         "relativeFrequency": 6.92,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Dezember"
+          "en": "December",
+          "de": null
         },
         "validRelativeFrequency": 3.11,
         "relativeFrequency": 3.11,
@@ -189,8 +189,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Startzeitpunkt Episode (Monat)"
+    "en": "Start Episode (month)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -417,8 +417,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. Tätigkeit: Arbeitsort (NUTS-2)"
+    "en": "4th job: location of work (NUTS-2)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.17,
         "absoluteFrequency": 19,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja, in nächster Zeit"
+          "en": "Yes, soon",
+          "de": null
         },
         "validRelativeFrequency": 30.08,
         "relativeFrequency": 14.43,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, später einmal"
+          "en": "Yes, some time in the future",
+          "de": null
         },
         "validRelativeFrequency": 43.06,
         "relativeFrequency": 20.65,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, aber Gründe, die dagegen sprechen"
+          "en": "Yes, but there are reasons against it",
+          "de": null
         },
         "validRelativeFrequency": 4.5,
         "relativeFrequency": 2.16,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "kann ich zurzeit nicht sagen"
+          "en": "I can't say at the moment",
+          "de": null
         },
         "validRelativeFrequency": 15.94,
         "relativeFrequency": 7.64,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 5.66,
         "relativeFrequency": 2.71,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geburt steht bevor"
+          "en": "Pending birth",
+          "de": null
         },
         "validRelativeFrequency": 0.77,
         "relativeFrequency": 0.37,
@@ -127,7 +127,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -140,8 +140,8 @@
     "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien  zusätzlich auch die Kategorie 6 \"Geburt steht bevor\". Diese wurde vergeben, wenn sich aus den restlichen Angaben entnehmen lässt, dass die/der Befragte ein Kind erwartet. Die Angabe der/des Befragten wurde ersetzt."
   },
   "label": {
-    "en": null,
-    "de": "Kinderwunsch"
+    "en": "desire to have children",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

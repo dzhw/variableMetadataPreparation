@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 19.61,
         "absoluteFrequency": 318,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 30.52,
         "absoluteFrequency": 495,
@@ -366,7 +366,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -379,8 +379,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Stelle: variable Gehaltszulagen (Summe)"
+    "en": "1st job found: variable salary allowances (sum)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ratio",

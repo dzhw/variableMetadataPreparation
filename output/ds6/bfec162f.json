@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 35.82,
         "absoluteFrequency": 581,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "kein Abschluss angestrebt"
+          "en": "No certification pursued",
+          "de": null
         },
         "validRelativeFrequency": 7.89,
         "relativeFrequency": 0.37,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "begonnen"
+          "en": "Started",
+          "de": null
         },
         "validRelativeFrequency": 18.42,
         "relativeFrequency": 0.86,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "bereits abgeschlossen"
+          "en": "Already completed",
+          "de": null
         },
         "validRelativeFrequency": 61.84,
         "relativeFrequency": 2.9,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "abgebrochen"
+          "en": "Terminated",
+          "de": null
         },
         "validRelativeFrequency": 11.84,
         "relativeFrequency": 0.55,
@@ -116,7 +116,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -129,8 +129,8 @@
     "de": "In Einzelfällen wurden psychologisch-therapeutische Zusatzausbildungen (PTZ) angegeben. Deshalb wurden die vorgesehenen Antwortkategorien erweitert um die Kategorien 5 \"begonnen PTZ\", 6 \"bereits abgeschlossen PTZ\" und 7 \"abgebrochen PTZ\", die entsprechend nur für PTZ-ler vergeben wurden. \r\nSofern bei der Abschlussart \"kein Abschluss angestrebt\" angegeben wurde, so wurde hier zudem der Code 0 \"kein Abschluss angestrebt\" vergeben."
   },
   "label": {
-    "en": null,
-    "de": "2. Weiterbildung an HS: Stand"
+    "en": "2nd further education at university: status",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

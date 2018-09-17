@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.31,
         "absoluteFrequency": 5,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 10.82,
         "relativeFrequency": 10.79,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 89.18,
         "relativeFrequency": 88.9,
@@ -78,7 +78,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -91,8 +91,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Unterbrechung Studium: keine"
+    "en": "interruption of studies: none",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

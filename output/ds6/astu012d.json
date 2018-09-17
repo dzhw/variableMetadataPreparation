@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 31.44,
         "absoluteFrequency": 510,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "läuft noch"
+          "en": "still active",
+          "de": null
         },
         "relativeFrequency": 39.03,
         "absoluteFrequency": 633,
@@ -157,7 +157,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,
@@ -170,8 +170,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Studium: Ende (Jahr)"
+    "en": "2nd course of study: end (year)",
+    "de": null
   },
   "scaleLevel": {
     "en": "interval",

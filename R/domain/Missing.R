@@ -4,7 +4,7 @@ script_basename <- here("R")
 source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
 source(paste0(script_basename, "/domain/I18nString.R"))
 
-Missing <- R6Class("Missing", #nolint
+Missing <- R6Class("Missing", # nolint
   inherit = JSONSerializableDomainObject,
   public = list(
     initialize = function() {
@@ -20,13 +20,13 @@ Missing <- R6Class("Missing", #nolint
       return(private$absoluteFrequency)
     },
     set_absolute_frequency = function(absolute_frequency) {
-      private$absoluteFrequency <- unbox(absolute_frequency) #nolint
+      private$absoluteFrequency <- unbox(absolute_frequency) # nolint
     },
     get_relative_frequency = function() {
       return(private$relativeFrequency)
     },
     set_relative_frequency = function(relative_frequency) {
-      private$relativeFrequency <- unbox(relative_frequency) #nolint
+      private$relativeFrequency <- unbox(relative_frequency) # nolint
     },
     get_label = function() {
       return(private$label)

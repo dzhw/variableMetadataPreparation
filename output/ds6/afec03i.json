@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 4.44,
         "absoluteFrequency": 72,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 14.92,
         "absoluteFrequency": 242,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 31.04,
         "relativeFrequency": 25.03,
@@ -59,7 +59,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 33.26,
         "relativeFrequency": 26.82,
@@ -69,7 +69,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 18.2,
         "relativeFrequency": 14.67,
@@ -79,7 +79,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 9.25,
         "relativeFrequency": 7.46,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unwichtig"
+          "en": "Unimportant",
+          "de": null
         },
         "validRelativeFrequency": 8.26,
         "relativeFrequency": 6.66,
@@ -117,7 +117,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -130,8 +130,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Motiv weitere akadem. Qualifikation: fachliche Spezialisierung"
+    "en": "motivation for further acad. qualification: subject specialisation",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

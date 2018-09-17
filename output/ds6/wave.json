@@ -20,8 +20,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Teilnahme 1. Welle"
+          "en": "Participation 1st wave",
+          "de": null
         },
         "validRelativeFrequency": 50.86,
         "relativeFrequency": 50.86,
@@ -30,8 +30,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Teilnahme 1.+ 2. Welle"
+          "en": "Participation 1st + 2nd wave",
+          "de": null
         },
         "validRelativeFrequency": 49.14,
         "relativeFrequency": 49.14,
@@ -59,7 +59,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -72,8 +72,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Welle"
+    "en": "wave",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

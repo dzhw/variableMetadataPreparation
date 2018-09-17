@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 14.18,
         "absoluteFrequency": 230,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "in hohem Maße"
+          "en": "To a high degree",
+          "de": null
         },
         "validRelativeFrequency": 14.79,
         "relativeFrequency": 5.98,
@@ -59,7 +59,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 21.34,
         "relativeFrequency": 8.63,
@@ -69,7 +69,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 25.15,
         "relativeFrequency": 10.17,
@@ -79,7 +79,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 18.6,
         "relativeFrequency": 7.52,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "gar nicht"
+          "en": "Not at all",
+          "de": null
         },
         "validRelativeFrequency": 20.12,
         "relativeFrequency": 8.14,
@@ -117,7 +117,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -130,8 +130,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Zufriedenheit Beschäftigung: Fortbildungsmöglichkeiten"
+    "en": "contentment with occupation: opportunities for further training",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

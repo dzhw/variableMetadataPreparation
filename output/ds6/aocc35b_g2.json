@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.99,
         "absoluteFrequency": 16,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 76.45,
         "absoluteFrequency": 1240,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "landwirtsch. Berufe"
+          "en": "Agricult. professions",
+          "de": null
         },
         "validRelativeFrequency": 4.37,
         "relativeFrequency": 0.99,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "tierwirtsch. Berufe"
+          "en": "Livestock farm. professions",
+          "de": null
         },
         "validRelativeFrequency": 0.55,
         "relativeFrequency": 0.12,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gartenbauberufe"
+          "en": "Horticultural professions",
+          "de": null
         },
         "validRelativeFrequency": 1.09,
         "relativeFrequency": 0.25,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Jagd-/Forstberufe"
+          "en": "Hunting/forestry professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Steinbearbeiter/innen"
+          "en": "Stone processors",
+          "de": null
         },
         "validRelativeFrequency": 0.55,
         "relativeFrequency": 0.12,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe i. Glasherstellung/-bearbeitung"
+          "en": "Glass manufacturing/processing professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Chemieberufe"
+          "en": "Chemistry professions",
+          "de": null
         },
         "validRelativeFrequency": 0.55,
         "relativeFrequency": 0.12,
@@ -118,8 +118,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe i. Hütten- und Halbzeugindustrie"
+          "en": "Smelting and semi-finished product industry professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -128,8 +128,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinenbau- u. -wartungsberufe"
+          "en": "Mechanical engineering and maintenance professions",
+          "de": null
         },
         "validRelativeFrequency": 2.46,
         "relativeFrequency": 0.55,
@@ -138,8 +138,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fahr-/Flugzeugbau- und wartungsberufe"
+          "en": "Automotive/aerospace engineering and maintenance professions ",
+          "de": null
         },
         "validRelativeFrequency": 0.55,
         "relativeFrequency": 0.12,
@@ -148,8 +148,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Werkzeug- und Formenbauberufe"
+          "en": "Tool and mould construction professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -158,8 +158,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Feinwerktechnische u. verwandte Berufe"
+          "en": "Precision engineering and related professions",
+          "de": null
         },
         "validRelativeFrequency": 0.55,
         "relativeFrequency": 0.12,
@@ -168,8 +168,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elektroberufe"
+          "en": "Electrical professions",
+          "de": null
         },
         "validRelativeFrequency": 7.38,
         "relativeFrequency": 1.66,
@@ -178,8 +178,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe i. Back-/Konditor-/Süßwarenherstellung"
+          "en": "Baking/confectionary/sweet goods manufacturing professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -188,8 +188,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Köchinnen/Köche"
+          "en": "Cooks",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -198,8 +198,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Tiefbauberufe"
+          "en": "Civil engineering professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -208,8 +208,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausbauberufe"
+          "en": "Extension building professions",
+          "de": null
         },
         "validRelativeFrequency": 0.82,
         "relativeFrequency": 0.18,
@@ -218,8 +218,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe i. Holz- und Kunststoffverarbeitung"
+          "en": "Wood and synthetic materials processing professions",
+          "de": null
         },
         "validRelativeFrequency": 1.09,
         "relativeFrequency": 0.25,
@@ -228,8 +228,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maler/innen, Lackierer/innen u. verwandte Berufe"
+          "en": "Painters, varnishers and related professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -238,8 +238,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Techniker/innen a.n.g"
+          "en": "Technicians",
+          "de": null
         },
         "validRelativeFrequency": 2.73,
         "relativeFrequency": 0.62,
@@ -248,8 +248,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "technische Sonderfachkräfte"
+          "en": "Technical specialists",
+          "de": null
         },
         "validRelativeFrequency": 6.83,
         "relativeFrequency": 1.54,
@@ -258,8 +258,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "techn. Zeichner/innen u. verwandte Berufe"
+          "en": "Technical draughtsmen and related professions",
+          "de": null
         },
         "validRelativeFrequency": 2.19,
         "relativeFrequency": 0.49,
@@ -268,8 +268,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Industrie-/Werk-/Ausbildungsmeister/innen"
+          "en": "Industrial/plant apprenticeship specialists",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -278,8 +278,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Groß- u. Einzelhandelskaufleute, Ein- u. Verkaufsfachleute"
+          "en": "Wholesale and retail sales staff, purchasing and sales specialists",
+          "de": null
         },
         "validRelativeFrequency": 4.1,
         "relativeFrequency": 0.92,
@@ -288,8 +288,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Warenkaufleute, a.n.g., Vertreter/innen"
+          "en": "Goods purchasing staff/representatives",
+          "de": null
         },
         "validRelativeFrequency": 0.82,
         "relativeFrequency": 0.18,
@@ -298,8 +298,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bank-/Bausparkassen-/Versicherungsfachleute"
+          "en": "Bank/building society/insurance specialists",
+          "de": null
         },
         "validRelativeFrequency": 13.11,
         "relativeFrequency": 2.96,
@@ -308,8 +308,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "andere Dienstleistungskaufleute u. zugehörige Berufe"
+          "en": "Other service sales staff and related professions",
+          "de": null
         },
         "validRelativeFrequency": 5.19,
         "relativeFrequency": 1.17,
@@ -318,8 +318,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe d. Nachrichtenverkehrs"
+          "en": "Communication professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -328,8 +328,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe i. Unternehmensleitung, -beratung, -prüfung"
+          "en": "Business management, consultancy, auditing professions",
+          "de": null
         },
         "validRelativeFrequency": 0.82,
         "relativeFrequency": 0.18,
@@ -338,8 +338,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechnungskaufleute, Informatiker/innen"
+          "en": "Accountants, IT specialists",
+          "de": null
         },
         "validRelativeFrequency": 6.56,
         "relativeFrequency": 1.48,
@@ -348,8 +348,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Büroberufe, kaufmänn. Angestellte, a.n.g."
+          "en": "Office professions, commercial employees",
+          "de": null
         },
         "validRelativeFrequency": 21.04,
         "relativeFrequency": 4.75,
@@ -358,8 +358,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sicherheitsberufe, a.n.g."
+          "en": "Security professions",
+          "de": null
         },
         "validRelativeFrequency": 0.82,
         "relativeFrequency": 0.18,
@@ -368,8 +368,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "publizist., Übersetzungs-, Bibliotheks- und verwandte Berufe"
+          "en": "Journalism, translation, librarian and related professions",
+          "de": null
         },
         "validRelativeFrequency": 0.82,
         "relativeFrequency": 0.18,
@@ -378,8 +378,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "künstlerische u. zugeordnete Berufe"
+          "en": "Artistic and related professions",
+          "de": null
         },
         "validRelativeFrequency": 2.19,
         "relativeFrequency": 0.49,
@@ -388,8 +388,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ärztinnen/Ärzte, Apotheker/innen"
+          "en": "Doctors, pharmacists",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -398,8 +398,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "übrige Gesundheitsberufe"
+          "en": "Other health care professions",
+          "de": null
         },
         "validRelativeFrequency": 7.1,
         "relativeFrequency": 1.6,
@@ -408,8 +408,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "soziale Berufe"
+          "en": "Social welfare professions",
+          "de": null
         },
         "validRelativeFrequency": 0.82,
         "relativeFrequency": 0.18,
@@ -418,8 +418,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehrer/innen"
+          "en": "Teachers",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -428,8 +428,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe i. Körperpflege"
+          "en": "Body care professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -438,8 +438,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hotel- u. Gaststättenberufe"
+          "en": "Hotel and restaurant professions",
+          "de": null
         },
         "validRelativeFrequency": 1.09,
         "relativeFrequency": 0.25,
@@ -448,8 +448,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Arbeitskräfte mit (noch) nicht bestimmten Beruf"
+          "en": "Workers with (as yet) undefined job title",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.06,
@@ -477,7 +477,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-3-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992). Zu Einzelheiten vgl. die Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-aocc35b",
@@ -490,8 +490,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Ausbildungsberuf: KldB 1992 (2-stellig)"
+    "en": "vocational training: German Classification of Occupation 1992 (2 digit)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

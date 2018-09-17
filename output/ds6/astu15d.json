@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.11,
         "absoluteFrequency": 18,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr großen Wert"
+          "en": "Of great value",
+          "de": null
         },
         "validRelativeFrequency": 40.71,
         "relativeFrequency": 40.26,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 40.59,
         "relativeFrequency": 40.14,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 13.84,
         "relativeFrequency": 13.69,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 3.93,
         "relativeFrequency": 3.88,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr geringen Wert"
+          "en": "Of very little value",
+          "de": null
         },
         "validRelativeFrequency": 0.94,
         "relativeFrequency": 0.92,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Wert Studium: persönliche Entwicklung"
+    "en": "value of degree: personal development",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

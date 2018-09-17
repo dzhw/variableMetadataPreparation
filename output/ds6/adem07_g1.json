@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "<=1959"
+          "en": "<=1959",
+          "de": null
         },
         "validRelativeFrequency": 0.06,
         "relativeFrequency": 0.06,
@@ -288,7 +288,7 @@
       "de": "Geburtsjahre bis 1959 wurden zu einer Kategorie aggregiert."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": "gra2005-ds3-adem07",
@@ -301,8 +301,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Geburtsjahr (Top-Codierung)"
+    "en": "year of birth (top coding)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

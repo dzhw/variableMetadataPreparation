@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 40.63,
         "absoluteFrequency": 659,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "unbefristet"
+          "en": "Unlimited",
+          "de": null
         },
         "validRelativeFrequency": 30.4,
         "relativeFrequency": 4.25,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "befristet (Zeitvertrag)"
+          "en": "Limited (fixed-term contract)",
+          "de": null
         },
         "validRelativeFrequency": 35.68,
         "relativeFrequency": 4.99,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "befristet (über ABM)"
+          "en": "Limited (via ABM)",
+          "de": null
         },
         "validRelativeFrequency": 0.44,
         "relativeFrequency": 0.06,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausbildungsverhältnis"
+          "en": "Apprenticeship contract",
+          "de": null
         },
         "validRelativeFrequency": 0.88,
         "relativeFrequency": 0.12,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Honorar-/Werkvertrag"
+          "en": "Fee/works contract",
+          "de": null
         },
         "validRelativeFrequency": 13.66,
         "relativeFrequency": 1.91,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "selbständig/freiberuflich"
+          "en": "Self-employed/freelance",
+          "de": null
         },
         "validRelativeFrequency": 8.81,
         "relativeFrequency": 1.23,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonstiges"
+          "en": "Other",
+          "de": null
         },
         "validRelativeFrequency": 10.13,
         "relativeFrequency": 1.42,
@@ -137,7 +137,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -150,8 +150,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Tätigkeit: Art des Arbeitsverhältnisses"
+    "en": "2nd occupation: type of employment",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

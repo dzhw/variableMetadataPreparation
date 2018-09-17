@@ -106,7 +106,7 @@
       "de": "Diese Variable wurde in der Regel anhand der angegebenen Geburtsdaten der Kinder gebildet. Teilweise haben Befragte jedoch die Anzahl der Kinder angegeben, ohne eine Angabe bei den Geburtsdaten zu machen. Des Weiteren werden Kinder, bei denen bekannt ist, dass sie verstorben sind, hier nicht aufgeführt."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

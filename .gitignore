@@ -1,3 +1,5 @@
 .directory
 R/.Rhistory
 
+.Rproj.user
+packrat/lib*/

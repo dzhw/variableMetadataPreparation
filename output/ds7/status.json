@@ -36,8 +36,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.45,
         "absoluteFrequency": 134,
@@ -47,8 +47,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Arbeitslos"
+          "en": "unemployed",
+          "de": null
         },
         "validRelativeFrequency": 6.86,
         "relativeFrequency": 6.69,
@@ -57,8 +57,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufsausbildung"
+          "en": "vocational training",
+          "de": null
         },
         "validRelativeFrequency": 0.47,
         "relativeFrequency": 0.46,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elternzeit"
+          "en": "parental leave",
+          "de": null
         },
         "validRelativeFrequency": 1.82,
         "relativeFrequency": 1.77,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Haus-/Familienarbeit"
+          "en": "homekeeper",
+          "de": null
         },
         "validRelativeFrequency": 0.66,
         "relativeFrequency": 0.64,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fortbildung"
+          "en": "further education",
+          "de": null
         },
         "validRelativeFrequency": 1.24,
         "relativeFrequency": 1.21,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juniorprof./Habil."
+          "en": "junior professorship/habilitation",
+          "de": null
         },
         "validRelativeFrequency": 0.04,
         "relativeFrequency": 0.04,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Jobben"
+          "en": "temporary work",
+          "de": null
         },
         "validRelativeFrequency": 12.74,
         "relativeFrequency": 12.42,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Praktikum"
+          "en": "internship",
+          "de": null
         },
         "validRelativeFrequency": 11.11,
         "relativeFrequency": 10.84,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Promotion"
+          "en": "PhD",
+          "de": null
         },
         "validRelativeFrequency": 4.81,
         "relativeFrequency": 4.7,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Referendariat"
+          "en": "preparatory civil service",
+          "de": null
         },
         "validRelativeFrequency": 1.07,
         "relativeFrequency": 1.04,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonstiges"
+          "en": "other",
+          "de": null
         },
         "validRelativeFrequency": 5.04,
         "relativeFrequency": 4.92,
@@ -157,8 +157,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "selbständige Erwerbsarbeit"
+          "en": "self-employment",
+          "de": null
         },
         "validRelativeFrequency": 3.13,
         "relativeFrequency": 3.05,
@@ -167,8 +167,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Studium"
+          "en": "course of study",
+          "de": null
         },
         "validRelativeFrequency": 24.87,
         "relativeFrequency": 24.26,
@@ -177,8 +177,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unselbständige Erwerbsarbeit"
+          "en": "employed occupation",
+          "de": null
         },
         "validRelativeFrequency": 21.15,
         "relativeFrequency": 20.63,
@@ -187,8 +187,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Volontariat"
+          "en": "traineeship",
+          "de": null
         },
         "validRelativeFrequency": 0.64,
         "relativeFrequency": 0.62,
@@ -197,8 +197,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Werkvertrag/Honorararbeit"
+          "en": "service contract",
+          "de": null
         },
         "validRelativeFrequency": 4.38,
         "relativeFrequency": 4.28,
@@ -226,7 +226,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -239,8 +239,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Tätigkeit Episode"
+    "en": "Occupation Episode",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

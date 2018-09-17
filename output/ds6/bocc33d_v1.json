@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.28,
         "absoluteFrequency": 37,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr zufrieden"
+          "en": "Highly satisfied",
+          "de": null
         },
         "validRelativeFrequency": 26.1,
         "relativeFrequency": 12.02,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 37.62,
         "relativeFrequency": 17.32,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 25.03,
         "relativeFrequency": 11.53,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 6.96,
         "relativeFrequency": 3.21,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unzufrieden"
+          "en": "Dissatisfied",
+          "de": null
         },
         "validRelativeFrequency": 4.28,
         "relativeFrequency": 1.97,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Zufriedenheit Beschäftigung: Arbeitsbedingungen"
+    "en": "job satisfaction: work conditions",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

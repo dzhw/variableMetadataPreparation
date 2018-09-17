@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.37,
         "absoluteFrequency": 6,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 14.92,
         "absoluteFrequency": 242,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Promotion"
+          "en": "Doctorate",
+          "de": null
         },
         "validRelativeFrequency": 2.26,
         "relativeFrequency": 1.91,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master Uni"
+          "en": "Specialist Uni",
+          "de": null
         },
         "validRelativeFrequency": 68.63,
         "relativeFrequency": 58.14,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master FH"
+          "en": "Specialist FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 13.32,
         "relativeFrequency": 11.28,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor Uni"
+          "en": "Bachelor Uni",
+          "de": null
         },
         "validRelativeFrequency": 0.66,
         "relativeFrequency": 0.55,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor FH"
+          "en": "Bachelor FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 0.44,
         "relativeFrequency": 0.37,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "BBA"
+          "en": "BBA",
+          "de": null
         },
         "validRelativeFrequency": 0.07,
         "relativeFrequency": 0.06,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "MBA"
+          "en": "MBA",
+          "de": null
         },
         "validRelativeFrequency": 3.86,
         "relativeFrequency": 3.27,
@@ -118,8 +118,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Diplom/Magister Uni"
+          "en": "Diploma/MA Uni",
+          "de": null
         },
         "validRelativeFrequency": 5.97,
         "relativeFrequency": 5.06,
@@ -128,8 +128,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Diplom FH"
+          "en": "Diploma FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 1.6,
         "relativeFrequency": 1.36,
@@ -138,8 +138,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Staatsexamen"
+          "en": "State examinations",
+          "de": null
         },
         "validRelativeFrequency": 1.46,
         "relativeFrequency": 1.23,
@@ -148,8 +148,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Zertifikat"
+          "en": "Certificate",
+          "de": null
         },
         "validRelativeFrequency": 0.66,
         "relativeFrequency": 0.55,
@@ -158,8 +158,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstiger Abschluss"
+          "en": "Other qualification",
+          "de": null
         },
         "validRelativeFrequency": 0.8,
         "relativeFrequency": 0.68,
@@ -168,8 +168,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "kein Abschluss angestrebt"
+          "en": "No certification pursued",
+          "de": null
         },
         "validRelativeFrequency": 0.29,
         "relativeFrequency": 0.25,
@@ -197,7 +197,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -210,8 +210,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. weitere akademische Qualifikation: Abschlussart"
+    "en": "1st further academic qualification: type of degree",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -1,13 +1,13 @@
 context("Related Questions Excel Sheet")
 
-script_basename <- here("R")
-source(paste0(script_basename, "/daos/excel/RelatedQuestionExcelDao.R"))
+modules::import("../../R/daos/excel/RelatedQuestionExcelDao", attach = TRUE)
 
 related_questions_excel_dao <- NULL
 
 setup({
   related_questions_excel_dao <<- RelatedQuestionExcelDao$new(
-    here("data-raw/excel/vimport_ds3.xlsx"))
+    here("data-raw/excel/vimport_ds3.xlsx")
+  )
 })
 
 teardown({

@@ -1,7 +1,7 @@
 suppressPackageStartupMessages(suppressWarnings(library(R6)))
 suppressPackageStartupMessages(suppressWarnings(library(jsonlite)))
 
-JSONSerializableDomainObject <- R6Class("JSONSerializableDomainObject", #nolint
+JSONSerializableDomainObject <- R6Class("JSONSerializableDomainObject", # nolint
   public = list(
     to_json = function(filename) {
       con <- file(filename, open = "w", encoding = "UTF-8")
@@ -19,7 +19,9 @@ JSONSerializableDomainObject <- R6Class("JSONSerializableDomainObject", #nolint
           return(lapply(x, convert_to_list))
         } else if (is.environment(x)) {
           return(lapply(as.list(x), convert_to_list))
-        } else return(x)
+        } else {
+          return(x)
+        }
       }
       out <- lapply(out, convert_to_list)
       return(out)

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "anonymisiert"
+          "en": "anonymized",
+          "de": null
         },
         "relativeFrequency": 100,
         "absoluteFrequency": 1622,
@@ -57,7 +57,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die Hochschulen über den Hochschulort einer NUTS-2-Region gemäß der NUTS-Klassifikation des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 (vgl. cl-eurostat-nuts-2010) zugeordnet."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu011k",
@@ -70,8 +70,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Studium: Hochschulort (NUTS-2) (anonymisiert)"
+    "en": "1st course of study: location of university (NUTS-2) (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

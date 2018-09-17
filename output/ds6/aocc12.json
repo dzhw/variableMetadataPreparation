@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.49,
         "absoluteFrequency": 8,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 76.76,
         "absoluteFrequency": 1245,
@@ -107,7 +107,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -120,8 +120,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Anzahl Praktika nach Studium"
+    "en": "number of internships after degree",
+    "de": null
   },
   "scaleLevel": {
     "en": "ratio",

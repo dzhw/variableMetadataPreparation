@@ -26,7 +26,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -39,8 +39,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Grund keine Kinder: Gesundheitsgründe (anonymisiert)"
+    "en": "reason no children: health reasons (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

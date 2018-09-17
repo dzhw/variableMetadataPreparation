@@ -26,7 +26,7 @@
       "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) herangezogen (vgl. cl-destatis-hochschule-2005). Ergänzt wurde diese Liste zum einen um Sondercodes für deutsche Hochschulen, die nur in älteren Schlüsselverzeichnissen enthalten waren, sowie Angaben, die nicht zuordenbar waren. Zum anderen wurden Sondercodes für ausländische Hochschulen aufgenommen."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bfec161h",
@@ -39,8 +39,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Weiterbildung an HS: Hochschule (anonymisiert)"
+    "en": "1st further education at university: university (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

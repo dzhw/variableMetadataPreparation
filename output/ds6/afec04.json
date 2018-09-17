@@ -29,8 +29,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 95.07,
         "relativeFrequency": 95.07,
@@ -39,8 +39,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, möchte aber nicht"
+          "en": "Yes, but don't want to",
+          "de": null
         },
         "validRelativeFrequency": 0.06,
         "relativeFrequency": 0.06,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, noch nicht begonnen"
+          "en": "Yes, not yet started",
+          "de": null
         },
         "validRelativeFrequency": 4.75,
         "relativeFrequency": 4.75,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, schon begonnen"
+          "en": "Yes, already started",
+          "de": null
         },
         "validRelativeFrequency": 0.12,
         "relativeFrequency": 0.12,
@@ -88,7 +88,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -101,8 +101,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Ausbildungsphase nach Studium"
+    "en": "2nd training phase after the course of study",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

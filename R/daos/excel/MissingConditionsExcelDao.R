@@ -1,16 +1,17 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import_package(package = "R6", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/daos/excel/BaseExcelDao.R"))
+modules::import("/R/daos/excel/BaseExcelDao", attach = TRUE)
 
-MissingConditionsExcelDao <- R6Class("MissingConditionsExcelDao", #nolint
+MissingConditionsExcelDao <- R6Class("MissingConditionsExcelDao", # nolint
   inherit = BaseExcelDao,
   private = list(
-    missing_conditions_string = c("values %in% \"-966 nicht bestimmbar\"",
-                                           "values %in% \"-968 unplausibler Wert\"",
-                                           "values %in% \"-995 keine Teilnahme (Panel)\"",
-                                           "values %in% \"-998 keine Angabe\"",
-                                           "values %in% \"-989 filterbedingt fehlend\""),
+    missing_conditions_string = c(
+      "values %in% \"-966 nicht bestimmbar\"",
+      "values %in% \"-968 unplausibler Wert\"",
+      "values %in% \"-995 keine Teilnahme (Panel)\"",
+      "values %in% \"-998 keine Angabe\"",
+      "values %in% \"-989 filterbedingt fehlend\""
+    ),
     missing_conditions_numeric = "values <= -800",
     create_missing_conditions_numeric = function(sheet) {
       output <- vector(length = nrow(sheet), mode = "character")

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 4.93,
         "absoluteFrequency": 80,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "noch nicht"
+          "en": "Not yet",
+          "de": null
         },
         "validRelativeFrequency": 59.08,
         "relativeFrequency": 56.17,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nach Examen"
+          "en": "After exams",
+          "de": null
         },
         "validRelativeFrequency": 10.18,
         "relativeFrequency": 9.68,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "während Examen"
+          "en": "During exams",
+          "de": null
         },
         "validRelativeFrequency": 14.72,
         "relativeFrequency": 14,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "vor Examen"
+          "en": "Prior to exams",
+          "de": null
         },
         "validRelativeFrequency": 16.02,
         "relativeFrequency": 15.23,
@@ -98,7 +98,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -111,8 +111,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Beginn Stellensuche"
+    "en": "start of job search",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -19,8 +19,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.25,
         "absoluteFrequency": 4,
@@ -28,8 +28,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Post"
+          "en": "Post",
+          "de": null
         },
         "validRelativeFrequency": 96.85,
         "relativeFrequency": 47.35,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "E-Mail"
+          "en": "Email",
+          "de": null
         },
         "validRelativeFrequency": 3.15,
         "relativeFrequency": 1.54,
@@ -78,7 +78,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -91,8 +91,8 @@
     "de": "Da einige (wenige) Fragebögen den Befragten per E-Mail zugesandt bzw. per Downloadmöglichkeit zur Verfügung gestellt wurden, wurden diese beantworteten Fragebögen gekennzeichnet."
   },
   "label": {
-    "en": null,
-    "de": "Fragebogenart"
+    "en": "type of questionnaire",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

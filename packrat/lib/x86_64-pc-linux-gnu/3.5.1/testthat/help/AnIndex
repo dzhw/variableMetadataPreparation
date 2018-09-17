@@ -12,7 +12,7 @@ capture_output_lines	capture_output
 capture_warning	capture_condition
 capture_warnings	capture_condition
 CheckReporter	CheckReporter
-check_repoter	default_reporter
+check_reporter	default_reporter
 compare	compare
 compare.character	compare
 compare.default	compare
@@ -114,6 +114,7 @@ skip	skip
 skip_if	skip
 skip_if_not	skip
 skip_if_not_installed	skip
+skip_if_offline	skip
 skip_if_translated	skip
 skip_on_appveyor	skip
 skip_on_bioc	skip
@@ -132,6 +133,7 @@ takes_less_than	takes_less_than
 TapReporter	TapReporter
 TeamcityReporter	TeamcityReporter
 teardown	teardown
+testing_package	test_dir
 testthat	testthat-package
 testthat_results	testthat_results
 test_check	test_dir

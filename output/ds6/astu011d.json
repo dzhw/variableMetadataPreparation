@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "läuft noch"
+          "en": "still active",
+          "de": null
         },
         "relativeFrequency": 0.06,
         "absoluteFrequency": 1,
@@ -198,7 +198,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,
@@ -211,8 +211,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Studium: Ende (Jahr)"
+    "en": "1st course of study: end (year)",
+    "de": null
   },
   "scaleLevel": {
     "en": "interval",

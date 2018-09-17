@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 19.36,
         "absoluteFrequency": 314,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 76.76,
         "absoluteFrequency": 1245,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Land-/Forstwirtschaft, Fischerei"
+          "en": "Agricultural/forestry management, fishing industry",
+          "de": null
         },
         "validRelativeFrequency": 6.35,
         "relativeFrequency": 0.25,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "chemische Industrie"
+          "en": "Chemical industry",
+          "de": null
         },
         "validRelativeFrequency": 3.17,
         "relativeFrequency": 0.12,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinen-/Fahrzeugbau"
+          "en": "Machine/vehicle construction",
+          "de": null
         },
         "validRelativeFrequency": 1.59,
         "relativeFrequency": 0.06,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elektrotechnik, Elektronik, EDV-Geräte, Büromaschinen"
+          "en": "Electrical engineering, electronics, EDP devices, office machines",
+          "de": null
         },
         "validRelativeFrequency": 3.17,
         "relativeFrequency": 0.12,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstiges verabeitendes Gewerbe"
+          "en": "Other processing trades",
+          "de": null
         },
         "validRelativeFrequency": 1.59,
         "relativeFrequency": 0.06,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Handel"
+          "en": "Commerce",
+          "de": null
         },
         "validRelativeFrequency": 6.35,
         "relativeFrequency": 0.25,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Telekommunikation"
+          "en": "Telecommunications",
+          "de": null
         },
         "validRelativeFrequency": 1.59,
         "relativeFrequency": 0.06,
@@ -118,8 +118,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechts-, Wirtschafts-, Personalberatung"
+          "en": "Legal, economic, personnel consultation",
+          "de": null
         },
         "validRelativeFrequency": 1.59,
         "relativeFrequency": 0.06,
@@ -128,8 +128,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Presse, Rundfunk, Fernsehen"
+          "en": "Press, radio, television",
+          "de": null
         },
         "validRelativeFrequency": 12.7,
         "relativeFrequency": 0.49,
@@ -138,8 +138,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verlagswesen"
+          "en": "Publishing",
+          "de": null
         },
         "validRelativeFrequency": 3.17,
         "relativeFrequency": 0.12,
@@ -148,8 +148,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gesundheitswesen"
+          "en": "Health care",
+          "de": null
         },
         "validRelativeFrequency": 3.17,
         "relativeFrequency": 0.12,
@@ -158,8 +158,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "soziale Dienstleistungen"
+          "en": "Social services",
+          "de": null
         },
         "validRelativeFrequency": 6.35,
         "relativeFrequency": 0.25,
@@ -168,8 +168,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstige Dienstleistungen"
+          "en": "Other services",
+          "de": null
         },
         "validRelativeFrequency": 14.29,
         "relativeFrequency": 0.55,
@@ -178,8 +178,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "private Aus- und Weiterbildung"
+          "en": "Private training and further training",
+          "de": null
         },
         "validRelativeFrequency": 1.59,
         "relativeFrequency": 0.06,
@@ -188,8 +188,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hochschulen"
+          "en": "Higher education institution",
+          "de": null
         },
         "validRelativeFrequency": 6.35,
         "relativeFrequency": 0.25,
@@ -198,8 +198,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Forschungseinrichtungen"
+          "en": "Research facilities",
+          "de": null
         },
         "validRelativeFrequency": 9.52,
         "relativeFrequency": 0.37,
@@ -208,8 +208,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kunst, Kultur"
+          "en": "Art, culture",
+          "de": null
         },
         "validRelativeFrequency": 6.35,
         "relativeFrequency": 0.25,
@@ -218,8 +218,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufs-, Wirtschaftsverbände, Parteien, Vereine, internat. Organisationen"
+          "en": "Occupational, economic associations, parties, clubs, international org.",
+          "de": null
         },
         "validRelativeFrequency": 9.52,
         "relativeFrequency": 0.37,
@@ -228,8 +228,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "allgemeine öffentliche Verwaltung"
+          "en": "General public administration",
+          "de": null
         },
         "validRelativeFrequency": 1.59,
         "relativeFrequency": 0.06,
@@ -257,7 +257,7 @@
       "de": "Diese Variable enthält die offen erfasste Branche des 2. Praktikums. Die offenen Angaben wurden nach den Codes der Frage 5.7 codiert."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -270,8 +270,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Praktikum: Branche"
+    "en": "2nd internship: sector",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

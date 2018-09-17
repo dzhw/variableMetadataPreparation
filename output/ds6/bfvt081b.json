@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.42,
         "absoluteFrequency": 23,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 24.6,
         "absoluteFrequency": 399,
@@ -55,8 +55,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 6.29,
         "absoluteFrequency": 102,
@@ -255,7 +255,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -268,8 +268,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Umfang (WB außerhalb HS): halb-/ganztags (Anzahl)"
+    "en": "scope (further education outside university): half/whole days (number)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ratio",

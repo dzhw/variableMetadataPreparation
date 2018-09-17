@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.12,
         "absoluteFrequency": 2,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "männlich"
+          "en": "Male",
+          "de": null
         },
         "validRelativeFrequency": 40.43,
         "relativeFrequency": 40.38,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "weiblich"
+          "en": "Female",
+          "de": null
         },
         "validRelativeFrequency": 59.57,
         "relativeFrequency": 59.49,
@@ -78,7 +78,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -91,8 +91,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Geschlecht"
+    "en": "gender",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

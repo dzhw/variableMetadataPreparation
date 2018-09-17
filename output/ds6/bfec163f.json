@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 39.95,
         "absoluteFrequency": 648,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "begonnen"
+          "en": "Started",
+          "de": null
         },
         "validRelativeFrequency": 33.33,
         "relativeFrequency": 0.18,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "bereits abgeschlossen"
+          "en": "Already completed",
+          "de": null
         },
         "validRelativeFrequency": 55.56,
         "relativeFrequency": 0.31,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "abgebrochen"
+          "en": "Terminated",
+          "de": null
         },
         "validRelativeFrequency": 11.11,
         "relativeFrequency": 0.06,
@@ -106,7 +106,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -119,8 +119,8 @@
     "de": "In Einzelfällen wurden psychologisch-therapeutische Zusatzausbildungen (PTZ) angegeben. Deshalb wurden die vorgesehenen Antwortkategorien erweitert um die Kategorien 5 \"begonnen PTZ\", 6 \"bereits abgeschlossen PTZ\" und 7 \"abgebrochen PTZ\", die entsprechend nur für PTZ-ler vergeben wurden. \r\nSofern bei der Abschlussart \"kein Abschluss angestrebt\" angegeben wurde, so wurde hier zudem der Code 0 \"kein Abschluss angestrebt\" vergeben."
   },
   "label": {
-    "en": null,
-    "de": "3. Weiterbildung an HS: Stand"
+    "en": "3rd further education at university: status",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

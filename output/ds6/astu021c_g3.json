@@ -29,8 +29,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Sprach- und Kulturwissenschaften"
+          "en": "Language and cultural sciences",
+          "de": null
         },
         "validRelativeFrequency": 24.54,
         "relativeFrequency": 24.54,
@@ -39,8 +39,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+          "en": "Legal, economic and social sciences",
+          "de": null
         },
         "validRelativeFrequency": 22.07,
         "relativeFrequency": 22.07,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mathematik, Naturwissenschaften"
+          "en": "Mathematics, natural sciences",
+          "de": null
         },
         "validRelativeFrequency": 35.94,
         "relativeFrequency": 35.94,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Humanmedizin, Gesundheitswissenschaften"
+          "en": "Medicine, health care sciences",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.31,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Agrar-, Forst- und Ernährungswissenschaften"
+          "en": "Agricultural forestry and nutritional sciences  ",
+          "de": null
         },
         "validRelativeFrequency": 7.34,
         "relativeFrequency": 7.34,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ingenieurwissenschaften"
+          "en": "Engineering sciences",
+          "de": null
         },
         "validRelativeFrequency": 9.56,
         "relativeFrequency": 9.56,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kunst, Kunstwissenschaft"
+          "en": "Art, aesthetics",
+          "de": null
         },
         "validRelativeFrequency": 0.25,
         "relativeFrequency": 0.25,
@@ -118,7 +118,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu021c",
@@ -131,8 +131,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Abschluss: Fächergruppe (Hauptfach)"
+    "en": "1st degree: subject group (major)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

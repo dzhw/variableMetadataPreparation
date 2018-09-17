@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "in hohem Maße"
+          "en": "To a high degree",
+          "de": null
         },
         "validRelativeFrequency": 35.08,
         "relativeFrequency": 16.95,
@@ -59,7 +59,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 48.47,
         "relativeFrequency": 23.43,
@@ -69,7 +69,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 14.54,
         "relativeFrequency": 7.03,
@@ -79,7 +79,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 1.91,
         "relativeFrequency": 0.92,
@@ -107,7 +107,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -120,8 +120,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "vorhanden: Kooperationsfähigkeit"
+    "en": "present: skills of cooperation ",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 96.18,
         "absoluteFrequency": 1560,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Diplom FH"
+          "en": "Diploma FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 3.23,
         "relativeFrequency": 0.12,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Diplom Uni"
+          "en": "Diploma Uni",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.18,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Magister"
+          "en": "Master's degree",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.18,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor FH"
+          "en": "Bachelor FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor Uni"
+          "en": "Bachelor Uni ",
+          "de": null
         },
         "validRelativeFrequency": 8.06,
         "relativeFrequency": 0.31,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master FH"
+          "en": "Specialist FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 9.68,
         "relativeFrequency": 0.37,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master Uni"
+          "en": "Specialist Uni",
+          "de": null
         },
         "validRelativeFrequency": 41.94,
         "relativeFrequency": 1.6,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Staatsexamen (außer Lehramt)"
+          "en": "State exams (except for teaching profession)",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -119,8 +119,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehramt Grund-/Hauptschule"
+          "en": "Teaching profession primary/lower secondary school",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -129,8 +129,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehramt sonstige"
+          "en": "Teaching profession, other",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -139,8 +139,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Abschluss außerhalb BRD"
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": null
         },
         "validRelativeFrequency": 20.97,
         "relativeFrequency": 0.8,
@@ -168,7 +168,7 @@
       "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -181,8 +181,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. Studium: angestrebter Abschluss (Hauptfach)"
+    "en": "4th course of study: degree aimed for (major)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

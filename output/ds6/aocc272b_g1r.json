@@ -19,8 +19,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "anonymisiert"
+          "en": "anonymized",
+          "de": null
         },
         "relativeFrequency": 100,
         "absoluteFrequency": 1622,
@@ -48,7 +48,7 @@
       "de": "Die offenen Nennungen wurden bei der Codierung den vorgegebenen Kategorien der Branche (aocc272a) zugeordnet. Daher enthält diese Variable nur noch Missings."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -61,8 +61,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "letzte Stelle: sonstige Branche (anonymisiert)"
+    "en": "last job: other sector (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.42,
         "absoluteFrequency": 23,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ohne Partner/in"
+          "en": "No partner",
+          "de": null
         },
         "validRelativeFrequency": 41.96,
         "relativeFrequency": 41.37,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "feste Partnerschaft"
+          "en": "Permanent relationship",
+          "de": null
         },
         "validRelativeFrequency": 53.66,
         "relativeFrequency": 52.9,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "verheiratet"
+          "en": "Married",
+          "de": null
         },
         "validRelativeFrequency": 4.38,
         "relativeFrequency": 4.32,
@@ -88,7 +88,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -101,8 +101,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Familienstand"
+    "en": "family status",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

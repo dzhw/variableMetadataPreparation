@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.79,
         "absoluteFrequency": 29,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 76.76,
         "absoluteFrequency": 1245,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nicht gegeben"
+          "en": "not given",
+          "de": null
         },
         "relativeFrequency": 7.83,
         "absoluteFrequency": 127,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr gut"
+          "en": "Very good",
+          "de": null
         },
         "validRelativeFrequency": 19.91,
         "relativeFrequency": 2.71,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 26.24,
         "relativeFrequency": 3.58,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 22.62,
         "relativeFrequency": 3.08,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 14.03,
         "relativeFrequency": 1.91,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr schlecht"
+          "en": "Very poor",
+          "de": null
         },
         "validRelativeFrequency": 17.19,
         "relativeFrequency": 2.34,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Beurteilung Praktikum: Höhe der Vergütung"
+    "en": "internship evaluation: amount of payment",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

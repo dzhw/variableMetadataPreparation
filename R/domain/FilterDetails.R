@@ -1,10 +1,7 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import("/R/domain/JSONSerializableDomainObject", attach = TRUE)
+modules::import("/R/domain/I18nString", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
-source(paste0(script_basename, "/domain/I18nString.R"))
-
-FilterDetails <- R6Class("FilterDetails", #nolint
+FilterDetails <- R6Class("FilterDetails", # nolint
   inherit = JSONSerializableDomainObject,
   public = list(
     initialize = function() {
@@ -26,7 +23,7 @@ FilterDetails <- R6Class("FilterDetails", #nolint
       return(private$expressionLanguage)
     },
     set_expression_language = function(expression_language) {
-      private$expressionLanguage <- unbox(expression_language) #nolint
+      private$expressionLanguage <- unbox(expression_language) # nolint
     }
   ),
   private = list(

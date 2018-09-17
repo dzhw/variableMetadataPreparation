@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.62,
         "absoluteFrequency": 10,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 6.35,
         "absoluteFrequency": 103,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja"
+          "en": "Yes",
+          "de": null
         },
         "validRelativeFrequency": 9.8,
         "relativeFrequency": 4.13,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 90.2,
         "relativeFrequency": 38.04,
@@ -96,7 +96,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -109,8 +109,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "beruflich bedingter Zweitwohnsitz"
+    "en": "second residence for career reasons",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

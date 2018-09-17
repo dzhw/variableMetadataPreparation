@@ -68,7 +68,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,
@@ -81,8 +81,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Abschluss: Jahr"
+    "en": "1st degree: year",
+    "de": null
   },
   "scaleLevel": {
     "en": "interval",

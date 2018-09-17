@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.68,
         "absoluteFrequency": 11,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Gymnasium"
+          "en": "Grammar school",
+          "de": null
         },
         "validRelativeFrequency": 83.3,
         "relativeFrequency": 82.74,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fachgymnasium"
+          "en": "Specialised grammar school",
+          "de": null
         },
         "validRelativeFrequency": 4.41,
         "relativeFrequency": 4.38,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gesamtschule"
+          "en": "Comprehensive",
+          "de": null
         },
         "validRelativeFrequency": 3.97,
         "relativeFrequency": 3.95,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Abendgymnasium, Kolleg"
+          "en": "evening school, lectures",
+          "de": null
         },
         "validRelativeFrequency": 1.37,
         "relativeFrequency": 1.36,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fachoberschule"
+          "en": "Technical college",
+          "de": null
         },
         "validRelativeFrequency": 3.72,
         "relativeFrequency": 3.7,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstige berufliche Schulen"
+          "en": "Other vocational schools",
+          "de": null
         },
         "validRelativeFrequency": 1.68,
         "relativeFrequency": 1.66,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "anderer Bildungsweg"
+          "en": "Another educational path",
+          "de": null
         },
         "validRelativeFrequency": 1.55,
         "relativeFrequency": 1.54,
@@ -128,7 +128,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -141,8 +141,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Studienberechtigung: Bildungsweg"
+    "en": "higher education entrance qualification: course of study",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

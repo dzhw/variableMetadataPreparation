@@ -1,19 +1,18 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
-suppressPackageStartupMessages(suppressWarnings(library(moments)))
+modules::import_package(package = "moments", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/Statistics.R"))
+modules::import("/R/domain/Statistics", attach = TRUE)
 
-to_character = function(x) {
+to_character <- function(x) {
   out <- format(x)
   if (out == "NULL") return(NULL)
-    return(out)
+  return(out)
 }
 
 set_nominal_measures <- function(statistics, table_valid_values) {
   out <- statistics
   mode <- names(table_valid_values[which(
-      table_valid_values == max(table_valid_values))])
+    table_valid_values == max(table_valid_values)
+  )])
   out$set_mode(to_character(ifelse(length(mode) > 1, "multimodal", mode)))
   return(out)
 }
@@ -60,8 +59,10 @@ calculate_statistics <- function(valid_values)
 
 # default
 calculate_statistics.default <- function(valid_values) {
-  warning(paste0("calculate_statistics() does not know how to handle",
-  "objects of class ", class(valid_values), ". "))
+  warning(paste0(
+    "calculate_statistics() does not know how to handle",
+    "objects of class ", class(valid_values), ". "
+  ))
 }
 
 # numeric
@@ -86,8 +87,10 @@ calculate_statistics_numeric <- function(valid_values)
 
 # default
 calculate_statistics_numeric.default <- function(valid_values) {
-  warning(paste0("calculate_statistics_numeric() does not know how to handle",
-  "objects of class ", class(valid_values), ". "))
+  warning(paste0(
+    "calculate_statistics_numeric() does not know how to handle",
+    "objects of class ", class(valid_values), ". "
+  ))
 }
 
 # nominal

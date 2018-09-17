@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 63.63,
         "absoluteFrequency": 1032,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 0.06,
         "absoluteFrequency": 1,
@@ -207,7 +207,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -220,8 +220,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Anzahl erhaltene Stellenangebote"
+    "en": "number of job offers received",
+    "de": null
   },
   "scaleLevel": {
     "en": "ratio",
