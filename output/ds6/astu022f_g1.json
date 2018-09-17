@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 96.55,
         "absoluteFrequency": 1566,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Diplom FH"
+          "en": "Diploma FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 16.07,
         "relativeFrequency": 0.55,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Diplom Uni"
+          "en": "Diploma Uni",
+          "de": null
         },
         "validRelativeFrequency": 25,
         "relativeFrequency": 0.86,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master FH"
+          "en": "Specialist FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 1.79,
         "relativeFrequency": 0.06,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master Uni"
+          "en": "Specialist Uni",
+          "de": null
         },
         "validRelativeFrequency": 19.64,
         "relativeFrequency": 0.68,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Abschluss außerhalb BRD"
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": null
         },
         "validRelativeFrequency": 35.71,
         "relativeFrequency": 1.23,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Abschlusszeugnis, Zertifikat"
+          "en": "Leaving certificate, certificate",
+          "de": null
         },
         "validRelativeFrequency": 1.79,
         "relativeFrequency": 0.06,
@@ -118,7 +118,7 @@
       "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -131,8 +131,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Abschluss: Abschlussart"
+    "en": "2nd degree: type of degree ",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

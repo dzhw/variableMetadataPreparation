@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "anonymisiert"
+          "en": "anonymized",
+          "de": null
         },
         "relativeFrequency": 100,
         "absoluteFrequency": 1622,
@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten Studienschwerpunkte in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-3).\r\nDie Angaben wurden nur für bestimmte Studienfächer des Studienbereichs \"Wirtschaftswissenschaften\" codiert:\r\n184 Wirtschaftwissenschaften\r\n021 Betriebswirtschaftslehre\r\n167 Europäische Wirtschaft\r\n182 Internationale Betriebswirtschaft/Management\r\n175 Volkswirtschaftslehre\r\nWurde in einem dieser Fächer ein Magister- oder Lehramtsstudium absolviert, wurden die Angaben nicht vercodet."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -70,8 +70,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Hauptstudienfach: 1. Schwerpunkt (anonymisiert)"
+    "en": "major: 1st specialisation (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

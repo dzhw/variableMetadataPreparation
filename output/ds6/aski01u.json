@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.77,
         "absoluteFrequency": 45,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 53.84,
         "relativeFrequency": 52.34,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 37.6,
         "relativeFrequency": 36.56,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 7.17,
         "relativeFrequency": 6.97,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 1.14,
         "relativeFrequency": 1.11,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unwichtig"
+          "en": "Unimportant",
+          "de": null
         },
         "validRelativeFrequency": 0.25,
         "relativeFrequency": 0.25,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "wichtig für Beruf: Verantwortung übernehmen"
+    "en": "important for career: taking responsibility",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

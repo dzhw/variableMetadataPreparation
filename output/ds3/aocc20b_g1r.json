@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten beruflichen Aufgabenbereiche bzw. Funktionen (zweite Angabe) der derzeitigen bzw. letzten beruflichen Tätigkeit in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-4)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

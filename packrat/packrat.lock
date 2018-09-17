@@ -1,7 +1,7 @@
 PackratFormat: 1.4
 PackratVersion: 0.4.9.3
 RVersion: 3.5.1
-Repos: CRAN=https://cran.rstudio.com
+Repos: CRAN=file:///home/birkelbach/git/variableMetadataExtractor/locus-repo
 
 Package: R6
 Source: CRAN
@@ -23,11 +23,21 @@ Source: CRAN
 Version: 1.1.2
 Hash: 5ae7b3466e529e4400951ca18c137e40
 
-Package: cellranger
+Package: base64enc
 Source: CRAN
-Version: 1.1.0
-Hash: 4e1ef4d099b0c5fd531a3938cf4624bd
-Requires: rematch, tibble
+Version: 0.1-3
+Hash: c590d29e555926af053055e23ee79efb
+
+Package: brew
+Source: CRAN
+Version: 1.0-6
+Hash: 931f9972deae0f205e1c78a51f33149b
+
+Package: callr
+Source: CRAN
+Version: 3.0.0
+Hash: 15276cfa2f9ee6de0af04a4b0692f296
+Requires: R6, base64enc, processx
 
 Package: cli
 Source: CRAN
@@ -35,24 +45,31 @@ Version: 1.0.0
 Hash: f4239f89feb7ddc65821e4514e9734ae
 Requires: assertthat, crayon
 
+Package: commonmark
+Source: CRAN
+Version: 1.5
+Hash: 432a16a9967055dad6b39f1c14fd6b2c
+
 Package: crayon
 Source: CRAN
 Version: 1.3.4
 Hash: ff2840dd9b0d563fc80377a5a45510cd
 
+Package: desc
+Source: CRAN
+Version: 1.2.0
+Hash: a1fd2baa29d4954951e3d1816deab6af
+Requires: R6, assertthat, crayon, rprojroot
+
 Package: digest
 Source: CRAN
-Version: 0.6.15
-Hash: 1f202ebd812ac7192be3739245746a13
+Version: 0.6.17
+Hash: 6bd8bf6c0430a024a994f2481c2d8516
 
 Package: fansi
 Source: CRAN
 Version: 0.3.0
 Hash: 8d0a24d8245abbfa2b030460734495ab
-
-Package: getopt
-Source: CRAN
-Version: 1.20.2
 
 Package: glue
 Source: CRAN
@@ -75,15 +92,19 @@ Source: CRAN
 Version: 1.5
 Hash: bdc4d48c3135e8f3b399536ddf160df4
 
-Package: moments
-Source: CRAN
-Version: 0.14
-Hash: 9567ad51228ea45d2ff6112f4ab20424
-
-Package: optparse
-Source: CRAN
-Version: 1.6.0
-Requires: getopt
+Package: modules
+Source: github
+Version: 0.9.10
+Hash: 919ff1c24395685877ba963f787f2aa5
+Requires: roxygen2
+GithubRepo: modules
+GithubUsername: klmr
+GithubRef: master
+GithubSha1: b279fc68cf23c335be75fa737e03a761381473d8
+RemoteHost: https://api.github.com
+RemoteRepo: modules
+RemoteUsername: klmr
+RemoteSha: b279fc68cf23c335be75fa737e03a761381473d8
 
 Package: packrat
 Source: CRAN
@@ -96,10 +117,55 @@ Version: 1.3.0
 Hash: 3e43f774fa6dfba877caca1aebbeaa6a
 Requires: cli, crayon, fansi, rlang, utf8
 
+Package: pkgbuild
+Source: github
+Version: 1.0.0.9000
+Hash: 38305c07e60ccbe7c9a76033096d0b96
+Requires: R6, callr, crayon, desc, rprojroot, withr
+GithubRepo: pkgbuild
+GithubUsername: r-lib
+GithubRef: master
+GithubSha1: 81bdabb18a5f43fa5e9d729c049dd2b708dec52a
+RemoteHost: https://api.github.com
+RemoteRepo: pkgbuild
+RemoteUsername: r-lib
+RemoteSha: 81bdabb18a5f43fa5e9d729c049dd2b708dec52a
+
+Package: pkgload
+Source: github
+Version: 1.0.0
+Hash: d29b03cf3191e0e57aa7de481af659aa
+Requires: desc, pkgbuild, rlang, rprojroot, rstudioapi, withr
+GithubRepo: pkgload
+GithubUsername: r-lib
+GithubRef: master
+GithubSha1: eaae7d52e92823f6e4f7e4331f2442d03eeac8cb
+RemoteHost: https://api.github.com
+RemoteRepo: pkgload
+RemoteUsername: r-lib
+RemoteSha: eaae7d52e92823f6e4f7e4331f2442d03eeac8cb
+
 Package: praise
 Source: CRAN
 Version: 1.0.0
 Hash: 77da8f1df873a4b91e5c4a68fe2fb1b6
+
+Package: processx
+Source: CRAN
+Version: 3.2.0
+Hash: 906405f0bc681c9438826952417d5d5a
+Requires: R6, assertthat, crayon, ps
+
+Package: ps
+Source: CRAN
+Version: 1.1.0
+Hash: 730119cd27ec2d3270bc572a532e3f81
+
+Package: purrr
+Source: CRAN
+Version: 0.2.5
+Hash: 8b0c16db10c7e20b70cd37779a673a8b
+Requires: magrittr, rlang, tibble
 
 Package: readstata13
 Source: CRAN
@@ -107,29 +173,25 @@ Version: 0.9.2
 Hash: 226e1f636de42bfbd0017cefcd95bd05
 Requires: Rcpp
 
-Package: readxl
-Source: github
-Version: 1.1.0.9000
-Hash: 7659bf84c590179a0ba701377f383105
-Requires: Rcpp, cellranger, tibble
-GithubRepo: readxl
-GithubUsername: tidyverse
-GithubRef: master
-GithubSha1: 7bbf7fc24f40f7654dfec34b60c1a3356ad675a8
-RemoteHost: https://api.github.com
-RemoteRepo: readxl
-RemoteUsername: tidyverse
-RemoteSha: 7bbf7fc24f40f7654dfec34b60c1a3356ad675a8
-
-Package: rematch
-Source: CRAN
-Version: 1.0.1
-Hash: ad4faf59e7611117ff165817074c50c7
-
 Package: rlang
 Source: CRAN
 Version: 0.2.2
 Hash: 49b735b7b1d14f561d21cce12c6703df
+
+Package: roxygen2
+Source: github
+Version: 6.1.0.9000
+Hash: d018bca21601e9172f4bfff1e2203171
+Requires: R6, Rcpp, brew, commonmark, desc, digest, pkgload, purrr,
+    stringi, stringr, xml2
+GithubRepo: roxygen
+GithubUsername: klutometis
+GithubRef: master
+GithubSha1: cc34200a598d02850020c874fdd0d6a82747f28e
+RemoteHost: https://api.github.com
+RemoteRepo: roxygen
+RemoteUsername: klutometis
+RemoteSha: cc34200a598d02850020c874fdd0d6a82747f28e
 
 Package: rprojroot
 Source: CRAN
@@ -137,10 +199,15 @@ Version: 1.3-2
 Hash: a25c3f70c166fb3fbabc410eb32b6366
 Requires: backports
 
+Package: rstudioapi
+Source: CRAN
+Version: 0.7
+Hash: e2ebaff8160aff3e6b32e6e78a693c2d
+
 Package: stringi
 Source: CRAN
-Version: 1.2.2
-Hash: 09671b4a90b75927272d2b2ba6c0d6ed
+Version: 1.2.4
+Hash: 03ab60ef7fa4627b38ad67c95ce6b04c
 
 Package: stringr
 Source: CRAN
@@ -149,10 +216,18 @@ Hash: 9f417a1d899ed1f080942ab36998e8b5
 Requires: glue, magrittr, stringi
 
 Package: testthat
-Source: CRAN
-Version: 2.0.0
-Hash: 537114b476376c5773bf3c557f5bbd19
+Source: github
+Version: 2.0.0.9000
+Hash: 12e3ee8741b4ea2b6743ff25b2bee11c
 Requires: R6, cli, crayon, digest, magrittr, praise, rlang, withr
+GithubRepo: testthat
+GithubUsername: hadley
+GithubRef: master
+GithubSha1: 8216ebe2d84028d1a7a315c5c17c15f93cad3d65
+RemoteHost: https://api.github.com
+RemoteRepo: testthat
+RemoteUsername: hadley
+RemoteSha: 8216ebe2d84028d1a7a315c5c17c15f93cad3d65
 
 Package: tibble
 Source: CRAN
@@ -169,3 +244,9 @@ Package: withr
 Source: CRAN
 Version: 2.1.2
 Hash: d534108bcd5f34ec73e9eb523751ba20
+
+Package: xml2
+Source: CRAN
+Version: 1.2.0
+Hash: 1ee43aa8f57efa79384f290459c138b6
+Requires: Rcpp

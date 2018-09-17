@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 41.31,
         "absoluteFrequency": 670,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Vollzeit"
+          "en": "Full time",
+          "de": null
         },
         "validRelativeFrequency": 42.59,
         "relativeFrequency": 5.67,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Teilzeit"
+          "en": "Part-time",
+          "de": null
         },
         "validRelativeFrequency": 33.8,
         "relativeFrequency": 4.5,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ohne fest vereinbarte Arbeitszeit"
+          "en": "No fixed working hours",
+          "de": null
         },
         "validRelativeFrequency": 23.61,
         "relativeFrequency": 3.14,
@@ -97,7 +97,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -110,8 +110,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Tätigkeit: Vollzeit/Teilzeit"
+    "en": "2nd occupation: full-time/part-time",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

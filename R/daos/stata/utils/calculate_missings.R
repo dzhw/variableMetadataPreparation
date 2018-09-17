@@ -1,20 +1,20 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
-suppressPackageStartupMessages(suppressWarnings(library(stringr)))
+modules::import_package(package = "stringr", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/Missing.R"))
+modules::import("/R/domain/Missing", attach = TRUE)
 
 calculate_missings <- function(original_values, missing_values, value_labels)
   UseMethod("calculate_missings")
 
 # default
 calculate_missings.default <- function(original_values, missing_values, value_labels) {
-  warning(paste0("calculate_missings() does not know how to handle",
-  "objects of class ", class(original_values), ". "))
+  warning(paste0(
+    "calculate_missings() does not know how to handle",
+    "objects of class ", class(original_values), ". "
+  ))
 }
 
 # numeric
-calculate_missings.numeric <- function(original_values, missing_values, value_labels){
+calculate_missings.numeric <- function(original_values, missing_values, value_labels) {
   out <- NULL
   table_values <- table(original_values)
   table_missings <- table(missing_values)
@@ -47,11 +47,13 @@ calculate_missings.string <- function(original_values, missing_values, value_lab
     for (i in 1:length(table_missings)) {
       missing <- Missing$new()
       missing$set_code(as.numeric(
-        str_extract(names(table_missings)[i], "\\-[0-9]+")))
+        str_extract(names(table_missings)[i], "\\-[0-9]+")
+      ))
       missing$set_absolute_frequency(table_missings[i])
       missing$set_relative_frequency(round((table_missings[i] / sum(table_values)) * 100, 2))
       missing$get_label()$set_de(as.character(str_extract(
-        names(table_missings)[i], "[:alpha:]+.*")))
+        names(table_missings)[i], "[:alpha:]+.*"
+      )))
       missing$get_label()$set_en(NA)
       out[[i]] <- missing
     }

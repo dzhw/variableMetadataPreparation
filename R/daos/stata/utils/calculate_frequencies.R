@@ -1,7 +1,4 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
-
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/Distribution.R"))
+modules::import("/R/domain/Distribution", attach = TRUE)
 
 calculate_frequencies <- function(original_values, valid_values)
   UseMethod("calculate_frequencies")

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 39.95,
         "absoluteFrequency": 648,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Master"
+          "en": "Specialist",
+          "de": null
         },
         "validRelativeFrequency": 55.56,
         "relativeFrequency": 0.31,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor"
+          "en": "Bachelor",
+          "de": null
         },
         "validRelativeFrequency": 11.11,
         "relativeFrequency": 0.06,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Zertifikat"
+          "en": "Certificate",
+          "de": null
         },
         "validRelativeFrequency": 33.33,
         "relativeFrequency": 0.18,
@@ -106,7 +106,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -119,8 +119,8 @@
     "de": "Da die Kategorie 4 im Fragebogen zwei Mal vergeben wurde (für Diplom/Magister bzw. für Staatsexamen) wurde anhand der anderen Angaben im Fragebogen geprüft, um welche Art des Abschlusses es sich genau handelte. Wurde der Abschluss eindeutig als Diplom- oder Magisterabschluss identifiziert, wurde die Kategorie 4 beibehalten. Für eindeutige Staatsexamen-Abschlüsse wurde der Code 7 vergeben. Zweifelsfälle bekamen den Code 8"
   },
   "label": {
-    "en": null,
-    "de": "3. Weiterbildung an HS: Abschlussart"
+    "en": "3rd further education at university: type of degree",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

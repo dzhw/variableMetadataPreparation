@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 4.81,
         "absoluteFrequency": 78,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 14.92,
         "absoluteFrequency": 242,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 9.75,
         "relativeFrequency": 7.83,
@@ -59,7 +59,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 8.99,
         "relativeFrequency": 7.21,
@@ -69,7 +69,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 12.06,
         "relativeFrequency": 9.68,
@@ -79,7 +79,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 14.52,
         "relativeFrequency": 11.65,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unwichtig"
+          "en": "Unimportant",
+          "de": null
         },
         "validRelativeFrequency": 54.69,
         "relativeFrequency": 43.9,
@@ -117,7 +117,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -130,8 +130,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Motiv weitere akadem. Qualifikation: nicht arbeitslos sein"
+    "en": "motivation for further acad. qualification: avoid unemployment",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

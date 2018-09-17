@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.25,
         "absoluteFrequency": 4,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja"
+          "en": "Yes",
+          "de": null
         },
         "validRelativeFrequency": 13.91,
         "relativeFrequency": 13.87,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 76.95,
         "relativeFrequency": 76.76,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Praktikum war im Folgestudium"
+          "en": "Internship was during postgraduate studies",
+          "de": null
         },
         "validRelativeFrequency": 9.15,
         "relativeFrequency": 9.12,
@@ -88,7 +88,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -101,8 +101,8 @@
     "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien \"ja\" und \"nein\" zusätzlich auch die Kategorie 3 \"Praktikum war im Folgestudium\".\r\nSofern Absolventen nach dem Studium ein weiteres Studium aufgenommen haben und im Rahmen dieses Studiums das Praktikum absolvierten (dies ist vor allem bei Bachelorabsolventen im Masterstudium der Fall), dann wurde die Angabe „ja“ gestrichen und stattdessen die neue Kategorie 3 vergeben."
   },
   "label": {
-    "en": null,
-    "de": "Praktikum nach Studium"
+    "en": "internship after degree",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

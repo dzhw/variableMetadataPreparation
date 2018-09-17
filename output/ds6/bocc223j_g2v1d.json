@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 24.35,
         "absoluteFrequency": 395,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Schleswig-Holstein"
+          "en": "Schleswig-Holstein",
+          "de": null
         },
         "validRelativeFrequency": 3.6,
         "relativeFrequency": 0.86,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hamburg"
+          "en": "Hamburg",
+          "de": null
         },
         "validRelativeFrequency": 3.6,
         "relativeFrequency": 0.86,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Niedersachsen"
+          "en": "Lower Saxony",
+          "de": null
         },
         "validRelativeFrequency": 5.66,
         "relativeFrequency": 1.36,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bremen"
+          "en": "Bremen",
+          "de": null
         },
         "validRelativeFrequency": 0.51,
         "relativeFrequency": 0.12,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Nordrhein-Westfalen"
+          "en": "North Rine-Westphalia",
+          "de": null
         },
         "validRelativeFrequency": 23.65,
         "relativeFrequency": 5.67,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hessen"
+          "en": "Hesse",
+          "de": null
         },
         "validRelativeFrequency": 4.63,
         "relativeFrequency": 1.11,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rheinland-Pfalz"
+          "en": "Rhineland-Palatinate",
+          "de": null
         },
         "validRelativeFrequency": 1.03,
         "relativeFrequency": 0.25,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Baden-Württemberg"
+          "en": "Baden-Wuerttemberg",
+          "de": null
         },
         "validRelativeFrequency": 8.48,
         "relativeFrequency": 2.03,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bayern"
+          "en": "Bavaria",
+          "de": null
         },
         "validRelativeFrequency": 9.77,
         "relativeFrequency": 2.34,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Saarland"
+          "en": "Saarland",
+          "de": null
         },
         "validRelativeFrequency": 0.51,
         "relativeFrequency": 0.12,
@@ -157,8 +157,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berlin"
+          "en": "Berlin",
+          "de": null
         },
         "validRelativeFrequency": 5.66,
         "relativeFrequency": 1.36,
@@ -167,8 +167,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Brandenburg"
+          "en": "Brandenburg",
+          "de": null
         },
         "validRelativeFrequency": 1.54,
         "relativeFrequency": 0.37,
@@ -177,8 +177,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mecklenburg-Vorpommern"
+          "en": "Mecklenburg-Vorpommern",
+          "de": null
         },
         "validRelativeFrequency": 1.8,
         "relativeFrequency": 0.43,
@@ -187,8 +187,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sachsen"
+          "en": "Saxony",
+          "de": null
         },
         "validRelativeFrequency": 3.86,
         "relativeFrequency": 0.92,
@@ -197,8 +197,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sachsen-Anhalt"
+          "en": "Saxony-Anhalt",
+          "de": null
         },
         "validRelativeFrequency": 0.26,
         "relativeFrequency": 0.06,
@@ -207,8 +207,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Thüringen"
+          "en": "Thuringia",
+          "de": null
         },
         "validRelativeFrequency": 3.08,
         "relativeFrequency": 0.74,
@@ -217,8 +217,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Deutschland ohne nähere Angabe"
+          "en": "Germany no further details",
+          "de": null
         },
         "validRelativeFrequency": 13.11,
         "relativeFrequency": 3.14,
@@ -227,8 +227,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausland"
+          "en": "Abroad",
+          "de": null
         },
         "validRelativeFrequency": 9.25,
         "relativeFrequency": 2.22,
@@ -256,7 +256,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc223j_v1",
@@ -269,8 +269,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "3. Tätigkeit: Arbeitsort (Bundesland bzw. Ausland)"
+    "en": "3rd job: location of work (federal state or abroad)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

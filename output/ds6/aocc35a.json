@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.74,
         "absoluteFrequency": 12,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja, vor/mit Erwerb der HS-Reife"
+          "en": "Yes, prior to/with the procurement of matriculation standard",
+          "de": null
         },
         "validRelativeFrequency": 7.45,
         "relativeFrequency": 7.4,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, nach Erwerb der HS-Reife"
+          "en": "Yes, after procurement of matriculation standard",
+          "de": null
         },
         "validRelativeFrequency": 15.53,
         "relativeFrequency": 15.41,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein"
+          "en": "No",
+          "de": null
         },
         "validRelativeFrequency": 77.02,
         "relativeFrequency": 76.45,
@@ -88,7 +88,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -101,8 +101,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Ausbildung vor Studienbeginn"
+    "en": "vocational training before start of degree",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

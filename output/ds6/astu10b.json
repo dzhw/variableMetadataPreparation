@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.54,
         "absoluteFrequency": 25,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr große Rolle"
+          "en": "Of great significance",
+          "de": null
         },
         "validRelativeFrequency": 10.83,
         "relativeFrequency": 10.67,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 29.99,
         "relativeFrequency": 29.53,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 29.05,
         "relativeFrequency": 28.61,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 17.6,
         "relativeFrequency": 17.32,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "gar keine Rolle"
+          "en": "Of no significance",
+          "de": null
         },
         "validRelativeFrequency": 12.52,
         "relativeFrequency": 12.33,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Rolle Arbeitsmarkt: bei Studiengestaltung"
+    "en": "role of labour market: in structure of studies",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.68,
         "absoluteFrequency": 11,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 96.73,
         "absoluteFrequency": 1569,
@@ -137,7 +137,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -150,8 +150,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "sonstige Auslandsaufenthalte: Dauer (Monate)"
+    "en": "other stays abroad: duration (months)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ratio",

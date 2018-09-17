@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 10 \"Sonstiges, und zwar\" der Variable bocc262a_v1 (Betriebsgröße) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\r\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur  dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

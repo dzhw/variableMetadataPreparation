@@ -57,7 +57,7 @@
       "de": "Die offenen Nennungen wurden bei der Codierung den vorgegebenen Kategorien der Abschlüsse zugeordnet. Daher enthält diese Variable nur noch Missings."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr gut"
+          "en": "Very good",
+          "de": null
         },
         "validRelativeFrequency": 28.34,
         "relativeFrequency": 28.11,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 42.57,
         "relativeFrequency": 42.23,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 20.94,
         "relativeFrequency": 20.78,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 6.77,
         "relativeFrequency": 6.72,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr schlecht"
+          "en": "Very poor",
+          "de": null
         },
         "validRelativeFrequency": 1.37,
         "relativeFrequency": 1.36,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Studium: Verwendung EDV in Lehre"
+    "en": "course of study: use of IT in curriculum",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

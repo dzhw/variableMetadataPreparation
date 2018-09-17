@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.6,
         "absoluteFrequency": 26,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 95.31,
         "absoluteFrequency": 1546,
@@ -227,7 +227,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,
@@ -240,8 +240,8 @@
     "de": "Haben die Befragten mehr als drei Kinder angegeben, wurden die Geburtsdaten des ältesten und des jüngsten Kindes beibehalten. Angaben zu den mittleren Kindern wurden gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt."
   },
   "label": {
-    "en": null,
-    "de": "1. Kind: Geburt (Jahr)"
+    "en": "1st child: date of birth (year)",
+    "de": null
   },
   "scaleLevel": {
     "en": "interval",

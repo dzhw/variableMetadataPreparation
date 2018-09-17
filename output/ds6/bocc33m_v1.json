@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.96,
         "absoluteFrequency": 48,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr zufrieden"
+          "en": "Highly satisfied",
+          "de": null
         },
         "validRelativeFrequency": 19.16,
         "relativeFrequency": 8.69,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 26.63,
         "relativeFrequency": 12.08,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 33.56,
         "relativeFrequency": 15.23,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 13.32,
         "relativeFrequency": 6.04,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unzufrieden"
+          "en": "Dissatisfied",
+          "de": null
         },
         "validRelativeFrequency": 7.34,
         "relativeFrequency": 3.33,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Zufriedenheit Beschäftigung: Familienfreundlichkeit"
+    "en": "job satisfaction: family-friendliness",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

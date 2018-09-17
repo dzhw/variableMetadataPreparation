@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 6.29,
         "absoluteFrequency": 102,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 17.3,
         "relativeFrequency": 5.92,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 17.48,
         "relativeFrequency": 5.98,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 15.14,
         "relativeFrequency": 5.18,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 12.79,
         "relativeFrequency": 4.38,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unwichtig"
+          "en": "Unimportant",
+          "de": null
         },
         "validRelativeFrequency": 37.3,
         "relativeFrequency": 12.76,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Ziel (WB an HS): Stelle finden"
+    "en": "goal (further education at university): to find a job",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

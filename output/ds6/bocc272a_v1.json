@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.1,
         "absoluteFrequency": 34,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Land-/Forstwirtschaft, Fischerei"
+          "en": "Agricultural/forestry management, fishing industry",
+          "de": null
         },
         "validRelativeFrequency": 3.07,
         "relativeFrequency": 1.42,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Energie-/Wasserwirtschaft, Bergbau"
+          "en": "Energy/water management, mining",
+          "de": null
         },
         "validRelativeFrequency": 2.53,
         "relativeFrequency": 1.17,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "chemische Industrie"
+          "en": "Chemical industry",
+          "de": null
         },
         "validRelativeFrequency": 2.8,
         "relativeFrequency": 1.29,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinen-/Fahrzeugbau"
+          "en": "Machine/vehicle construction",
+          "de": null
         },
         "validRelativeFrequency": 4.8,
         "relativeFrequency": 2.22,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elektrotechnik, Elektronik, EDV-Geräte, Büromaschinen"
+          "en": "Electrical engineering, electronics, EDP devices, office machines",
+          "de": null
         },
         "validRelativeFrequency": 4.53,
         "relativeFrequency": 2.1,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Metallerzeugung/-verarbeitung"
+          "en": "Metal production/processing",
+          "de": null
         },
         "validRelativeFrequency": 1.2,
         "relativeFrequency": 0.55,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bauunternehmen"
+          "en": "Construction company",
+          "de": null
         },
         "validRelativeFrequency": 0.53,
         "relativeFrequency": 0.25,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstiges verabeitendes Gewerbe"
+          "en": "Other processing trades",
+          "de": null
         },
         "validRelativeFrequency": 1.6,
         "relativeFrequency": 0.74,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Handel"
+          "en": "Commerce",
+          "de": null
         },
         "validRelativeFrequency": 3.07,
         "relativeFrequency": 1.42,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Banken, Kreditgewerbe"
+          "en": "Banks, lending business",
+          "de": null
         },
         "validRelativeFrequency": 3.33,
         "relativeFrequency": 1.54,
@@ -157,8 +157,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Versicherungsgewerbe"
+          "en": "Insurance business",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -167,8 +167,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Transport"
+          "en": "Transport",
+          "de": null
         },
         "validRelativeFrequency": 1.07,
         "relativeFrequency": 0.49,
@@ -177,8 +177,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Telekommunikation"
+          "en": "Telecommunications",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -187,8 +187,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ingenieurbüro"
+          "en": "Engineering office",
+          "de": null
         },
         "validRelativeFrequency": 1.2,
         "relativeFrequency": 0.55,
@@ -197,8 +197,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Softwareentwicklung"
+          "en": "Software development",
+          "de": null
         },
         "validRelativeFrequency": 6.53,
         "relativeFrequency": 3.02,
@@ -207,8 +207,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "EDV-Dienstleistungen"
+          "en": "EDP services",
+          "de": null
         },
         "validRelativeFrequency": 3.73,
         "relativeFrequency": 1.73,
@@ -217,8 +217,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechts-, Wirtschafts-, Personalberatung"
+          "en": "Legal, economic, personnel consultation",
+          "de": null
         },
         "validRelativeFrequency": 4.27,
         "relativeFrequency": 1.97,
@@ -227,8 +227,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Presse, Rundfunk, Fernsehen"
+          "en": "Press, radio, television",
+          "de": null
         },
         "validRelativeFrequency": 3.73,
         "relativeFrequency": 1.73,
@@ -237,8 +237,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verlagswesen"
+          "en": "Publishing",
+          "de": null
         },
         "validRelativeFrequency": 1.07,
         "relativeFrequency": 0.49,
@@ -247,8 +247,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gesundheitswesen"
+          "en": "Health care",
+          "de": null
         },
         "validRelativeFrequency": 2.27,
         "relativeFrequency": 1.05,
@@ -257,8 +257,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "soziale Dienstleistungen"
+          "en": "Social services",
+          "de": null
         },
         "validRelativeFrequency": 0.93,
         "relativeFrequency": 0.43,
@@ -267,8 +267,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstige Dienstleistungen"
+          "en": "Other services",
+          "de": null
         },
         "validRelativeFrequency": 1.87,
         "relativeFrequency": 0.86,
@@ -277,8 +277,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "private Aus- und Weiterbildung"
+          "en": "Private training and further training",
+          "de": null
         },
         "validRelativeFrequency": 1.6,
         "relativeFrequency": 0.74,
@@ -287,8 +287,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Schulen"
+          "en": "Schools",
+          "de": null
         },
         "validRelativeFrequency": 6.8,
         "relativeFrequency": 3.14,
@@ -297,8 +297,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hochschulen"
+          "en": "Higher education institution",
+          "de": null
         },
         "validRelativeFrequency": 17.73,
         "relativeFrequency": 8.2,
@@ -307,8 +307,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Forschungseinrichtungen"
+          "en": "Research facilities",
+          "de": null
         },
         "validRelativeFrequency": 6.67,
         "relativeFrequency": 3.08,
@@ -317,8 +317,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kunst, Kultur"
+          "en": "Art, culture",
+          "de": null
         },
         "validRelativeFrequency": 1.2,
         "relativeFrequency": 0.55,
@@ -327,8 +327,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kirchen, Glaubensgemeinschaften"
+          "en": "Churches, religious communities",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -337,8 +337,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufs-, Wirtschaftsverbände, Parteien, Vereine, internat. Organisationen"
+          "en": "Occupational, economic associations, parties, clubs, international org.",
+          "de": null
         },
         "validRelativeFrequency": 3.07,
         "relativeFrequency": 1.42,
@@ -347,8 +347,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "allgemeine öffentliche Verwaltung"
+          "en": "General public administration",
+          "de": null
         },
         "validRelativeFrequency": 4.67,
         "relativeFrequency": 2.16,
@@ -357,8 +357,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Stiftungen"
+          "en": "Foundations",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -367,8 +367,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonstiges"
+          "en": "Other",
+          "de": null
         },
         "validRelativeFrequency": 2,
         "relativeFrequency": 0.92,
@@ -396,7 +396,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -409,8 +409,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Branche"
+    "en": "sector",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

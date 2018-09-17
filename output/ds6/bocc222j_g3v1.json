@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 10.17,
         "absoluteFrequency": 165,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "alte Bundesländer"
+          "en": "Former Federal States",
+          "de": null
         },
         "validRelativeFrequency": 63.81,
         "relativeFrequency": 24.35,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "neue Bundesländer (inkl. Berlin)"
+          "en": "New Federal States (incl. Berlin)",
+          "de": null
         },
         "validRelativeFrequency": 20.19,
         "relativeFrequency": 7.71,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Deutschland ohne nähere Angabe"
+          "en": "Germany no further details",
+          "de": null
         },
         "validRelativeFrequency": 6.46,
         "relativeFrequency": 2.47,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausland"
+          "en": "Abroad",
+          "de": null
         },
         "validRelativeFrequency": 9.53,
         "relativeFrequency": 3.64,
@@ -116,7 +116,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc222j_v1",
@@ -129,8 +129,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+    "en": "2nd job: location of work (new, old federal states or abroad)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

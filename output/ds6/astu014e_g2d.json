@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 96.18,
         "absoluteFrequency": 1560,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Sprach- und Kulturwissenschaften allgemein"
+          "en": "Linguistics and cultural sciences, generally",
+          "de": null
         },
         "validRelativeFrequency": 16.13,
         "relativeFrequency": 0.62,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geschichte"
+          "en": "History",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.18,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bibliothekswissenschaft, Dokumentation, Publizistik"
+          "en": "Library science, documentation, publishing",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.18,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
+          "en": "General and comparative literature studies and linguistics",
+          "de": null
         },
         "validRelativeFrequency": 3.23,
         "relativeFrequency": 0.12,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
+          "en": "German studies (German, Germanic languages without Anglistics)",
+          "de": null
         },
         "validRelativeFrequency": 6.45,
         "relativeFrequency": 0.25,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Außereuropäische Sprach- und Kulturwissenschaften"
+          "en": "Non-European linguistics and cultural studies",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Psychologie"
+          "en": "Psychology",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Erziehungswissenschaften"
+          "en": "Educational sciences",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -119,8 +119,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Wirtschafts- und Gesellschaftslehre allgemein"
+          "en": "Business and social studies, generally",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.18,
@@ -129,8 +129,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sozialwissenschaften"
+          "en": "Social sciences",
+          "de": null
         },
         "validRelativeFrequency": 8.06,
         "relativeFrequency": 0.31,
@@ -139,8 +139,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Wirtschaftswissenschaften"
+          "en": "Economic sciences",
+          "de": null
         },
         "validRelativeFrequency": 22.58,
         "relativeFrequency": 0.86,
@@ -149,8 +149,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Informatik"
+          "en": "Computer science",
+          "de": null
         },
         "validRelativeFrequency": 8.06,
         "relativeFrequency": 0.31,
@@ -159,8 +159,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Humanmedizin"
+          "en": "Human medicine",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -169,8 +169,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"
+          "en": "Agricultural sciences, food and beverage technology",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -179,8 +179,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinenbau, Verfahrenstechnik"
+          "en": "Mechanical engineering, process engineering",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.06,
@@ -189,8 +189,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elektrotechnik"
+          "en": "Electrical engineering",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.18,
@@ -199,8 +199,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Raumplanung"
+          "en": "Spatial planning",
+          "de": null
         },
         "validRelativeFrequency": 3.23,
         "relativeFrequency": 0.12,
@@ -209,8 +209,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bauingenieurwesen"
+          "en": "Civil engineering",
+          "de": null
         },
         "validRelativeFrequency": 3.23,
         "relativeFrequency": 0.12,
@@ -238,7 +238,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet.\r\nFür die Zuordnung der darin nicht enthaltenen älteren Fächercodes 47 (\"Krankenpflege-Ausbildung\" --> STB: \"Sozialwesen\") und 112 (\"Sozialpsychologie\" --> STB \"Psychologie\") wurde das Schlüsselverzeichnis 2003/2004 (Code 47) bzw. das Schlüsselverzeichnis 1997/1998 (Code 112) herangezogen."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu014e",
@@ -251,8 +251,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. Studium: Studienbereich (Hauptfach)"
+    "en": "4th course of study: area of study (major)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

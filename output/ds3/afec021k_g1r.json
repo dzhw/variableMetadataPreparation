@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten Länderangaben in codierter Form. Deutschland wurde mit dem Code 19 codiert. Für die Vercodung der ausländischen Länderangaben wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-1)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-afec021k",

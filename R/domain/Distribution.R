@@ -1,35 +1,32 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import("/R/domain/JSONSerializableDomainObject", attach = TRUE)
+modules::import("/R/domain/Statistics", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
-source(paste0(script_basename, "/domain/Statistics.R"))
-
-Distribution <- R6Class("Distribution", #nolint
+Distribution <- R6Class("Distribution", # nolint
   inherit = JSONSerializableDomainObject,
   public = list(
     get_total_absolute_frequency = function() {
       return(private$totalAbsoluteFrequency)
     },
     set_total_absolute_frequency = function(total_absolute_frequency) {
-      private$totalAbsoluteFrequency <- unbox(total_absolute_frequency) #nolint
+      private$totalAbsoluteFrequency <- unbox(total_absolute_frequency) # nolint
     },
     get_total_valid_absolute_frequency = function() {
       return(private$totalValidAbsoluteFrequency)
     },
     set_total_valid_absolute_frequency = function(total_valid_absolute_frequency) {
-      private$totalValidAbsoluteFrequency <- unbox(total_valid_absolute_frequency) #nolint
+      private$totalValidAbsoluteFrequency <- unbox(total_valid_absolute_frequency) # nolint
     },
     get_total_valid_relative_frequency = function() {
       return(private$totalValidRelativeFrequency)
     },
     set_total_valid_relative_frequency = function(total_valid_relative_frequency) {
-      private$totalValidRelativeFrequency <- unbox(total_valid_relative_frequency) #nolint
+      private$totalValidRelativeFrequency <- unbox(total_valid_relative_frequency) # nolint
     },
     get_valid_responses = function() {
       return(private$validResponses)
     },
     set_valid_responses = function(valid_responses) {
-      private$validResponses <- valid_responses #nolint
+      private$validResponses <- valid_responses # nolint
     },
     get_missings = function() {
       return(private$missings)

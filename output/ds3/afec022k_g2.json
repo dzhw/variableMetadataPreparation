@@ -96,7 +96,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Land der weiteren akademischen Qualifikation generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-afec022k",

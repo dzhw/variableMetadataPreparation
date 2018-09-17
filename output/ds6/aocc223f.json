@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 51.73,
         "absoluteFrequency": 839,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "unbefristet"
+          "en": "Unlimited",
+          "de": null
         },
         "validRelativeFrequency": 23.4,
         "relativeFrequency": 0.68,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "befristet (Zeitvertrag)"
+          "en": "Limited (fixed-term contract)",
+          "de": null
         },
         "validRelativeFrequency": 34.04,
         "relativeFrequency": 0.99,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Honorar-/Werkvertrag"
+          "en": "Fee/works contract",
+          "de": null
         },
         "validRelativeFrequency": 14.89,
         "relativeFrequency": 0.43,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "selbständig/freiberuflich"
+          "en": "Self-employed/freelance",
+          "de": null
         },
         "validRelativeFrequency": 14.89,
         "relativeFrequency": 0.43,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonstiges"
+          "en": "Other",
+          "de": null
         },
         "validRelativeFrequency": 12.77,
         "relativeFrequency": 0.37,
@@ -117,7 +117,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -130,8 +130,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "3. Tätigkeit: Art des Arbeitsverhältnisses"
+    "en": "3rd occupation: type of employment",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

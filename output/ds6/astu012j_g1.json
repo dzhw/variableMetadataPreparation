@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 99.2,
         "absoluteFrequency": 1609,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Magister"
+          "en": "Master's degree",
+          "de": null
         },
         "validRelativeFrequency": 53.85,
         "relativeFrequency": 0.43,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor Uni"
+          "en": "Bachelor Uni ",
+          "de": null
         },
         "validRelativeFrequency": 15.38,
         "relativeFrequency": 0.12,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master Uni"
+          "en": "Specialist Uni",
+          "de": null
         },
         "validRelativeFrequency": 23.08,
         "relativeFrequency": 0.18,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Abschluss außerhalb BRD"
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 0.06,
@@ -98,7 +98,7 @@
       "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -111,8 +111,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Studium: angestrebter Abschluss (2. Nebenfach)"
+    "en": "2nd course of study: degree aimed for (2nd minor) ",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

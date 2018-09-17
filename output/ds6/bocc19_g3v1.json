@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.91,
         "absoluteFrequency": 31,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -55,8 +55,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nicht bestimmbar"
+          "en": "not determinable",
+          "de": null
         },
         "relativeFrequency": 0.12,
         "absoluteFrequency": 2,
@@ -66,8 +66,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Angehörige der regulären Streitkräfte"
+          "en": "Member of the regular armed forces",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -76,8 +76,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Land-, Tier- und Forstwirtschaftsberufe"
+          "en": "Agricultural, livestock farming and forestry professions",
+          "de": null
         },
         "validRelativeFrequency": 3.33,
         "relativeFrequency": 1.54,
@@ -86,8 +86,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Gartenbauberufe und Floristik"
+          "en": "Horticultural and floristry professions",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -96,8 +96,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Papier- und Druckberufe, technische Mediengestaltung"
+          "en": "Paper and printing professions, technical media design",
+          "de": null
         },
         "validRelativeFrequency": 0.8,
         "relativeFrequency": 0.37,
@@ -106,8 +106,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinen- und Fahrzeugtechnikberufe"
+          "en": "Mechanical and automotive engineering professions",
+          "de": null
         },
         "validRelativeFrequency": 0.27,
         "relativeFrequency": 0.12,
@@ -116,8 +116,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mechatronik-, Energie- und Elektroberufe"
+          "en": "Mechatronics, energy and electronics professions",
+          "de": null
         },
         "validRelativeFrequency": 1.6,
         "relativeFrequency": 0.74,
@@ -126,8 +126,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Technische Forschungs-, Entwicklungs-, Konstruktions- und Produktionssteuerungsberufe"
+          "en": "Technical research, development, construction and production management professions",
+          "de": null
         },
         "validRelativeFrequency": 4.79,
         "relativeFrequency": 2.22,
@@ -136,8 +136,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bauplanungs-, Architektur- und Vermessungsberufe"
+          "en": "Construction planning, architectural and surveying professions",
+          "de": null
         },
         "validRelativeFrequency": 0.4,
         "relativeFrequency": 0.18,
@@ -146,8 +146,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Hoch- und Tiefbauberufe"
+          "en": "Structural and civil engineering professions",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -156,8 +156,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mathematik-, Biologie-, Chemie- und Physikberufe"
+          "en": "Mathematics, biology, chemistry and physics professions",
+          "de": null
         },
         "validRelativeFrequency": 5.19,
         "relativeFrequency": 2.4,
@@ -166,8 +166,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geologie-, Geografie- und Umweltschutzberufe"
+          "en": "Geology, geography and environmental protection professions",
+          "de": null
         },
         "validRelativeFrequency": 0.8,
         "relativeFrequency": 0.37,
@@ -176,8 +176,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Informatik-, Informations- und Kommunikationstechnologieberufe"
+          "en": "Computer science, IT and communication technology professions",
+          "de": null
         },
         "validRelativeFrequency": 14.25,
         "relativeFrequency": 6.6,
@@ -186,8 +186,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verkehrs- und Logistikberufe (außer Fahrzeugführung)"
+          "en": "Transport and logistics professions (excl. vehicle management)",
+          "de": null
         },
         "validRelativeFrequency": 1.2,
         "relativeFrequency": 0.55,
@@ -196,8 +196,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Schutz-, Sicherheits- und Überwachungsberufe"
+          "en": "Security and surveillance professions",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -206,8 +206,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Einkaufs-, Vertriebs- und Handelsberufe"
+          "en": "Purchasing, marketing and trade professions",
+          "de": null
         },
         "validRelativeFrequency": 3.06,
         "relativeFrequency": 1.42,
@@ -216,8 +216,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verkaufsberufe"
+          "en": "Sales professions",
+          "de": null
         },
         "validRelativeFrequency": 1.2,
         "relativeFrequency": 0.55,
@@ -226,8 +226,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Tourismus-, Hotel- und Gaststättenberufe"
+          "en": "Tourism, hotel and hospitality professions",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -236,8 +236,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe in Unternehmensführung und -organisation"
+          "en": "Business management professions",
+          "de": null
         },
         "validRelativeFrequency": 11.05,
         "relativeFrequency": 5.12,
@@ -246,8 +246,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe in Finanzdienstleistungen, Rechnungswesen und Steuerberatung"
+          "en": "Financial services, accountancy and tax consultancy professions",
+          "de": null
         },
         "validRelativeFrequency": 5.06,
         "relativeFrequency": 2.34,
@@ -256,8 +256,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Berufe in Recht und Verwaltung"
+          "en": "Legal and administrative professions",
+          "de": null
         },
         "validRelativeFrequency": 0.93,
         "relativeFrequency": 0.43,
@@ -266,8 +266,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Medizinische Gesundheitsberufe"
+          "en": "Medical and health professions",
+          "de": null
         },
         "validRelativeFrequency": 0.93,
         "relativeFrequency": 0.43,
@@ -276,8 +276,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Nichtmedizinische Gesundheits-, Körperpflege- und Wellnessberufe, Medizintechnik"
+          "en": "Non-medical health, body care and wellness, medical technology professions ",
+          "de": null
         },
         "validRelativeFrequency": 0.13,
         "relativeFrequency": 0.06,
@@ -286,8 +286,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Erziehung, soziale und hauswirtschaftliche Berufe, Theologie"
+          "en": "Educational, social and domestic professions, theology",
+          "de": null
         },
         "validRelativeFrequency": 1.6,
         "relativeFrequency": 0.74,
@@ -296,8 +296,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehrende und ausbildende Berufe"
+          "en": "Teaching and training professions",
+          "de": null
         },
         "validRelativeFrequency": 25.83,
         "relativeFrequency": 11.96,
@@ -306,8 +306,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sprach-, literatur-, geistes-, gesellschafts- und wirtschaftswissenschaftliche Berufe"
+          "en": "Linguistic, literary, arts, social and economic science professions",
+          "de": null
         },
         "validRelativeFrequency": 5.06,
         "relativeFrequency": 2.34,
@@ -316,8 +316,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Werbung, Marketing, kaufmännische und redaktionelle Medienberufe"
+          "en": "Advertising, marketing, sales and editorial media professions",
+          "de": null
         },
         "validRelativeFrequency": 10.12,
         "relativeFrequency": 4.69,
@@ -326,8 +326,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Darstellende und unterhaltende Berufe"
+          "en": "Performance and entertainment professions",
+          "de": null
         },
         "validRelativeFrequency": 0.67,
         "relativeFrequency": 0.31,
@@ -355,7 +355,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-5-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 2010 herangezogen (vgl. cl-destatis-kldb-2010). Zu Einzelheiten vgl. die Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc19_v1",
@@ -368,8 +368,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Beruf: KldB 2010 (2-stellig)"
+    "en": "job: German Classification of Occupation 2010 (2 digits)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

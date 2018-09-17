@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.6,
         "absoluteFrequency": 26,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr gut"
+          "en": "Very good",
+          "de": null
         },
         "validRelativeFrequency": 4.64,
         "relativeFrequency": 4.56,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 21.49,
         "relativeFrequency": 21.15,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 38.6,
         "relativeFrequency": 37.98,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 25.5,
         "relativeFrequency": 25.09,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr schlecht"
+          "en": "Very poor",
+          "de": null
         },
         "validRelativeFrequency": 9.77,
         "relativeFrequency": 9.62,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Studium: Berufsvorbereitung"
+    "en": "course of study: career preparation",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -257,7 +257,7 @@
       "de": "Diese Variable enthält die offen erfasste Branche des 2. Praktikums. Die offenen Angaben wurden nach den Codes der Frage 5.7 codiert."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

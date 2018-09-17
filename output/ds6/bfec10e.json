@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 34.28,
         "absoluteFrequency": 556,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 22.41,
         "relativeFrequency": 3.33,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 77.59,
         "relativeFrequency": 11.53,
@@ -87,7 +87,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -100,8 +100,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Promotion: läuft noch"
+    "en": "PhD: still ongoing",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

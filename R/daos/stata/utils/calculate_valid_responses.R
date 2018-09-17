@@ -1,15 +1,14 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
-
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/ValidResponse.R"))
+modules::import("/R/domain/ValidResponse", attach = TRUE)
 
 calculate_valid_responses <- function(original_values, valid_response_values, value_labels)
   UseMethod("calculate_valid_responses")
 
 # default
 calculate_valid_responses.default <- function(original_values, valid_response_values, value_labels) {
-  warning(paste0("calculate_valid_responses() does not know how to handle",
-  "objects of class ", class(original_values), ". "))
+  warning(paste0(
+    "calculate_valid_responses() does not know how to handle",
+    "objects of class ", class(original_values), ". "
+  ))
 }
 
 # numeric
@@ -27,13 +26,19 @@ calculate_valid_responses.numeric <- function(original_values, valid_response_va
       valid_response$set_valid_relative_frequency(round((table_valid_responses[i] /
         sum(table_valid_responses)) * 100, 2))
       valid_response$get_label()$set_de(ifelse(as.numeric(
-        names(table_valid_responses)[i]) %in% value_labels$de, names(
-          value_labels$de[which(
-            value_labels$de == names(table_valid_responses)[i])]), NA))
+        names(table_valid_responses)[i]
+      ) %in% value_labels$de, names(
+        value_labels$de[which(
+          value_labels$de == names(table_valid_responses)[i]
+        )]
+      ), NA))
       valid_response$get_label()$set_en(ifelse(as.numeric(
-        names(table_valid_responses)[i]) %in% value_labels$en, names(
-          value_labels$en[which(
-            value_labels$en == names(table_valid_responses)[i])]), NA))
+        names(table_valid_responses)[i]
+      ) %in% value_labels$en, names(
+        value_labels$en[which(
+          value_labels$en == names(table_valid_responses)[i]
+        )]
+      ), NA))
       out[[i]] <- valid_response
     }
   }
@@ -41,7 +46,7 @@ calculate_valid_responses.numeric <- function(original_values, valid_response_va
 }
 
 # string
-calculate_valid_responses.string <- function(original_values, valid_response_values, value_labels){
+calculate_valid_responses.string <- function(original_values, valid_response_values, value_labels) {
   out <- NULL
   table_values <- table(original_values)
   table_valid_responses <- table(valid_response_values)

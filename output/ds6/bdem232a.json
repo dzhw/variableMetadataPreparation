@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 24.48,
         "absoluteFrequency": 397,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Januar"
+          "en": "January",
+          "de": null
         },
         "validRelativeFrequency": 11,
         "relativeFrequency": 2.71,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Februar"
+          "en": "February",
+          "de": null
         },
         "validRelativeFrequency": 4.5,
         "relativeFrequency": 1.11,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "März"
+          "en": "March",
+          "de": null
         },
         "validRelativeFrequency": 6.25,
         "relativeFrequency": 1.54,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "April"
+          "en": "April",
+          "de": null
         },
         "validRelativeFrequency": 9,
         "relativeFrequency": 2.22,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mai"
+          "en": "May",
+          "de": null
         },
         "validRelativeFrequency": 6.75,
         "relativeFrequency": 1.66,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juni"
+          "en": "June",
+          "de": null
         },
         "validRelativeFrequency": 6.5,
         "relativeFrequency": 1.6,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juli"
+          "en": "July",
+          "de": null
         },
         "validRelativeFrequency": 4.75,
         "relativeFrequency": 1.17,
@@ -118,8 +118,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "August"
+          "en": "August",
+          "de": null
         },
         "validRelativeFrequency": 10.5,
         "relativeFrequency": 2.59,
@@ -128,8 +128,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "September"
+          "en": "September",
+          "de": null
         },
         "validRelativeFrequency": 16,
         "relativeFrequency": 3.95,
@@ -138,8 +138,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Oktober"
+          "en": "October",
+          "de": null
         },
         "validRelativeFrequency": 17.5,
         "relativeFrequency": 4.32,
@@ -148,8 +148,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "November"
+          "en": "November",
+          "de": null
         },
         "validRelativeFrequency": 4,
         "relativeFrequency": 0.99,
@@ -158,8 +158,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Dezember"
+          "en": "December",
+          "de": null
         },
         "validRelativeFrequency": 3.25,
         "relativeFrequency": 0.8,
@@ -187,7 +187,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -200,8 +200,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. vorheriger Hauptwohnsitz: Einzug (Monat)"
+    "en": "1st previous main residence: date of moving in (month)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

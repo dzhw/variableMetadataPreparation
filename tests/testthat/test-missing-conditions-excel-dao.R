@@ -1,13 +1,13 @@
 context("Missings Excel File")
 
-script_basename <- here("R")
-source(paste0(script_basename, "/daos/excel/MissingConditionsExcelDao.R"))
+modules::import("../../R/daos/excel/MissingConditionsExcelDao", attach = TRUE)
 
 missing_conditions_excel_dao <- NULL
 
 setup({
   missing_conditions_excel_dao <<- MissingConditionsExcelDao$new(
-    here("data-raw/excel/conditions.xlsx"))
+    here("data-raw/excel/conditions.xlsx")
+  )
 })
 
 teardown({

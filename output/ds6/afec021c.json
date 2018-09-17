@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 5.86,
         "absoluteFrequency": 95,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 14.92,
         "absoluteFrequency": 242,
@@ -157,7 +157,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,
@@ -170,8 +170,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. weitere akademische Qualifikation: Beginn (Jahr)"
+    "en": "1st further academic qualification: start (year)",
+    "de": null
   },
   "scaleLevel": {
     "en": "interval",

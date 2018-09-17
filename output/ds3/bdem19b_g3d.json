@@ -126,7 +126,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variable \"Geburtsland (Ausland)\" generiert. Zur Aggregation wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-1). Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bdem19b",

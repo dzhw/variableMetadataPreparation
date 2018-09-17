@@ -28,7 +28,7 @@ Author: Kirill Müller [aut, cre], Hadley Wickham [aut], RStudio [cph]
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>
 Repository: CRAN
 Date/Publication: 2018-07-14 20:40:03 UTC
-Built: R 3.5.1; ; 2018-08-27 14:08:03 UTC; unix
+Built: R 3.5.1; ; 2018-09-17 14:13:45 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: 3e43f774fa6dfba877caca1aebbeaa6a

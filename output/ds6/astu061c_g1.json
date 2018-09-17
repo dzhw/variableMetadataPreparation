@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.37,
         "absoluteFrequency": 6,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 80.52,
         "absoluteFrequency": 1306,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Großbritannien"
+          "en": "Great Britain",
+          "de": null
         },
         "validRelativeFrequency": 10.32,
         "relativeFrequency": 1.97,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Frankreich"
+          "en": "France",
+          "de": null
         },
         "validRelativeFrequency": 11.29,
         "relativeFrequency": 2.16,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Italien"
+          "en": "Italy",
+          "de": null
         },
         "validRelativeFrequency": 3.23,
         "relativeFrequency": 0.62,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Spanien"
+          "en": "Spain",
+          "de": null
         },
         "validRelativeFrequency": 15.81,
         "relativeFrequency": 3.02,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Belgien"
+          "en": "Belgium",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Niederlande"
+          "en": "Netherlands",
+          "de": null
         },
         "validRelativeFrequency": 1.29,
         "relativeFrequency": 0.25,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Dänemark"
+          "en": "Denmark",
+          "de": null
         },
         "validRelativeFrequency": 1.29,
         "relativeFrequency": 0.25,
@@ -118,8 +118,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Irland"
+          "en": "Ireland",
+          "de": null
         },
         "validRelativeFrequency": 2.58,
         "relativeFrequency": 0.49,
@@ -128,8 +128,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Österreich"
+          "en": "Austria",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -138,8 +138,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Schweden"
+          "en": "Sweden",
+          "de": null
         },
         "validRelativeFrequency": 5.16,
         "relativeFrequency": 0.99,
@@ -148,8 +148,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Finnland"
+          "en": "Finland",
+          "de": null
         },
         "validRelativeFrequency": 4.84,
         "relativeFrequency": 0.92,
@@ -158,8 +158,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Polen"
+          "en": "Poland",
+          "de": null
         },
         "validRelativeFrequency": 1.29,
         "relativeFrequency": 0.25,
@@ -168,8 +168,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Türkei"
+          "en": "Turkey",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -178,8 +178,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ungarn"
+          "en": "Hungary",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -188,8 +188,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Estland"
+          "en": "Estonia",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -198,8 +198,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lettland"
+          "en": "Latvia",
+          "de": null
         },
         "validRelativeFrequency": 0.32,
         "relativeFrequency": 0.06,
@@ -208,8 +208,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Russ. Föderation, Russland"
+          "en": "Russia",
+          "de": null
         },
         "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.31,
@@ -218,8 +218,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Norwegen"
+          "en": "Norway",
+          "de": null
         },
         "validRelativeFrequency": 1.94,
         "relativeFrequency": 0.37,
@@ -228,8 +228,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Schweiz"
+          "en": "Switzerland",
+          "de": null
         },
         "validRelativeFrequency": 2.58,
         "relativeFrequency": 0.49,
@@ -238,8 +238,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "USA"
+          "en": "United States",
+          "de": null
         },
         "validRelativeFrequency": 11.29,
         "relativeFrequency": 2.16,
@@ -248,8 +248,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kanada"
+          "en": "Canada",
+          "de": null
         },
         "validRelativeFrequency": 2.9,
         "relativeFrequency": 0.55,
@@ -258,8 +258,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mexiko"
+          "en": "Mexico",
+          "de": null
         },
         "validRelativeFrequency": 2.9,
         "relativeFrequency": 0.55,
@@ -268,8 +268,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mittelamerika, Karibik"
+          "en": "Central America, Caribbean",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -278,8 +278,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Südamerika ohne Brasilien"
+          "en": "South America without Brasil",
+          "de": null
         },
         "validRelativeFrequency": 3.87,
         "relativeFrequency": 0.74,
@@ -288,8 +288,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Israel"
+          "en": "Israel",
+          "de": null
         },
         "validRelativeFrequency": 0.32,
         "relativeFrequency": 0.06,
@@ -298,8 +298,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Naher Osten, Arabien"
+          "en": "Near East, Arabia",
+          "de": null
         },
         "validRelativeFrequency": 0.32,
         "relativeFrequency": 0.06,
@@ -308,8 +308,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "China, Volksrepublik"
+          "en": "People's Republic of China",
+          "de": null
         },
         "validRelativeFrequency": 1.29,
         "relativeFrequency": 0.25,
@@ -318,8 +318,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Japan"
+          "en": "Japan",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -328,8 +328,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Korea, Republik. (Südkorea)"
+          "en": "South Corea",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -338,8 +338,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mittleren und Fernosten (sonstige Länder)"
+          "en": "Middle and Far East (other countries)",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -348,8 +348,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Australien"
+          "en": "Australia",
+          "de": null
         },
         "validRelativeFrequency": 6.77,
         "relativeFrequency": 1.29,
@@ -358,8 +358,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Neuseeland"
+          "en": "New Zealand",
+          "de": null
         },
         "validRelativeFrequency": 0.65,
         "relativeFrequency": 0.12,
@@ -368,8 +368,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Südafrika"
+          "en": "South Africa",
+          "de": null
         },
         "validRelativeFrequency": 0.32,
         "relativeFrequency": 0.06,
@@ -397,7 +397,7 @@
       "de": "Diese Variable enthält die offen erfassten Länderangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-1)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -410,8 +410,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Auslandsstudium: Land"
+    "en": "study abroad: country",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -1,7 +1,6 @@
 context("Stata Data Set")
 
-script_basename <- here("R")
-source(paste0(script_basename, "/daos/stata/StataDataSetDao.R"))
+modules::import("../../R/daos/stata/StataDataSetDao", attach = TRUE)
 
 ds6_dao <- NULL
 
@@ -15,6 +14,8 @@ teardown({
 
 test_that("total absolute frequency is correct", {
   distribution <- ds6_dao$get_distribution(
-    "adem01a", scale_level_en = "nominal", access_ways = c("hurz"))
+    "adem01a",
+    scale_level_en = "nominal", access_ways = c("hurz")
+  )
   expect_identical(distribution$get_total_absolute_frequency(), unbox(1622))
 })

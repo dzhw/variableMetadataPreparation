@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 80.58,
         "absoluteFrequency": 1307,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "alte Bundesländer"
+          "en": "Former Federal States",
+          "de": null
         },
         "validRelativeFrequency": 59.05,
         "relativeFrequency": 11.47,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "neue Bundesländer (inkl. Berlin)"
+          "en": "New Federal States (incl. Berlin)",
+          "de": null
         },
         "validRelativeFrequency": 24.76,
         "relativeFrequency": 4.81,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Deutschland ohne nähere Angabe"
+          "en": "Germany no further details",
+          "de": null
         },
         "validRelativeFrequency": 0.32,
         "relativeFrequency": 0.06,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausland"
+          "en": "Abroad",
+          "de": null
         },
         "validRelativeFrequency": 15.87,
         "relativeFrequency": 3.08,
@@ -98,7 +98,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu013k",
@@ -111,8 +111,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "3. Studium : Hochschulort (neue bzw. alte Bundesländer)"
+    "en": "3rd course of study: location of university (new or old federal states)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

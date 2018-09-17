@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.9,
         "absoluteFrequency": 47,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 49.46,
         "relativeFrequency": 48.03,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 36.63,
         "relativeFrequency": 35.57,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 11.37,
         "relativeFrequency": 11.04,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 2.22,
         "relativeFrequency": 2.16,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unwichtig"
+          "en": "Unimportant",
+          "de": null
         },
         "validRelativeFrequency": 0.32,
         "relativeFrequency": 0.31,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "wichtig für Beruf: EDV-Kenntnisse"
+    "en": "important for career: IT skills",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

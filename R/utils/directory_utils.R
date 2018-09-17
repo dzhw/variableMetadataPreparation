@@ -14,9 +14,13 @@ create_export_directories <- function(path_to_json_directory, stata_files) {
       if (length(list.files(paste0(path_to_json_directory, "/", ds))) > 0) {
         do.call(file.remove, as.list(
           list.files(paste0(path_to_json_directory, "/", ds),
-            pattern = "*.json", full.names = TRUE)))
-        cat(paste0("Deleted old json files from ",
-          paste0(path_to_json_directory, "\\", ds, "\n")))
+            pattern = "*.json", full.names = TRUE
+          )
+        ))
+        cat(paste0(
+          "Deleted old json files from ",
+          paste0(path_to_json_directory, "\\", ds, "\n")
+        ))
       }
     }
   }

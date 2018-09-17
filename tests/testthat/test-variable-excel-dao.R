@@ -1,7 +1,6 @@
 context("Variable Excel Sheet")
 
-script_basename <- here("R")
-source(paste0(script_basename, "/daos/excel/VariableExcelDao.R"))
+modules::import("../../R/daos/excel/VariableExcelDao", attach = TRUE)
 
 variable_excel_dao <- NULL
 

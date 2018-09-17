@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 4.07,
         "absoluteFrequency": 66,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 95.31,
         "absoluteFrequency": 1546,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Januar"
+          "en": "January",
+          "de": null
         },
         "validRelativeFrequency": 10,
         "relativeFrequency": 0.06,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "März"
+          "en": "March",
+          "de": null
         },
         "validRelativeFrequency": 20,
         "relativeFrequency": 0.12,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "April"
+          "en": "April",
+          "de": null
         },
         "validRelativeFrequency": 30,
         "relativeFrequency": 0.18,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juni"
+          "en": "June",
+          "de": null
         },
         "validRelativeFrequency": 20,
         "relativeFrequency": 0.12,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Oktober"
+          "en": "October",
+          "de": null
         },
         "validRelativeFrequency": 10,
         "relativeFrequency": 0.06,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Dezember"
+          "en": "December",
+          "de": null
         },
         "validRelativeFrequency": 10,
         "relativeFrequency": 0.06,
@@ -127,7 +127,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -140,8 +140,8 @@
     "de": "Haben die Befragten mehr als drei Kinder angegeben, wurden die Geburtsdaten des ältesten und des jüngsten Kindes beibehalten. Angaben zu den mittleren Kindern wurden gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt."
   },
   "label": {
-    "en": null,
-    "de": "2. Kind: Geburt (Monat)"
+    "en": "2nd child: date of birth (month)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

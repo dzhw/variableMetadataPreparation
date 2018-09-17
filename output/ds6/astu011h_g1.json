@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 79.96,
         "absoluteFrequency": 1297,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Diplom Uni"
+          "en": "Diploma Uni",
+          "de": null
         },
         "validRelativeFrequency": 0.92,
         "relativeFrequency": 0.18,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Magister"
+          "en": "Master's degree",
+          "de": null
         },
         "validRelativeFrequency": 12.92,
         "relativeFrequency": 2.59,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor FH"
+          "en": "Bachelor FH (Technical college)",
+          "de": null
         },
         "validRelativeFrequency": 1.54,
         "relativeFrequency": 0.31,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor Uni"
+          "en": "Bachelor Uni ",
+          "de": null
         },
         "validRelativeFrequency": 80.62,
         "relativeFrequency": 16.15,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehramt Grund-/Hauptschule"
+          "en": "Teaching profession primary/lower secondary school",
+          "de": null
         },
         "validRelativeFrequency": 0.92,
         "relativeFrequency": 0.18,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Lehramt Gymnasium"
+          "en": "Teaching profession grammar school",
+          "de": null
         },
         "validRelativeFrequency": 2.46,
         "relativeFrequency": 0.49,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Abschluss außerhalb BRD"
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Pro-Forma-Studium"
+          "en": "Pro-forma studies",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -138,7 +138,7 @@
       "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-2)."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -151,8 +151,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Studium: angestrebter Abschluss (1. Nebenfach)"
+    "en": "1st course of study: degree aimed for (1st minor)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

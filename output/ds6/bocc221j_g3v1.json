@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.25,
         "absoluteFrequency": 4,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "alte Bundesländer"
+          "en": "Former Federal States",
+          "de": null
         },
         "validRelativeFrequency": 69.36,
         "relativeFrequency": 33.35,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "neue Bundesländer (inkl. Berlin)"
+          "en": "New Federal States (incl. Berlin)",
+          "de": null
         },
         "validRelativeFrequency": 20.64,
         "relativeFrequency": 9.93,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Deutschland ohne nähere Angabe"
+          "en": "Germany no further details",
+          "de": null
         },
         "validRelativeFrequency": 5,
         "relativeFrequency": 2.4,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ausland"
+          "en": "Abroad",
+          "de": null
         },
         "validRelativeFrequency": 5,
         "relativeFrequency": 2.4,
@@ -116,7 +116,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc221j_v1",
@@ -129,8 +129,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+    "en": "1st job: location of work (new, old federal states or abroad)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 3.02,
         "absoluteFrequency": 49,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr wichtig"
+          "en": "Very important",
+          "de": null
         },
         "validRelativeFrequency": 26.76,
         "relativeFrequency": 25.96,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 36.62,
         "relativeFrequency": 35.51,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 26.64,
         "relativeFrequency": 25.83,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 8.2,
         "relativeFrequency": 7.95,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "unwichtig"
+          "en": "Unimportant",
+          "de": null
         },
         "validRelativeFrequency": 1.78,
         "relativeFrequency": 1.73,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "wichtig für Beruf: Konfliktmanagement"
+    "en": "important for career: conflict management",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

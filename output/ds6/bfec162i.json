@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 35.64,
         "absoluteFrequency": 578,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 8.63,
         "absoluteFrequency": 140,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "kein Abschluss angestrebt"
+          "en": "No certification pursued",
+          "de": null
         },
         "validRelativeFrequency": 7.59,
         "relativeFrequency": 0.37,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Master"
+          "en": "Specialist",
+          "de": null
         },
         "validRelativeFrequency": 50.63,
         "relativeFrequency": 2.47,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bachelor"
+          "en": "Bachelor",
+          "de": null
         },
         "validRelativeFrequency": 8.86,
         "relativeFrequency": 0.43,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Diplom / Magister"
+          "en": "Diploma / Master's degree",
+          "de": null
         },
         "validRelativeFrequency": 7.59,
         "relativeFrequency": 0.37,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Zertifikat"
+          "en": "Certificate",
+          "de": null
         },
         "validRelativeFrequency": 20.25,
         "relativeFrequency": 0.99,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sonstiger Abschluss"
+          "en": "Other qualification",
+          "de": null
         },
         "validRelativeFrequency": 2.53,
         "relativeFrequency": 0.12,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Staatsexamen"
+          "en": "State exams",
+          "de": null
         },
         "validRelativeFrequency": 2.53,
         "relativeFrequency": 0.12,
@@ -146,7 +146,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -159,8 +159,8 @@
     "de": "Da die Kategorie 4 im Fragebogen zwei Mal vergeben wurde (für Diplom/Magister bzw. für Staatsexamen) wurde anhand der anderen Angaben im Fragebogen geprüft, um welche Art des Abschlusses es sich genau handelte. Wurde der Abschluss eindeutig als Diplom- oder Magisterabschluss identifiziert, wurde die Kategorie 4 beibehalten. Für eindeutige Staatsexamen-Abschlüsse wurde der Code 7 vergeben. Zweifelsfälle bekamen den Code 8"
   },
   "label": {
-    "en": null,
-    "de": "2. Weiterbildung an HS: Abschlussart"
+    "en": "2nd further education at university: type of degree",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

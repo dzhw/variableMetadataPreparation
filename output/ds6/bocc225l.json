@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 43.34,
         "absoluteFrequency": 703,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Selbstständigkeit"
+          "en": "Self-employment",
+          "de": null
         },
         "validRelativeFrequency": 30.86,
         "relativeFrequency": 1.54,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb A"
+          "en": "Company A",
+          "de": null
         },
         "validRelativeFrequency": 12.35,
         "relativeFrequency": 0.62,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb B"
+          "en": "Company B",
+          "de": null
         },
         "validRelativeFrequency": 18.52,
         "relativeFrequency": 0.92,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb C"
+          "en": "Company C",
+          "de": null
         },
         "validRelativeFrequency": 17.28,
         "relativeFrequency": 0.86,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb D"
+          "en": "Company D",
+          "de": null
         },
         "validRelativeFrequency": 13.58,
         "relativeFrequency": 0.68,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb E"
+          "en": "Company E",
+          "de": null
         },
         "validRelativeFrequency": 7.41,
         "relativeFrequency": 0.37,
@@ -136,7 +136,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -149,8 +149,8 @@
     "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht."
   },
   "label": {
-    "en": null,
-    "de": "5. Tätigkeit: Betrieb"
+    "en": "5th job: company",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

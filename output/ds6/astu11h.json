@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.86,
         "absoluteFrequency": 14,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr gut"
+          "en": "Very good",
+          "de": null
         },
         "validRelativeFrequency": 14.8,
         "relativeFrequency": 14.67,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 32.46,
         "relativeFrequency": 32.18,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 30.04,
         "relativeFrequency": 29.78,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 17.1,
         "relativeFrequency": 16.95,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr schlecht"
+          "en": "Very poor",
+          "de": null
         },
         "validRelativeFrequency": 5.6,
         "relativeFrequency": 5.55,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Studium: Verknüpfung Theorie und Praxis"
+    "en": "course of study: linking of theory and practice",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

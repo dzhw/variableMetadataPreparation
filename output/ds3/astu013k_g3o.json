@@ -57,7 +57,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die Hochschulen über den Hochschulort einer NUTS-2-Region gemäß der NUTS-Klassifikation des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 (vgl. cl-eurostat-nuts-2010) zugeordnet."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu013k",

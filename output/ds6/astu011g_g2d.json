@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 79.96,
         "absoluteFrequency": 1297,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Sprach- und Kulturwissenschaften allgemein"
+          "en": "Linguistics and cultural sciences, generally",
+          "de": null
         },
         "validRelativeFrequency": 0.92,
         "relativeFrequency": 0.18,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Evang. Theologie, -Religionslehre"
+          "en": "Prot. theology/religious doctrine",
+          "de": null
         },
         "validRelativeFrequency": 2.46,
         "relativeFrequency": 0.49,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Philosophie"
+          "en": "Philosophy",
+          "de": null
         },
         "validRelativeFrequency": 2.77,
         "relativeFrequency": 0.55,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geschichte"
+          "en": "History",
+          "de": null
         },
         "validRelativeFrequency": 6.15,
         "relativeFrequency": 1.23,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Bibliothekswissenschaft, Dokumentation, Publizistik"
+          "en": "Library science, documentation, publishing",
+          "de": null
         },
         "validRelativeFrequency": 11.69,
         "relativeFrequency": 2.34,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
+          "en": "General and comparative literature studies and linguistics",
+          "de": null
         },
         "validRelativeFrequency": 3.08,
         "relativeFrequency": 0.62,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Altphilologie (klass. Philologie), Neugriechisch"
+          "en": "Classical philology, modern Greek",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
+          "en": "German studies (German, Germanic languages without Anglistics)",
+          "de": null
         },
         "validRelativeFrequency": 4,
         "relativeFrequency": 0.8,
@@ -119,8 +119,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Anglistik, Amerikanistik"
+          "en": "Anglistics, Americanistics",
+          "de": null
         },
         "validRelativeFrequency": 6.15,
         "relativeFrequency": 1.23,
@@ -129,8 +129,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Romanistik"
+          "en": "Romanistics",
+          "de": null
         },
         "validRelativeFrequency": 4.62,
         "relativeFrequency": 0.92,
@@ -139,8 +139,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Psychologie"
+          "en": "Psychology",
+          "de": null
         },
         "validRelativeFrequency": 5.23,
         "relativeFrequency": 1.05,
@@ -149,8 +149,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Erziehungswissenschaften"
+          "en": "Educational sciences",
+          "de": null
         },
         "validRelativeFrequency": 15.38,
         "relativeFrequency": 3.08,
@@ -159,8 +159,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonderpädagogik"
+          "en": "Special pedagogy",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -169,8 +169,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sport, Sportwissenschaft"
+          "en": "Sports, sports science",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -179,8 +179,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Politikwissenschaften"
+          "en": "Political sciences",
+          "de": null
         },
         "validRelativeFrequency": 4.31,
         "relativeFrequency": 0.86,
@@ -189,8 +189,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sozialwissenschaften"
+          "en": "Social sciences",
+          "de": null
         },
         "validRelativeFrequency": 10.15,
         "relativeFrequency": 2.03,
@@ -199,8 +199,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Rechtswissenschaft"
+          "en": "Legal studies",
+          "de": null
         },
         "validRelativeFrequency": 2.46,
         "relativeFrequency": 0.49,
@@ -209,8 +209,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Wirtschaftswissenschaften"
+          "en": "Economic sciences",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 1.54,
@@ -219,8 +219,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mathematik, Naturwissenschaften allgemein"
+          "en": "Mathematics, natural sciences, generally",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -229,8 +229,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mathematik"
+          "en": "Mathematics ",
+          "de": null
         },
         "validRelativeFrequency": 0.92,
         "relativeFrequency": 0.18,
@@ -239,8 +239,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Informatik"
+          "en": "Computer science",
+          "de": null
         },
         "validRelativeFrequency": 0.92,
         "relativeFrequency": 0.18,
@@ -249,8 +249,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Physik, Astronomie"
+          "en": "Physics, astronomy",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -259,8 +259,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Chemie"
+          "en": "Chemistry",
+          "de": null
         },
         "validRelativeFrequency": 2.77,
         "relativeFrequency": 0.55,
@@ -269,8 +269,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Biologie"
+          "en": "Biology",
+          "de": null
         },
         "validRelativeFrequency": 1.23,
         "relativeFrequency": 0.25,
@@ -279,8 +279,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Geographie"
+          "en": "Geography",
+          "de": null
         },
         "validRelativeFrequency": 1.54,
         "relativeFrequency": 0.31,
@@ -289,8 +289,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Ingenieurwesen allgemein"
+          "en": "Engineering in general",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -299,8 +299,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Maschinenbau, Verfahrenstechnik"
+          "en": "Mechanical engineering, process engineering",
+          "de": null
         },
         "validRelativeFrequency": 0.62,
         "relativeFrequency": 0.12,
@@ -309,8 +309,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Elektrotechnik"
+          "en": "Electrical engineering",
+          "de": null
         },
         "validRelativeFrequency": 0.62,
         "relativeFrequency": 0.12,
@@ -319,8 +319,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kunst, Kunstwissenschaft allgemein"
+          "en": "Art, aesthetics, generally",
+          "de": null
         },
         "validRelativeFrequency": 1.85,
         "relativeFrequency": 0.37,
@@ -329,8 +329,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaften"
+          "en": "Performing art, film and television, theatre studies",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -339,8 +339,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Musik, Musikwissenschaft"
+          "en": "Music, musicology",
+          "de": null
         },
         "validRelativeFrequency": 0.31,
         "relativeFrequency": 0.06,
@@ -368,7 +368,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-studienfach-2005) verwendet.\r\nFür die Zuordnung der darin nicht enthaltenen älteren Fächercodes 47 (\"Krankenpflege-Ausbildung\" --> STB: \"Sozialwesen\") und 112 (\"Sozialpsychologie\" --> STB \"Psychologie\") wurde das Schlüsselverzeichnis 2003/2004 (Code 47) bzw. das Schlüsselverzeichnis 1997/1998 (Code 112) herangezogen."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu011g",
@@ -381,8 +381,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Studium: Studienbereich (1. Nebenfach)"
+    "en": "1st course of study: area of study (1st minor)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

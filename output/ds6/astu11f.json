@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.48,
         "absoluteFrequency": 24,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr gut"
+          "en": "Very good",
+          "de": null
         },
         "validRelativeFrequency": 23.84,
         "relativeFrequency": 23.49,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 47.25,
         "relativeFrequency": 46.55,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 22.59,
         "relativeFrequency": 22.26,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 5.44,
         "relativeFrequency": 5.36,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr schlecht"
+          "en": "Very poor",
+          "de": null
         },
         "validRelativeFrequency": 0.88,
         "relativeFrequency": 0.86,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Studium: Aktualität Forschung"
+    "en": "course of study: up-to-dateness of research",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

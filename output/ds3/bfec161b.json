@@ -186,7 +186,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,

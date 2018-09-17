@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 37.98,
         "absoluteFrequency": 616,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "leitende Angestellte"
+          "en": "Management employee",
+          "de": null
         },
         "validRelativeFrequency": 4.17,
         "relativeFrequency": 0.43,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "wissenschaftlich qualifizierte Angestellte mit mittlerer Leitung"
+          "en": "Scientifically-qualified employee, middle management  ",
+          "de": null
         },
         "validRelativeFrequency": 14.29,
         "relativeFrequency": 1.48,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "wissenschaftlich qualifizierte Angestellte ohne Leitung"
+          "en": "Scientifically-qualified employee, not management  ",
+          "de": null
         },
         "validRelativeFrequency": 30.36,
         "relativeFrequency": 3.14,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "qualifizierte Angestellte"
+          "en": "Qualified employee",
+          "de": null
         },
         "validRelativeFrequency": 16.07,
         "relativeFrequency": 1.66,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ausführende Angestellte"
+          "en": "Executive employee",
+          "de": null
         },
         "validRelativeFrequency": 5.95,
         "relativeFrequency": 0.62,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Referendar/in, Anerkennungspraktikant/in etc."
+          "en": "Trainee, acknowledgement trainee etc.",
+          "de": null
         },
         "validRelativeFrequency": 1.79,
         "relativeFrequency": 0.18,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Selbständige in freien Berufen"
+          "en": "Self-employed, freelance",
+          "de": null
         },
         "validRelativeFrequency": 5.36,
         "relativeFrequency": 0.55,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Selbständige Unternehmer/innen"
+          "en": "Self-employed, entrepreneurs",
+          "de": null
         },
         "validRelativeFrequency": 2.98,
         "relativeFrequency": 0.31,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Selbständige mit Honorar-/Werkvertrag"
+          "en": "Self-employed with fee/works contract",
+          "de": null
         },
         "validRelativeFrequency": 8.33,
         "relativeFrequency": 0.86,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Beamte im höheren Dienst"
+          "en": "Official in upper ranks of civil service",
+          "de": null
         },
         "validRelativeFrequency": 1.19,
         "relativeFrequency": 0.12,
@@ -157,8 +157,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Beamte im gehobenen Dienst"
+          "en": "Official in upper ranks of civil service",
+          "de": null
         },
         "validRelativeFrequency": 1.79,
         "relativeFrequency": 0.18,
@@ -167,8 +167,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "un-/angelernte Arbeiter/innen"
+          "en": "Unskilled/trained employee",
+          "de": null
         },
         "validRelativeFrequency": 7.14,
         "relativeFrequency": 0.74,
@@ -177,8 +177,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "mithelfende Familienangehörige"
+          "en": "Assisting member of family",
+          "de": null
         },
         "validRelativeFrequency": 0.6,
         "relativeFrequency": 0.06,
@@ -206,7 +206,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -219,8 +219,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. Tätigkeit: berufliche Stellung"
+    "en": "4th job: job position",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 13.01,
         "absoluteFrequency": 211,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 98.67,
         "relativeFrequency": 41.06,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 1.33,
         "relativeFrequency": 0.55,
@@ -87,7 +87,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -100,8 +100,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. Stelle gefunden: Einstieg bei Freunden/Bekannten"
+    "en": "1st job found: started working for friends/acquaintances",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

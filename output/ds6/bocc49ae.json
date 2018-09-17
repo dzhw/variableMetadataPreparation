@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.4,
         "absoluteFrequency": 39,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "trifft sehr stark zu"
+          "en": "Is definitely the case",
+          "de": null
         },
         "validRelativeFrequency": 22.42,
         "relativeFrequency": 10.3,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 45.5,
         "relativeFrequency": 20.9,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 24.03,
         "relativeFrequency": 11.04,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 5.64,
         "relativeFrequency": 2.59,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft gar nicht zu"
+          "en": "Is definitely not the case",
+          "de": null
         },
         "validRelativeFrequency": 2.42,
         "relativeFrequency": 1.11,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Arbeitsform: kooperative Atmosphäre"
+    "en": "form of work: cooperative atmosphere",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

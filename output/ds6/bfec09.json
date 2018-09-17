@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja,abgeschlossen"
+          "en": "Yes, completed",
+          "de": null
         },
         "validRelativeFrequency": 5.02,
         "relativeFrequency": 2.47,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, aber noch nicht beendet"
+          "en": "Yes, but not yet finished",
+          "de": null
         },
         "validRelativeFrequency": 22.58,
         "relativeFrequency": 11.1,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, aber abgebrochen"
+          "en": "Yes, but terminated",
+          "de": null
         },
         "validRelativeFrequency": 1.76,
         "relativeFrequency": 0.86,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, zurzeit unterbrochen"
+          "en": "Yes, currently interrupted",
+          "de": null
         },
         "validRelativeFrequency": 0.25,
         "relativeFrequency": 0.12,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, aber geplant"
+          "en": "No, but planned",
+          "de": null
         },
         "validRelativeFrequency": 6.02,
         "relativeFrequency": 2.96,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, nicht geplant"
+          "en": "No, not planned",
+          "de": null
         },
         "validRelativeFrequency": 63.36,
         "relativeFrequency": 31.13,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja abgeschlossen, zuvor länger unterbrochen"
+          "en": "Yes, completed; previously interrupted for a prolonged amount of time",
+          "de": null
         },
         "validRelativeFrequency": 0.63,
         "relativeFrequency": 0.31,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, ohne nähere Angabe"
+          "en": "No, no further information",
+          "de": null
         },
         "validRelativeFrequency": 0.38,
         "relativeFrequency": 0.18,
@@ -138,7 +138,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -151,8 +151,8 @@
     "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen sechs Kategorien zusätzlich auch die Kategorien 7 \"ja abgeschlossen, zuvor länger unterbrochen\", 8 \"nein, ohne nähere Angabe\" und 9 \"ja abgeschlossen, Zweitpromotion\". Diese Kategorien wurden basierend auf den anderen Angaben der Befragten im Fragebogen gebildet."
   },
   "label": {
-    "en": null,
-    "de": "Promotion: Status"
+    "en": "PhD: status",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

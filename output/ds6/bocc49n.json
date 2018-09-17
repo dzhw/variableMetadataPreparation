@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 2.53,
         "absoluteFrequency": 41,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "trifft sehr stark zu"
+          "en": "Is definitely the case",
+          "de": null
         },
         "validRelativeFrequency": 5.92,
         "relativeFrequency": 2.71,
@@ -68,7 +68,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 13.06,
         "relativeFrequency": 5.98,
@@ -78,7 +78,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 22.48,
         "relativeFrequency": 10.3,
@@ -88,7 +88,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 31.09,
         "relativeFrequency": 14.24,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft gar nicht zu"
+          "en": "Is definitely not the case",
+          "de": null
         },
         "validRelativeFrequency": 27.46,
         "relativeFrequency": 12.58,
@@ -126,7 +126,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Arbeitsform: Schuldige bei Misserfolg gesucht"
+    "en": "form of work: person responsible for failure searched for",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

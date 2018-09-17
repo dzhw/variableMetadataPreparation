@@ -188,7 +188,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -201,8 +201,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Fachsemester: Anzahl"
+    "en": "study semester: total number",
+    "de": null
   },
   "scaleLevel": {
     "en": "ratio",

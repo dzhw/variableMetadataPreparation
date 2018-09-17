@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) herangezogen (vgl. cl-destatis-studienfach-2005). Ergänzend wurden, weil in den Daten enthalten, die Fächercodes 47 (\"Krankenpflege-Ausbildung\") und 112 (\"Sozialpsychologie\") berücksichtigt. Es handelt sich dabei um alte Codes, die es seit dem Schlüsselverzeichnis 2003/2004 (Code 47) bzw. seit dem Schlüsselverzeichnis 1997/1998 (Code 112) nicht mehr gibt."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu015i",

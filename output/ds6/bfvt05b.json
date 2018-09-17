@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.68,
         "absoluteFrequency": 11,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 24.6,
         "absoluteFrequency": 399,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 96.9,
         "relativeFrequency": 23.12,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 3.1,
         "relativeFrequency": 0.74,
@@ -96,7 +96,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -109,8 +109,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Initiative (WB außerhalb HS): Agentur für Arbeit"
+    "en": "initiative (further education outside university): job centre",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

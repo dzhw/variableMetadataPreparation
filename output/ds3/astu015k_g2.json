@@ -77,7 +77,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Zur Aggregation wurde zunächst die Zuordnung zu einer Hochschulart aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-hochschule-2005) verwendet. Danach werden die Hochschulen in Deutschland in 6 Typen differenziert:\r\n1) Universitäten\r\n2) Pädagogische Hochschulen\r\n3) Theologische/Kirchliche Hochschulen\r\n4) Kunsthochschulen\r\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\r\n6) Verwaltungsfachhochschulen\r\n\r\nDiese Typen wurden nochmals aggregiert zu den beiden Kategorien \"Universität\" und \"Fachhochschule\". Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\r\n\r\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu015k",

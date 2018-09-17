@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 19.48,
         "absoluteFrequency": 316,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "auf jeden Fall"
+          "en": "Definitely",
+          "de": null
         },
         "validRelativeFrequency": 2.37,
         "relativeFrequency": 1.91,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 5.59,
         "relativeFrequency": 4.5,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 17.53,
         "relativeFrequency": 14.12,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 28.41,
         "relativeFrequency": 22.87,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "auf keinen Fall"
+          "en": "Definitely not",
+          "de": null
         },
         "validRelativeFrequency": 46.09,
         "relativeFrequency": 37.11,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Retrospektive: Berufstätigkeit nach Berufsausbildung"
+    "en": "in retrospect: work after vocational training",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

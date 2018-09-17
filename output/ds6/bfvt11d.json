@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.55,
         "absoluteFrequency": 9,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 9.8,
         "absoluteFrequency": 159,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "nicht genannt"
+          "en": "Not stated",
+          "de": null
         },
         "validRelativeFrequency": 52.78,
         "relativeFrequency": 20.47,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "genannt"
+          "en": "Stated",
+          "de": null
         },
         "validRelativeFrequency": 47.22,
         "relativeFrequency": 18.31,
@@ -96,7 +96,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -109,8 +109,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Form Weiterbildung: Tages-/Halbtagsveranstaltungen"
+    "en": "type further education: day/half day events",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

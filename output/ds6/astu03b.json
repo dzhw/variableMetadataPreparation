@@ -68,7 +68,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": null,
@@ -81,8 +81,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "letzte Prüfung: Jahr"
+    "en": "last examination: year",
+    "de": null
   },
   "scaleLevel": {
     "en": "interval",

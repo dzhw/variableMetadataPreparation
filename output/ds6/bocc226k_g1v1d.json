@@ -258,8 +258,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "6. Tätigkeit: Arbeitsort (NUTS-2)"
+    "en": "6th job: location of work (NUTS-2)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

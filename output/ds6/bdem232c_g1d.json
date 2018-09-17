@@ -458,8 +458,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "1. vorheriger Hauptwohnsitz: NUTS-2"
+    "en": "1st previous main residence: NUTS-2",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

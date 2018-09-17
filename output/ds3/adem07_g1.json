@@ -288,7 +288,7 @@
       "de": "Geburtsjahre bis 1959 wurden zu einer Kategorie aggregiert."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": true,
   "derivedVariablesIdentifier": "gra2005-ds3-adem07",

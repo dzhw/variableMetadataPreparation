@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.23,
         "absoluteFrequency": 20,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "sehr großen Wert"
+          "en": "Of great value",
+          "de": null
         },
         "validRelativeFrequency": 40.51,
         "relativeFrequency": 40.01,
@@ -50,7 +50,7 @@
       {
         "label": {
           "en": null,
-          "de": "2"
+          "de": null
         },
         "validRelativeFrequency": 38.2,
         "relativeFrequency": 37.73,
@@ -60,7 +60,7 @@
       {
         "label": {
           "en": null,
-          "de": "3"
+          "de": null
         },
         "validRelativeFrequency": 13.73,
         "relativeFrequency": 13.56,
@@ -70,7 +70,7 @@
       {
         "label": {
           "en": null,
-          "de": "4"
+          "de": null
         },
         "validRelativeFrequency": 5.68,
         "relativeFrequency": 5.61,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sehr geringen Wert"
+          "en": "Of very little value",
+          "de": null
         },
         "validRelativeFrequency": 1.87,
         "relativeFrequency": 1.85,
@@ -108,7 +108,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -121,8 +121,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Wert Studium: interessanter Beruf"
+    "en": "value of degree: interesting career",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten Berufsangaben in codierter Form. Als Codierliste wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992) und die Angaben vierstellig codiert."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-aocc19",

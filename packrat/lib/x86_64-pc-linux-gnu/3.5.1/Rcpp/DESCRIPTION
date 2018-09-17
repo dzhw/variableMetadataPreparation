@@ -33,7 +33,7 @@ NeedsCompilation: yes
 Packaged: 2018-07-21 21:40:37.784076 UTC; edd
 Repository: CRAN
 Date/Publication: 2018-07-23 07:50:03 UTC
-Built: R 3.5.1; x86_64-pc-linux-gnu; 2018-08-27 14:05:29 UTC; unix
+Built: R 3.5.1; x86_64-pc-linux-gnu; 2018-09-17 14:12:55 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: c80398774358bc105b9f91f7f7519d7a

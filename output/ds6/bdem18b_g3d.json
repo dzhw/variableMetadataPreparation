@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.18,
         "absoluteFrequency": 3,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "trifft nicht zu"
+          "en": "does not apply",
+          "de": null
         },
         "relativeFrequency": 47.04,
         "absoluteFrequency": 763,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "EU"
+          "en": "EU",
+          "de": null
         },
         "validRelativeFrequency": 51.61,
         "relativeFrequency": 0.99,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Europa außerhalb der EU"
+          "en": "Europe outside the EU",
+          "de": null
         },
         "validRelativeFrequency": 29.03,
         "relativeFrequency": 0.55,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Amerika"
+          "en": "America",
+          "de": null
         },
         "validRelativeFrequency": 6.45,
         "relativeFrequency": 0.12,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Asien"
+          "en": "Asia",
+          "de": null
         },
         "validRelativeFrequency": 9.68,
         "relativeFrequency": 0.18,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Afrika"
+          "en": "Africa",
+          "de": null
         },
         "validRelativeFrequency": 3.23,
         "relativeFrequency": 0.06,
@@ -126,7 +126,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variable \"Staatsangehörigkeit (Ausland)\" generiert. Zur Aggregation wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-1). Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bdem18b",
@@ -139,8 +139,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Staatsangehörigkeit: Land (Weltregionen)"
+    "en": "nationality: country (world regions)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

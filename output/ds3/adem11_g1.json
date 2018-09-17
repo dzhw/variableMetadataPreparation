@@ -97,7 +97,7 @@
       "de": "Diese Variable wurde in der Regel anhand der angegebenen Geburtsdaten der Kinder gebildet. Die Anzahl der Kinder entspricht jedoch nicht immer der Summe der angegebenen Kinder (Geburtsdaten), weil bei mehr als drei angegebenen Kindern Angaben zu den mittleren Kindern gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt wurden."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,

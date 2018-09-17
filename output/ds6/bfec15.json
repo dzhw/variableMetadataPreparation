@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 0.06,
         "absoluteFrequency": 1,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja"
+          "en": "Yes",
+          "de": null
         },
         "validRelativeFrequency": 82.41,
         "relativeFrequency": 40.44,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, aber geplant"
+          "en": "No, but planned",
+          "de": null
         },
         "validRelativeFrequency": 2.39,
         "relativeFrequency": 1.17,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, nicht geplant"
+          "en": "No, not planned",
+          "de": null
         },
         "validRelativeFrequency": 15.2,
         "relativeFrequency": 7.46,
@@ -97,7 +97,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -110,8 +110,8 @@
     "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien zusätzlich auch die Kategorie 4 \"nein, o.n.A\".\r\nDiese wurde vergeben (und ersetzt die Originalangabe des Befragten), wenn in Frage 5.2 fälschlicherweise eine einzelne Studienepisode, die gestrichen werden musste (z.B. Promotion, die bereits vorher schon abgefragt wurde), eingetragen wurde."
   },
   "label": {
-    "en": null,
-    "de": "Teilnahme Fort-/Weiterbildung an HS"
+    "en": "participation in further education at university",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

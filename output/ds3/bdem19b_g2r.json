@@ -57,7 +57,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variable \"Geburtsland (Ausland)\" generiert. Zur Aggregation wurde eine projekteigene Codierliste (in Anlehnung an die Länderklassifikation des NEPS bei der Startkohorte 5, aber mit Anpassungen bei den europäischen Ländern) verwendet (vgl. cl-dzhw-1). Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bdem19b",

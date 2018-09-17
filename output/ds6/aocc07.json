@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 6.41,
         "absoluteFrequency": 104,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "ja, bin es schon"
+          "en": "yes, am already",
+          "de": null
         },
         "validRelativeFrequency": 4.68,
         "relativeFrequency": 4.38,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ja, erwäge es ernsthaft"
+          "en": "yes, seriously thinking about it",
+          "de": null
         },
         "validRelativeFrequency": 12.38,
         "relativeFrequency": 11.59,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, zurzeit spricht einiges dagegen"
+          "en": "no, a lot speaks against it right now",
+          "de": null
         },
         "validRelativeFrequency": 44.33,
         "relativeFrequency": 41.49,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nein, kommt nicht in Frage"
+          "en": "no, out of the question",
+          "de": null
         },
         "validRelativeFrequency": 38.6,
         "relativeFrequency": 36.13,
@@ -98,7 +98,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -111,8 +111,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "geplante Selbständigkeit"
+    "en": "planned self-employment",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 12.95,
         "absoluteFrequency": 210,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 0.8,
         "absoluteFrequency": 13,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Selbstständigkeit"
+          "en": "Self-employment",
+          "de": null
         },
         "validRelativeFrequency": 12.89,
         "relativeFrequency": 4.56,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb A"
+          "en": "Company A",
+          "de": null
         },
         "validRelativeFrequency": 36.93,
         "relativeFrequency": 13.07,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Betrieb B"
+          "en": "Company B",
+          "de": null
         },
         "validRelativeFrequency": 50.17,
         "relativeFrequency": 17.76,
@@ -106,7 +106,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -119,8 +119,8 @@
     "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht."
   },
   "label": {
-    "en": null,
-    "de": "2. Tätigkeit: Betrieb"
+    "en": "2nd job: company",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

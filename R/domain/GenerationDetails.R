@@ -1,10 +1,7 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import("/R/domain/JSONSerializableDomainObject", attach = TRUE)
+modules::import("/R/domain/I18nString", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
-source(paste0(script_basename, "/domain/I18nString.R"))
-
-GenerationDetails <- R6Class("GenerationDetails", #nolint
+GenerationDetails <- R6Class("GenerationDetails", # nolint
   inherit = JSONSerializableDomainObject,
   public = list(
     initialize = function() {
@@ -26,7 +23,7 @@ GenerationDetails <- R6Class("GenerationDetails", #nolint
       return(private$ruleExpressionLanguage)
     },
     set_rule_expression_language = function(rule_expression_language) {
-      private$ruleExpressionLanguage <- unbox(rule_expression_language) #nolint
+      private$ruleExpressionLanguage <- unbox(rule_expression_language) # nolint
     }
   ),
   private = list(

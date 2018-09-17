@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 6.54,
         "absoluteFrequency": 106,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 40.2,
         "absoluteFrequency": 652,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Januar"
+          "en": "January",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 0.18,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Februar"
+          "en": "February",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 0.18,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "März"
+          "en": "March",
+          "de": null
         },
         "validRelativeFrequency": 5.13,
         "relativeFrequency": 0.12,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "April"
+          "en": "April",
+          "de": null
         },
         "validRelativeFrequency": 17.95,
         "relativeFrequency": 0.43,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mai"
+          "en": "May",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 0.18,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juni"
+          "en": "June",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 0.18,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Juli"
+          "en": "July",
+          "de": null
         },
         "validRelativeFrequency": 12.82,
         "relativeFrequency": 0.31,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "August"
+          "en": "August",
+          "de": null
         },
         "validRelativeFrequency": 10.26,
         "relativeFrequency": 0.25,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "September"
+          "en": "September",
+          "de": null
         },
         "validRelativeFrequency": 10.26,
         "relativeFrequency": 0.25,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Oktober"
+          "en": "October",
+          "de": null
         },
         "validRelativeFrequency": 2.56,
         "relativeFrequency": 0.06,
@@ -157,8 +157,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "November"
+          "en": "November",
+          "de": null
         },
         "validRelativeFrequency": 7.69,
         "relativeFrequency": 0.18,
@@ -167,8 +167,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Dezember"
+          "en": "December",
+          "de": null
         },
         "validRelativeFrequency": 2.56,
         "relativeFrequency": 0.06,
@@ -196,7 +196,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -209,8 +209,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "2. Kind: Geburt (Monat)"
+    "en": "2nd child: date of birth (month)",
+    "de": null
   },
   "scaleLevel": {
     "en": "ordinal",

@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 13.44,
         "absoluteFrequency": 218,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 45.38,
         "absoluteFrequency": 736,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Über 1000 Mitarbeiter/innen"
+          "en": "Over 1000 employees",
+          "de": null
         },
         "validRelativeFrequency": 29.34,
         "relativeFrequency": 12.08,
@@ -58,8 +58,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "über 500 bis 1000 Mitarbeiter/innen"
+          "en": "Over 500 to 1000 employees",
+          "de": null
         },
         "validRelativeFrequency": 6.44,
         "relativeFrequency": 2.65,
@@ -68,8 +68,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "über 100 bis 500 Mitarbeiter/innen"
+          "en": "Over 100 to 500 employees",
+          "de": null
         },
         "validRelativeFrequency": 12.72,
         "relativeFrequency": 5.24,
@@ -78,8 +78,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "über 20 bis 100 Mitarbeiter/innen"
+          "en": "Over 20 to 100 employees",
+          "de": null
         },
         "validRelativeFrequency": 18.86,
         "relativeFrequency": 7.77,
@@ -88,8 +88,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "5 bis 20 Mitarbeiter/innen"
+          "en": "5 to 20 employees",
+          "de": null
         },
         "validRelativeFrequency": 17.96,
         "relativeFrequency": 7.4,
@@ -98,8 +98,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "weniger als 5 Mitarbeiter/innen"
+          "en": "Less than 5 employees",
+          "de": null
         },
         "validRelativeFrequency": 7.49,
         "relativeFrequency": 3.08,
@@ -108,8 +108,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "freischaffend, ohne Mitarbeiter/innen"
+          "en": "Freelance, no employees",
+          "de": null
         },
         "validRelativeFrequency": 4.49,
         "relativeFrequency": 1.85,
@@ -118,8 +118,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonstiges"
+          "en": "Other",
+          "de": null
         },
         "validRelativeFrequency": 2.69,
         "relativeFrequency": 1.11,
@@ -147,7 +147,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -160,8 +160,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "letzte Stelle: Betriebsgröße"
+    "en": "last job: size of company",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

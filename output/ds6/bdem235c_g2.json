@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 47.97,
         "absoluteFrequency": 778,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -48,8 +48,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Deutschland"
+          "en": "Germany",
+          "de": null
         },
         "validRelativeFrequency": 100,
         "relativeFrequency": 1.17,
@@ -77,7 +77,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung aus dem Ort des Wohnsitzes generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bdem235c",
@@ -90,8 +90,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. vorheriger Hauptwohnsitz: Deutschland"
+    "en": "4th previous main residence: Germany",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

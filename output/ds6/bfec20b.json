@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 4.07,
         "absoluteFrequency": 66,
@@ -37,8 +37,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
+          "en": "not participated (panel)",
+          "de": null
         },
         "relativeFrequency": 50.86,
         "absoluteFrequency": 825,
@@ -46,8 +46,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
+          "en": "filtered",
+          "de": null
         },
         "relativeFrequency": 34.09,
         "absoluteFrequency": 553,
@@ -57,8 +57,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "naturwissenschaftliche Themen"
+          "en": "Natural sciences topics",
+          "de": null
         },
         "validRelativeFrequency": 7.3,
         "relativeFrequency": 0.8,
@@ -67,8 +67,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "mathematische Gebiete/Statistik"
+          "en": "Mathematical fields/statistics",
+          "de": null
         },
         "validRelativeFrequency": 6.18,
         "relativeFrequency": 0.68,
@@ -77,8 +77,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "sozialwissenschaftliche Themen"
+          "en": "Social sciences topics",
+          "de": null
         },
         "validRelativeFrequency": 2.25,
         "relativeFrequency": 0.25,
@@ -87,8 +87,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "geisteswissenschaftliche Themen"
+          "en": "Humanities topics",
+          "de": null
         },
         "validRelativeFrequency": 7.87,
         "relativeFrequency": 0.86,
@@ -97,8 +97,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "pädagogische/psychologische Themen"
+          "en": "Pedagogical/psychological topics",
+          "de": null
         },
         "validRelativeFrequency": 5.62,
         "relativeFrequency": 0.62,
@@ -107,8 +107,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "medizinische Spezialgebiete"
+          "en": "Medical specialist fields",
+          "de": null
         },
         "validRelativeFrequency": 1.12,
         "relativeFrequency": 0.12,
@@ -117,8 +117,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "informationstechnisches Spezialwissen"
+          "en": "IT special knowledge",
+          "de": null
         },
         "validRelativeFrequency": 3.93,
         "relativeFrequency": 0.43,
@@ -127,8 +127,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Managementwissen"
+          "en": "Management knowledge",
+          "de": null
         },
         "validRelativeFrequency": 10.67,
         "relativeFrequency": 1.17,
@@ -137,8 +137,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Wirtschaftskenntnisse"
+          "en": "Economic skills",
+          "de": null
         },
         "validRelativeFrequency": 6.74,
         "relativeFrequency": 0.74,
@@ -147,8 +147,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "nationales Recht"
+          "en": "National law",
+          "de": null
         },
         "validRelativeFrequency": 0.56,
         "relativeFrequency": 0.06,
@@ -157,8 +157,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "internationales Recht"
+          "en": "International law",
+          "de": null
         },
         "validRelativeFrequency": 0.56,
         "relativeFrequency": 0.06,
@@ -167,8 +167,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Verwaltung, Organistaion"
+          "en": "Administration, organisation",
+          "de": null
         },
         "validRelativeFrequency": 1.69,
         "relativeFrequency": 0.18,
@@ -177,8 +177,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Vertriebsschulungen"
+          "en": "Sales training",
+          "de": null
         },
         "validRelativeFrequency": 0.56,
         "relativeFrequency": 0.06,
@@ -187,8 +187,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "EDV-Anwendungen"
+          "en": "EDP applications",
+          "de": null
         },
         "validRelativeFrequency": 10.67,
         "relativeFrequency": 1.17,
@@ -197,8 +197,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fremdsprachen"
+          "en": "Foreign languages",
+          "de": null
         },
         "validRelativeFrequency": 10.11,
         "relativeFrequency": 1.11,
@@ -207,8 +207,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Mitarbeiterführung/Personalentwicklung"
+          "en": "Employee management/Personnel development",
+          "de": null
         },
         "validRelativeFrequency": 2.25,
         "relativeFrequency": 0.25,
@@ -217,8 +217,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Kommunikations-/Interaktionstraining"
+          "en": "Communication/interaction training",
+          "de": null
         },
         "validRelativeFrequency": 15.73,
         "relativeFrequency": 1.73,
@@ -227,8 +227,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "internationale Beziehungen, Kulturkenntnisse, Landeskunde"
+          "en": "International relations, cultural knowledge, regional studies",
+          "de": null
         },
         "validRelativeFrequency": 3.37,
         "relativeFrequency": 0.37,
@@ -237,8 +237,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "ökologische Themen"
+          "en": "Ecological topics",
+          "de": null
         },
         "validRelativeFrequency": 0.56,
         "relativeFrequency": 0.06,
@@ -247,8 +247,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Existenzgründung"
+          "en": "Business start-up",
+          "de": null
         },
         "validRelativeFrequency": 1.12,
         "relativeFrequency": 0.12,
@@ -257,8 +257,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Sonstige Themen"
+          "en": "Other topics",
+          "de": null
         },
         "validRelativeFrequency": 1.12,
         "relativeFrequency": 0.12,
@@ -286,7 +286,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -299,8 +299,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "kurze Weiterbildung an HS: Inhalt 2"
+    "en": "short further education at university: content 2",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

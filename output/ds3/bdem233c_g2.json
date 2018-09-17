@@ -86,7 +86,7 @@
       "de": "Diese Variable wurde zum Zweck der Anonymisierung aus dem Ort des Wohnsitzes generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bdem233c",

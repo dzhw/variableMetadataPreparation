@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "keine Angabe"
+          "en": "no answer",
+          "de": null
         },
         "relativeFrequency": 1.66,
         "absoluteFrequency": 27,
@@ -39,8 +39,8 @@
     "validResponses": [
       {
         "label": {
-          "en": null,
-          "de": "Promotion"
+          "en": "Doctorate",
+          "de": null
         },
         "validRelativeFrequency": 2.07,
         "relativeFrequency": 2.03,
@@ -49,8 +49,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Universität"
+          "en": "University",
+          "de": null
         },
         "validRelativeFrequency": 26.65,
         "relativeFrequency": 26.2,
@@ -59,8 +59,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fachhoch-, Ingenieurschule, Handelsakademie"
+          "en": "Technical college, school of engineering, commercial academy",
+          "de": null
         },
         "validRelativeFrequency": 6.71,
         "relativeFrequency": 6.6,
@@ -69,8 +69,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Fachschule (nur DDR)"
+          "en": "Technical college (only GDR)",
+          "de": null
         },
         "validRelativeFrequency": 4.2,
         "relativeFrequency": 4.13,
@@ -79,8 +79,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "Meister-/Technikerschule, Berufs-/Fachakademie"
+          "en": "Master school/technical school, vocational/professional academy",
+          "de": null
         },
         "validRelativeFrequency": 5.58,
         "relativeFrequency": 5.49,
@@ -89,8 +89,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "beruflich-betriebliche Ausbildung"
+          "en": "Vocational-company-based training",
+          "de": null
         },
         "validRelativeFrequency": 36.18,
         "relativeFrequency": 35.57,
@@ -99,8 +99,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "beruflich-schulische Ausbildung"
+          "en": "Vocational-school training",
+          "de": null
         },
         "validRelativeFrequency": 11.22,
         "relativeFrequency": 11.04,
@@ -109,8 +109,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "keinen beruflichen Abschluss"
+          "en": "No vocational qualification",
+          "de": null
         },
         "validRelativeFrequency": 5.14,
         "relativeFrequency": 5.06,
@@ -119,8 +119,8 @@
       },
       {
         "label": {
-          "en": null,
-          "de": "beruflicher Abschluss unbekannt"
+          "en": "Vocational qualification unknown",
+          "de": null
         },
         "validRelativeFrequency": 2.26,
         "relativeFrequency": 2.22,
@@ -148,7 +148,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
@@ -161,8 +161,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Mutter: höchster beruflicher Abschluss"
+    "en": "mother: highest professional qualification",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

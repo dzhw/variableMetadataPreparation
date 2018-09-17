@@ -1,12 +1,10 @@
-suppressPackageStartupMessages(suppressWarnings(library(R6)))
-suppressPackageStartupMessages(suppressWarnings(library(readxl)))
-suppressPackageStartupMessages(suppressWarnings(library(stringr)))
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+modules::import_package(package = "R6", attach = TRUE)
+modules::import_package(package = "readxl", attach = TRUE)
+modules::import_package(package = "stringr", attach = TRUE)
 
-script_basename <- here("R")
-source(paste0(script_basename, "/utils/character_parsing.R"))
+modules::import("/R/utils/character_parsing", attach = TRUE)
 
-BaseExcelDao <- R6Class("BaseExcelDao", #nolint
+BaseExcelDao <- R6Class("BaseExcelDao", # nolint
   private = list(
     trim = function(x) {
       trimws(x, which = c("both"))
@@ -28,13 +26,16 @@ BaseExcelDao <- R6Class("BaseExcelDao", #nolint
     create_vector = create_vector,
     trim_vector_cols = function(excel, colnames) {
       cbind(excel[, !(names(excel) %in% colnames)],
-      lapply(excel[colnames],
-        FUN = function(x) {
-          # remove whitespaces
-          gsub(pattern = "\\s+", replacement = "", x = x)
-          # replace "." by ","
-          gsub(pattern = ".", replacement = ",", x = x, fixed = TRUE)
-      }), stringsAsFactors = FALSE)
+        lapply(excel[colnames],
+          FUN = function(x) {
+            # remove whitespaces
+            gsub(pattern = "\\s+", replacement = "", x = x)
+            # replace "." by ","
+            gsub(pattern = ".", replacement = ",", x = x, fixed = TRUE)
+          }
+        ),
+        stringsAsFactors = FALSE
+      )
     }
   )
 )

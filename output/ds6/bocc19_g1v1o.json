@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "anonymisiert"
+          "en": "anonymized",
+          "de": null
         },
         "relativeFrequency": 100,
         "absoluteFrequency": 1622,
@@ -57,7 +57,7 @@
       "de": "Diese Variable enthält die offen erfassten Berufsangaben in codierter Form. Als Codierliste wurde eine Vorversion des Destatis-Schlüsselverzeichnisses für die \"Klassifizierung der Berufe (KldB)\" von 2010 (vgl. cl-destatis-kldb-2010Vorversion) herangezogen und die Angaben fünfstellig codiert."
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc19_v1",
@@ -70,8 +70,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "Beruf: KldB 2010 (5-stellig) (anonymisiert)"
+    "en": "job: German Classification of Occupation 2010 (5 digits) (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",

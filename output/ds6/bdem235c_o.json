@@ -28,8 +28,8 @@
     "missings": [
       {
         "label": {
-          "en": null,
-          "de": "anonymisiert"
+          "en": "anonymized",
+          "de": null
         },
         "relativeFrequency": 100,
         "absoluteFrequency": 1622,
@@ -57,7 +57,7 @@
       "de": null
     }
   },
-  "storageType": "integer",
+  "storageType": "double",
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bdem235c",
@@ -70,8 +70,8 @@
     "de": null
   },
   "label": {
-    "en": null,
-    "de": "4. vorheriger Hauptwohnsitz: PLZ (anonymisiert)"
+    "en": "4th previous main residence: postcode (anonymized)",
+    "de": null
   },
   "scaleLevel": {
     "en": "nominal",
