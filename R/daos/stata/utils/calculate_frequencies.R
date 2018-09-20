@@ -1,4 +1,6 @@
-modules::import("/R/domain/Distribution", attach = TRUE)
+options(import.path = here::here("R/daos/stata/utils"))
+
+modules::import("../../../domain/Distribution", attach = TRUE)
 
 calculate_frequencies <- function(original_values, valid_values)
   UseMethod("calculate_frequencies")

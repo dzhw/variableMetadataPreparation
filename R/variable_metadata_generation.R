@@ -1,9 +1,11 @@
-modules::import("/R/utils/character_parsing", attach = TRUE)
-modules::import("/R/utils/directory_utils", attach = TRUE)
-modules::import("/R/daos/excel/MissingConditionsExcelDao", attach = TRUE)
-modules::import("/R/daos/excel/VariableExcelDao", attach = TRUE)
-modules::import("/R/daos/excel/RelatedQuestionExcelDao", attach = TRUE)
-modules::import("/R/daos/stata/StataDataSetDao", attach = TRUE)
+options(import.path = here::here("R"))
+
+modules::import("utils/character_parsing", attach = TRUE)
+modules::import("utils/directory_utils", attach = TRUE)
+modules::import("daos/excel/MissingConditionsExcelDao", attach = TRUE)
+modules::import("daos/excel/VariableExcelDao", attach = TRUE)
+modules::import("daos/excel/RelatedQuestionExcelDao", attach = TRUE)
+modules::import("daos/stata/StataDataSetDao", attach = TRUE)
 
 variable_metadata_generation = function(path_to_excel_directory,
   path_to_stata_directory, missing_conditions_file,
@@ -13,13 +15,11 @@ variable_metadata_generation = function(path_to_excel_directory,
   cat(paste0("exceldirectory:", path_to_excel_directory, "\n"))
   cat(paste0("statadirectory:", path_to_stata_directory, "\n"))
   cat(paste0("outputdirectory:", path_to_output_directory, "\n"))
-  cat(paste0(
-    "missing-conditions-numeric:",
+  cat(paste0("missing-conditions-numeric:",
     missingConditionsExcelDao$get_missing_conditions_numeric(),
     "\n"
-  ))
-  cat(paste0(
-    "missing-conditions-string:",
+    ))
+  cat(paste0("missing-conditions-string:",
     missingConditionsExcelDao$get_missing_conditions_string(),
     "\n"
   ))

@@ -1,5 +1,8 @@
-modules::import("/R/daos/excel/BaseExcelDao", attach = TRUE)
-modules::import("/R/domain/Variable", attach = TRUE)
+library(here)
+options(import.path = here::here("R/daos/excel"))
+
+modules::import("BaseExcelDao", attach = TRUE)
+modules::import("../../domain/Variable", attach = TRUE)
 
 VariableExcelDao <- R6Class("VariableExcelDao", # nolint
   inherit = BaseExcelDao,

@@ -1,6 +1,8 @@
+options(import.path = here::here("R/daos/stata/utils"))
+
 modules::import_package(package = "moments", attach = TRUE)
 
-modules::import("/R/domain/Statistics", attach = TRUE)
+modules::import("../../../domain/Statistics", attach = TRUE)
 
 to_character <- function(x) {
   out <- format(x)

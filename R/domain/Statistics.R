@@ -1,7 +1,6 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+options(import.path = here::here("R/domain"))
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
+modules::import("JSONSerializableDomainObject", attach = TRUE)
 
 Statistics <- R6Class("Statistics", # nolint
   inherit = JSONSerializableDomainObject,

@@ -1,11 +1,10 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+options(import.path = here::here("R/domain"))
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
-source(paste0(script_basename, "/domain/I18nString.R"))
-source(paste0(script_basename, "/domain/GenerationDetails.R"))
-source(paste0(script_basename, "/domain/FilterDetails.R"))
-source(paste0(script_basename, "/domain/Distribution.R"))
+modules::import("JSONSerializableDomainObject", attach = TRUE)
+modules::import("I18nString", attach = TRUE)
+modules::import("GenerationDetails", attach = TRUE)
+modules::import("FilterDetails", attach = TRUE)
+modules::import("Distribution", attach = TRUE)
 
 Variable <- R6Class("Variable", # nolint
   inherit = JSONSerializableDomainObject,

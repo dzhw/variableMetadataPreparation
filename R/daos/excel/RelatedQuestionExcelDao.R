@@ -1,5 +1,7 @@
-modules::import("/R/daos/excel/BaseExcelDao", attach = TRUE)
-modules::import("/R/domain/RelatedQuestion", attach = TRUE)
+options(import.path = here::here("R/daos/excel"))
+
+modules::import("BaseExcelDao", attach = TRUE)
+modules::import("../../domain/RelatedQuestion", attach = TRUE)
 
 RelatedQuestionExcelDao <- R6Class("RelatedQuestionExcelDao", # nolint
   inherit = BaseExcelDao,

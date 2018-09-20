@@ -1,6 +1,7 @@
-modules::import_package(package = "stringr", attach = TRUE)
+options(import.path = here::here("R/daos/stata/utils"))
 
-modules::import("/R/domain/Missing", attach = TRUE)
+modules::import_package(package = "stringr", attach = TRUE)
+modules::import("../../../domain/Missing", attach = TRUE)
 
 calculate_missings <- function(original_values, missing_values, value_labels)
   UseMethod("calculate_missings")
