@@ -1,8 +1,7 @@
-suppressPackageStartupMessages(suppressWarnings(library(here)))
+options(import.path = here::here("R/domain"))
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
-source(paste0(script_basename, "/domain/I18nString.R"))
+modules::import("JSONSerializableDomainObject", attach = TRUE)
+modules::import("I18nString", attach = TRUE)
 
 ValidResponse <- R6Class("ValidResponse", # nolint
   inherit = JSONSerializableDomainObject,

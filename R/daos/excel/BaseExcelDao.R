@@ -1,8 +1,10 @@
+options(import.path = here::here("R/daos/excel"))
+
 modules::import_package(package = "R6", attach = TRUE)
 modules::import_package(package = "readxl", attach = TRUE)
 modules::import_package(package = "stringr", attach = TRUE)
 
-modules::import("/R/utils/character_parsing", attach = TRUE)
+modules::import("../../utils/character_parsing", attach = TRUE)
 
 BaseExcelDao <- R6Class("BaseExcelDao", # nolint
   private = list(

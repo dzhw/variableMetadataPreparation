@@ -1,6 +1,8 @@
+options(import.path = here::here("R"))
+
 modules::import_package(package = "optparse", attach = TRUE)
 
-modules::import("/R/variable_metadata_generation", attach = TRUE)
+modules::import("variable_metadata_generation", attach = TRUE)
 
 option_list <- list(
   make_option(c("-e", "--excel-directory"),

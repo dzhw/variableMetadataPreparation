@@ -1,10 +1,11 @@
+options(import.path = here::here("R/daos/stata"))
 modules::import_package(package = "readstata13", attach = TRUE)
 
-modules::import("/R/domain/I18nString", attach = TRUE)
-modules::import("/R/daos/stata/utils/calculate_valid_responses", attach = TRUE)
-modules::import("/R/daos/stata/utils/calculate_missings", attach = TRUE)
-modules::import("/R/daos/stata/utils/calculate_statistics", attach = TRUE)
-modules::import("/R/daos/stata/utils/calculate_frequencies", attach = TRUE)
+modules::import("../../domain/I18nString", attach = TRUE)
+modules::import("./utils/calculate_valid_responses", attach = TRUE)
+modules::import("./utils/calculate_missings", attach = TRUE)
+modules::import("./utils/calculate_statistics", attach = TRUE)
+modules::import("./utils/calculate_frequencies", attach = TRUE)
 
 StataDataSetDao <- R6Class("StataDataSetDao", # nolint
   private = list(

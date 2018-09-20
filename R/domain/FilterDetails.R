@@ -1,5 +1,7 @@
-modules::import("/R/domain/JSONSerializableDomainObject", attach = TRUE)
-modules::import("/R/domain/I18nString", attach = TRUE)
+options(import.path = here::here("R/domain"))
+
+modules::import("JSONSerializableDomainObject", attach = TRUE)
+modules::import("I18nString", attach = TRUE)
 
 FilterDetails <- R6Class("FilterDetails", # nolint
   inherit = JSONSerializableDomainObject,

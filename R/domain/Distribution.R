@@ -1,5 +1,7 @@
-modules::import("/R/domain/JSONSerializableDomainObject", attach = TRUE)
-modules::import("/R/domain/Statistics", attach = TRUE)
+options(import.path = here::here("R/domain"))
+
+modules::import("JSONSerializableDomainObject", attach = TRUE)
+modules::import("Statistics", attach = TRUE)
 
 Distribution <- R6Class("Distribution", # nolint
   inherit = JSONSerializableDomainObject,

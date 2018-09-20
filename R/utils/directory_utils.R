@@ -1,4 +1,3 @@
-
 # create folders ds1, ds2,... or delete old jsons if already exist
 create_export_directories <- function(path_to_json_directory, stata_files) {
   for (data_set in stata_files) {

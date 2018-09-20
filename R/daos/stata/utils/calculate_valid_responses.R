@@ -1,4 +1,6 @@
-modules::import("/R/domain/ValidResponse", attach = TRUE)
+options(import.path = here::here("R/daos/stata/utils"))
+
+modules::import("../../../domain/ValidResponse", attach = TRUE)
 
 calculate_valid_responses <- function(original_values, valid_response_values, value_labels)
   UseMethod("calculate_valid_responses")

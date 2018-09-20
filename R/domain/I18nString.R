@@ -1,7 +1,8 @@
+options(import.path = here::here("R/domain"))
+
 suppressPackageStartupMessages(suppressWarnings(library(here)))
 
-script_basename <- here("R")
-source(paste0(script_basename, "/domain/JSONSerializableDomainObject.R"))
+modules::import("JSONSerializableDomainObject", attach = TRUE)
 
 I18nString <- R6Class("I18nString", # nolint
   inherit = JSONSerializableDomainObject,

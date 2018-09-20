@@ -1,6 +1,8 @@
+options(import.path = here::here("R/daos/excel"))
+
 modules::import_package(package = "R6", attach = TRUE)
 
-modules::import("/R/daos/excel/BaseExcelDao", attach = TRUE)
+modules::import("BaseExcelDao", attach = TRUE)
 
 MissingConditionsExcelDao <- R6Class("MissingConditionsExcelDao", # nolint
   inherit = BaseExcelDao,
