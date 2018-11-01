@@ -109,6 +109,7 @@ StataDataSetDao <- R6Class("StataDataSetDao", # nolint
         "values %in% \"-989 filterbedingt fehlend\""),
       missing_conditions_numeric = "values <= -800",
       variables_no_distribution = c("pid","id")) {
+      private$missing_conditions <- list()
       private$missing_conditions[["string"]] = missing_conditions_string
       private$missing_conditions[["numeric"]] = missing_conditions_numeric
       cat(paste0("Read stata file \"", data_set_location, "\n"))
