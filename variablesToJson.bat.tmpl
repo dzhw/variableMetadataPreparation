@@ -1,11 +1,10 @@
 :: VARIABLES - Stata and Excel to json
 
 @echo off
-set "variables_no_distribution=pid,id"
 
 :: restore packrat packages
 R -e "0" --args --bootstrap-packrat
 
 :: run variable generation on the test data
-Rscript .\R\options_parser.R -e .\data-raw\excel -s .\data-raw\stata -o .\output -m .\data-raw\excel\conditions.xlsx
+Rscript .\R\options_parser.R -e .\data-raw\excel -s .\data-raw\stata -o .\output -m .\data-raw\excel\conditions.xlsx -n pid,id
 PAUSE
