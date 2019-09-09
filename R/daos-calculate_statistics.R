@@ -13,7 +13,8 @@ set_nominal_measures <- function(statistics, table_valid_values) {
   out$set_mode(to_character(ifelse(length(mode) > 1, "multimodal", mode)))
   return(out)
 }
-
+#'@importFrom stats mad
+#'@importFrom stats quantile
 set_ordinal_measures <- function(statistics, valid_values, table_valid_values) {
   out <- set_nominal_measures(statistics, table_valid_values)
   minimum <- min(as.numeric(names(table_valid_values)))
@@ -37,6 +38,7 @@ set_ordinal_measures <- function(statistics, valid_values, table_valid_values) {
   return(out)
 }
 
+#'@importFrom stats sd
 set_interval_measures <- function(statistics, valid_values, table_valid_values) {
   out <- set_ordinal_measures(statistics, valid_values, table_valid_values)
   out$set_mean_value(mean(valid_values))

@@ -1,5 +1,9 @@
 #' variable_metadata_generation
-#'
+#' @param path_to_excel_directory the path to the excel directory
+#' @param path_to_stata_directory the path to the stata directory
+#' @param missing_conditions_file the path to the missing conditions file
+#' @param path_to_output_directory where the output should be stored
+#' @param variables_no_distribution variables which should not get summary statistics (e.g. pid)
 #' @export
 
 variable_metadata_generation = function(path_to_excel_directory,

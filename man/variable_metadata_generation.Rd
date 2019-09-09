@@ -8,6 +8,17 @@ variable_metadata_generation(path_to_excel_directory,
   path_to_stata_directory, missing_conditions_file,
   path_to_output_directory, variables_no_distribution)
 }
+\arguments{
+\item{path_to_excel_directory}{the path to the excel directory}
+
+\item{path_to_stata_directory}{the path to the stata directory}
+
+\item{missing_conditions_file}{the path to the missing conditions file}
+
+\item{path_to_output_directory}{where the output should be stored}
+
+\item{variables_no_distribution}{variables which should not get summary statistics (e.g. pid)}
+}
 \description{
 variable_metadata_generation
 }
