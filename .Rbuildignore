@@ -5,3 +5,4 @@
 ^\.Rhistory$
 ^\.Rcheck$
 ^LICENSE\.md$
+^\.travis\.yml$
