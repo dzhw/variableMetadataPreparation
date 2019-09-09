@@ -26,3 +26,5 @@ Imports: R6 (>= 2.4.0),
     optparse (>= 1.6.2),
     moments (>= 0.14)
 RoxygenNote: 6.1.1
+Suggests: 
+    covr
