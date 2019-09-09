@@ -1,11 +1,6 @@
-options(import.path = here::here("R"))
-
-modules::import("utils/character_parsing", attach = TRUE)
-modules::import("utils/directory_utils", attach = TRUE)
-modules::import("daos/excel/MissingConditionsExcelDao", attach = TRUE)
-modules::import("daos/excel/VariableExcelDao", attach = TRUE)
-modules::import("daos/excel/RelatedQuestionExcelDao", attach = TRUE)
-modules::import("daos/stata/StataDataSetDao", attach = TRUE)
+#' variable_metadata_generation
+#'
+#' @export
 
 variable_metadata_generation = function(path_to_excel_directory,
   path_to_stata_directory, missing_conditions_file,

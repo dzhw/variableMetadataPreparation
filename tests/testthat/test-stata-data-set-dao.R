@@ -1,6 +1,6 @@
 context("Stata Data Set")
 
-modules::import("../../R/daos/stata/StataDataSetDao", attach = TRUE)
+library(variableMetadataExtractor)
 
 ds3_dao <- NULL
 
@@ -17,5 +17,6 @@ test_that("total absolute frequency is correct", {
     "adem01a",
     scale_level_en = "nominal", access_ways = c("hurz")
   )
-  expect_identical(distribution$get_total_absolute_frequency(), unbox(1622))
+  expect_identical(distribution$get_total_absolute_frequency(),
+    jsonlite::unbox(1622))
 })

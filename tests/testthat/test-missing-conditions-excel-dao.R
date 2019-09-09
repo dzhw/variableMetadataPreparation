@@ -1,6 +1,6 @@
 context("Missings Excel File")
 
-modules::import("../../R/daos/excel/MissingConditionsExcelDao", attach = TRUE)
+library(variableMetadataExtractor)
 
 missing_conditions_excel_dao <- NULL
 

@@ -1,6 +1,6 @@
 context("Related Questions Excel Sheet")
 
-modules::import("../../R/daos/excel/RelatedQuestionExcelDao", attach = TRUE)
+library(variableMetadataExtractor)
 
 related_questions_excel_dao <- NULL
 
