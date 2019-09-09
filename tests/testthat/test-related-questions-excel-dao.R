@@ -1,6 +1,6 @@
 context("Related Questions Excel Sheet")
 
-library(variableMetadataExtractor)
+library(variableMetadataExtractor) #nolint
 
 related_questions_excel_dao <- NULL
 

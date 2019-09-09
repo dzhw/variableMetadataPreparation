@@ -1,12 +1,13 @@
 context("Missings Excel File")
 
-library(variableMetadataExtractor)
+library(variableMetadataExtractor) #nolint
 
 missing_conditions_excel_dao <- NULL
 
 setup({
   missing_conditions_excel_dao <<- MissingConditionsExcelDao$new(
-    system.file("extdata/excel/conditions.xlsx", package = "variableMetadataExtractor")
+    system.file("extdata/excel/conditions.xlsx",
+      package = "variableMetadataExtractor")
   )
 })
 
@@ -15,6 +16,6 @@ teardown({
 })
 
 test_that("numeric missing condition is correct", {
-  numeric_missing_condition <- missing_conditions_excel_dao$get_missing_conditions_numeric()
+  numeric_missing_condition <- missing_conditions_excel_dao$get_missing_conditions_numeric() #nolint
   expect_identical(numeric_missing_condition, "values <= -800")
 })

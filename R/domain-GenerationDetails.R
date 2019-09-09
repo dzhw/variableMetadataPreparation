@@ -17,7 +17,7 @@ GenerationDetails <- R6::R6Class("GenerationDetails", # nolint
       private$rule <- jsonlite::unbox(rule)
     },
     get_rule_expression_language = function() {
-      return(private$ruleExpressionLanguage)
+      return(private$ruleExpressionLanguage) #nolint
     },
     set_rule_expression_language = function(rule_expression_language) {
       private$ruleExpressionLanguage <- jsonlite::unbox(rule_expression_language) # nolint

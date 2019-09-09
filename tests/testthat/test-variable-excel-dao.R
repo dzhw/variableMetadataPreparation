@@ -1,6 +1,6 @@
 context("Variable Excel Sheet")
 
-library(variableMetadataExtractor)
+library(variableMetadataExtractor) #nolint
 
 variable_excel_dao <- NULL
 
@@ -16,5 +16,6 @@ teardown({
 
 test_that("scale level of pid is correct", {
   variable <- variable_excel_dao$get_variable("pid")
-  expect_identical(variable$get_scale_level()$get_de(), jsonlite::unbox("nominal"))
+  expect_identical(variable$get_scale_level()$get_de(),
+    jsonlite::unbox("nominal"))
 })

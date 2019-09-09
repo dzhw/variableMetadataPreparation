@@ -18,7 +18,8 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
       if (class(lang_try_en) == "try-error") {
         private$languages[["languages"]] <- "de"
       } else {
-        lang_try_de <- try(readstata13::get.label.name(ds, colnames(ds[1]), "de"), silent = TRUE)
+        lang_try_de <- try(readstata13::get.label.name(ds, colnames(ds[1]),
+          "de"), silent = TRUE)
         if (class(lang_try_de) == "try-error") {
           private$languages[["languages"]] <- "en"
         }
@@ -38,7 +39,8 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
         private$variable_labels[["de"]] <- NULL
       }
       if ("en" %in% private$languages[["languages"]]) {
-        private$variable_labels[["en"]] <- readstata13::varlabel(ds, lang = "en")
+        private$variable_labels[["en"]] <- readstata13::varlabel(ds,
+          lang = "en")
         varlabel_en <- readstata13::varlabel(ds, lang = "en")
         if (!is.null(varlabel_en)) {
           private$variable_labels[["en"]] <- varlabel_en
@@ -58,34 +60,44 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
           names(attr(ds, "val.labels")),
           attr(ds, "names")
         )
-        private$value_label_container[["en"]] <- readstata13::get.label.name(ds, NULL, "en")
+        private$value_label_container[["en"]] <- readstata13::get.label.name(ds,
+          NULL, "en")
       }
       else if (private$languages[["default"]] == "de"
       && !("en" %in% private$languages[["languages"]])) {
-        private$value_label_container[["de"]] <- setNames(names(attr(ds, "val.labels")), attr(ds, "names"))
+        private$value_label_container[["de"]] <- setNames(names(attr(ds,
+          "val.labels")), attr(ds, "names"))
         private$value_label_container[["en"]] <- NULL
       }
-      else if (private$languages[["default"]] == "en" && "de" %in% private$languages[["languages"]]) {
-        private$value_label_container[["en"]] <- setNames(names(attr(ds, "val.labels")), attr(ds, "names"))
-        private$value_label_container[["de"]] <- get.label.name(ds, NULL, "de")
+      else if (private$languages[["default"]] == "en" && "de" %in%
+          private$languages[["languages"]]) {
+        private$value_label_container[["en"]] <- setNames(names(attr(ds,
+          "val.labels")), attr(ds, "names"))
+        private$value_label_container[["de"]] <- readstata13::get.label.name(ds,
+          NULL, "de")
       }
-      else if (private$languages[["default"]] == "en" && (!"de" %in% private$languages[["languages"]])) {
-        private$value_label_container[["en"]] <- setNames(names(attr(ds, "val.labels")), attr(ds, "names"))
+      else if (private$languages[["default"]] == "en" && (!"de" %in%
+          private$languages[["languages"]])) {
+        private$value_label_container[["en"]] <- setNames(names(attr(ds,
+          "val.labels")), attr(ds, "names"))
         private$value_label_container[["de"]] <- NULL
       }
     },
     evaluate_missing_conditions = function(values, condition) {
-      temp <- data.frame(matrix(nrow = length(condition), ncol = length(values)))
+      temp <- data.frame(matrix(nrow = length(condition),
+        ncol = length(values)))
       for (i in 1:length(condition)) {
         temp[i, ] <- eval(parse(text = condition[i]))
       }
       out <- unname(apply(temp, MARGIN = 2, any))
       return(out)
-    }, is_valid_variable_name = function(variable_name) {
+    },
+    is_valid_variable_name = function(variable_name) {
       if (variable_name %in% private$variable_names) {
         return(TRUE)
       } else {
-        cat(paste0("WARNING: Data Set does not contain variable: \"", variable_name, "\"\n"))
+        cat(paste0("WARNING: Data Set does not contain variable: \"",
+          variable_name, "\"\n"))
         return(FALSE)
       }
     }
@@ -98,11 +110,11 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
         "values %in% \"-995 keine Teilnahme (Panel)\"",
         "values %in% \"-998 keine Angabe\"",
         "values %in% \"-989 filterbedingt fehlend\""),
-      missing_conditions_numeric = "values <= -800",
-      variables_no_distribution = c("pid","id")) {
-      private$missing_conditions = list()
-      private$missing_conditions[["string"]] = missing_conditions_string
-      private$missing_conditions[["numeric"]] = missing_conditions_numeric
+      missing_conditions_numeric = "values <= -800", #nolint
+      variables_no_distribution = c("pid", "id")) { #nolint
+      private$missing_conditions = list() #nolint
+      private$missing_conditions[["string"]] = missing_conditions_string #nolint
+      private$missing_conditions[["numeric"]] = missing_conditions_numeric #nolint
       cat(paste0("Read stata file \"", data_set_location, "\n"))
       private$original_data_set <- readstata13::read.dta13(data_set_location,
         convert.factors = FALSE
@@ -123,9 +135,11 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
       if (private$is_valid_variable_name(variable_name)) {
         data_type <- I18nString$new()
         data_type$set_de(ifelse(typeof(
-          private$original_data_set[[variable_name]]) == "character", "string", "numerisch"))
+          private$original_data_set[[variable_name]]) == "character", "string",
+          "numerisch"))
         data_type$set_en(ifelse(typeof(
-          private$original_data_set[[variable_name]]) == "character", "string", "numeric"))
+          private$original_data_set[[variable_name]]) == "character", "string",
+          "numeric"))
         return(data_type)
       }
     },
@@ -146,24 +160,29 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
           de <- ""
           en <- ""
           if ("de" %in% private$languages[["languages"]]) {
-            de <- private$label_table[[private$value_label_container$de[variable_name]]]
+            de <- private$label_table[[private$value_label_container$de[variable_name]]] #nolint
           }
           if ("en" %in% private$languages[["languages"]]) {
-            en <- private$label_table[[private$value_label_container$en[variable_name]]]
+            en <- private$label_table[[private$value_label_container$en[variable_name]]] #nolint
           }
           value_labels <- list(
             de = de,
             en = en
           )
           valid_values <- original_values[!(
-            private$evaluate_missing_conditions(original_values, private$missing_conditions[[data_type_en]])
+            private$evaluate_missing_conditions(original_values,
+              private$missing_conditions[[data_type_en]])
           )]
           missing_values <- original_values[
-            private$evaluate_missing_conditions(original_values, private$missing_conditions[[data_type_en]])
+            private$evaluate_missing_conditions(original_values,
+              private$missing_conditions[[data_type_en]])
           ]
-          # attach S3 class attributes to data set column for further calculations
-          class(original_values) <- c(class(original_values), data_type_en, scale_level_en)
-          class(valid_values) <- c(class(valid_values), data_type_en, scale_level_en)
+          # attach S3 class attributes to data set column for further
+          # calculations
+          class(original_values) <- c(class(original_values), data_type_en,
+            scale_level_en)
+          class(valid_values) <- c(class(valid_values), data_type_en,
+            scale_level_en)
           distribution <- calculate_frequencies(original_values, valid_values)
           distribution$set_valid_responses(calculate_valid_responses(
             original_values, valid_values, value_labels

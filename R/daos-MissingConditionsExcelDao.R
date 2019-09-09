@@ -49,12 +49,16 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
   public = list(
     initialize = function(excel_location = NA) {
       if (!is.na(excel_location)) {
-        cat(paste0("Read excel file \"", excel_location, "\" sheet \"missingConditionNumeric\"\n"))
-        excel_sheet <- private$read_and_trim_excel_sheet(excel_location, "missingConditionNumeric")
-        private$missing_conditions_numeric <- private$create_missing_conditions_numeric(excel_sheet)
-        cat(paste0("Read excel file \"", excel_location, "\" sheet \"missingConditionString\"\n"))
-        excel_sheet <- private$read_and_trim_excel_sheet(excel_location, "missingConditionString")
-        private$missing_conditions_string <- private$create_missing_conditions_string(excel_sheet)
+        cat(paste0("Read excel file \"", excel_location,
+          "\" sheet \"missingConditionNumeric\"\n"))
+        excel_sheet <- private$read_and_trim_excel_sheet(excel_location, #nolint
+          "missingConditionNumeric")
+        private$missing_conditions_numeric <- private$create_missing_conditions_numeric(excel_sheet) #nolint
+        cat(paste0("Read excel file \"", excel_location, #nolint
+          "\" sheet \"missingConditionString\"\n"))
+        excel_sheet <- private$read_and_trim_excel_sheet(excel_location,
+          "missingConditionString")
+        private$missing_conditions_string <- private$create_missing_conditions_string(excel_sheet) #nolint
       }
     },
     get_missing_conditions_string = function() {

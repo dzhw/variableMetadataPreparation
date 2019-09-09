@@ -1,6 +1,6 @@
 context("Stata Data Set")
 
-library(variableMetadataExtractor)
+library(variableMetadataExtractor) #nolint
 
 ds6_dao <- NULL
 

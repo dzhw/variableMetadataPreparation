@@ -11,13 +11,13 @@ Variable <- R6::R6Class("Variable", # nolint
       private$distribution <- Distribution$new()
     },
     get_data_type = function() {
-      return(private$dataType)
+      return(private$dataType) #nolint
     },
     set_data_type = function(data_type) {
       private$dataType <- data_type # nolint
     },
     get_scale_level = function() {
-      return(private$scaleLevel)
+      return(private$scaleLevel) #nolint
     },
     set_scale_level = function(scale_level) {
       private$scaleLevel <- scale_level # nolint
@@ -35,61 +35,61 @@ Variable <- R6::R6Class("Variable", # nolint
       private$annotations <- annotations
     },
     get_access_ways = function() {
-      return(private$accessWays)
+      return(private$accessWays) #nolint
     },
     set_access_ways = function(access_ways) {
       private$accessWays <- access_ways # nolint
     },
     get_index_in_data_set = function() {
-      return(private$indexInDataSet)
+      return(private$indexInDataSet) #nolint
     },
     set_index_in_data_set = function(index_in_data_set) {
       private$indexInDataSet <- jsonlite::unbox(index_in_data_set) # nolint
     },
     get_survey_numbers = function() {
-      return(private$surveyNumbers)
+      return(private$surveyNumbers) #nolint
     },
     set_survey_numbers = function(survey_numbers) {
       private$surveyNumbers <- survey_numbers # nolint
     },
     get_panel_identifier = function() {
-      return(private$panelIdentifier)
+      return(private$panelIdentifier) #nolint
     },
     set_panel_identifier = function(panel_identifier) {
       private$panelIdentifier <- jsonlite::unbox(panel_identifier) # nolint
     },
     get_derived_variables_identifier = function() {
-      return(private$derivedVariablesIdentifier)
+      return(private$derivedVariablesIdentifier) #nolint
     },
     set_derived_variables_identifier = function(derived_variables_identifier) {
       private$derivedVariablesIdentifier <- jsonlite::unbox(derived_variables_identifier) # nolint
     },
     get_do_not_display_thousands_separator = function() {
-      return(private$doNotDisplayThousandsSeparator)
+      return(private$doNotDisplayThousandsSeparator) #nolint
     },
-    set_do_not_display_thousands_separator = function(do_not_display_thousands_separator) {
+    set_do_not_display_thousands_separator = function(do_not_display_thousands_separator) { #nolint
       private$doNotDisplayThousandsSeparator <- jsonlite::unbox(do_not_display_thousands_separator) # nolint
     },
     get_related_variables = function() {
-      return(private$relatedVariables)
+      return(private$relatedVariables) #nolint
     },
     set_related_variables = function(related_variables) {
       private$relatedVariables <- related_variables # nolint
     },
     get_storage_type = function() {
-      return(private$storageType)
+      return(private$storageType) #nolint
     },
     set_storage_type = function(storage_type) {
       private$storageType <- jsonlite::unbox(storage_type) # nolint
     },
     get_generation_details = function() {
-      return(private$generationDetails)
+      return(private$generationDetails) #nolint
     },
     set_generation_details = function(generation_details) {
       private$generationDetails <- generation_details # nolint
     },
     get_filter_details = function() {
-      return(private$filterDetails)
+      return(private$filterDetails) #nolint
     },
     set_filter_details = function(filter_details) {
       private$filterDetails <- filter_details # nolint
@@ -101,7 +101,7 @@ Variable <- R6::R6Class("Variable", # nolint
       private$distribution <- distribution
     },
     get_related_questions = function() {
-      return(private$relatedQuestions)
+      return(private$relatedQuestions) #nolint
     },
     set_related_questions = function(related_questions) {
       private$relatedQuestions <- related_questions # nolint

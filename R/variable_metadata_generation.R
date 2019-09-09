@@ -6,7 +6,7 @@
 #' @param variables_no_distribution variables which should not get summary statistics (e.g. pid)
 #' @export
 
-variable_metadata_generation = function(path_to_excel_directory,
+variable_metadata_generation <- function(path_to_excel_directory,
   path_to_stata_directory, missing_conditions_file,
   path_to_output_directory, variables_no_distribution) {
   missingConditionsExcelDao <- MissingConditionsExcelDao$new(missing_conditions_file) #nolint
@@ -15,11 +15,11 @@ variable_metadata_generation = function(path_to_excel_directory,
   cat(paste0("statadirectory:", path_to_stata_directory, "\n"))
   cat(paste0("outputdirectory:", path_to_output_directory, "\n"))
   cat(paste0("missing-conditions-numeric:",
-    missingConditionsExcelDao$get_missing_conditions_numeric(),
+    missingConditionsExcelDao$get_missing_conditions_numeric(), #nolint
     "\n"
     ))
   cat(paste0("missing-conditions-string:",
-    missingConditionsExcelDao$get_missing_conditions_string(),
+    missingConditionsExcelDao$get_missing_conditions_string(), #nolint
     "\n"
   ))
   cat(paste0("variables-no-distribution:", variables_no_distribution, "\n"))
@@ -33,16 +33,16 @@ variable_metadata_generation = function(path_to_excel_directory,
   for (data_set in stata_files) {
     data_set_number <- sub("\\.dta$", "", data_set)
     variable_excel_dao <- VariableExcelDao$new(paste0(
-      path_to_excel_directory, "/vimport_",
+      path_to_excel_directory, "/vimport_", #nolint
       data_set_number, ".xlsx"
     ))
     related_question_excel_dao <- RelatedQuestionExcelDao$new(
-      paste0(path_to_excel_directory, "/vimport_", data_set_number, ".xlsx")
+      paste0(path_to_excel_directory, "/vimport_", data_set_number, ".xlsx") #nolint
     )
     stata_data_set_dao <- StataDataSetDao$new(
       paste0(path_to_stata_directory, "/", data_set),
-      missingConditionsExcelDao$get_missing_conditions_string(),
-      missingConditionsExcelDao$get_missing_conditions_numeric(),
+      missingConditionsExcelDao$get_missing_conditions_string(), #nolint
+      missingConditionsExcelDao$get_missing_conditions_numeric(), #nolint
       variables_no_distribution
     )
     cat(paste0(

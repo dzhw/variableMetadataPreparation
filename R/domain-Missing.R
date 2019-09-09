@@ -11,13 +11,13 @@ Missing <- R6::R6Class("Missing", # nolint
       private$code <- jsonlite::unbox(code)
     },
     get_absolute_frequency = function() {
-      return(private$absoluteFrequency)
+      return(private$absoluteFrequency) #nolint
     },
     set_absolute_frequency = function(absolute_frequency) {
       private$absoluteFrequency <- jsonlite::unbox(absolute_frequency) # nolint
     },
     get_relative_frequency = function() {
-      return(private$relativeFrequency)
+      return(private$relativeFrequency) #nolint
     },
     set_relative_frequency = function(relative_frequency) {
       private$relativeFrequency <- jsonlite::unbox(relative_frequency) # nolint

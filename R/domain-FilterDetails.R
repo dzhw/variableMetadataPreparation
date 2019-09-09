@@ -17,7 +17,7 @@ FilterDetails <- R6::R6Class("FilterDetails", # nolint
       private$expression <- jsonlite::unbox(expression)
     },
     get_expression_language = function() {
-      return(private$expressionLanguage)
+      return(private$expressionLanguage) #nolint
     },
     set_expression_language = function(expression_language) {
       private$expressionLanguage <- jsonlite::unbox(expression_language) # nolint

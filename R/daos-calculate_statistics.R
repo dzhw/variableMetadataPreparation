@@ -39,7 +39,8 @@ set_ordinal_measures <- function(statistics, valid_values, table_valid_values) {
 }
 
 #'@importFrom stats sd
-set_interval_measures <- function(statistics, valid_values, table_valid_values) {
+set_interval_measures <- function(statistics, valid_values,
+  table_valid_values) {
   out <- set_ordinal_measures(statistics, valid_values, table_valid_values)
   out$set_mean_value(mean(valid_values))
   out$set_standard_deviation(sd(valid_values))
