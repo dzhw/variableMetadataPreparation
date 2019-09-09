@@ -1,5 +1,3 @@
-#' hurz
-#' @export
 option_list <- list(
   optparse::make_option(c("-e", "--excel-directory"),
     type = "character",
