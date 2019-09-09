@@ -5,7 +5,9 @@ library(variableMetadataExtractor)
 ds3_dao <- NULL
 
 setup({
-  ds3_dao <<- StataDataSetDao$new(here("data-raw/stata/ds3.dta"))
+  ds3_dao <<- StataDataSetDao$new(
+    system.file("extdata/stata/ds3.dta",
+      package = "variableMetadataExtractor"))
 })
 
 teardown({

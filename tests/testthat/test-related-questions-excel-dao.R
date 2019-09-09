@@ -6,7 +6,8 @@ related_questions_excel_dao <- NULL
 
 setup({
   related_questions_excel_dao <<- RelatedQuestionExcelDao$new(
-    here("data-raw/excel/vimport_ds3.xlsx")
+    system.file("extdata/excel/vimport_ds3.xlsx",
+      package = "variableMetadataExtractor")
   )
 })
 

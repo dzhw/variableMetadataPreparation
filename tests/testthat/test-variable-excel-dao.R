@@ -5,7 +5,9 @@ library(variableMetadataExtractor)
 variable_excel_dao <- NULL
 
 setup({
-  variable_excel_dao <<- VariableExcelDao$new(here("data-raw/excel/vimport_ds3.xlsx"))
+  variable_excel_dao <<- VariableExcelDao$new(
+    system.file("extdata/excel/vimport_ds3.xlsx",
+    package = "variableMetadataExtractor"))
 })
 
 teardown({

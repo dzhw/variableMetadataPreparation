@@ -6,7 +6,7 @@ missing_conditions_excel_dao <- NULL
 
 setup({
   missing_conditions_excel_dao <<- MissingConditionsExcelDao$new(
-    here("data-raw/excel/conditions.xlsx")
+    system.file("extdata/excel/conditions.xlsx", package = "variableMetadataExtractor")
   )
 })
 
