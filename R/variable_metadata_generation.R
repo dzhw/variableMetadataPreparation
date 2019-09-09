@@ -1,9 +1,17 @@
-#' variable_metadata_generation
+#' Create variable metadata json files for the mdm
 #' @param path_to_excel_directory the path to the excel directory
 #' @param path_to_stata_directory the path to the stata directory
 #' @param missing_conditions_file the path to the missing conditions file
 #' @param path_to_output_directory where the output should be stored
 #' @param variables_no_distribution variables which should not get summary statistics (e.g. pid)
+#' @example variable_metadata_generation(path_to_excel_directory =
+#'    system.file("extdata/excel", variableMetadataGeneration),
+#'    path_to_stata_directory = system.file("extdata/stata",
+#'      variableMetadataGeneration),
+#'    missing_conditions_file = system.file("extdata/excel/conditions.xlsx",
+#'      variableMetadataGeneration),
+#'    path_to_output_directory = "path_to_output_directory",
+#'    variables_no_distribution = "pid")
 #' @export
 
 variable_metadata_generation <- function(path_to_excel_directory,

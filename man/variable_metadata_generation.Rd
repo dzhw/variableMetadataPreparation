@@ -2,7 +2,7 @@
 % Please edit documentation in R/variable_metadata_generation.R
 \name{variable_metadata_generation}
 \alias{variable_metadata_generation}
-\title{variable_metadata_generation}
+\title{Create variable metadata json files for the mdm}
 \usage{
 variable_metadata_generation(path_to_excel_directory,
   path_to_stata_directory, missing_conditions_file,
@@ -20,5 +20,5 @@ variable_metadata_generation(path_to_excel_directory,
 \item{variables_no_distribution}{variables which should not get summary statistics (e.g. pid)}
 }
 \description{
-variable_metadata_generation
+Create variable metadata json files for the mdm
 }
