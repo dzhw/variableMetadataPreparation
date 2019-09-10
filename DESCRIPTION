@@ -18,7 +18,7 @@ Description: This package creates json files containing metadata of variables
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.6.0)
+Depends: R (>= 3.5.0)
 Imports: jsonlite (>= 1.6),
     moments (>= 0.14),
     optparse (>= 1.6.2),

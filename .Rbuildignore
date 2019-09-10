@@ -11,3 +11,5 @@
 ^docs$
 ^pkgdown$
 ^packrat/
+^renv$
+^renv\.lock$
