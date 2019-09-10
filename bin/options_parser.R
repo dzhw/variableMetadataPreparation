@@ -1,3 +1,8 @@
+options(repos =
+    c(CRAN = "file:///variablenexport/miniCRAN_VariableMetadataPreparation"))
+.libPaths(c("./library", "z:/R/win-library-3.5",
+  "C:/Program Files/R/R-3.5.1/library"))
+
 option_list <- list(
   optparse::make_option(c("-e", "--excel-directory"),
     type = "character",

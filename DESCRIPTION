@@ -29,4 +29,7 @@ Imports: jsonlite (>= 1.6),
 RoxygenNote: 6.1.1
 Suggests: 
     testthat,
-    covr
+    covr,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
