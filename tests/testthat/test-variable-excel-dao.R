@@ -1,13 +1,13 @@
 context("Variable Excel Sheet")
 
-library(variableMetadataExtractor) #nolint
+library(variableMetadataPreparation) #nolint
 
 variable_excel_dao <- NULL
 
 setup({
   variable_excel_dao <<- VariableExcelDao$new(
     system.file("extdata/excel/vimport_ds3.xlsx",
-    package = "variableMetadataExtractor"))
+    package = "variableMetadataPreparation"))
 })
 
 teardown({

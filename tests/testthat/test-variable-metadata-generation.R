@@ -1,15 +1,15 @@
 context("Variable Metadata Generation (Main)")
 
-library(variableMetadataExtractor) #nolint
+library(variableMetadataPreparation) #nolint
 
 test_that("main script without option parser runs", {
   variable_metadata_generation(
     system.file("extdata/excel",
-      package = "variableMetadataExtractor"),
+      package = "variableMetadataPreparation"),
     system.file("extdata/stata",
-      package = "variableMetadataExtractor"),
+      package = "variableMetadataPreparation"),
     system.file("extdata/excel/conditions.xlsx",
-      package = "variableMetadataExtractor"),
+      package = "variableMetadataPreparation"),
     tempdir("output"),
     "pid, id"
   )

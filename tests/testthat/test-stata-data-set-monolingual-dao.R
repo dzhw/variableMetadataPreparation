@@ -1,12 +1,12 @@
 context("Stata Data Set")
 
-library(variableMetadataExtractor) #nolint
+library(variableMetadataPreparation) #nolint
 
 ds6_dao <- NULL
 
 setup({
   ds6_dao <<- StataDataSetDao$new(system.file("extdata/stata/ds6.dta",
-    package = "variableMetadataExtractor"))
+    package = "variableMetadataPreparation"))
 })
 
 teardown({

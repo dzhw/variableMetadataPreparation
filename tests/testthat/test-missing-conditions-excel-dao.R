@@ -1,13 +1,13 @@
 context("Missings Excel File")
 
-library(variableMetadataExtractor) #nolint
+library(variableMetadataPreparation) #nolint
 
 missing_conditions_excel_dao <- NULL
 
 setup({
   missing_conditions_excel_dao <<- MissingConditionsExcelDao$new(
     system.file("extdata/excel/conditions.xlsx",
-      package = "variableMetadataExtractor")
+      package = "variableMetadataPreparation")
   )
 })
 

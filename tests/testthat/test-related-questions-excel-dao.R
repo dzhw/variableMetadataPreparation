@@ -1,13 +1,13 @@
 context("Related Questions Excel Sheet")
 
-library(variableMetadataExtractor) #nolint
+library(variableMetadataPreparation) #nolint
 
 related_questions_excel_dao <- NULL
 
 setup({
   related_questions_excel_dao <<- RelatedQuestionExcelDao$new(
     system.file("extdata/excel/vimport_ds3.xlsx",
-      package = "variableMetadataExtractor")
+      package = "variableMetadataPreparation")
   )
 })
 
