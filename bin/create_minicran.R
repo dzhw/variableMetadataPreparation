@@ -1,90 +1,22 @@
-create_minicran <- function(minicran_path) {
+#' Create miniCRAN instance including only Imports packages of the current package
+#' @param minicran_path The path where the miniCRAN instance is created
+#' @param r_version String containing the R version, e.g. "3.5"
+create_minicran <- function(minicran_path, r_version) {
   cran_server <- c(CRAN = "http://cran.rstudio.com")
-
-  pkgs <- c(
-    "R6",
-    "Rcpp",
-    "askpass",
-    "assertthat",
-    "backports",
-    "brew",
-    "callr",
-    "cellranger",
-    "cli",
-    "clipr",
-    "clisymbols",
-    "commonmark",
-    "covr",
-    "crayon",
-    "curl",
-    "desc",
-    "devtools",
-    "digest",
-    "ellipsis",
-    "fansi",
-    "fs",
-    "getopt",
-    "gh",
-    "git2r",
-    "glue",
-    "hms",
-    "httr",
-    "ini",
-    "jsonlite",
-    "lazyeval",
-    "magrittr",
-    "memoise",
-    "mime",
-    "moments",
-    "openssl",
-    "optparse",
-    "pillar",
-    "pkgbuild",
-    "pkgconfig",
-    "pkgload",
-    "praise",
-    "prettyunits",
-    "processx",
-    "progress",
-    "ps",
-    "purrr",
-    "rcmdcheck",
-    "readstata13",
-    "readxl",
-    "rematch",
-    "remotes",
-    "rex",
-    "rlang",
-    "roxygen2",
-    "rprojroot",
-    "rstudioapi",
-    "sessioninfo",
-    "stringi",
-    "stringr",
-    "sys",
-    "testthat",
-    "tibble",
-    "usethis",
-    "utf8",
-    "vctrs",
-    "whisker",
-    "withr",
-    "xml2",
-    "xopen",
-    "yaml",
-    "zeallot"
-  )
+  description <- desc::desc_get_deps(".")
+  pkgs <- description$package[which(description$type=="Imports")]
+  versions <- description$version[which(description$type=="Imports")]
   pkgList <-
-    pkgDep(pkgs,
+    miniCRAN::pkgDep(pkgs,
       repos = cran_server,
       type = "source",
       suggests = FALSE)
   dir.create(pth <- file.path(minicran_path))
-  makeRepo(
+  miniCRAN::makeRepo(
     pkgList,
     path = pth,
     repos = cran_server,
     type = c("source", "win.binary"),
-    Rversion = "3.5"
+    Rversion = r_version
   )
 }
