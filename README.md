@@ -57,7 +57,7 @@ area is 3.5. The resulting minicran directory is supposed to go in `Q://Variable
 variableMetadataPreparation is to be installed in the library `Q://variableMetadataPreparation_productive/library` and `options_parser.R` is 
 supposed to be stored in `Q://variableMetadataPreparation_productive/R`.
 
-An example project with appropriate `variablesToJson.bat` can be found in `Q://Variablenexport/example_projects/cmp2014
+An example project with appropriate `variablesToJson.bat` can be found in `Q://Variablenexport/example_projects/cmp2014`
 
 # Checking on windows
 
