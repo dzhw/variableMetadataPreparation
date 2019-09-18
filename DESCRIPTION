@@ -31,5 +31,7 @@ Suggests:
     testthat,
     covr,
     knitr,
-    rmarkdown
+    rmarkdown,
+    miniCRAN,
+    desc
 VignetteBuilder: knitr

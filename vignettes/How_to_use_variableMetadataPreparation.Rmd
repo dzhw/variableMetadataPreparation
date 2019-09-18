@@ -1,5 +1,5 @@
 ---
-title: "How_to_use_variableMetadataPreparation"
+title: "How to use variableMetadataPreparation"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{How_to_use_variableMetadataPreparation}
@@ -13,7 +13,9 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+
 # Project structure
+
 This documentation explains how to use `variableMetadataProduction` in the 
 secured offline area ("geschützter Bereich").
 In the FDZ partition's root directory you find the directory `Variablenexport`,
@@ -50,6 +52,6 @@ You need to modify only the line starting with `Rscript` in the `variablesToJson
 and at the end the variables which should not get a distribution. You find an 
 example file here:
 
-https://github.com/dzhw/variableMetadataPreparation/blob/bin/variablesToJson.bat.tmpl
+https://github.com/dzhw/variableMetadataPreparation/blob/master/bin/variablesToJson.bat.tmpl
 
 
