@@ -49,6 +49,20 @@ Before pushing to Github (and thus kicking of CI) you should run
 R CMD check *tar.gz
 ```
 
+# Creating the miniCRAN repository
+
+In order to create the miniCRAN repository, please use the `create_minicran()` 
+function found in `/bin/create_minicran.R`. The current R version in the secured
+area is 3.5. The resulting minicran directory is supposed to go in `Q://Variablenexport/miniCRAN_VariableMetadataPreparation`.
+variableMetadataPreparation is to be installed in the library `Q://variableMetadataPreparation_productive/library` and `options_parser.R` is 
+supposed to be stored in `Q://variableMetadataPreparation_productive/R`.
+
+An example project with appropriate `variablesToJson.bat` can be found in `Q://Variablenexport/example_projects/cmp2014
+
+# Checking on windows
+
+Run `rhub::check(platform="windows-x86_64-oldrel")`.
+
 Having trouble?
 ---------------
 
