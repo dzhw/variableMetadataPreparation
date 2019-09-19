@@ -54,4 +54,6 @@ example file here:
 
 https://github.com/dzhw/variableMetadataPreparation/blob/master/bin/variablesToJson.bat.tmpl
 
+An example project with appropriate `variablesToJson.bat` can be found at `Q://Variablenexport/example_projects/cmp2014`.
+
 

@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/v4-shims.min.css" integrity="sha256-6qHlizsOWFskGlwVOKuns+D1nB6ssZrHQrNj1wGplHc=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js" integrity="sha256-DJFC1kqIhelURkuza0AvYal5RxMtpzLjFhsnVIeuk+U=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="What the Package Does (One Line, Title Case)">
-<meta property="og:description" content="This package creates json files containing metadata of variables
+<meta property="og:description" content="This package creates json files containing metadata of variables 
     for https://metadata.fdz.dzhw.eu.">
 <meta name="twitter:card" content="summary">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -41,7 +41,7 @@
 <li>
   <a href="index.html">
     <span class="fas fa fas fa-home fa-lg"></span>
-
+     
   </a>
 </li>
 <li>
@@ -50,7 +50,7 @@
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Articles
-
+     
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
@@ -68,7 +68,7 @@
 </div>
 <!--/.navbar -->
 
-
+      
 
       </header><div class="row">
   <div class="contents col-md-9">
@@ -78,43 +78,47 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#variablemetadatapreparation" class="anchor"></a><a href="https://dzhw.github.io/variableMetadataPreparation/">variableMetadataPreparation</a>
 </h1></div>
-<p>This repository contains <a href="https://www.r-project.org/about.html">R</a> code which extracts metadata for variables from STATA (dta) files for the <a href="https://metadata.fdz.dzhw.eu">MDM</a> of the research data center of the dzhw. If you do not work for the research data center of the dzhw, this package will probably be only useful for learning purposes, as it is specifically designed to help with our internal processes.</p>
-</div>
-<div id="installation-for-users" class="section level1">
-<h1 class="hasAnchor">
-<a href="#installation-for-users" class="anchor"></a>Installation for Users</h1>
-<p>If you want to play with it on your local machine, you can install it as explained below. However, please note that the production system is in the secured area (“geschützter Bereich”). You can install the released version of variableMetadataPreparation from <a href="https://github.com/dzhw/variableMetadataPreparation">Github</a> within your <a href="https://www.r-project.org/about.html">R</a> session:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"remotes"</span>, <span class="dt">dependencies =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">remotes<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/remotes/man/install_github.html">install_github</a></span>(<span class="st">"dzhw/variableMetadataPreparation"</span>)</a></code></pre></div>
+<p>This repository contains <a href="https://www.r-project.org/about.html">R</a> code which extracts metadata for variables from STATA (dta) files for the <a href="https://metadata.fdz.dzhw.eu">MDM</a> of the research data center of the dzhw. If you do not work for the research data center of the dzhw, this package will probably be only useful for learning purposes, as it is specifically designed to help with our internal processes. You find the workflow to use it <a href="file:///home/birkelbach/git/variableMetadataPreparation/docs/articles/How_to_use_variableMetadataPreparation.html">here</a>.</p>
 </div>
 <div id="development" class="section level1">
 <h1 class="hasAnchor">
 <a href="#development" class="anchor"></a>Development</h1>
 <p>Developers need to setup the R devtools on their machine.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"devtools"</span>, <span class="dt">dependencies =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/devtools/man/remote-reexports.html">install_github</a></span>(<span class="st">"dzhw/variableMetadataPreparation"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"devtools"</span>, <span class="dt">dependencies =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/devtools/man/remote-reexports.html">install_github</a></span>(<span class="st">"dzhw/variableMetadataPreparation"</span>)</a></code></pre></div>
 <p>After setting up devtools you can install all required R packages with</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="ex">R</span> -e <span class="st">'devtools::install_deps(dep = T)'</span></a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="ex">R</span> -e <span class="st">'devtools::install_deps(dep = T)'</span></a></code></pre></div>
 <p>You can build the package on you local machine with</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="ex">R</span> CMD build .</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="ex">R</span> CMD build .</a></code></pre></div>
 <p>Before pushing to Github (and thus kicking of CI) you should run</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="ex">R</span> CMD check *tar.gz</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="ex">R</span> CMD check *tar.gz</a></code></pre></div>
 </div>
-<div id="creating-the-minicran-repository" class="section level1">
+<div id="deployment" class="section level1">
 <h1 class="hasAnchor">
-<a href="#creating-the-minicran-repository" class="anchor"></a>Creating the miniCRAN repository</h1>
-<p>In order to create the miniCRAN repository, please use the <code>create_minicran()</code> function found in <code>/bin/create_minicran.R</code>. The current R version in the secured area is 3.5. The resulting minicran directory is supposed to go in <code>Q://Variablenexport/miniCRAN_VariableMetadataPreparation</code>. variableMetadataPreparation is to be installed in the library <code>Q://variableMetadataPreparation_productive/library</code> and <code>options_parser.R</code> is supposed to be stored in <code>Q://variableMetadataPreparation_productive/R</code>.</p>
-<p>An example project with appropriate <code>variablesToJson.bat</code> can be found in <code>Q://Variablenexport/example_projects/cmp2014</code></p>
-</div>
-<div id="checking-on-windows" class="section level1">
-<h1 class="hasAnchor">
-<a href="#checking-on-windows" class="anchor"></a>Checking on windows</h1>
-<p>Run <code><a href="https://r-hub.github.io/rhub/reference/check.html">rhub::check(platform="windows-x86_64-oldrel")</a></code>.</p>
-<div id="having-trouble" class="section level2">
+<a href="#deployment" class="anchor"></a>Deployment</h1>
+<div id="creating-the-minicran-repository" class="section level2">
 <h2 class="hasAnchor">
-<a href="#having-trouble" class="anchor"></a>Having trouble?</h2>
-<p>Please file an issue in our <a href="https://github.com/dzhw/metadatamanagement/issues">issue tracker</a></p>
+<a href="#creating-the-minicran-repository" class="anchor"></a>Creating the miniCRAN repository</h2>
+<p>In order to create the miniCRAN repository, please use the <code>create_minicran(minicran_path = "path_where_the_miniCRAN_directory_will_be", r_version = "3.5")</code> function found in <code>/bin/create_minicran.R</code>. The current R version in the secured area is 3.5. The resulting minicran directory is supposed to be zipped. The transfer directory is <code>smb://faust/gpd-transfer/username/username_out</code> and you find the zipped file in <code>Z://username/In_username</code>. The zip file should go in <code>Q://Variablenexport/miniCRAN_VariableMetadataPreparation</code>. If at some point the transfer does not work properly, try splitting up the zip files to chunks of <code>&lt;100mb</code>.</p>
+<p><code>variableMetadataPreparation</code> is to be installed in the library <code>Q://Variablenexport/variableMetadataPreparation_productive/library</code> and <code>options_parser.R</code> is supposed to be stored in <code>Q://Variablenexport/variableMetadataPreparation_productive/R</code>.</p>
 </div>
+<div id="checking-the-package-and-creating-binaries-on-windows" class="section level2">
+<h2 class="hasAnchor">
+<a href="#checking-the-package-and-creating-binaries-on-windows" class="anchor"></a>Checking the package and creating binaries on windows</h2>
+<p>Run <code><a href="https://r-hub.github.io/rhub/reference/check.html">rhub::check(platform="windows-x86_64-oldrel", email = "insertyouremail")</a></code>. You’ll get an email where the windows binary of the build process is at. Transfer the file just like you did with <code>miniCRAN</code> and store it here: <code>Q://Variablenexport/variableMetadataPreparation_productive/</code></p>
+</div>
+<div id="installation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#installation" class="anchor"></a>Installation</h2>
+<p>Open an <code>R</code> session at <code>Q://Variablenexport/variableMetadataPreparation</code>, adjust the verison of <code>variableMetadataPreparation</code> in the file <code>install_packages.R</code> and run the command</p>
+<pre><code><a href="https://rdrr.io/r/base/source.html">source("./install_packages.R")</a></code></pre>
+<p>You’re good to go.</p>
+</div>
+</div>
+<div id="having-trouble" class="section level1">
+<h1 class="hasAnchor">
+<a href="#having-trouble" class="anchor"></a>Having trouble?</h1>
+<p>Please file an issue in our <a href="https://github.com/dzhw/metadatamanagement/issues">issue tracker</a></p>
 </div>
 
   </div>
@@ -160,7 +164,7 @@
       </footer>
 </div>
 
-
+  
 
 
   </body>

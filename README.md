@@ -10,18 +10,7 @@ extracts metadata for variables from STATA (dta) files for the [MDM](https://met
 of the research data center of the dzhw. If you do not work for the research 
 data center of the dzhw, this package will probably be only useful for learning 
 purposes, as it is specifically designed to help with our internal processes.
-
-# Installation for Users
-
-If you want to play with it on your local machine, you can install it as 
-explained below. However, please note that the production system is in the 
-secured area ("geschützter Bereich").
-You can install the released version of variableMetadataPreparation from [Github](https://github.com/dzhw/variableMetadataPreparation) within your [R](https://www.r-project.org/about.html) session:
-
-``` r
-install.packages("remotes", dependencies = TRUE)
-remotes::install_github("dzhw/variableMetadataPreparation")
-```
+You find the workflow to use it [here](file:///home/birkelbach/git/variableMetadataPreparation/docs/articles/How_to_use_variableMetadataPreparation.html).
 
 # Development
 
@@ -48,22 +37,41 @@ Before pushing to Github (and thus kicking of CI) you should run
 ``` bash
 R CMD check *tar.gz
 ```
+# Deployment
 
-# Creating the miniCRAN repository
+## Creating the miniCRAN repository
 
-In order to create the miniCRAN repository, please use the `create_minicran()` 
+In order to create the miniCRAN repository, please use the 
+`create_minicran(minicran_path = "path_where_the_miniCRAN_directory_will_be", r_version = "3.5")` 
 function found in `/bin/create_minicran.R`. The current R version in the secured
-area is 3.5. The resulting minicran directory is supposed to go in `Q://Variablenexport/miniCRAN_VariableMetadataPreparation`.
-variableMetadataPreparation is to be installed in the library `Q://variableMetadataPreparation_productive/library` and `options_parser.R` is 
-supposed to be stored in `Q://variableMetadataPreparation_productive/R`.
+area is 3.5. The resulting minicran directory is supposed to be zipped.
+The transfer directory is `smb://faust/gpd-transfer/username/username_out` and 
+you find the zipped file in `Z://username/In_username`.
+The zip file should go in `Q://Variablenexport/miniCRAN_VariableMetadataPreparation`. 
+If at some point the transfer does not work properly, try splitting up the zip 
+files to chunks of `<100mb`.
 
-An example project with appropriate `variablesToJson.bat` can be found in `Q://Variablenexport/example_projects/cmp2014`
+`variableMetadataPreparation` is to be installed in the library `Q://Variablenexport/variableMetadataPreparation_productive/library` and `options_parser.R` is 
+supposed to be stored in `Q://Variablenexport/variableMetadataPreparation_productive/R`.
 
-# Checking on windows
+## Checking the package and creating binaries on windows
 
-Run `rhub::check(platform="windows-x86_64-oldrel")`.
+Run `rhub::check(platform="windows-x86_64-oldrel", email = "insertyouremail")`. 
+You'll get an email where the windows binary of the build process is at.
+Transfer the file just like you did with `miniCRAN` and store it 
+here: `Q://Variablenexport/variableMetadataPreparation_productive/`
 
-Having trouble?
----------------
+## Installation
+
+Open an `R` session at `Q://Variablenexport/variableMetadataPreparation`, adjust the verison of `variableMetadataPreparation` in the file `install_packages.R` and 
+run the command
+
+```
+source("./install_packages.R")
+```
+You're good to go.
+
+# Having trouble?
+
 
 Please file an issue in our [issue tracker](https://github.com/dzhw/metadatamanagement/issues)
