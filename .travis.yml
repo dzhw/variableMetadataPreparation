@@ -1,6 +1,9 @@
 os:
   - linux
   - windows
+jobs:
+  allow_failures:
+    - os: windows
 language: r
 r: 
   - '3.5.1'
