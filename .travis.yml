@@ -1,3 +1,6 @@
+os:
+  - linux
+  - windows
 language: r
 r: 
   - '3.5.1'
