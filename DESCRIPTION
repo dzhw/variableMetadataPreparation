@@ -33,5 +33,6 @@ Suggests:
     knitr,
     rmarkdown,
     miniCRAN,
-    desc
+    desc,
+    lintr
 VignetteBuilder: knitr

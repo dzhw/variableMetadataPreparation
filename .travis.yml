@@ -5,7 +5,6 @@ sudo: false
 cache: packages
 after_success:
 - Rscript -e 'rmarkdown::render("README.Rmd")'
-- Rscript - 'devtools::install_github("jimhester/lintr"")'
 - Rscript -e 'lintr::lint_package'
 - Rscript -e 'covr::codecov()'
 - Rscript -e 'pkgdown::build_site()'
