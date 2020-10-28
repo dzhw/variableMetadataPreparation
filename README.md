@@ -1,5 +1,5 @@
   <!-- badges: start -->
-  [![Travis build status](https://travis-ci.org/dzhw/variableMetadataPreparation.svg?branch=master)](https://travis-ci.org/dzhw/variableMetadataPreparation)
+  [![Travis build status](https://travis-ci.com/dzhw/variableMetadataPreparation.svg?branch=master)](https://travis-ci.com/dzhw/variableMetadataPreparation)
   [![Codecov test coverage](https://codecov.io/gh/dzhw/variableMetadataPreparation/branch/master/graph/badge.svg)](https://codecov.io/gh/dzhw/variableMetadataPreparation?branch=master)
   [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable) [![Documentation](https://img.shields.io/badge/documentation--brightgreen)](https://dzhw.github.io/variableMetadataPreparation/)
   <!-- badges: end -->
