@@ -30,13 +30,13 @@ option_parser <- optparse::OptionParser(option_list = option_list)
 
 copy_opts <- optparse::parse_args(option_parser)
 
-if (is.na(opt$inputdirectory)) {
+if (is.na(copy_opts$inputdirectory)) {
   optparse::print_help(option_parser)
   stop("INPUT-DIRECTORY must not be empty!")
 }
 
 
-if (is.na(opt$destinationdirectory)) {
+if (is.na(copy_opts$destinationdirectory)) {
   optparse::print_help(option_parser)
   stop("DESTINATION-DIRECTORY must not be empty!")
 }
