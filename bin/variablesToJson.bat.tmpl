@@ -4,5 +4,5 @@
 
 :: run variable generation on the test data
 Rscript .\R\options_parser.R -e ..\Projekte\project_name\data-raw\excel -s ..\Projekte\project_name\data-raw\stata -o ..\Projekte\project_name\output -m ..\Projekte\project_name\data-raw\excel\conditions.xlsx -n pid,id
-Rscript .\R\utils-copy-results -i ..\Projekte\project_name -o ..\..\..\Projekte\intern_or_extern\studyseries\project_name\vX.X.X\Metadatenexport
+Rscript .\R\utils-copy_results.R -i ..\Projekte\project_name -o ..\..\..\Projekte\intern_or_extern\studyseries\project_name\vX.X.X\Metadatenexport
 PAUSE
