@@ -61,7 +61,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-adem05a",
-  "panelIdentifier": null,
+  "repeatedMeasurementIdentifier": null,
   "surveyNumbers": [3],
   "indexInDataSet": 644,
   "accessWays": ["remote-desktop-suf", "onsite-suf"],

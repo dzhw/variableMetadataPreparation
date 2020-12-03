@@ -480,7 +480,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-aocc19",
-  "panelIdentifier": "gra2005-ds3-occ19_g3",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-occ19_g3",
   "surveyNumbers": [3],
   "indexInDataSet": 441,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],

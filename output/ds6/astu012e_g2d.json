@@ -502,7 +502,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu012e",
-  "panelIdentifier": null,
+  "repeatedMeasurementIdentifier": null,
   "surveyNumbers": [3],
   "indexInDataSet": 28,
   "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],

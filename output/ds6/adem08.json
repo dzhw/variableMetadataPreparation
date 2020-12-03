@@ -92,7 +92,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
-  "panelIdentifier": "gra2005-ds3-dem08",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-dem08",
   "surveyNumbers": [3],
   "indexInDataSet": 657,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],

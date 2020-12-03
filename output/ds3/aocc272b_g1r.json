@@ -52,7 +52,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
-  "panelIdentifier": "gra2005-ds3-occ272b_g1",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-occ272b_g1",
   "surveyNumbers": [3],
   "indexInDataSet": 591,
   "accessWays": ["remote-desktop-suf", "onsite-suf"],

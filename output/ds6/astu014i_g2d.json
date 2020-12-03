@@ -102,7 +102,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-astu014i",
-  "panelIdentifier": null,
+  "repeatedMeasurementIdentifier": null,
   "surveyNumbers": [3],
   "indexInDataSet": 78,
   "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],

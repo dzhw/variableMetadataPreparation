@@ -21,7 +21,7 @@ VariableExcelDao <- R6::R6Class("VariableExcelDao", # nolint
           excel_sheet$accessWays[i])) #nolint
         variable$set_survey_numbers(
           as.numeric(private$create_vector(excel_sheet$surveyNumbers[i]))) #nolint
-        variable$set_panel_identifier(excel_sheet$panelIdentifier[i]) #nolint
+        variable$set_repeated_measurement_identifier(excel_sheet$repeatedMeasurementIdentifier[i]) #nolint
         variable$set_derived_variables_identifier( #nolint
           excel_sheet$derivedVariablesIdentifier[i]) #nolint
         variable$set_related_variables(private$create_vector(

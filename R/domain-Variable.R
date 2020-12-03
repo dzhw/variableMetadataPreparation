@@ -52,11 +52,11 @@ Variable <- R6::R6Class("Variable", # nolint
     set_survey_numbers = function(survey_numbers) {
       private$surveyNumbers <- survey_numbers # nolint
     },
-    get_panel_identifier = function() {
-      return(private$panelIdentifier) #nolint
+    get_repeated_measurement_identifier = function() {
+      return(private$repeatedMeasurementIdentifier) #nolint
     },
-    set_panel_identifier = function(panel_identifier) {
-      private$panelIdentifier <- jsonlite::unbox(panel_identifier) # nolint
+    set_repeated_measurement_identifier = function(repeated_measurement_identifier) {
+      private$repeatedMeasurementIdentifier <- jsonlite::unbox(repeated_measurement_identifier) # nolint
     },
     get_derived_variables_identifier = function() {
       return(private$derivedVariablesIdentifier) #nolint
@@ -115,7 +115,7 @@ Variable <- R6::R6Class("Variable", # nolint
     accessWays = NULL,
     indexInDataSet = NULL,
     surveyNumbers = NULL,
-    panelIdentifier = NULL,
+    repeatedMeasurementIdentifier = NULL,
     derivedVariablesIdentifier = NULL,
     doNotDisplayThousandsSeparator = NULL,
     relatedVariables = NULL,
