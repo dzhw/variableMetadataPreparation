@@ -34,5 +34,6 @@ Suggests:
     rmarkdown,
     miniCRAN,
     desc,
-    lintr
+    lintr,
+    pkgdown
 VignetteBuilder: knitr
