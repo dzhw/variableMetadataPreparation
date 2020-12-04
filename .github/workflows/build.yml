@@ -29,7 +29,7 @@ jobs:
         key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
         restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
     - name: Install apt dependencies
-      run: sudo apt-get -y install libcurl4-openssl-dev libssl-dev
+      run: sudo apt-get -y install libcurl4-openssl-dev libssl-dev libharfbuzz-dev libfribidi-dev
     - name: Install dependencies
       run: |
         remotes::install_deps(dependencies = TRUE)
