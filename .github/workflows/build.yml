@@ -18,6 +18,8 @@ jobs:
       uses: r-lib/actions/setup-pandoc@v1
       with:
         pandoc-version: '2.7.3'
+    - name: Install devtools
+      run: R -e 'install.packages("devtools")'
     - name: Install R dependencies
       run: R -e 'devtools::install_deps(dep = T)'
     - name: Build the package
