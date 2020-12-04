@@ -12,16 +12,27 @@ jobs:
       uses: r-lib/actions/setup-r@v1
       with:
         r-version: '3.5.1'
-    - name: Setup Tex
-      uses: r-lib/actions/setup-tinytex@v1
     - name: Setup pandoc
       uses: r-lib/actions/setup-pandoc@v1
       with:
         pandoc-version: '2.7.3'
-    - name: Install devtools
-      run: R -e 'install.packages("devtools")'
-    - name: Install R dependencies
-      run: R -e 'devtools::install_deps(dep = T)'
+    - name: Query dependencies
+      run: |
+        install.packages('remotes')
+        saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+        writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+      shell: Rscript {0}
+    - name: Cache R packages
+      uses: actions/cache@v2
+      with:
+        path: ${{ env.R_LIBS_USER }}
+        key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+        restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+    - name: Install dependencies
+      run: |
+        remotes::install_deps(dependencies = TRUE)
+        install.packages("pkgdown", type = "binary")
+      shell: Rscript {0}
     - name: Build the package
       run: R CMD build .
     - name: Run package checks
