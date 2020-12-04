@@ -4,3 +4,5 @@ R/.Rhistory
 .Rproj.user
 packrat/lib*/
 inst/doc
+*.tar.gz
+*.Rcheck
