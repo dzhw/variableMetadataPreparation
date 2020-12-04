@@ -14,8 +14,8 @@ jobs:
         r-version: '3.5.1'
     - name: Setup pandoc
       uses: r-lib/actions/setup-pandoc@v1
-      with:
-        pandoc-version: '2.7.3'
+    - name: Setup Tex
+      uses: r-lib/actions/setup-tinytex@v1
     - name: Query dependencies
       run: |
         install.packages('remotes')
