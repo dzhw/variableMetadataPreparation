@@ -6,3 +6,4 @@ packrat/lib*/
 inst/doc
 *.tar.gz
 *.Rcheck
+docs/*
