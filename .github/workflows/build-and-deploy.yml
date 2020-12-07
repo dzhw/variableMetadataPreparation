@@ -3,8 +3,10 @@ on:
   push:
     branches:
       - master
+    tags-ignore:
+      - v*
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
