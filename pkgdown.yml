@@ -3,7 +3,7 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   How_to_use_variableMetadataPreparation: How_to_use_variableMetadataPreparation.html
-last_built: 2020-12-07T13:18Z
+last_built: 2020-12-07T13:50Z
 urls:
   reference: https://dzhw.github.io/variableMetadataPreparation/reference
   article: https://dzhw.github.io/variableMetadataPreparation/articles
