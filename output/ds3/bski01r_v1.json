@@ -121,7 +121,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
-  "panelIdentifier": "gra2005-ds3-ski01r",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-ski01r",
   "surveyNumbers": [4],
   "indexInDataSet": 730,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],

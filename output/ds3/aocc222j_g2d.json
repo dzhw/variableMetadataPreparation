@@ -241,7 +241,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-aocc222j",
-  "panelIdentifier": "gra2005-ds3-occ222j_g2",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-occ222j_g2",
   "surveyNumbers": [3],
   "indexInDataSet": 468,
   "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],

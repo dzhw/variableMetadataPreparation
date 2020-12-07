@@ -52,7 +52,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
-  "panelIdentifier": "gra2005-ds3-sys01a",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-sys01a",
   "surveyNumbers": [4],
   "indexInDataSet": 1364,
   "accessWays": ["onsite-suf"],

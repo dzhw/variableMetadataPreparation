@@ -120,7 +120,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc221j_v1",
-  "panelIdentifier": "gra2005-ds3-occ221j_g3",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-occ221j_g3",
   "surveyNumbers": [4],
   "indexInDataSet": 861,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],

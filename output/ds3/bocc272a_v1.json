@@ -400,7 +400,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
-  "panelIdentifier": "gra2005-ds3-occ272a",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-occ272a",
   "surveyNumbers": [4],
   "indexInDataSet": 1026,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],

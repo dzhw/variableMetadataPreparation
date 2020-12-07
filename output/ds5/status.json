@@ -230,7 +230,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": null,
-  "panelIdentifier": null,
+  "repeatedMeasurementIdentifier": null,
   "surveyNumbers": [1, 2],
   "indexInDataSet": 2,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],

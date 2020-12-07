@@ -749,7 +749,7 @@
   "relatedVariables": null,
   "doNotDisplayThousandsSeparator": false,
   "derivedVariablesIdentifier": "gra2005-ds3-bocc19_v1",
-  "panelIdentifier": "gra2005-ds3-occ19_g2",
+  "repeatedMeasurementIdentifier": "gra2005-ds3-occ19_g2",
   "surveyNumbers": [4],
   "indexInDataSet": 1032,
   "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
