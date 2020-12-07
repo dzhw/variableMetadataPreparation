@@ -1,9 +1,0 @@
-pandoc: 2.3.1
-pkgdown: 1.4.1
-pkgdown_sha: ~
-articles:
-  How_to_use_variableMetadataPreparation: How_to_use_variableMetadataPreparation.html
-urls:
-  reference: https://dzhw.github.io/variableMetadataPreparation/reference
-  article: https://dzhw.github.io/variableMetadataPreparation/articles
-

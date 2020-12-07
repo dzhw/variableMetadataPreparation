@@ -17,7 +17,6 @@
 variable_metadata_generation <- function(path_to_excel_directory,
   path_to_stata_directory, missing_conditions_file,
   path_to_output_directory, variables_no_distribution) {
-  debug(MissingConditionsExcelDao$new)
   missingConditionsExcelDao <- MissingConditionsExcelDao$new(missing_conditions_file) #nolint
 
   cat(paste0("exceldirectory:", path_to_excel_directory, "\n"))
