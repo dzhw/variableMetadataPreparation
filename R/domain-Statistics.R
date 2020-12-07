@@ -55,18 +55,6 @@ Statistics <- R6::R6Class("Statistics", # nolint
     set_third_quartile = function(third_quartile) {
       private$thirdQuartile <- jsonlite::unbox(third_quartile) # nolint
     },
-    get_low_whisker = function() {
-      return(private$lowWhisker) #nolint
-    },
-    set_low_whisker = function(low_whisker) {
-      private$lowWhisker <- jsonlite::unbox(low_whisker) # nolint
-    },
-    get_high_whisker = function() {
-      return(private$highWhisker) #nolint
-    },
-    set_high_whisker = function(high_whisker) {
-      private$highWhisker <- jsonlite::unbox(high_whisker) # nolint
-    },
     get_mode = function() {
       return(private$mode)
     },
@@ -90,8 +78,6 @@ Statistics <- R6::R6Class("Statistics", # nolint
     standardDeviation = NULL,
     firstQuartile = NULL,
     thirdQuartile = NULL,
-    lowWhisker = NULL,
-    highWhisker = NULL,
     mode = NULL,
     meanDeviation = NULL
   )

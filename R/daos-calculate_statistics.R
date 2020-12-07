@@ -21,10 +21,6 @@ set_ordinal_measures <- function(statistics, valid_values, table_valid_values) {
   maximum <- max(as.numeric(names(table_valid_values)))
   first_quartile <- unname(quantile(valid_values, probs = 0.25))
   third_quartile <- unname(quantile(valid_values, probs = 0.75))
-  low_whisker <- first_quartile - 1.5 * (third_quartile - first_quartile)
-  low_whisker <- ifelse(low_whisker > minimum, low_whisker, minimum)
-  high_whisker <- third_quartile + 1.5 * (third_quartile - first_quartile)
-  high_whisker <- ifelse(high_whisker > maximum, maximum, high_whisker)
   median <- median(valid_values)
   mean_deviation <- unname(mad(valid_values))
   out$set_maximum(to_character(maximum))
@@ -33,8 +29,6 @@ set_ordinal_measures <- function(statistics, valid_values, table_valid_values) {
   out$set_mean_deviation(mean_deviation)
   out$set_first_quartile(to_character(first_quartile))
   out$set_third_quartile(to_character(third_quartile))
-  out$set_low_whisker(low_whisker)
-  out$set_high_whisker(high_whisker)
   return(out)
 }
 
