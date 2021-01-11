@@ -13,8 +13,10 @@ set_nominal_measures <- function(statistics, table_valid_values) {
   out$set_mode(to_character(ifelse(length(mode) > 1, "multimodal", mode)))
   return(out)
 }
+
 #'@importFrom stats mad
 #'@importFrom stats quantile
+#'@importFrom stats median
 set_ordinal_measures <- function(statistics, valid_values, table_valid_values) {
   out <- set_nominal_measures(statistics, table_valid_values)
   minimum <- min(as.numeric(names(table_valid_values)))
