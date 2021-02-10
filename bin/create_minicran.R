@@ -19,4 +19,5 @@ create_minicran <- function(minicran_path, r_version) {
     type = c("source", "win.binary"),
     Rversion = r_version
   )
+
 }
