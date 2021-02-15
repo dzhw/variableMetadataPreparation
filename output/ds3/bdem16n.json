@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\r\nIch möchte die Verantwortung zurzeit nicht übernehmen"
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\nIch möchte die Verantwortung zurzeit nicht übernehmen"
       },
       "questionNumber": "8.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "2",
       "standardDeviation": null,

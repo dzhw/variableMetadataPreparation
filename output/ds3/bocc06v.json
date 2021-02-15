@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Es gibt viele Wege, die eigene berufliche Zukunft zu sichern oder zu verbessern: Welche Möglichkeiten haben Sie genutzt?\r\nAktive Mitarbeit in einem Berufsverband"
+        "de": "Es gibt viele Wege, die eigene berufliche Zukunft zu sichern oder zu verbessern: Welche Möglichkeiten haben Sie genutzt?\nAktive Mitarbeit in einem Berufsverband"
       },
       "questionNumber": "1.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

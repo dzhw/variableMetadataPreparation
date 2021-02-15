@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie viele Arbeitsstunden verwenden Sie insgesamt pro Woche durchschnittlich für Ihre beruflichen Tätigkeiten?\r\nHaupttätigkeit(einschließlich Überstunden, Mehrarbeit)\r\nStd./Woche"
+        "de": "Wie viele Arbeitsstunden verwenden Sie insgesamt pro Woche durchschnittlich für Ihre beruflichen Tätigkeiten?\nHaupttätigkeit(einschließlich Überstunden, Mehrarbeit)\nStd./Woche"
       },
       "questionNumber": "4.19",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 4.4478,
       "mode": "40",
-      "highWhisker": 65,
-      "lowWhisker": 25,
       "thirdQuartile": "50",
       "firstQuartile": "40",
       "standardDeviation": 10.3145,

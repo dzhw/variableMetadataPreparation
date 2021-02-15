@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Staatsangehörigkeit haben Sie?\r\nAusländische Staatsangehörigkeit, und zwar"
+        "de": "Welche Staatsangehörigkeit haben Sie?\nAusländische Staatsangehörigkeit, und zwar"
       },
       "questionNumber": "8.7",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

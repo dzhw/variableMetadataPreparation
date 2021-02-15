@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen die folgenden Ziele für Ihre Teilnahme an Bildung-/Qualifizierungsangeboten außerhalb der Hochschulen?\r\nInteressantere, anspruchsvollere Tätigkeit erreichen"
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Ziele für Ihre Teilnahme an Bildung-/Qualifizierungsangeboten außerhalb der Hochschulen?\nInteressantere, anspruchsvollere Tätigkeit erreichen"
       },
       "questionNumber": "6.6",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": null,

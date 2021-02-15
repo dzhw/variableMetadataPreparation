@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 2.5,
       "thirdQuartile": "5",
       "firstQuartile": "4",
       "standardDeviation": null,

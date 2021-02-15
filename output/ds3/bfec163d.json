@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\r\nBeginn und Ende (Monat/Jahr)\r\nbis:\r\n/20"
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\nBeginn und Ende (Monat/Jahr)\nbis:\n/20"
       },
       "questionNumber": "5.2",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "2010",
-      "highWhisker": 2010,
-      "lowWhisker": 2010,
       "thirdQuartile": "2010",
       "firstQuartile": "2010",
       "standardDeviation": 1.3416,

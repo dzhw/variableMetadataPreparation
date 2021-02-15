@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen die folgenden Ziele für Ihre Teilnahme an Bildung-/Qualifizierungsangeboten außerhalb der Hochschulen?\r\nFachliche Kompetenz erweitern"
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Ziele für Ihre Teilnahme an Bildung-/Qualifizierungsangeboten außerhalb der Hochschulen?\nFachliche Kompetenz erweitern"
       },
       "questionNumber": "6.6",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "1",
-      "highWhisker": 3.5,
-      "lowWhisker": 1,
       "thirdQuartile": "2",
       "firstQuartile": "1",
       "standardDeviation": null,

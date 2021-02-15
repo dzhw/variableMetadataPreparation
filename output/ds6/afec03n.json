@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen folgende Motive  für Ihr weiteres Studium/Ihre Promotion?\r\nGeringes Vertrauen in die Berufschancen mit meinem ersten Studienabschluss"
+        "de": "Wie wichtig sind/waren Ihnen folgende Motive  für Ihr weiteres Studium/Ihre Promotion?\nGeringes Vertrauen in die Berufschancen mit meinem ersten Studienabschluss"
       },
       "questionNumber": "2.2",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "1",
       "standardDeviation": null,

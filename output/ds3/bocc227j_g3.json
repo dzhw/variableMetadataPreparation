@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -100,7 +98,7 @@
   },
   "generationDetails": {
     "ruleExpressionLanguage": "Stata",
-    "rule": "recode bocc227j_g1r (1/10 = 1) (11/16 = 2) (17 = 2) (18 = 1) (19 = 3)\r\n(20/99 = 4), gen(bocc227j_g3)",
+    "rule": "recode bocc227j_g1r (1/10 = 1) (11/16 = 2) (17 = 2) (18 = 1) (19 = 3)\n(20/99 = 4), gen(bocc227j_g3)",
     "description": {
       "en": "This variable was generated for the purposes of anonymisation by aggregation of the employment location. For details cf. the generation rule.",
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort generiert. Zu Einzelheiten vgl. Generierungsregel."

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche zusätzlichen Gehaltsbestandteile bekommen  Sie?\r\nTrifft für mich nicht zu, daich vollständig auftrags- bzw. erfolgsabhängig arbeite\r\nheutige Stelle"
+        "de": "Welche zusätzlichen Gehaltsbestandteile bekommen  Sie?\nTrifft für mich nicht zu, daich vollständig auftrags- bzw. erfolgsabhängig arbeite\nheutige Stelle"
       },
       "questionNumber": "5.9",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

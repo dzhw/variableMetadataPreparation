@@ -1,0 +1,123 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Date Time"
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2010-10-10",
+      "thirdQuartile": "2010-10-10",
+      "firstQuartile": "2010-10-10",
+      "standardDeviation": null,
+      "median": "2010-10-10",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "2010-10-10",
+      "minimum": "1700-01-01",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "System Missing",
+          "de": "Systemmissing"
+        },
+        "relativeFrequency": 17.39,
+        "absoluteFrequency": 4,
+        "code": "NA"
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.35,
+        "relativeFrequency": 4.35,
+        "absoluteFrequency": 1,
+        "value": "1700-01-01"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8.7,
+        "relativeFrequency": 8.7,
+        "absoluteFrequency": 2,
+        "value": "1900-10-10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.35,
+        "relativeFrequency": 4.35,
+        "absoluteFrequency": 1,
+        "value": "1990-10-10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 82.61,
+        "relativeFrequency": 82.61,
+        "absoluteFrequency": 19,
+        "value": "2010-10-10"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 23,
+    "totalAbsoluteFrequency": 23
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "double",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "repeatedMeasurementIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 2,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": null
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "Intervall"
+  },
+  "dataType": {
+    "en": "date",
+    "de": "datum"
+  }
+}

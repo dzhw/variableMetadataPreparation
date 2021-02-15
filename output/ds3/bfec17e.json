@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\r\nHöheres Einkommen erzielen"
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\nHöheres Einkommen erzielen"
       },
       "questionNumber": "5.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 3.5,
-      "lowWhisker": 1,
       "thirdQuartile": "2",
       "firstQuartile": "1",
       "standardDeviation": null,

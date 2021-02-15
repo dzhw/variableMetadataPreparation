@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Auf welche Weise haben Sie Ihre heutige bzw. letzte Arbeitsstelle gefunden?\r\nUnternehmensgründung/Selbstständigkeit"
+        "de": "Auf welche Weise haben Sie Ihre heutige bzw. letzte Arbeitsstelle gefunden?\nUnternehmensgründung/Selbstständigkeit"
       },
       "questionNumber": "4.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

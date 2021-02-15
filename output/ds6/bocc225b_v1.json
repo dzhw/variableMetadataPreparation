@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nZeitraum (Monat/Jahr)\r\nvon:\r\n/20"
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\nZeitraum (Monat/Jahr)\nvon:\n/20"
       },
       "questionNumber": "4.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2010",
-      "highWhisker": 2011,
-      "lowWhisker": 2005,
       "thirdQuartile": "2010",
       "firstQuartile": "2008",
       "standardDeviation": 1.6324,

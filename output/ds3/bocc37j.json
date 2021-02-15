@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche der folgenden Tätigkeiten üben Sie derzeit aus? \r\nIch bin zurzeit…\r\nin akademischer Weiterbildung nach der Promotion (\"Post-Doc\")"
+        "de": "Welche der folgenden Tätigkeiten üben Sie derzeit aus? \nIch bin zurzeit…\nin akademischer Weiterbildung nach der Promotion (\"Post-Doc\")"
       },
       "questionNumber": "1.1",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

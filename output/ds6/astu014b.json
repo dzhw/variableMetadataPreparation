@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nVon SS/WS20.. bis einschließlich SS/WS 20.. (z. B. WS 99/00 - SS 2005)\r\nvon"
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\nVon SS/WS20.. bis einschließlich SS/WS 20.. (z. B. WS 99/00 - SS 2005)\nvon"
       },
       "questionNumber": "1.1",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "2005",
-      "highWhisker": 2005,
-      "lowWhisker": 2005,
       "thirdQuartile": "2005",
       "firstQuartile": "2005",
       "standardDeviation": 0.63,

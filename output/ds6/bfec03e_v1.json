@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\r\nFachliche Defizite ausgleichen"
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\nFachliche Defizite ausgleichen"
       },
       "questionNumber": "2.6",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1.5,
       "thirdQuartile": "4",
       "firstQuartile": "3",
       "standardDeviation": null,

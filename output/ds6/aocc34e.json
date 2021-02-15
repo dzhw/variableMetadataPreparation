@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen  Werdegangs aus heutiger Sicht verhalten?\r\nErst nach einer Berufsausbildung studieren"
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen  Werdegangs aus heutiger Sicht verhalten?\nErst nach einer Berufsausbildung studieren"
       },
       "questionNumber": "5.14",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

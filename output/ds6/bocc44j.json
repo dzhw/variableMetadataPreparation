@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Maße trafen folgende Gründe bei der Entscheidung für Ihre heutige bzw. letzte Stelle zu?\r\nDas Arbeitsklima"
+        "de": "In welchem Maße trafen folgende Gründe bei der Entscheidung für Ihre heutige bzw. letzte Stelle zu?\nDas Arbeitsklima"
       },
       "questionNumber": "4.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": null,

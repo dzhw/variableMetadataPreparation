@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nAngestrebte Abschlussart (z. B. Diplom-FH, Bachelor, Lehramt/Gymnasium)"
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\nAngestrebte Abschlussart (z. B. Diplom-FH, Bachelor, Lehramt/Gymnasium)"
       },
       "questionNumber": "1.1",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "5",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

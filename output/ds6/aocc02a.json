@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Hatten Ihre Jobs bzw. Tätigkeiten im weiteren Sinne fachlich etwas mit Ihrem Studium oder Ihrem angestrebten Berufsfeld zu tun?\r\nIch war als studentische Hilfskraft fachnah an einem Fachbereich/Institut tätig"
+        "de": "Hatten Ihre Jobs bzw. Tätigkeiten im weiteren Sinne fachlich etwas mit Ihrem Studium oder Ihrem angestrebten Berufsfeld zu tun?\nIch war als studentische Hilfskraft fachnah an einem Fachbereich/Institut tätig"
       },
       "questionNumber": "1.12",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

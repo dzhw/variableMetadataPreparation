@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig  sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Studienabschluss  über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nbei Studienabschluss vorhanden\r\nFachübergreifendes Denken"
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig  sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Studienabschluss  über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\nbei Studienabschluss vorhanden\nFachübergreifendes Denken"
       },
       "questionNumber": "1.17",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "2",
       "standardDeviation": null,

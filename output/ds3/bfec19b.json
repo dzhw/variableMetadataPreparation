@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Haben Sie an kürzeren Bildungsangeboten von bzw. an Hochschulen teilgenommen (z. B. Kurse, Seminare, Workshops)?\r\nAnzahl (ggf. circa):"
+        "de": "Haben Sie an kürzeren Bildungsangeboten von bzw. an Hochschulen teilgenommen (z. B. Kurse, Seminare, Workshops)?\nAnzahl (ggf. circa):"
       },
       "questionNumber": "5.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 2.2239,
       "mode": "2",
-      "highWhisker": 9.5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "2",
       "standardDeviation": 4.7224,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte nennen Sie Ihre genaue Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit\r\nAufgabenbereich\r\n(z.B. Management, Finanzcontrolling, Qualitätswesen, Personal, Logistik, Software)"
+        "de": "Bitte nennen Sie Ihre genaue Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit\nAufgabenbereich\n(z.B. Management, Finanzcontrolling, Qualitätswesen, Personal, Logistik, Software)"
       },
       "questionNumber": "4.12",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

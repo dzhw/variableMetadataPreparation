@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\r\nSelbstlernen durch Beobachten, Ausprobieren"
+        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\nSelbstlernen durch Beobachten, Ausprobieren"
       },
       "questionNumber": "4.13",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "1",
-      "highWhisker": 3.5,
-      "lowWhisker": 1,
       "thirdQuartile": "2",
       "firstQuartile": "1",
       "standardDeviation": null,

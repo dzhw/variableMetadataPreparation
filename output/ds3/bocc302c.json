@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Würden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschäftigt sind?\r\nHinsichtlich der fachlichen Qualifikation (Studienfachrichtung)"
+        "de": "Würden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschäftigt sind?\nHinsichtlich der fachlichen Qualifikation (Studienfachrichtung)"
       },
       "questionNumber": "4.21",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": null,

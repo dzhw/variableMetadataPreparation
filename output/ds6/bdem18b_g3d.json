@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -120,7 +118,7 @@
   },
   "generationDetails": {
     "ruleExpressionLanguage": "Stata",
-    "rule": "recode bdem18b_g1o (20/36 38/42 = 1) (43/46 48/52 = 2) (55/60 = 3) \r\n(37 65/77 = 4) (80/82 = 5) (85/90 = 6) (47 99 97 = -966), gen(bdem18b_g3d)",
+    "rule": "recode bdem18b_g1o (20/36 38/42 = 1) (43/46 48/52 = 2) (55/60 = 3) \n(37 65/77 = 4) (80/82 = 5) (85/90 = 6) (47 99 97 = -966), gen(bdem18b_g3d)",
     "description": {
       "en": "This variable was generated for the purposes of anonymisation by aggregation of the variable \"nationality (if foreign)\". For aggregation the project’s own code list was used (cf. cl-dzhw-1). For details cf. the generation rule.",
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variable \"Staatsangehörigkeit (Ausland)\" generiert. Zur Aggregation wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-1). Zu Einzelheiten vgl. Generierungsregel."

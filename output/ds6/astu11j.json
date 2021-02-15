@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie beurteilen Sie die folgenden Aspekte  Ihres abgeschlossenen Studiums?\r\nFachliche Vertiefungsmöglichkeiten"
+        "de": "Wie beurteilen Sie die folgenden Aspekte  Ihres abgeschlossenen Studiums?\nFachliche Vertiefungsmöglichkeiten"
       },
       "questionNumber": "1.13",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

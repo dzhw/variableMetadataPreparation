@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie lange dauerte/n das Praktikum/die Praktika?\r\n1.Praktikum:\r\nWochen"
+        "de": "Wie lange dauerte/n das Praktikum/die Praktika?\n1.Praktikum:\nWochen"
       },
       "questionNumber": "4.12",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 8.8956,
       "mode": "8",
-      "highWhisker": 41,
-      "lowWhisker": 1,
       "thirdQuartile": "20",
       "firstQuartile": "6",
       "standardDeviation": 9.0108,

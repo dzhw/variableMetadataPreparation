@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welcher Form haben Sie Ihre Promotion (bisher) erarbeitet?\r\nIn engem Arbeitskontakt zu dem/der betreuenden Hochschullehrer/in"
+        "de": "In welcher Form haben Sie Ihre Promotion (bisher) erarbeitet?\nIn engem Arbeitskontakt zu dem/der betreuenden Hochschullehrer/in"
       },
       "questionNumber": "2.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

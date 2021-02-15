@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "78",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -471,7 +469,7 @@
   },
   "generationDetails": {
     "ruleExpressionLanguage": "Stata",
-    "rule": "gen aocc35b_g2 = aocc35b_g1d\r\nreplace aocc35b_g2 = floor(aocc35b_g2/10) if aocc35b_g2>0",
+    "rule": "gen aocc35b_g2 = aocc35b_g1d\nreplace aocc35b_g2 = floor(aocc35b_g2/10) if aocc35b_g2>0",
     "description": {
       "en": "This variable was generated for the purposes of anonymisation by aggregation of variable aocc35b_g1d (Kldb 3 digits). For aggregation the Federal Statistical Office of Germany  key list for the \"Classification of Professions (KldB)\" from 1992 was used (cf. cl-destatis-kldb-1992). For details cf. the generation rule.",
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-3-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992). Zu Einzelheiten vgl. die Generierungsregel."

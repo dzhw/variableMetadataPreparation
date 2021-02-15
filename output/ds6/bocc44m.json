@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Maße trafen folgende Gründe bei der Entscheidung für Ihre heutige bzw. letzte Stelle zu?\r\nPartnerschaftliche/familliäre Gründe"
+        "de": "In welchem Maße trafen folgende Gründe bei der Entscheidung für Ihre heutige bzw. letzte Stelle zu?\nPartnerschaftliche/familliäre Gründe"
       },
       "questionNumber": "4.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "2",
       "standardDeviation": null,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Sind Sie in Deutschland geboren?\r\nNein, ich bin in … geboren"
+        "de": "Sind Sie in Deutschland geboren?\nNein, ich bin in … geboren"
       },
       "questionNumber": "8.8",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Haben Sie im Rahmen Ihres abgeschlossenen  Studiums Auslandserfahrungen gemacht?\r\nDauer in Monaten"
+        "de": "Haben Sie im Rahmen Ihres abgeschlossenen  Studiums Auslandserfahrungen gemacht?\nDauer in Monaten"
       },
       "questionNumber": "1.6",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 6,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": 1.8098,

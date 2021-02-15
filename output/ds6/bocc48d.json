@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\r\nLesen von Fachliteratur/Fachzeitschriften"
+        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\nLesen von Fachliteratur/Fachzeitschriften"
       },
       "questionNumber": "4.13",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": null,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Was waren Ihre fachlichen Schwerpunkte im  Hauptstudienfach?\r\n2."
+        "de": "Was waren Ihre fachlichen Schwerpunkte im  Hauptstudienfach?\n2."
       },
       "questionNumber": "1.9",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -53,8 +51,8 @@
     "ruleExpressionLanguage": null,
     "rule": null,
     "description": {
-      "en": "This variable contains the gathered open responses on study specialisations in coded form. The project’s own code list was used (cf. cl-dzhw-3). The responses were only coded for certain subjects in the area of study \"economics and business\":\r\n184 Economics and Business Studies\r\n021 Business Studies\r\n167 European Business\r\n182 International Business/Management\r\n175 Economics\r\nIf the type of degree was \"Magister\" or a teaching profession degree in one of these subjects, the responses were not coded.",
-      "de": "Diese Variable enthält die offen erfassten Studienschwerpunkte in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-3).\r\nDie Angaben wurden nur für bestimmte Studienfächer des Studienbereichs \"Wirtschaftswissenschaften\" codiert:\r\n184 Wirtschaftwissenschaften\r\n021 Betriebswirtschaftslehre\r\n167 Europäische Wirtschaft\r\n182 Internationale Betriebswirtschaft/Management\r\n175 Volkswirtschaftslehre\r\nWurde in einem dieser Fächer ein Magister- oder Lehramtsstudium absolviert, wurden die Angaben nicht vercodet."
+      "en": "This variable contains the gathered open responses on study specialisations in coded form. The project’s own code list was used (cf. cl-dzhw-3). The responses were only coded for certain subjects in the area of study \"economics and business\":\n184 Economics and Business Studies\n021 Business Studies\n167 European Business\n182 International Business/Management\n175 Economics\nIf the type of degree was \"Magister\" or a teaching profession degree in one of these subjects, the responses were not coded.",
+      "de": "Diese Variable enthält die offen erfassten Studienschwerpunkte in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-3).\nDie Angaben wurden nur für bestimmte Studienfächer des Studienbereichs \"Wirtschaftswissenschaften\" codiert:\n184 Wirtschaftwissenschaften\n021 Betriebswirtschaftslehre\n167 Europäische Wirtschaft\n182 Internationale Betriebswirtschaft/Management\n175 Volkswirtschaftslehre\nWurde in einem dieser Fächer ein Magister- oder Lehramtsstudium absolviert, wurden die Angaben nicht vercodet."
     }
   },
   "storageType": "double",

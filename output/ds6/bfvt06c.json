@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wer waren die Veranstalter oder Anbieter dieser beruflichen Weiterbildungen?\r\nPrivater oder freiberuflicher Weiterbildungsanbieter"
+        "de": "Wer waren die Veranstalter oder Anbieter dieser beruflichen Weiterbildungen?\nPrivater oder freiberuflicher Weiterbildungsanbieter"
       },
       "questionNumber": "6.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

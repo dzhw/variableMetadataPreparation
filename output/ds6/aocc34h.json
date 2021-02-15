@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen  Werdegangs aus heutiger Sicht verhalten?\r\nWieder den gleichen Studienabschluss (z.B. Diplom-FH, Magister usw.) erwerben"
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen  Werdegangs aus heutiger Sicht verhalten?\nWieder den gleichen Studienabschluss (z.B. Diplom-FH, Magister usw.) erwerben"
       },
       "questionNumber": "5.14",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": null,

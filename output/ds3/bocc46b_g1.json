@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Arbeiten Sie in einem Unternehmen, das Standorte auch im Ausland hat?\r\nWenn ja: In welchem Land liegt die Unternehmenszentrale?"
+        "de": "Arbeiten Sie in einem Unternehmen, das Standorte auch im Ausland hat?\nWenn ja: In welchem Land liegt die Unternehmenszentrale?"
       },
       "questionNumber": "4.8",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "19",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

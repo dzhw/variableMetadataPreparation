@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie viele Arbeitsstunden verwenden Sie insgesamt pro Woche durchschnittlich für Ihre beruflichen Tätigkeiten?\r\nGgf. zweite Beschäftigung oder Nebentätigkeit\r\nStd./Woche"
+        "de": "Wie viele Arbeitsstunden verwenden Sie insgesamt pro Woche durchschnittlich für Ihre beruflichen Tätigkeiten?\nGgf. zweite Beschäftigung oder Nebentätigkeit\nStd./Woche"
       },
       "questionNumber": "4.19",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 5.1891,
       "mode": "10",
-      "highWhisker": 17.5,
-      "lowWhisker": 1,
       "thirdQuartile": "10",
       "firstQuartile": "5",
       "standardDeviation": 5.1964,

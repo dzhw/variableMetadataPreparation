@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welches Arbeitszeitvolumen entspricht am ehesten Ihren Wünschen?\r\nmit Std/Woche:"
+        "de": "Welches Arbeitszeitvolumen entspricht am ehesten Ihren Wünschen?\nmit Std/Woche:"
       },
       "questionNumber": "4.18",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "40",
-      "highWhisker": 47.5,
-      "lowWhisker": 27.5,
       "thirdQuartile": "40",
       "firstQuartile": "35",
       "standardDeviation": 6.2227,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie zufrieden sind Sie mit Ihrer derzeitigen  (bzw. zuletzt ausgeübten) Beschäftigung?\r\nArbeitsklima"
+        "de": "Wie zufrieden sind Sie mit Ihrer derzeitigen  (bzw. zuletzt ausgeübten) Beschäftigung?\nArbeitsklima"
       },
       "questionNumber": "5.13",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 3.5,
-      "lowWhisker": 1,
       "thirdQuartile": "2",
       "firstQuartile": "1",
       "standardDeviation": null,

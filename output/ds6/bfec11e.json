@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem institutionellem Rahmen promovieren/promovierten Sie? \r\nIm Rahmen der Promotionsförderung einer Stiftung"
+        "de": "In welchem institutionellem Rahmen promovieren/promovierten Sie? \nIm Rahmen der Promotionsförderung einer Stiftung"
       },
       "questionNumber": "2.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

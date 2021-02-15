@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf  Ihr abgeschlossenes Studium zu?\r\nDas Studium bot die Möglichkeit der fachlichen Schwerpunktsetzung"
+        "de": "Inwieweit treffen die folgenden Aussagen auf  Ihr abgeschlossenes Studium zu?\nDas Studium bot die Möglichkeit der fachlichen Schwerpunktsetzung"
       },
       "questionNumber": "1.15",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

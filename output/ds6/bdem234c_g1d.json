@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "DE30 Berlin",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

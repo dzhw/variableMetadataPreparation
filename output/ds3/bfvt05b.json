@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Von wem ging die Initiative zur Teilnahme an bildungs-/Qualifizierungsangeboten außerhalb von Hochschulen aus?\r\nVon der Agentur für Arbeit"
+        "de": "Von wem ging die Initiative zur Teilnahme an bildungs-/Qualifizierungsangeboten außerhalb von Hochschulen aus?\nVon der Agentur für Arbeit"
       },
       "questionNumber": "6.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

@@ -52,7 +52,10 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
       output <- vector(length = nrow(sheet) + 1, mode = "character")
       output[1] <- "is.na(values)"
       for (i in seq_len(nrow(sheet))) {
-        if (sheet$operator[i] == "equal to") {
+        if (is.na(sheet$operator[i])) {
+          next
+        }
+        else if (sheet$operator[i] == "equal to") {
           output[i + 1] <- paste0("values %in% lubridate::date(\"", sheet$value[i], "\")")
         }
         else if (sheet$operator[i] == "not equal to") {
@@ -61,6 +64,8 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
           stop("You need to specify correct missing conditions in the excel sheet missingConditionDate. Aborting.") #nolint
         }
       }
+      output <- output[!is.na(output)]
+      output <- output[output != ""]
       return(output)
     }
   ),
@@ -82,7 +87,6 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
         excel_sheet <- private$read_and_trim_excel_sheet(excel_location,
           "missingConditionDate")
         private$missing_conditions_date <- private$create_missing_conditions_date(excel_sheet) #nolint
-        print(private$missing_conditions_date)
       }
     },
     get_missing_conditions_string = function() {

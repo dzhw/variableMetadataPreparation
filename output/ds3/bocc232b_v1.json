@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Auf welche Weise haben Sie Ihre heutige bzw. letzte Arbeitsstelle gefunden?\r\nDurch Bewerbung \"auf Verdacht\""
+        "de": "Auf welche Weise haben Sie Ihre heutige bzw. letzte Arbeitsstelle gefunden?\nDurch Bewerbung \"auf Verdacht\""
       },
       "questionNumber": "4.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

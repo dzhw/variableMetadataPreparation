@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\r\nLängerfristige Weiterbildungen mit einem zeitlichen Aufwand von über 40 bis zu 100 Stunden (z.B. mehrwöchige/-monatige Weiterbildung in Voll-/Teilzeit)\r\nAnzahl (ggf. circa):"
+        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\nLängerfristige Weiterbildungen mit einem zeitlichen Aufwand von über 40 bis zu 100 Stunden (z.B. mehrwöchige/-monatige Weiterbildung in Voll-/Teilzeit)\nAnzahl (ggf. circa):"
       },
       "questionNumber": "6.7",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "1",
-      "highWhisker": 1,
-      "lowWhisker": 1,
       "thirdQuartile": "1",
       "firstQuartile": "1",
       "standardDeviation": 0.7731,

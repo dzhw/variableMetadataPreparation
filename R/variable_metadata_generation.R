@@ -30,6 +30,10 @@ variable_metadata_generation <- function(path_to_excel_directory,
     missingConditionsExcelDao$get_missing_conditions_string(), #nolint
     "\n"
   ))
+  cat(paste0("missing-conditions-date:",
+    missingConditionsExcelDao$get_missing_conditions_date(), #nolint
+    "\n"
+  ))
   cat(paste0("variables-no-distribution:", variables_no_distribution, "\n"))
   stata_files <- list.files(path_to_stata_directory, pattern = "*.dta")
 

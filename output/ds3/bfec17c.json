@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\r\nNicht-fachliche Kompetenz erweitern (z. B. Sozialkompetenz, Organisationskomp.)"
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\nNicht-fachliche Kompetenz erweitern (z. B. Sozialkompetenz, Organisationskomp.)"
       },
       "questionNumber": "5.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

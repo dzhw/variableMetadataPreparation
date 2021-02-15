@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Was hat Sie bewogen, nach dem Studienabschluss  ein Praktikum aufzunehmen?\r\nIch brauchte einen Praktikumsnachweis für die Aufnahme eines weiteren Studiums"
+        "de": "Was hat Sie bewogen, nach dem Studienabschluss  ein Praktikum aufzunehmen?\nIch brauchte einen Praktikumsnachweis für die Aufnahme eines weiteren Studiums"
       },
       "questionNumber": "4.14",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie finanzier(t)en Sie ggf. anfallende Teilnahmekosten an diesen beruflichen Weiterbildungen?\r\nDurch Stipendien/öffentliche Mittel"
+        "de": "Wie finanzier(t)en Sie ggf. anfallende Teilnahmekosten an diesen beruflichen Weiterbildungen?\nDurch Stipendien/öffentliche Mittel"
       },
       "questionNumber": "6.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
