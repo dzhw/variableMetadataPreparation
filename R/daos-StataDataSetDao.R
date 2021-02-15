@@ -110,12 +110,7 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
         "values %in% \"-995 keine Teilnahme (Panel)\"",
         "values %in% \"-998 keine Angabe\"",
         "values %in% \"-989 filterbedingt fehlend\""),
-      missing_conditions_date =
-        c("values %in% \"-966 nicht bestimmbar\"",
-        "values %in% \"-968 unplausibler Wert\"",
-        "values %in% \"-995 keine Teilnahme (Panel)\"",
-        "values %in% \"-998 keine Angabe\"",
-        "values %in% \"-989 filterbedingt fehlend\""),
+      missing_conditions_date = "is.na(values)",
       missing_conditions_numeric = "values <= -800", #nolint
       variables_no_distribution = c("pid", "id")) { #nolint
       private$missing_conditions = list() #nolint
