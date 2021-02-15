@@ -83,12 +83,12 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
         private$value_label_container[["de"]] <- NULL
       }
     },
-    evaluate_missing_conditions = function(values, condition) {
-      temp <- data.frame(matrix(nrow = length(condition),
+    evaluate_missing_conditions = function(values, conditions) {
+      temp <- data.frame(matrix(nrow = length(conditions),
         ncol = length(values)))
-      for (i in 1:length(condition)) {
-        temp[i, ] <- eval(parse(text = condition[i]))
-      }
+      for (i in 1:length(conditions)) {
+        temp[i, ] <- eval(parse(text = conditions[i]))
+       }
       out <- unname(apply(temp, MARGIN = 2, any))
       return(out)
     },
@@ -110,11 +110,18 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
         "values %in% \"-995 keine Teilnahme (Panel)\"",
         "values %in% \"-998 keine Angabe\"",
         "values %in% \"-989 filterbedingt fehlend\""),
+      missing_conditions_date =
+        c("values %in% \"-966 nicht bestimmbar\"",
+        "values %in% \"-968 unplausibler Wert\"",
+        "values %in% \"-995 keine Teilnahme (Panel)\"",
+        "values %in% \"-998 keine Angabe\"",
+        "values %in% \"-989 filterbedingt fehlend\""),
       missing_conditions_numeric = "values <= -800", #nolint
       variables_no_distribution = c("pid", "id")) { #nolint
       private$missing_conditions = list() #nolint
       private$missing_conditions[["string"]] = missing_conditions_string #nolint
       private$missing_conditions[["numeric"]] = missing_conditions_numeric #nolint
+      private$missing_conditions[["date"]] = missing_conditions_date #nolint
       cat(paste0("Read stata file \"", data_set_location, "\n"))
       private$original_data_set <- readstata13::read.dta13(data_set_location,
         convert.factors = FALSE
@@ -134,12 +141,20 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
     get_data_type = function(variable_name) {
       if (private$is_valid_variable_name(variable_name)) {
         data_type <- I18nString$new()
-        data_type$set_de(ifelse(typeof(
-          private$original_data_set[[variable_name]]) == "character", "string",
-          "numerisch"))
-        data_type$set_en(ifelse(typeof(
-          private$original_data_set[[variable_name]]) == "character", "string",
-          "numeric"))
+        data_type$set_de(
+          dplyr::case_when(
+            is.character(private$original_data_set[[variable_name]]) ~ "string", #nolint
+            is.numeric(private$original_data_set[[variable_name]]) ~ "numerisch", #nolint
+            lubridate::is.timepoint(private$original_data_set[[variable_name]]) ~ "datum" #nolint
+          )
+        )
+        data_type$set_en(
+          dplyr::case_when(
+            is.character(private$original_data_set[[variable_name]]) ~ "string", #nolint
+            is.numeric(private$original_data_set[[variable_name]]) ~ "numeric", #nolint
+            lubridate::is.timepoint(private$original_data_set[[variable_name]]) ~ "date" #nolint
+          )
+        )
         return(data_type)
       }
     },
@@ -169,6 +184,9 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
             de = de,
             en = en
           )
+          if (data_type_en == "date") {
+            original_values <- lubridate::date(original_values)
+          }
           valid_values <- original_values[!(
             private$evaluate_missing_conditions(original_values,
               private$missing_conditions[[data_type_en]])
