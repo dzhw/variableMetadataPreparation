@@ -1,6 +1,6 @@
 Package: variableMetadataPreparation
 Title: What the Package Does (One Line, Title Case)
-Version: 1.0.107
+Version: 1.0.108
 Authors@R:
     c(person(given = "Robert",
         family = "Birkelbach",
