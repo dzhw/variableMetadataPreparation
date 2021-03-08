@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Erfahrungen haben Sie (bisher) in  Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\r\nBezug zu den Inhalten der ersten Phase des Studiums"
+        "de": "Welche Erfahrungen haben Sie (bisher) in  Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\nBezug zu den Inhalten der ersten Phase des Studiums"
       },
       "questionNumber": "3.3",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

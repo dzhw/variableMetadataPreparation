@@ -4,9 +4,13 @@
 \alias{variable_metadata_generation}
 \title{Create variable metadata json files for the mdm}
 \usage{
-variable_metadata_generation(path_to_excel_directory,
-  path_to_stata_directory, missing_conditions_file,
-  path_to_output_directory, variables_no_distribution)
+variable_metadata_generation(
+  path_to_excel_directory,
+  path_to_stata_directory,
+  missing_conditions_file,
+  path_to_output_directory,
+  variables_no_distribution
+)
 }
 \arguments{
 \item{path_to_excel_directory}{the path to the excel directory}

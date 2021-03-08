@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nEs wird Wert auf Eigeninitiative gelegt"
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nEs wird Wert auf Eigeninitiative gelegt"
       },
       "questionNumber": "4.14",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "1",
-      "highWhisker": 3.5,
-      "lowWhisker": 1,
       "thirdQuartile": "2",
       "firstQuartile": "1",
       "standardDeviation": null,

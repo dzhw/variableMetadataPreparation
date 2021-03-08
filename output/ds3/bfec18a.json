@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie finanzier(t)en Sie Ihren Lebensunterhalt und ggf. die Studiengebühren während der Teilnahme an den in Frage 5.2 genannten wissenschaftlichen Weiterbildungen?\r\nDurch Mittel aus eigener Erwerbstätigkeit"
+        "de": "Wie finanzier(t)en Sie Ihren Lebensunterhalt und ggf. die Studiengebühren während der Teilnahme an den in Frage 5.2 genannten wissenschaftlichen Weiterbildungen?\nDurch Mittel aus eigener Erwerbstätigkeit"
       },
       "questionNumber": "5.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

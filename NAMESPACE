@@ -2,5 +2,6 @@
 
 export(variable_metadata_generation)
 importFrom(stats,mad)
+importFrom(stats,median)
 importFrom(stats,quantile)
 importFrom(stats,sd)

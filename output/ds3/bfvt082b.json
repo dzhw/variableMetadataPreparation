@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\r\nMehrtägige Veranstaltungen mit einem zeitlichen Aufwand von bis zu 20 Stunden (z. B. Wochenend-/Blockseminar)\r\nAnzahl (ggf. circa):"
+        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\nMehrtägige Veranstaltungen mit einem zeitlichen Aufwand von bis zu 20 Stunden (z. B. Wochenend-/Blockseminar)\nAnzahl (ggf. circa):"
       },
       "questionNumber": "6.7",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 9.5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "2",
       "standardDeviation": 2.8444,

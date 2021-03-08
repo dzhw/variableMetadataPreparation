@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wann haben Sie Ihre Promotion begonnen und beendet?\r\nEnde:\r\nMonat"
+        "de": "Wann haben Sie Ihre Promotion begonnen und beendet?\nEnde:\nMonat"
       },
       "questionNumber": "2.2",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 4.4478,
       "mode": "7",
-      "highWhisker": 12,
-      "lowWhisker": 1,
       "thirdQuartile": "10",
       "firstQuartile": "5",
       "standardDeviation": null,

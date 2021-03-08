@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Maße traten bei Ihrem Berufsstart  folgende Probleme auf?\r\nHektik im Beruf, Termindruck, Arbeitsüberlastung"
+        "de": "In welchem Maße traten bei Ihrem Berufsstart  folgende Probleme auf?\nHektik im Beruf, Termindruck, Arbeitsüberlastung"
       },
       "questionNumber": "5.4",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

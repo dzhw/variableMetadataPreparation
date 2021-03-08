@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen Sie?\r\nVariable Gehaltszulagen (z.B. Leistungsprämien)"
+        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen Sie?\nVariable Gehaltszulagen (z.B. Leistungsprämien)"
       },
       "questionNumber": "4.17",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

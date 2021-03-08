@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\r\nQualitäts-, Werkstattzirkel, Beteiligungsgruppen"
+        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\nQualitäts-, Werkstattzirkel, Beteiligungsgruppen"
       },
       "questionNumber": "4.13",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 2.5,
       "thirdQuartile": "5",
       "firstQuartile": "4",
       "standardDeviation": null,

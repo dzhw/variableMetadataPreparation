@@ -21,8 +21,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "2005",
-      "highWhisker": 2007.5,
-      "lowWhisker": 2004,
       "thirdQuartile": "2006",
       "firstQuartile": "2005",
       "standardDeviation": 1.6178,

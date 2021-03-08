@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\r\nGeringes Vertrauen in die Berufschancen mit meinem bisherigen Abschluss"
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\nGeringes Vertrauen in die Berufschancen mit meinem bisherigen Abschluss"
       },
       "questionNumber": "2.6",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 2.9652,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "2",
       "standardDeviation": null,

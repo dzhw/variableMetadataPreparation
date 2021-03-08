@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nMeine Arbeit wird häufig bewertet"
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nMeine Arbeit wird häufig bewertet"
       },
       "questionNumber": "4.14",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

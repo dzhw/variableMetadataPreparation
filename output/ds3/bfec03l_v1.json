@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\r\nDen Status als Student/in aufrecht erhalten"
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\nDen Status als Student/in aufrecht erhalten"
       },
       "questionNumber": "2.6",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 2.5,
       "thirdQuartile": "5",
       "firstQuartile": "4",
       "standardDeviation": null,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in  Ihrem Studium besucht haben, trifft Folgendes zu?\r\nIn den von mir besuchten Lehrveranstaltungen …\r\ngab es rege Diskussion"
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in  Ihrem Studium besucht haben, trifft Folgendes zu?\nIn den von mir besuchten Lehrveranstaltungen …\ngab es rege Diskussion"
       },
       "questionNumber": "1.14",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

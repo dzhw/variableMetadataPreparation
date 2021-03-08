@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nIch arbeite überwiegend an zeitlich befristeten Projekten"
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nIch arbeite überwiegend an zeitlich befristeten Projekten"
       },
       "questionNumber": "4.14",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "1",
       "standardDeviation": null,

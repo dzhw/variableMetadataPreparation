@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf  Ihr abgeschlossenes Studium zu?\r\nDie Lehrveranstaltungen waren inhaltlich gut aufeinander abgestimmt"
+        "de": "Inwieweit treffen die folgenden Aussagen auf  Ihr abgeschlossenes Studium zu?\nDie Lehrveranstaltungen waren inhaltlich gut aufeinander abgestimmt"
       },
       "questionNumber": "1.15",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "3",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "2",
       "standardDeviation": null,

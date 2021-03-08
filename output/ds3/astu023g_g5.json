@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -51,7 +49,7 @@
   },
   "generationDetails": {
     "ruleExpressionLanguage": "Stata",
-    "rule": "gen astu023g_g5=.\r\nreplace astu023g_g5=1 if inrange(astu023g_g4r,1,10)\r\nreplace astu023g_g5=2 if inrange(astu023g_g4r,11,16)\r\nreplace astu023g_g5=3 if astu023g_g4r==21\r\nreplace astu023g_g5=4 if astu023g_g4r==22",
+    "rule": "gen astu023g_g5=.\nreplace astu023g_g5=1 if inrange(astu023g_g4r,1,10)\nreplace astu023g_g5=2 if inrange(astu023g_g4r,11,16)\nreplace astu023g_g5=3 if astu023g_g4r==21\nreplace astu023g_g5=4 if astu023g_g4r==22",
     "description": {
       "en": "This variable was generated for the purposes of anonymisation by aggregation of the variable on federal state of the university. For details cf. the generation rule.",
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."

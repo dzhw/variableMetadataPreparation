@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wann haben Sie im Rahmen Ihres Exames Ihre letzte Prüfungsleistung (Abgabe der Examensarbeit, letzte Klausur bzw. mündliche Prüfung) erbracht und welche Gesamtnote (ggf. Punktzahl) haben Sie erzielt?\r\nggf. Punktzahl:"
+        "de": "Wann haben Sie im Rahmen Ihres Exames Ihre letzte Prüfungsleistung (Abgabe der Examensarbeit, letzte Klausur bzw. mündliche Prüfung) erbracht und welche Gesamtnote (ggf. Punktzahl) haben Sie erzielt?\nggf. Punktzahl:"
       },
       "questionNumber": "1.3",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

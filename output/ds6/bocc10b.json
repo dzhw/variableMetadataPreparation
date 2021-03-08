@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie schätzen Sie Ihre beruflichen Zukunftsperspektiven ein?\r\nBezogen auf…\r\nIhre beruflichen Entwicklungsmöglichkeiten"
+        "de": "Wie schätzen Sie Ihre beruflichen Zukunftsperspektiven ein?\nBezogen auf…\nIhre beruflichen Entwicklungsmöglichkeiten"
       },
       "questionNumber": "1.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "2",
       "standardDeviation": null,

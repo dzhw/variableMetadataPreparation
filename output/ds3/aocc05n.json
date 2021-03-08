@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer  Stellensuche – unabhängig von deren Erfolg – bislang begegnet?\r\nIch habe bisher keine Stelle gesucht"
+        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer  Stellensuche – unabhängig von deren Erfolg – bislang begegnet?\nIch habe bisher keine Stelle gesucht"
       },
       "questionNumber": "4.3",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

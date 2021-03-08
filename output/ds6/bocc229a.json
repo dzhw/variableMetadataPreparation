@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\r\nArbeitszeit (vertraglich vereinbart)\r\nStd./Woche"
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2006 und danach ausgeübt haben. Bitte geben Sie auch tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2006 hineinreichen.\nArbeitszeit (vertraglich vereinbart)\nStd./Woche"
       },
       "questionNumber": "4.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "10",
-      "highWhisker": 10,
-      "lowWhisker": 10,
       "thirdQuartile": "10",
       "firstQuartile": "10",
       "standardDeviation": null,

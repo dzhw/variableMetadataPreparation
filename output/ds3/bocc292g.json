@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen Sie?\r\nFeste Gehaltsbestandteile (z.B. Weihnachtsgeld, Urlaubsgeld, 13. Monatsgehalt, Schichtzulage)"
+        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen Sie?\nFeste Gehaltsbestandteile (z.B. Weihnachtsgeld, Urlaubsgeld, 13. Monatsgehalt, Schichtzulage)"
       },
       "questionNumber": "4.17",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

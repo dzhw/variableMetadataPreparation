@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -106,8 +104,8 @@
   "indexInDataSet": 1115,
   "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
-    "en": "This variable also contains the category 4 \"no, no further information\" in addition to the categories planned for the questionnaire.  \r\nThis was assigned (and replaces the original response of the surveyed person) if in Question 5.2 an individual spell of study was falsely entered and had to be deleted (e.g. PhD which has already been surveyed).",
-    "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien zusätzlich auch die Kategorie 4 \"nein, o.n.A\".\r\nDiese wurde vergeben (und ersetzt die Originalangabe des Befragten), wenn in Frage 5.2 fälschlicherweise eine einzelne Studienepisode, die gestrichen werden musste (z.B. Promotion, die bereits vorher schon abgefragt wurde), eingetragen wurde."
+    "en": "This variable also contains the category 4 \"no, no further information\" in addition to the categories planned for the questionnaire.  \nThis was assigned (and replaces the original response of the surveyed person) if in Question 5.2 an individual spell of study was falsely entered and had to be deleted (e.g. PhD which has already been surveyed).",
+    "de": "Diese Variable enthält neben den im Fragebogen vorgesehenen Kategorien zusätzlich auch die Kategorie 4 \"nein, o.n.A\".\nDiese wurde vergeben (und ersetzt die Originalangabe des Befragten), wenn in Frage 5.2 fälschlicherweise eine einzelne Studienepisode, die gestrichen werden musste (z.B. Promotion, die bereits vorher schon abgefragt wurde), eingetragen wurde."
   },
   "label": {
     "en": "participation in further education at university",

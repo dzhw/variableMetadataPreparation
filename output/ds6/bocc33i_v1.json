@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie zufrieden sind Sie mit Ihrer Beschäftigung?\r\nIn Bezug auf…\r\nQualifikationsangemessenheit"
+        "de": "Wie zufrieden sind Sie mit Ihrer Beschäftigung?\nIn Bezug auf…\nQualifikationsangemessenheit"
       },
       "questionNumber": "4.22",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "2",
       "standardDeviation": null,

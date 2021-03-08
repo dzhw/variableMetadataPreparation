@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nBei Problemen ist man ziemlich auf sich gestellt"
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nBei Problemen ist man ziemlich auf sich gestellt"
       },
       "questionNumber": "4.14",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "4",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "4",
       "firstQuartile": "2",
       "standardDeviation": null,

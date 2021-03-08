@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?\r\nBerufsbegleitende Kurse, Seminare, Studienangebote"
+        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?\nBerufsbegleitende Kurse, Seminare, Studienangebote"
       },
       "questionNumber": "7.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

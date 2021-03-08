@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in  Ihrem Studium besucht haben, trifft Folgendes zu?\r\nIn den von mir besuchten Lehrveranstaltungen …\r\nkonnten die Studierenden über die Gestaltung der Lehrveranstaltungen mit entscheiden"
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in  Ihrem Studium besucht haben, trifft Folgendes zu?\nIn den von mir besuchten Lehrveranstaltungen …\nkonnten die Studierenden über die Gestaltung der Lehrveranstaltungen mit entscheiden"
       },
       "questionNumber": "1.14",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "4",
-      "highWhisker": 5,
-      "lowWhisker": 1.5,
       "thirdQuartile": "4",
       "firstQuartile": "3",
       "standardDeviation": null,

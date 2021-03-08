@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem institutionellem Rahmen promovieren/promovierten Sie? \r\nIn einem strukturierten Promotionsprogramm (z.B. graduate school, Promotionskolleg o. Ä.)"
+        "de": "In welchem institutionellem Rahmen promovieren/promovierten Sie? \nIn einem strukturierten Promotionsprogramm (z.B. graduate school, Promotionskolleg o. Ä.)"
       },
       "questionNumber": "2.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

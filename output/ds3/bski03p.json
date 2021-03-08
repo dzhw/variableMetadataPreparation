@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit (Spalte A)? In welchem Maße verfügen Sie heute über diese Kennt nisse und Fähigkeiten (Spalte B)?\r\nIch verfüge heute darüber …\r\nZeitmanagement"
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit (Spalte A)? In welchem Maße verfügen Sie heute über diese Kennt nisse und Fähigkeiten (Spalte B)?\nIch verfüge heute darüber …\nZeitmanagement"
       },
       "questionNumber": "1.8",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2",
-      "highWhisker": 3.5,
-      "lowWhisker": 1,
       "thirdQuartile": "2",
       "firstQuartile": "1",
       "standardDeviation": null,

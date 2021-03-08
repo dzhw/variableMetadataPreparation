@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\r\nSind Studien- bzw. Teilnahmegebühren angefallen?"
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem ersten Studienabschluss begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\nSind Studien- bzw. Teilnahmegebühren angefallen?"
       },
       "questionNumber": "5.2",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

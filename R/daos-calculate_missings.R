@@ -61,3 +61,27 @@ calculate_missings.string <- function(original_values, missing_values,
   }
   return(out)
 }
+
+calculate_missings.date <- function(original_values, missing_values,
+  value_labels) {
+  out <- NULL
+  table_values <- table(original_values)
+  table_missings <- table(missing_values, useNA = "always")
+  if (length(table_missings) != 0) {
+    for (i in 1:length(table_missings)) {
+      missing <- Missing$new()
+      if(is.na(names(table_missings)[i])) {
+        missing$set_code("NA")
+        missing$get_label()$set_de("Systemmissing")
+        missing$get_label()$set_en("System Missing")
+      } else {
+        missing$set_code(names(table_missings[i]))
+      }
+      missing$set_absolute_frequency(table_missings[i])
+      missing$set_relative_frequency(round(
+        (table_missings[i] / sum(table_values)) * 100, 2))
+      out[[i]] <- missing
+    }
+  }
+  return(out)
+}

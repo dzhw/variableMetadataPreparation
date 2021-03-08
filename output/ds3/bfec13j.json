@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie finanzier(t)en Sie Ihre Promotion?\r\nMit Hilfe von Darlehen, Krediten"
+        "de": "Wie finanzier(t)en Sie Ihre Promotion?\nMit Hilfe von Darlehen, Krediten"
       },
       "questionNumber": "2.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

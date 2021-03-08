@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -53,8 +51,8 @@
     "ruleExpressionLanguage": null,
     "rule": null,
     "description": {
-      "en": "This variable was generated for the purposes of anonymisation by aggregation of the university variable. For aggregation the assignment of the Federal Statistical Office in Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) (cf. cl-destatis-hochschule-2005) was used.\r\nIf no concrete university was stated, but only the information that it was a German university, the code 21 \"Germany without further information\" was assigned. Universities abroad received the code 22 \"abroad\".",
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-hochschule-2005) verwendet.\r\nWurde keine konkrete Hochschule angegeben, sondern lediglich die Information, dass es sich um eine deutsche Hochschule handelt, so wurde der Code 21 \"Deutschland ohne nähere Angabe\" vergeben. Hochschulen im Ausland erhielten den Code 22 \"Ausland\"."
+      "en": "This variable was generated for the purposes of anonymisation by aggregation of the university variable. For aggregation the assignment of the Federal Statistical Office in Germany Key List of Student and Examination Statistics (Winter Semester 2004/05 and Summer Semester 2005) (cf. cl-destatis-hochschule-2005) was used.\nIf no concrete university was stated, but only the information that it was a German university, the code 21 \"Germany without further information\" was assigned. Universities abroad received the code 22 \"abroad\".",
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Zur Aggregation wurde die Zuordnung aus dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2004/05 und SoSe 2005) (vgl. cl-destatis-hochschule-2005) verwendet.\nWurde keine konkrete Hochschule angegeben, sondern lediglich die Information, dass es sich um eine deutsche Hochschule handelt, so wurde der Code 21 \"Deutschland ohne nähere Angabe\" vergeben. Hochschulen im Ausland erhielten den Code 22 \"Ausland\"."
     }
   },
   "storageType": "double",

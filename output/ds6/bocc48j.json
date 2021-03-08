@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\r\nLernangebote im Internet (z.B. Foren, Communities, Wissensplattformen)"
+        "de": "Wie wichtig sind/waren die folgenden Lernformen für Ihre derzeitigen beruflichen Aufgaben?\nLernangebote im Internet (z.B. Foren, Communities, Wissensplattformen)"
       },
       "questionNumber": "4.13",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "3",
       "standardDeviation": null,

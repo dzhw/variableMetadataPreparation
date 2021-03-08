@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte geben Sie Ihre genaue Berufsbezeichnung,\r\nIhren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer derzeitigen bzw. – falls Sie zurzeit nicht erwerbstätig sind – letzten Tätigkeit an."
+        "de": "Bitte geben Sie Ihre genaue Berufsbezeichnung,\nIhren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer derzeitigen bzw. – falls Sie zurzeit nicht erwerbstätig sind – letzten Tätigkeit an."
       },
       "questionNumber": "5.1",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "997",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -1240,7 +1238,7 @@
   },
   "generationDetails": {
     "ruleExpressionLanguage": "Stata",
-    "rule": "gen aocc19_g2d = aocc19_g1o\r\nreplace aocc19_g2d = floor(aocc19_g2d/10) if aocc19_g2d>0",
+    "rule": "gen aocc19_g2d = aocc19_g1o\nreplace aocc19_g2d = floor(aocc19_g2d/10) if aocc19_g2d>0",
     "description": {
       "en": "This variable was generated for the purposes of anonymisation by aggregation of variable aocc19_g1o (Kldb 4 digits). For aggregation the Federal Statistical Office of Germany key list for the \"Classification of Professions (KldB)\" from 1992 was used (cf. cl-destatis-kldb-1992). For details cf. the generation rule.",
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-4-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 1992 herangezogen (vgl. cl-destatis-kldb-1992). Zu Einzelheiten vgl. die Generierungsregel."

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder  abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein!\r\nBeginn\r\n(Monat/Jahr)\r\n/20"
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder  abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein!\nBeginn\n(Monat/Jahr)\n/20"
       },
       "questionNumber": "2.1",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2006",
-      "highWhisker": 2007.5,
-      "lowWhisker": 2003.5,
       "thirdQuartile": "2006",
       "firstQuartile": "2005",
       "standardDeviation": 1.2798,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nBei Misserfolgen wird nach Schuldigen gesucht"
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nBei Misserfolgen wird nach Schuldigen gesucht"
       },
       "questionNumber": "4.14",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "4",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "3",
       "standardDeviation": null,

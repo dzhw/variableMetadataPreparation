@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie beurteilen Sie die zweite Phase Ihrer Ausbildung  aufgrund Ihrer (bisherigen) Erfahrungen  insgesamt?\r\nIch halte die zweite Ausbildungsphase für ……."
+        "de": "Wie beurteilen Sie die zweite Phase Ihrer Ausbildung  aufgrund Ihrer (bisherigen) Erfahrungen  insgesamt?\nIch halte die zweite Ausbildungsphase für ……."
       },
       "questionNumber": "3.4",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

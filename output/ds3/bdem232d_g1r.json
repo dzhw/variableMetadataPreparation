@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie Ihren aktuellen Hauptwohnsitz und ggf. vorherige Hauptwohnsitze seit dem Zeitpunkt Ihres ersten Studienabschlusses 2004/05 in das folgende Tableau ein.\r\nPostleitzahl (bzw. Land) des Hauptwohnsitzes\r\nGgf. vorherige Hauptwohnsitze\r\nOrt:\r\nbzw. Ort falls PLZ nicht bekannt oder Land bei Ausland:"
+        "de": "Bitte tragen Sie Ihren aktuellen Hauptwohnsitz und ggf. vorherige Hauptwohnsitze seit dem Zeitpunkt Ihres ersten Studienabschlusses 2004/05 in das folgende Tableau ein.\nPostleitzahl (bzw. Land) des Hauptwohnsitzes\nGgf. vorherige Hauptwohnsitze\nOrt:\nbzw. Ort falls PLZ nicht bekannt oder Land bei Ausland:"
       },
       "questionNumber": "8.12",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie  seit Ihrem Studienabschluss ausgeübt haben.\r\nZeitraum (Monat/Jahr)\r\nBeginn:\r\n/20"
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie  seit Ihrem Studienabschluss ausgeübt haben.\nZeitraum (Monat/Jahr)\nBeginn:\n/20"
       },
       "questionNumber": "5.2",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "2006",
-      "highWhisker": 2006,
-      "lowWhisker": 2006,
       "thirdQuartile": "2006",
       "firstQuartile": "2006",
       "standardDeviation": null,

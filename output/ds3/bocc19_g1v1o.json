@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte nennen Sie Ihre genaue Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit\r\nGenaue Berufsbezeichnung\r\n(z.B. Ingenieur/in für Messtechnik, Personalentwickler/in, Schulsozialarbeiter/in):"
+        "de": "Bitte nennen Sie Ihre genaue Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit\nGenaue Berufsbezeichnung\n(z.B. Ingenieur/in für Messtechnik, Personalentwickler/in, Schulsozialarbeiter/in):"
       },
       "questionNumber": "4.12",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

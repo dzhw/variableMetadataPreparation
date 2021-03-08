@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Studienabschlüsse und Examina haben Sie erlangt?\r\nAbschlusssemester\r\n1. Abschluss\r\nim WS 20\r\nSS 20"
+        "de": "Welche Studienabschlüsse und Examina haben Sie erlangt?\nAbschlusssemester\n1. Abschluss\nim WS 20\nSS 20"
       },
       "questionNumber": "1.2",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "1",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

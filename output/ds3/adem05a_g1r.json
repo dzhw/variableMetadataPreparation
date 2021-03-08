@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Bundesland bzw. in welchem  Land und in welchem Ort haben Sie Ihre Studienberechtigung  erworben?\r\nBundesland/Land"
+        "de": "In welchem Bundesland bzw. in welchem  Land und in welchem Ort haben Sie Ihre Studienberechtigung  erworben?\nBundesland/Land"
       },
       "questionNumber": "6.5",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

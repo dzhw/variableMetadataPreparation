@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\r\nSchritt in die Selbständigkeit"
+        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\nSchritt in die Selbständigkeit"
       },
       "questionNumber": "4.2",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 0,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 5,
       "thirdQuartile": "5",
       "firstQuartile": "5",
       "standardDeviation": null,

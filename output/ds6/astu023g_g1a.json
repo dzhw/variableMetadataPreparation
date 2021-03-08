@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Studienabschlüsse und Examina haben Sie erlangt?\r\nName und Ort (ggf. Standort) der Hochschule\r\n3. Abschluss"
+        "de": "Welche Studienabschlüsse und Examina haben Sie erlangt?\nName und Ort (ggf. Standort) der Hochschule\n3. Abschluss"
       },
       "questionNumber": "1.2",
       "instrumentNumber": 1

@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bei wie vielen Firmen/Institutionen haben Sie  sich beworben? Wie oft wurden Sie zu Einstellungsgesprächen  eingeladen und wie viele Stellenangebote  haben Sie erhalten?\r\nTrifft nicht zu, da Stelle zugewiesen wurde"
+        "de": "Bei wie vielen Firmen/Institutionen haben Sie  sich beworben? Wie oft wurden Sie zu Einstellungsgesprächen  eingeladen und wie viele Stellenangebote  haben Sie erhalten?\nTrifft nicht zu, da Stelle zugewiesen wurde"
       },
       "questionNumber": "4.2",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

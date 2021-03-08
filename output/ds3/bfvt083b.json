@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\r\nMehrtägige Veranstaltungen mit einem zeitlichen Aufwand von über 20 bis zu 40 Stunden (z. B. einwöchiger Vollzeitkurs, mehrwöchige Teilzeitkurse)\r\nAnzahl (ggf. circa):"
+        "de": "In welcher Form bzw. in welchem Umfang haben sie seit Ihrem Studienabschluss 2004/05 an beruflicher Weiterblidung außerhalb von Hochschulen teilgenommen?\nMehrtägige Veranstaltungen mit einem zeitlichen Aufwand von über 20 bis zu 40 Stunden (z. B. einwöchiger Vollzeitkurs, mehrwöchige Teilzeitkurse)\nAnzahl (ggf. circa):"
       },
       "questionNumber": "6.7",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1",
-      "highWhisker": 6,
-      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "1",
       "standardDeviation": 5.2029,

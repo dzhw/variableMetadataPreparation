@@ -1,0 +1,143 @@
+{
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Datum 2"
+      },
+      "questionNumber": "1.7",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2010-10-10",
+      "thirdQuartile": "2010-10-10",
+      "firstQuartile": "2010-10-10",
+      "standardDeviation": null,
+      "median": "2010-10-10",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "2050-10-10",
+      "minimum": "1995-10-10",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "System Missing",
+          "de": "Systemmissing"
+        },
+        "relativeFrequency": 3.85,
+        "absoluteFrequency": 1,
+        "code": "NA"
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.85,
+        "relativeFrequency": 3.85,
+        "absoluteFrequency": 1,
+        "value": "1995-10-10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.85,
+        "relativeFrequency": 3.85,
+        "absoluteFrequency": 1,
+        "value": "2000-10-10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 76.92,
+        "relativeFrequency": 76.92,
+        "absoluteFrequency": 20,
+        "value": "2010-10-10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.85,
+        "relativeFrequency": 3.85,
+        "absoluteFrequency": 1,
+        "value": "2010-10-30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.69,
+        "relativeFrequency": 7.69,
+        "absoluteFrequency": 2,
+        "value": "2040-10-10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.85,
+        "relativeFrequency": 3.85,
+        "absoluteFrequency": 1,
+        "value": "2050-10-10"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 26,
+    "totalAbsoluteFrequency": 26
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "double",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "repeatedMeasurementIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 1,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": null,
+    "de": null
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "Intervall"
+  },
+  "dataType": {
+    "en": "date",
+    "de": "datum"
+  }
+}

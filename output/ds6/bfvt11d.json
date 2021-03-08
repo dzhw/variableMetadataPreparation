@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?\r\nTages-/Halbtagsveranstaltungen (auch regelmäßig, z. B. einmal wöchentlich)"
+        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?\nTages-/Halbtagsveranstaltungen (auch regelmäßig, z. B. einmal wöchentlich)"
       },
       "questionNumber": "7.3",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

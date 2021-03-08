@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Gründe sind dafür ausschlaggebend, dass Sie zurzeit nicht erwerbstätig sind?\r\nBetriebliche Gründe (Betrieb/Abteilung wurde geschlossen/verlagert)"
+        "de": "Welche Gründe sind dafür ausschlaggebend, dass Sie zurzeit nicht erwerbstätig sind?\nBetriebliche Gründe (Betrieb/Abteilung wurde geschlossen/verlagert)"
       },
       "questionNumber": "3.2",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

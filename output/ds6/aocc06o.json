@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche der genannten Möglichkeiten haben  Sie genutzt, um Ihre berufliche Zukunft zu sichern oder zu verbessern?\r\nSelbst eine Stelle, ein Betätigungsfeld aufbauen"
+        "de": "Welche der genannten Möglichkeiten haben  Sie genutzt, um Ihre berufliche Zukunft zu sichern oder zu verbessern?\nSelbst eine Stelle, ein Betätigungsfeld aufbauen"
       },
       "questionNumber": "4.4",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

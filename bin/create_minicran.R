@@ -2,7 +2,7 @@
 #' @param minicran_path The path where the miniCRAN instance is created
 #' @param r_version String containing the R version, e.g. "3.5"
 create_minicran <- function(minicran_path, r_version) {
-  cran_server <- c(CRAN = "http://cran.rstudio.com")
+  cran_server <- c(CRAN = "https://cran.rstudio.com")
   description <- desc::desc_get_deps(".")
   pkgs <- description$package[which(description$type=="Imports")]
   versions <- description$version[which(description$type=="Imports")]
@@ -19,4 +19,5 @@ create_minicran <- function(minicran_path, r_version) {
     type = c("source", "win.binary"),
     Rversion = r_version
   )
+
 }

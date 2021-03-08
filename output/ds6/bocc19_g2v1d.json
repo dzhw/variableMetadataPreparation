@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "843",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -739,7 +737,7 @@
   },
   "generationDetails": {
     "ruleExpressionLanguage": "Stata",
-    "rule": "gen bocc19_g2v1d = bocc19_g1v1o\r\nreplace bocc19_g2v1d = floor(bocc19_g2v1d/100) if bocc19_g2v1d>0\r\nreplace bocc19_g2v1d=-966 if bocc19_g1v1o==84000\r\nreplace bocc19_g2v1d=-966 if bocc19_g1v1o==99994",
+    "rule": "gen bocc19_g2v1d = bocc19_g1v1o\nreplace bocc19_g2v1d = floor(bocc19_g2v1d/100) if bocc19_g2v1d>0\nreplace bocc19_g2v1d=-966 if bocc19_g1v1o==84000\nreplace bocc19_g2v1d=-966 if bocc19_g1v1o==99994",
     "description": {
       "en": "This variable was generated for the purposes of anonymisation by aggregation of variable bocc19_g1v1o (Kldb 5 digits). For aggregation the Federal Statistical Office of Germany key list for the \"Classification of Professions (KldB)\" from 2010 was used (cf. cl-destatis-kldb-2010). For details cf. the generation rule.",
       "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem KldB-5-Steller generiert. Zur Aggregation wurde das Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 2010 herangezogen (vgl. cl-destatis-kldb-2010). Zu Einzelheiten vgl. die Generierungsregel."

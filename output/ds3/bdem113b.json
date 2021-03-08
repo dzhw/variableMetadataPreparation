@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wann wurden Ihre Kinder geboren?\r\n3.Kind\r\nJahr:"
+        "de": "Wann wurden Ihre Kinder geboren?\n3.Kind\nJahr:"
       },
       "questionNumber": "8.5",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2009",
-      "highWhisker": 2010,
-      "lowWhisker": 2006.5,
       "thirdQuartile": "2009",
       "firstQuartile": "2008",
       "standardDeviation": 6.7454,

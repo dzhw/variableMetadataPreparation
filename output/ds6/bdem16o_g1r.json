@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\r\nSonstiges, und zwar:"
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\nSonstiges, und zwar:"
       },
       "questionNumber": "8.4",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

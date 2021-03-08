@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\r\nSonstiges, und zwar:"
+        "de": "Wie wichtig sind/waren Ihnen die folgenden Motive für Ihre Promotion\nSonstiges, und zwar:"
       },
       "questionNumber": "2.6",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

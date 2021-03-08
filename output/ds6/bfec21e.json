@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Wie finanzier(t)en Sie ggf. anfallende Teilnahmekosten an den in Frage 5.5 genannten wissenschaftlichen Weiterbildungen? \r\nMit Hilfe von Darlehen, Krediten, BAföG"
+        "de": "Wie finanzier(t)en Sie ggf. anfallende Teilnahmekosten an den in Frage 5.5 genannten wissenschaftlichen Weiterbildungen? \nMit Hilfe von Darlehen, Krediten, BAföG"
       },
       "questionNumber": "5.7",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": "0",
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,

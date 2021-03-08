@@ -70,3 +70,10 @@ calculate_valid_responses.string <- function(original_values,
   }
   return(out)
 }
+
+# date
+calculate_valid_responses.date <- function(original_values,
+  valid_response_values, value_labels) {
+  return(calculate_valid_responses.string(original_values,
+    valid_response_values, value_labels))
+}

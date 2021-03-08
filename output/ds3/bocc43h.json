@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\r\nVorherige Tätigkeit war nur Übergangslösung"
+        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\nVorherige Tätigkeit war nur Übergangslösung"
       },
       "questionNumber": "4.2",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 2.9652,
       "mode": "5",
-      "highWhisker": 5,
-      "lowWhisker": 1,
       "thirdQuartile": "5",
       "firstQuartile": "1",
       "standardDeviation": null,

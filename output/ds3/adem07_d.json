@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "In welchem Jahr sind Sie geboren?\r\nim Jahre 19"
+        "de": "In welchem Jahr sind Sie geboren?\nim Jahre 19"
       },
       "questionNumber": "6.9",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "1982",
-      "highWhisker": 1985,
-      "lowWhisker": 1974.5,
       "thirdQuartile": "1982",
       "firstQuartile": "1979",
       "standardDeviation": 2.6373,

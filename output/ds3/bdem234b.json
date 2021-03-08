@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Bitte tragen Sie Ihren aktuellen Hauptwohnsitz und ggf. vorherige Hauptwohnsitze seit dem Zeitpunkt Ihres ersten Studienabschlusses 2004/05 in das folgende Tableau ein.\r\nZeitpunkt des Einzugs bzw. Umzugs\r\nGgf. vorherige Hauptwohnsitze\r\nJahr"
+        "de": "Bitte tragen Sie Ihren aktuellen Hauptwohnsitz und ggf. vorherige Hauptwohnsitze seit dem Zeitpunkt Ihres ersten Studienabschlusses 2004/05 in das folgende Tableau ein.\nZeitpunkt des Einzugs bzw. Umzugs\nGgf. vorherige Hauptwohnsitze\nJahr"
       },
       "questionNumber": "8.12",
       "instrumentNumber": 2
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": 1.4826,
       "mode": "2005",
-      "highWhisker": 2008,
-      "lowWhisker": 2001,
       "thirdQuartile": "2006",
       "firstQuartile": "2004",
       "standardDeviation": 6.1747,

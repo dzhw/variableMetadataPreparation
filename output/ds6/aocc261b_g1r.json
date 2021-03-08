@@ -3,7 +3,7 @@
     {
       "relatedQuestionStrings": {
         "en": null,
-        "de": "Welcher der folgenden Betriebsgrößen ist Ihr  Betrieb/Ihre Dienststelle zuzuordnen?\r\nerste Stelle"
+        "de": "Welcher der folgenden Betriebsgrößen ist Ihr  Betrieb/Ihre Dienststelle zuzuordnen?\nerste Stelle"
       },
       "questionNumber": "5.6",
       "instrumentNumber": 1
@@ -13,8 +13,6 @@
     "statistics": {
       "meanDeviation": null,
       "mode": null,
-      "highWhisker": null,
-      "lowWhisker": null,
       "thirdQuartile": null,
       "firstQuartile": null,
       "standardDeviation": null,
@@ -53,8 +51,8 @@
     "ruleExpressionLanguage": null,
     "rule": null,
     "description": {
-      "en": "This variable contains the gathered open additional responses on the characteristics 8 “Other, brief description” of the Variable aocc261a (company size of first job position) in coded form. Using the open responses (or based on lists already made from the answers of previous cohorts) a code list was created.\r\nNote: as a rule the open answers were assigned to the given categories on company size. They were only coded separately if instead of company size the company form was stated.\r\nThis variable contains the gathered open additional responses on the characteristics 8 “Other, brief description” of the Variable aocc261a (company size of first job position) in coded form. Using the open responses (or based on lists already made from the answers of previous cohorts) a code list was created.\r\nNote: as a rule the open answers were assigned to the given categories on company size. They were only coded separately if instead of company size the company form was stated.",
-      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc261a (Betriebsgröße der ersten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\r\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
+      "en": "This variable contains the gathered open additional responses on the characteristics 8 “Other, brief description” of the Variable aocc261a (company size of first job position) in coded form. Using the open responses (or based on lists already made from the answers of previous cohorts) a code list was created.\nNote: as a rule the open answers were assigned to the given categories on company size. They were only coded separately if instead of company size the company form was stated.\nThis variable contains the gathered open additional responses on the characteristics 8 “Other, brief description” of the Variable aocc261a (company size of first job position) in coded form. Using the open responses (or based on lists already made from the answers of previous cohorts) a code list was created.\nNote: as a rule the open answers were assigned to the given categories on company size. They were only coded separately if instead of company size the company form was stated.",
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc261a (Betriebsgröße der ersten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
     }
   },
   "storageType": "double",
