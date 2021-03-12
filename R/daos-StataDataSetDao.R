@@ -93,13 +93,9 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
       return(out)
     },
     is_valid_variable_name = function(variable_name) {
-      if (variable_name %in% private$variable_names) {
-        return(TRUE)
-      } else {
-        cat(paste0("WARNING: Data Set does not contain variable: \"",
-          variable_name, "\"\n"))
-        return(FALSE)
-      }
+      assertthat::assert_that(variable_name %in% private$variable_names,
+        msg = paste0("Data Set does not contain variable '",
+          variable_name, "'!"))
     }
   ),
   public = list(
@@ -193,10 +189,10 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
           # attach S3 class attributes to data set column for further
           # calculations
           assertthat::assert_that(assertthat::noNA(scale_level_en),
-            msg = paste("No scale level found for variable '",
+            msg = paste0("No scale level found for variable '",
               variable_name, "'!"))
           assertthat::assert_that(assertthat::noNA(data_type_en),
-            msg = paste("No data type found for variable '",
+            msg = paste0("No data type found for variable '",
               variable_name, "'!"))
           class(original_values) <- c(class(original_values), data_type_en,
             scale_level_en)
