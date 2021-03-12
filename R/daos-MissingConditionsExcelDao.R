@@ -12,7 +12,7 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
     missing_conditions_numeric = "values <= -800",
     create_missing_conditions_numeric = function(sheet) {
       output <- vector(length = nrow(sheet), mode = "character")
-      for (i in 1:nrow(sheet)) {
+      for (i in seq_len(nrow(sheet))) {
         if (sheet$operator[i] == "equal to") {
           output[i] <- paste0("values %in% ", sheet$value[i])
         }
@@ -32,11 +32,14 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
           output[i] <- paste0("values >= ", sheet$value[i])
         }
       }
+      if (length(output) == 0) {
+        output <- c("is.na(values)")
+      }
       return(output)
     },
     create_missing_conditions_string = function(sheet) {
       output <- vector(length = nrow(sheet), mode = "character")
-      for (i in 1:nrow(sheet)) {
+      for (i in seq_len(nrow(sheet))) {
         if (sheet$operator[i] == "equal to") {
           output[i] <- paste0("values %in% \"", sheet$value[i], "\"")
         }
@@ -45,6 +48,9 @@ MissingConditionsExcelDao <- R6::R6Class("MissingConditionsExcelDao", # nolint
         } else {
           stop("You need to specify correct missing conditions in the excel sheet missingConditionString. Aborting.") #nolint
         }
+      }
+      if (length(output) == 0) {
+        output <- c("is.na(values)")
       }
       return(output)
     },
