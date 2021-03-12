@@ -192,6 +192,12 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
           ]
           # attach S3 class attributes to data set column for further
           # calculations
+          assertthat::assert_that(assertthat::noNA(scale_level_en),
+            msg = paste("No scale level found for variable '",
+              variable_name, "'!"))
+          assertthat::assert_that(assertthat::noNA(data_type_en),
+            msg = paste("No data type found for variable '",
+              variable_name, "'!"))
           class(original_values) <- c(class(original_values), data_type_en,
             scale_level_en)
           class(valid_values) <- c(class(valid_values), data_type_en,
