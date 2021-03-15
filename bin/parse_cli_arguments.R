@@ -1,8 +1,6 @@
-#' Parse command line arguments and start metadata creation for the MDM
-#' @example parse_arguments()
-#' @export
+.libPaths(c("Q:/Variablenexport/variableMetadataPreparation/library", .libPaths()))
 
-parse_arguments <- function() {
+parse_cli_arguments <- function() {
   option_list <- list(
     optparse::make_option(c("-e", "--excel-directory"),
       type = "character", action = "store", default = NA,
@@ -76,8 +74,10 @@ parse_arguments <- function() {
     stop("OUTPUT-DIRECTORY must not be empty!")
   }
 
-  variable_metadata_generation(
+  variableMetadataPreparation::variable_metadata_generation(
     opt$exceldirectory, opt$statadirectory, opt$missing_conditions,
     opt$outputdirectory, opt$variables_no_distribution
   )
 }
+
+parse_cli_arguments()

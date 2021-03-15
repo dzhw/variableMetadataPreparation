@@ -3,5 +3,5 @@
 @echo off
 
 :: run variable generation on the test data
-R -e '.libPaths(c("file:///Q:/Variablenexport/variableMetadataPreparation/library", .libPaths()))' -e 'variableMetadataPreparation::parse_arguments()' --args -e ./inst/extdata/excel -s ./inst/extdata/stata -o ./output -m ./inst/extdata/excel/conditions.xlsx -n pid,id
+Rscript Q:/Variablenexport/variableMetadataPreparation/bin/parse_cli_arguments.R -e ./inst/extdata/excel -s ./inst/extdata/stata -o ./output -m ./inst/extdata/excel/conditions.xlsx -n pid,id
 PAUSE
