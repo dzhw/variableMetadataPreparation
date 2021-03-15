@@ -2,6 +2,6 @@
 
 @echo off
 
-:: run variable generation on the test data
-Rscript Q:/Variablenexport/variableMetadataPreparation/bin/parse_cli_arguments.R -e ./inst/extdata/excel -s ./inst/extdata/stata -o ./output -m ./inst/extdata/excel/conditions.xlsx -n pid,id
+:: run variable generation in "geschützter Bereich"
+Rscript Q:/Variablenexport/variableMetadataPreparation/bin/parse_cli_arguments.R --excel-directory=./inst/extdata/excel --stata-directory=./inst/extdata/stata --output-directory=./output --missing-conditions=./inst/extdata/excel/conditions.xlsx --variables-no-distribution=pid,id
 PAUSE

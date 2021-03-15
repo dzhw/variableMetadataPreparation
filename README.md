@@ -15,26 +15,26 @@ You find the workflow to use it [here](file:///home/birkelbach/git/variableMetad
 # Development
 
 Developers need to setup the R devtools on their machine.
-``` r
+```r
 install.packages("devtools", dependencies = TRUE)
 devtools::install_github("dzhw/variableMetadataPreparation")
 ```
 
 After setting up devtools you can install all required R packages with
 
-``` bash
+```bash
 R -e 'devtools::install_deps(dep = T)'
 ```
 
 You can build the package on you local machine with
 
-``` bash
+```bash
 R CMD build .
 ```
 
 Before pushing to Github (and thus kicking of CI) you should run
 
-``` bash
+```bash
 R CMD check *tar.gz --no-manual
 ```
 # Deployment
@@ -46,8 +46,7 @@ First you should clear the following directories:
 2. `Q:\Variablenexport\variableMetadataPreparation\bin`
 3. `Q:\Variablenexport\variableMetadataPreparation\library`
 
-[Github actions](https://github.com/dzhw/variableMetadataPreparation/actions) currently create a `miniCRAN.zip` and a `bin.zip`. These archives need to be extracted in the "geschützter Bereich" to `Q:\Variablenexport\variableMetadataPreparation\miniCRAN` and
-`Q:\Variablenexport\variableMetadataPreparation\bin`.
+[Github actions](https://github.com/dzhw/variableMetadataPreparation/actions) currently creates a `bin-and-miniCRAN.zip`. This archive needs to be extracted in the "geschützter Bereich" to `Q:\Variablenexport\variableMetadataPreparation`.
 
 ## Installation
 
@@ -57,9 +56,8 @@ Run the R-script `install_packages.R` under `Q:\Variablenexport\variableMetadata
 Rscript install_packages.R
 ```
 
-The bin folder contains a template `.bat` which needs to be adjusted by every project.
+The bin folder contains a template `.bat` (`variablesToJson.bat.tmpl`) which needs to be copied to and adjusted by every project.
 
 # Having trouble?
-
 
 Please file an issue in our [issue tracker](https://github.com/dzhw/metadatamanagement/issues)
