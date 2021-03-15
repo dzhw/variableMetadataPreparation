@@ -39,7 +39,7 @@ jobs:
     - name: Build the package
       run: R CMD build .
     - name: Run package checks
-      run: R CMD check *tar.gz
+      run: R CMD check *tar.gz --no-manual
     - name: Report Code Coverage
       run: Rscript -e 'covr::codecov()'
     - name: Build Github page
