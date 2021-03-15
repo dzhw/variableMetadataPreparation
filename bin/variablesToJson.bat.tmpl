@@ -3,5 +3,5 @@
 @echo off
 
 :: run variable generation on the test data
-Rscript .\R\options_parser.R -e ..\Projekte\project_name\data-raw\excel -s ..\Projekte\project_name\data-raw\stata -o ..\Projekte\project_name\output -m ..\Projekte\project_name\data-raw\excel\conditions.xlsx -n pid,id
+R -e 'variableMetadataPreparation::parse_arguments()' --args -e ./inst/extdata/excel -s ./inst/extdata/stata -o ./output -m ./inst/extdata/excel/conditions.xlsx -n pid,id
 PAUSE

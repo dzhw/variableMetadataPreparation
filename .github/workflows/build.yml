@@ -42,6 +42,22 @@ jobs:
       run: Rscript -e 'covr::codecov()'
     - name: Build Github page
       run: Rscript -e 'pkgdown::build_site()'
+    - name: Create miniCRAN
+      run: Rscript ./.github/workflows/create_minicran.R
+    - name: Tar miniCRAN
+      run: tar -cfvz miniCRAN.tar.gz ./miniCRAN
+    - name: Upload miniCRAN as build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: miniCRAN
+          path: miniCRAN.tar.gz
+    - name: Tar bin
+      run: tar -cfvz bin.tar.gz ./bin
+    - name: Upload bin as build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: scripts
+          path: bin.tar.gz
     - name: Report build status via Slack
       uses: act10ns/slack@v1
       if: always()
