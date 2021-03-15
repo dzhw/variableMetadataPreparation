@@ -1,8 +1,8 @@
-#' Parse CLI options and create variable metadata json files for the mdm
+#' Parse command line arguments and start metadata creation for the MDM
+#' @example parse_arguments()
 #' @export
 
 parse_arguments <- function() {
-  .libPaths(c("./library", .libPaths()))
   option_list <- list(
     optparse::make_option(c("-e", "--excel-directory"),
       type = "character", action = "store", default = NA,

@@ -44,20 +44,16 @@ jobs:
       run: Rscript -e 'pkgdown::build_site()'
     - name: Create miniCRAN
       run: Rscript ./.github/workflows/create_minicran.R
-    - name: Tar miniCRAN
-      run: tar -czvf miniCRAN.tar.gz ./miniCRAN/
     - name: Upload miniCRAN as build artifact
       uses: actions/upload-artifact@v2
       with:
         name: miniCRAN
-        path: miniCRAN.tar.gz
-    - name: Tar bin
-      run: tar -czvf bin.tar.gz ./bin/
+        path: miniCRAN
     - name: Upload bin as build artifact
       uses: actions/upload-artifact@v2
       with:
-        name: scripts
-        path: bin.tar.gz
+        name: bin
+        path: bin
     - name: Report build status via Slack
       uses: act10ns/slack@v1
       if: always()
