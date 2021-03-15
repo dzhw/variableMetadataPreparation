@@ -35,41 +35,29 @@ R CMD build .
 Before pushing to Github (and thus kicking of CI) you should run
 
 ``` bash
-R CMD check *tar.gz
+R CMD check *tar.gz --no-manual
 ```
 # Deployment
 
-## Creating the miniCRAN repository
+## Copy build artifacts into "geschützter Bereich"
 
-In order to create the miniCRAN repository, please use the
-`create_minicran(minicran_path = "path_where_the_miniCRAN_directory_will_be", r_version = "3.5")`
-function found in `/bin/create_minicran.R`. The current R version in the secured
-area is 3.5. The resulting minicran directory is supposed to be zipped.
-The transfer directory is `smb://faust/gpd-transfer/username/username_out` and
-you find the zipped file in `Z://username/In_username`.
-The zip file should go in `Q://Variablenexport/miniCRAN_VariableMetadataPreparation`.
-If at some point the transfer does not work properly, try splitting up the zip
-files to chunks of `<100mb`.
+First you should clear the following directories:
+1. `Q:\Variablenexport\variableMetadataPreparation\miniCRAN`
+2. `Q:\Variablenexport\variableMetadataPreparation\bin`
+3. `Q:\Variablenexport\variableMetadataPreparation\library`
 
-`variableMetadataPreparation` is to be installed in the library `Q://Variablenexport/variableMetadataPreparation_productive/library` and `options_parser.R` is
-supposed to be stored in `Q://Variablenexport/variableMetadataPreparation_productive/R`.
-
-## Checking the package and creating binaries on windows
-
-Run `rhub::check(platform="windows-x86_64-oldrel", email = "insertyouremail")`.
-You'll get an email where the windows binary of the build process is at.
-Transfer the file just like you did with `miniCRAN` and store it
-here: `Q://Variablenexport/variableMetadataPreparation_productive/`
+[Github actions](https://github.com/dzhw/variableMetadataPreparation/actions) currently create a `miniCRAN.zip` and a `bin.zip`. These archives need to be extracted in the "geschützter Bereich" to `Q:\Variablenexport\variableMetadataPreparation\miniCRAN` and
+`Q:\Variablenexport\variableMetadataPreparation\bin`.
 
 ## Installation
 
-Open an `R` session at `Q://Variablenexport/variableMetadataPreparation`, adjust the verison of `variableMetadataPreparation` in the file `install_packages.R` and
-run the command
+Run the R-script `install_packages.R` under `Q:\Variablenexport\variableMetadataPreparation\bin`
 
 ```
-source("./install_packages.R")
+Rscript install_packages.R
 ```
-You're good to go.
+
+The bin folder contains a template `.bat` which needs to be adjusted by every project.
 
 # Having trouble?
 
