@@ -46,16 +46,13 @@ jobs:
       run: Rscript -e 'pkgdown::build_site()'
     - name: Create miniCRAN
       run: Rscript ./.github/workflows/create_minicran.R
-    - name: Upload miniCRAN as build artifact
+    - name: Upload miniCRAN and bin directory as build artifact
       uses: actions/upload-artifact@v2
       with:
-        name: miniCRAN
-        path: miniCRAN
-    - name: Upload bin as build artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: bin
-        path: bin
+        name: bin-and-miniCRAN
+        path: |
+          miniCRAN
+          bin
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
