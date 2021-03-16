@@ -1,5 +1,8 @@
 # create folders ds1, ds2,... or delete old jsons if already exist
 create_export_directories <- function(path_to_json_directory, stata_files) {
+  if (!dir.exists(path_to_json_directory)) {
+    dir.create(file.path(path_to_json_directory))
+  }
   for (data_set in stata_files) {
     ds <- sub("\\.dta$", "", data_set)
     # if directory "path_to_json_directory/dsXX" doesn't exist
