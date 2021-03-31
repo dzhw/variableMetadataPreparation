@@ -11,6 +11,7 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
     extract_languages = function(ds) {
       # available languages in data set
       private$languages <- readstata13::get.lang(ds, print = FALSE)
+      private$languages <- lapply(private$languages, tolower)
       # languages in some stata data sets are not correctly specified
       lang_try_en <- try(readstata13::get.label.name(ds, colnames(ds[1]), "en"),
         silent = TRUE
@@ -26,7 +27,7 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
       }
       assertthat::assert_that("de" %in% private$languages[["languages"]] ||
         "en" %in% private$languages[["languages"]],
-        msg = "Data Set does neither contain language 'de' nor 'en'!")
+        msg = "Data Set must contain language 'de' or 'en'!")
     },
     extract_variable_labels = function(ds) {
       # get variable labels of variables in stata data set
@@ -171,7 +172,7 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
               msg = paste0("Found NA in variable '",
               variable_name, "'! Does it contain STATA-Systemmissings?"))
             if (data_type_en == "string") {
-              assertthat::assert_that(!(any(nzchar(original_values))),
+              assertthat::assert_that(all(nzchar(original_values)),
                 msg = paste0("Found empty string in variable '",
                 variable_name, "'! Does it contain STATA-Systemmissings?"))
             }
