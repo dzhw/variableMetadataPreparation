@@ -10,7 +10,7 @@ test_that("main script without option parser runs", {
       package = "variableMetadataPreparation"),
     system.file("extdata/excel/conditions.xlsx",
       package = "variableMetadataPreparation"),
-    tempdir("output"),
+    "../../output",
     "pid, id"
   )
 })
