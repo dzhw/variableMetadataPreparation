@@ -1,2 +1,3 @@
-.libPaths(c("./library", "Z:/R/win-library/3.5", "C:/Program Files/R/R-3.5.1/library"))
-install.packages("variableMetadataPreparation", lib = "./library", type = "source")
+options(repos=c(miniCRAN="file:///Q:/Variablenexport/variableMetadataPreparation/miniCRAN"))
+.libPaths(c("Q:/Variablenexport/variableMetadataPreparation/library", .libPaths()))
+install.packages("variableMetadataPreparation", lib = "Q:/Variablenexport/variableMetadataPreparation/library", type = "source")

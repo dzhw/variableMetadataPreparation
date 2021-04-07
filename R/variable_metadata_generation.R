@@ -1,8 +1,10 @@
 #' Create variable metadata json files for the mdm
-#' @param path_to_excel_directory the path to the excel directory
-#' @param path_to_stata_directory the path to the stata directory
+#' @param path_to_excel_directory the path to the excel directory containing
+#'    vimport_ds1.xlsx, vimport_ds2.xlsx, ...
+#' @param path_to_stata_directory the path to the stata directory containing
+#'    ds1.dta, ds2.dta, ...
 #' @param missing_conditions_file the path to the missing conditions file
-#' @param path_to_output_directory where the output should be stored
+#' @param path_to_output_directory where the output jsons should be stored
 #' @param variables_no_distribution variables which should not get summary statistics (e.g. pid)
 #' @example variable_metadata_generation(path_to_excel_directory =
 #'    system.file("extdata/excel", variableMetadataGeneration),

@@ -11,6 +11,7 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
     extract_languages = function(ds) {
       # available languages in data set
       private$languages <- readstata13::get.lang(ds, print = FALSE)
+      private$languages <- lapply(private$languages, tolower)
       # languages in some stata data sets are not correctly specified
       lang_try_en <- try(readstata13::get.label.name(ds, colnames(ds[1]), "en"),
         silent = TRUE
@@ -24,6 +25,9 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
           private$languages[["languages"]] <- "en"
         }
       }
+      assertthat::assert_that("de" %in% private$languages[["languages"]] ||
+        "en" %in% private$languages[["languages"]],
+        msg = "Data Set must contain language 'de' or 'en'!")
     },
     extract_variable_labels = function(ds) {
       # get variable labels of variables in stata data set
@@ -93,13 +97,9 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
       return(out)
     },
     is_valid_variable_name = function(variable_name) {
-      if (variable_name %in% private$variable_names) {
-        return(TRUE)
-      } else {
-        cat(paste0("WARNING: Data Set does not contain variable: \"",
-          variable_name, "\"\n"))
-        return(FALSE)
-      }
+      assertthat::assert_that(variable_name %in% private$variable_names,
+        msg = paste0("Data Set does not contain variable '",
+          variable_name, "'!"))
     }
   ),
   public = list(
@@ -167,6 +167,16 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
         if (private$is_valid_variable_name(variable_name)) {
           data_type_en <- self$get_data_type(variable_name)$get_en()
           original_values <- private$original_data_set[[variable_name]]
+          if (data_type_en %in% c("numeric", "string")) {
+            assertthat::assert_that(!(NA %in% original_values),
+              msg = paste0("Found NA in variable '",
+              variable_name, "'! Does it contain STATA-Systemmissings?"))
+            if (data_type_en == "string") {
+              assertthat::assert_that(all(nzchar(original_values)),
+                msg = paste0("Found empty string in variable '",
+                variable_name, "'! Does it contain STATA-Systemmissings?"))
+            }
+          }
           de <- ""
           en <- ""
           if ("de" %in% private$languages[["languages"]]) {
@@ -192,6 +202,12 @@ StataDataSetDao <- R6::R6Class("StataDataSetDao", # nolint
           ]
           # attach S3 class attributes to data set column for further
           # calculations
+          assertthat::assert_that(assertthat::noNA(scale_level_en),
+            msg = paste0("No scale level found for variable '",
+              variable_name, "'!"))
+          assertthat::assert_that(assertthat::noNA(data_type_en),
+            msg = paste0("No data type found for variable '",
+              variable_name, "'!"))
           class(original_values) <- c(class(original_values), data_type_en,
             scale_level_en)
           class(valid_values) <- c(class(valid_values), data_type_en,
