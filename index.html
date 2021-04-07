@@ -32,7 +32,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">variableMetadataPreparation</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.107</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.108</span>
       </span>
     </div>
 
@@ -92,28 +92,28 @@
 <p>You can build the package on you local machine with</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="ex">R</span> CMD build .</span></code></pre></div>
 <p>Before pushing to Github (and thus kicking of CI) you should run</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">R</span> CMD check *tar.gz</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">R</span> CMD check *tar.gz --no-manual</span></code></pre></div>
 </div>
 <div id="deployment" class="section level1">
 <h1 class="hasAnchor">
 <a href="#deployment" class="anchor"></a>Deployment</h1>
-<div id="creating-the-minicran-repository" class="section level2">
+<div id="copy-build-artifacts-into-geschützter-bereich" class="section level2">
 <h2 class="hasAnchor">
-<a href="#creating-the-minicran-repository" class="anchor"></a>Creating the miniCRAN repository</h2>
-<p>In order to create the miniCRAN repository, please use the <code>create_minicran(minicran_path = "path_where_the_miniCRAN_directory_will_be", r_version = "3.5")</code> function found in <code>/bin/create_minicran.R</code>. The current R version in the secured area is 3.5. The resulting minicran directory is supposed to be zipped. The transfer directory is <code>smb://faust/gpd-transfer/username/username_out</code> and you find the zipped file in <code>Z://username/In_username</code>. The zip file should go in <code>Q://Variablenexport/miniCRAN_VariableMetadataPreparation</code>. If at some point the transfer does not work properly, try splitting up the zip files to chunks of <code>&lt;100mb</code>.</p>
-<p><code>variableMetadataPreparation</code> is to be installed in the library <code>Q://Variablenexport/variableMetadataPreparation_productive/library</code> and <code>options_parser.R</code> is supposed to be stored in <code>Q://Variablenexport/variableMetadataPreparation_productive/R</code>.</p>
-</div>
-<div id="checking-the-package-and-creating-binaries-on-windows" class="section level2">
-<h2 class="hasAnchor">
-<a href="#checking-the-package-and-creating-binaries-on-windows" class="anchor"></a>Checking the package and creating binaries on windows</h2>
-<p>Run <code>rhub::check(platform="windows-x86_64-oldrel", email = "insertyouremail")</code>. You’ll get an email where the windows binary of the build process is at. Transfer the file just like you did with <code>miniCRAN</code> and store it here: <code>Q://Variablenexport/variableMetadataPreparation_productive/</code></p>
+<a href="#copy-build-artifacts-into-gesch%C3%BCtzter-bereich" class="anchor"></a>Copy build artifacts into “geschützter Bereich”</h2>
+<p>First you should clear the following directories:</p>
+<ol>
+<li><code>Q:\Variablenexport\variableMetadataPreparation\miniCRAN</code></li>
+<li><code>Q:\Variablenexport\variableMetadataPreparation\bin</code></li>
+<li><code>Q:\Variablenexport\variableMetadataPreparation\library</code></li>
+</ol>
+<p><a href="https://github.com/dzhw/variableMetadataPreparation/actions">Github actions</a> currently creates a <code>bin-and-miniCRAN.zip</code>. This archive needs to be extracted in the “geschützter Bereich” to <code>Q:\Variablenexport\variableMetadataPreparation</code>.</p>
 </div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>Open an <code>R</code> session at <code>Q://Variablenexport/variableMetadataPreparation</code>, adjust the verison of <code>variableMetadataPreparation</code> in the file <code>install_packages.R</code> and run the command</p>
-<pre><code><a href="https://rdrr.io/r/base/source.html">source("./install_packages.R")</a></code></pre>
-<p>You’re good to go.</p>
+<p>Run the R-script <code>install_packages.R</code> under <code>Q:\Variablenexport\variableMetadataPreparation\bin</code></p>
+<pre><code>Rscript install_packages.R</code></pre>
+<p>The bin folder contains a template <code>.bat</code> (<code>variablesToJson.bat.tmpl</code>) which needs to be copied to and adjusted by every project.</p>
 </div>
 </div>
 <div id="having-trouble" class="section level1">
