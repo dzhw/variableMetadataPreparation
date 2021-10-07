@@ -10,7 +10,7 @@ extracts metadata for variables from STATA (dta) files for the [MDM](https://met
 of the research data center of the dzhw. If you do not work for the research
 data center of the dzhw, this package will probably be only useful for learning
 purposes, as it is specifically designed to help with our internal processes.
-You find the workflow to use it [here](file:///home/birkelbach/git/variableMetadataPreparation/docs/articles/How_to_use_variableMetadataPreparation.html).
+You find the workflow to use it [here](https://github.com/dzhw/FDZ_Allgemein/wiki/Variablen-(Variables)).
 
 # Development
 
