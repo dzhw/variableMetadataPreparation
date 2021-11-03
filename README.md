@@ -46,7 +46,7 @@ First you should clear the following directories:
 2. `Q:\Variablenexport\variableMetadataPreparation\bin`
 3. `Q:\Variablenexport\variableMetadataPreparation\library`
 
-[Github actions](https://github.com/dzhw/variableMetadataPreparation/actions) currently creates a `bin-and-miniCRAN.zip`. This archive needs to be extracted in the "geschützter Bereich" to `Q:\Variablenexport\variableMetadataPreparation`.
+[Github actions](https://github.com/dzhw/variableMetadataPreparation/actions) create a build artifact `bin-and-miniCRAN.zip` on each push. This archive needs to be extracted in the "geschützter Bereich" to `Q:\Variablenexport\variableMetadataPreparation`.
 
 ## Installation
 
